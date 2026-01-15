@@ -1,0 +1,3671 @@
+{
+    "SolNode94": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA"
+    },
+    "SolNode130": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode119": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode12": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode103": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode28": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerInfestedMix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne"
+    },
+    "SolNode108": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent"
+    },
+    "MercuryHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "MercuryHUBRebuild": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubTwoUnderConstruction"
+    },
+    "EventNode0": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode221": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne"
+    },
+    "SolNode222": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode223": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode901": {
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
+    },
+    "SolNode224": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode225": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode226": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode227": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolarisUnitedHub1": {
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/SolarisUnitedTown"
+    },
+    "SolNode129": {
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusVenus",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/VenusLandscapeTileset"
+    },
+    "CrewBattleNode503": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
+        "missionReward": {
+            "credits": 30000
+        }
+    },
+    "CrewBattleNode511": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
+        "missionReward": {
+            "credits": 33750
+        }
+    },
+    "CrewBattleNode512": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
+        "missionReward": {
+            "credits": 37500
+        }
+    },
+    "CrewBattleNode513": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
+        "missionReward": {
+            "credits": 41250
+        }
+    },
+    "CrewBattleNode515": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
+        "missionReward": {
+            "credits": 41250
+        }
+    },
+    "CrewBattleNode514": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusPillarDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDefense",
+        "missionReward": {
+            "credits": 45000
+        }
+    },
+    "SolNode123": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode61": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode2": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode71": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode23": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "VenusToMercuryJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoAgent",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Rifle/BoltoRifle",
+                "/Lotus/StoreItems/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/KubrowQuest/KubrowQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMCompleteQuestVox",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMPurchaseRhinoBlueprint",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMKillBossJackal",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMStartCraftingRhino"
+        ]
+    },
+    "SolNode128": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode109": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode104": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/QuadRobotAgentNEW",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "PvpNode1": {
+        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level"
+    },
+    "SolNode66": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersADropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "ClanNode1": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
+        "missionReward": {
+            "credits": 10000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode107": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsEasyDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode22": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode101": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "ClanNode0": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
+        "missionReward": {
+            "credits": 10000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "VenusHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "SolNode902": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "EventNode1": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "NightwaveDerelictExterminateVenus": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateVenus": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "NokkoColony": {
+        "levelOverride": "/Lotus/Levels/NokkoColony/Proc/NokkoColony",
+        "enemySpec": "/Lotus/Types/Gameplay/NokkoColony/EnemySpecs/NokkoAllAI"
+    },
+    "SolNode332": {
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "TennoConHUB2": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubTennoConVIP"
+    },
+    "TennoConBHUB6": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "DevStreamHUB7": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubDevstreamShowroom"
+    },
+    "EarthHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "EarthHUBRebuild": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubTwoUnderConstruction"
+    },
+    "ScenarioEventHub5": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/OperationScarletSpearHub"
+    },
+    "SolNode333": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode63": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
+        "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTilesetCaves"
+    },
+    "SolNode27": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode79": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersForest",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode39": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExcavationA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode15": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode26": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "CrewBattleNode502": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminateNoPoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
+        "missionReward": {
+            "credits": 32000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackEarthTileset"
+    },
+    "CrewBattleNode509": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
+        "missionReward": {
+            "credits": 38000
+        }
+    },
+    "SolNode89": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTilesetAnywhere"
+    },
+    "SolNode85": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode59": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode75": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "EarthToVenusJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltAgent",
+        "missionReward": {
+            "credits": 15000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Pistol/AutoPistol"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVEquipDreamersBondMod",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVUpgradeDreamersBondMod",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVStartCraftingTaxon"
+        ]
+    },
+    "EventNode2": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "EventNode24": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "EventNode25": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode24": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestBossGrineerSquadOne",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HekBipedAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "ClanNode2": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "missionReward": {
+            "credits": 12000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode973": {
+        "levelOverride": "/Lotus/Levels/PVP/FightArenaCetusGate.level"
+    },
+    "EventNode34": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "EventNode35": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "SolNode903": {
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerMobileDefenseProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
+    },
+    "ClanNode3": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationA",
+        "missionReward": {
+            "credits": 12000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
+    },
+    "EarthToMarsJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantLokiAgent",
+        "missionReward": {
+            "credits": 25000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Melee/Hammer/HammerWeapon",
+                "/Lotus/StoreItems/Types/Keys/ArchwingQuest/ArchwingQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMVisitSideQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMBoltorOnly",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMPurchaseWeapon"
+        ]
+    },
+    "EventNode26": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "IronwakeHUB3": {
+        "levelOverride": "/Lotus/Levels/HarrowQuest/ForestSteelMeridianQuestBase"
+    },
+    "CetusHub4": {
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/OstronTown"
+    },
+    "SolNode228": {
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/EidolonLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerEidolon",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EidolonTileset"
+    },
+    "CrewBattleNode518": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
+        "missionReward": {
+            "credits": 42500
+        }
+    },
+    "CrewBattleNode519": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1Poi1GalleonProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
+        "missionReward": {
+            "credits": 45000
+        }
+    },
+    "CrewBattleNode522": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
+        "missionReward": {
+            "credits": 45000
+        }
+    },
+    "CrewBattleNode556": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedNoXPProc"
+    },
+    "SolNode451": {
+        "levelOverride": "/Lotus/Levels/FiveFates/CetusInvasion.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/FiveFatesDefense",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Oni/InfestedOniAgent"
+    },
+    "CrewBattleNode559": {
+        "levelOverride": "/Lotus/Levels/1999/Railjack/RJLasXEarthCombined1Poi",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/LasXStadiumSpace"
+    },
+    "SolNode35": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode30": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode113": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode46": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode68": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode58": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "TradeHUB1": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubTrading"
+    },
+    "MarsToCeresJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantTrinityAgent",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnSniperRifleBlueprint"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCCompleteTreasureHunt",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCFillTreasure",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCTradeTreasure",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCPledgeSyndicate"
+        ]
+    },
+    "SolNode106": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode41": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode14": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
+    },
+    "SolNode16": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode45": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode54": {
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix"
+    },
+    "SolNode36": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "ClanNode8": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "EventNode18": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode99": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOneNoManic",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/BossLechKrilAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "MarsToPhobosJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagAgent",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnHeavyPistolBlueprint",
+                "/Lotus/StoreItems/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCVoidProjectionUpgrade",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVoidTears",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPHeadshotKills",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVisitMaroo"
+        ]
+    },
+    "EventNode3": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode65": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA"
+    },
+    "ClanNode9": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode115": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode11": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode904": {
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
+    },
+    "EventNode19": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "NightwaveDerelictMobDefMars": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateMars": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "EventNode37": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SolNode450": {
+        "levelOverride": "/Lotus/Levels/Proc/LastWish/LastWishDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerDesertMix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode87": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusAmalgamEndless",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "JupiterToEuropaJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNovaAgent",
+        "missionReward": {
+            "credits": 30000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusMinigunBlueprint",
+                "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/DragonQuest/DragonQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JELearnSynthesis",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JEVisitDojo",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JEStartCraftingForma",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JECompleteNightmare"
+        ]
+    },
+    "SolNode88": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GasCorpusSabotageTiersBC",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode97": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode126": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode125": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode100": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasSurvival",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode10": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "PvpNode8": {
+        "levelOverride": "/Lotus/Levels/PVP/CTFCorpusGas.level"
+    },
+    "SolNode25": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode121": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode53": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/AladV/AladBossAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "JupiterToSaturnJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
+        "missionReward": {
+            "credits": 40000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrenadeLauncherBlueprint",
+                "/Lotus/StoreItems/Types/Keys/ProteaQuest/ProteaQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSEquipCodexScanner",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSCodexScan",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSDissolveFiveMods"
+        ]
+    },
+    "SolNode74": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode740": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRopalolystBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquadRopalolyst",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Ropalolyst/SentientRopalolystAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "ClanNode4": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "EventNode4": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCity",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode73": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
+        "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetCorpusFlyingAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "EventNode30": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "EventNode31": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "EventNode32": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "EventNode33": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "SolNode905": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "ClanNode5": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
+    },
+    "NightwaveDerelictSabotageJupiter": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageOutpost",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAgent",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "NightwaveDerelictAssassinateJupiter": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode110": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode7": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode42": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode19": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode96": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode67": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "CrewBattleNode501": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
+        "missionReward": {
+            "credits": 50000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "CrewBattleNode530": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1Poi1AsteroidProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
+        "missionReward": {
+            "credits": 75000
+        }
+    },
+    "CrewBattleNode533": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
+        "missionReward": {
+            "credits": 50000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "CrewBattleNode534": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
+        "missionReward": {
+            "credits": 55000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "CrewBattleNode535": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
+        "missionReward": {
+            "credits": 70000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "CrewBattleNode557": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/Nemesis/RailJackSaturnNemesisAssassinateProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipNemesisAssassinate",
+        "missionReward": {
+            "credits": 70000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "SolNode44": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode91": {
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode47": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode93": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode32": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukBossAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode80": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode18": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SaturnHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "SolNode37": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode20": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SaturnToUranusJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAgent",
+        "missionReward": {
+            "credits": 40000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusWhipBlueprint",
+                "/Lotus/StoreItems/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
+                "/Lotus/StoreItems/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwords",
+                "/Lotus/StoreItems/Types/NeutralCreatures/ErsatzHorse/ErsatzHorsePowerSuit",
+                "/Lotus/StoreItems/Types/Items/EmailItems/NatahEmailItem"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUKillBossSargasRuk",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUHeavyMeleeKills",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTitanSurvival",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTransmuteMod"
+        ]
+    },
+    "SolNode86": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadTwo",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode55": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode70": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode31": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode50": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFiveAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "EventNode5": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "EventNode28": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "EventNode29": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode82": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode906": {
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerPursuitProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
+    },
+    "PvpNode0": {
+        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level"
+    },
+    "PvpNode9": {
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+    },
+    "PvpNode10": {
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+    },
+    "PvpNode11": {
+        "levelOverride": "/Lotus/Levels/PVP/TennoBallMoon.level"
+    },
+    "ClanNode13": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "ClanNode12": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
+        "missionReward": {
+            "credits": 14000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "PvpNode12": {
+        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level"
+    },
+    "PvpNode13": {
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+    },
+    "PvpNode14": {
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+    },
+    "NightwaveDerelictDefenseSaturn": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateSaturn": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "EventNode39": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "EventNode40": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode29": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode33": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode105": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTilesetAnywhere"
+    },
+    "UranusToNeptuneJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantFrostAgent",
+        "missionReward": {
+            "credits": 80000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/ReconnasorBlueprint",
+                "/Lotus/StoreItems/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNKillBossTylRegor",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNMeleeOnly",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteCaliban"
+        ]
+    },
+    "SolNode64": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode3": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode90": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode69": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSurvivalA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode52": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode83": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode111": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode98": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode77": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode9": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersOcean",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer",
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode13": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "EventNode20": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "EventNode22": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode40": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode5": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode116": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode112": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode60": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode114": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateSharkwing",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "EventNode21": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "EventNode23": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "ClanNode16": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionInfested",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode34": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode122": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode124": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode907": {
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerInterceptionProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerDefenseC",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
+    },
+    "ClanNode17": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "EventNode6": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode723": {
+        "levelOverride": "/Lotus/Levels/Proc/JadeShadows/JSStalkerCaveHubElevator",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/AscensionSpec"
+    },
+    "SolNode49": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode95": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersBC",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode117": {
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode1": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHardDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode17": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode78": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode6": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "NeptuneToPlutoJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantExcaliburAgent",
+        "missionReward": {
+            "credits": 80000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrineerFlakCannonBlueprint",
+                "/Lotus/StoreItems/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPKillBossHyena",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPEquipArchwingLauncher",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMission",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionCorpus",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionGrineer",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionInfested"
+        ]
+    },
+    "CrewBattleNode504": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptuneDefense",
+        "missionReward": {
+            "credits": 50000
+        }
+    },
+    "CrewBattleNode516": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
+        "missionReward": {
+            "credits": 56250
+        }
+    },
+    "CrewBattleNode521": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
+        "missionReward": {
+            "credits": 62500
+        }
+    },
+    "CrewBattleNode523": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
+        "missionReward": {
+            "credits": 68750
+        }
+    },
+    "CrewBattleNode524": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneObeliskVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
+        "missionReward": {
+            "credits": 75000
+        }
+    },
+    "CrewBattleNode525": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
+        "missionReward": {
+            "credits": 75000
+        }
+    },
+    "CrewBattleNode558": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarNemesisAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune"
+    },
+    "SolNode57": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpost",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode120": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersBC",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode62": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
+    },
+    "SolNode908": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "SolNode127": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Hyena/HyenaPack",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode118": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusShip",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode84": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSpyCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersBDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
+    },
+    "ClanNode20": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
+        "missionReward": {
+            "credits": 18000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "ClanNode21": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "missionReward": {
+            "credits": 18000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "EventNode7": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "PvpNode3": {
+        "levelOverride": "/Lotus/Levels/PVP/CTFOrokin.level"
+    },
+    "SolNode761": {
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode762": {
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode763": {
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode764": {
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "NightwaveDerelictSabotageNeptune": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageOutpost",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAgent",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "NightwaveDerelictAssassinateNeptune": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode4": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode72": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode48": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode21": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode92": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersBC",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode76": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode51": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostAmbulasBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Ambulas/AmbulasPackAgent",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/Events/AmbulasDataFragment",
+                    "ItemCount": 3
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/Events/AmbulasDataFragment",
+            "ItemCount": 5
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode38": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "PlutoToErisJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantGunslingerAgentRelayBoss",
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/MireSwordBlueprint",
+                "/Lotus/StoreItems/Types/Keys/InfestedAladVQuest/InfestedAladVQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEDefenseWaves",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEEquipFocusLens",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEFindOrokinVault",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PETheWarWithin"
+        ]
+    },
+    "SolNode8": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode56": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode43": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode81": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "ClanNode24": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "missionReward": {
+            "credits": 20000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode102": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "PvpNode6": {
+        "levelOverride": "/Lotus/Levels/PVP/CorpusOutpostDuel02.level"
+    },
+    "ClanNode25": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationB",
+        "missionReward": {
+            "credits": 20000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "PlutoHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "EventNode8": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "NightwaveDerelictDefensePluto": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinatePluto": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "CrewBattleNode526": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonStanchionOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
+        "missionReward": {
+            "credits": 80000
+        }
+    },
+    "CrewBattleNode527": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
+        "missionReward": {
+            "credits": 90000
+        }
+    },
+    "CrewBattleNode528": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPlutoDefense",
+        "missionReward": {
+            "credits": 100000
+        }
+    },
+    "CrewBattleNode531": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
+        "missionReward": {
+            "credits": 100000
+        }
+    },
+    "CrewBattleNode529": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
+        "missionReward": {
+            "credits": 110000
+        }
+    },
+    "CrewBattleNode536": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
+        "missionReward": {
+            "credits": 120000
+        }
+    },
+    "SolNode136": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode131": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode133": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode135": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode132": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode134": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode139": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode141": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode137": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueShipyards",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode142": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadFour",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode140": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode138": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode143": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode144": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KrillAndVorBossFight",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode149": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode148": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode147": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode150": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/SpaceGrineerExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode145": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode146": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "EventNode9": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageShipyards",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters"
+    },
+    "ClanNode23": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "missionReward": {
+            "credits": 20000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "ClanNode22": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "missionReward": {
+            "credits": 20000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "NightwaveDerelictSurvivalCeres": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateCeres": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode156": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedIntelSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "ErisHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "SolNode155": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode154": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode152": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode157": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode151": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode153": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode159": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode164": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode161": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode162": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode158": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusInfestedMixB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode160": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode165": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode163": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
+    },
+    "SolNode171": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode168": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode167": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipPurify",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
+    },
+    "ErisToSednaJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAgent",
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint",
+                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteRailjackMission",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
+        ]
+    },
+    "SolNode170": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode169": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode166": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "EventNode10": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode173": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "ClanNode18": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "missionReward": {
+            "credits": 18000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode174": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode172": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode176": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "ClanNode19": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "missionReward": {
+            "credits": 18000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode175": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "PvpNode4": {
+        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel01.level"
+    },
+    "SolNode177": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode184": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode182": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode181": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode183": {
+        "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsNightmare",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+                    "ItemCount": 25
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+            "ItemCount": 15
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode178": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies"
+    },
+    "SolNode180": {
+        "levelOverride": "/Lotus/Levels/KelaArenas/GalleonArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsEasy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+                    "ItemCount": 10
+                }
+            ]
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode179": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode190": {
+        "levelOverride": "/Lotus/Levels/KelaArenas/ShipyardsArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsMed",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+                    "ItemCount": 10
+                }
+            ]
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode185": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterceptionTwo",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode192": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode187": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode191": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
+    },
+    "SolNode186": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode188": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode189": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode199": {
+        "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsHard",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+                    "ItemCount": 15
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+            "ItemCount": 10
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
+    },
+    "SolNode194": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode193": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KelaDeThaym/KelaDeThaymAgent",
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+            "ItemCount": 25
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode196": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode197": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SolNode195": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode198": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "EventNode11": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode201": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode202": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "PvpNode7": {
+        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel03.level"
+    },
+    "ClanNode14": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "SolNode200": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
+    },
+    "ClanNode15": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "NightwaveDerelictSurvivalSedna": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateSedna": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode203": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMediumDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "EuropaHUB": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    },
+    "SolNode207": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "SolNode204": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateToxic",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
+    },
+    "SolNode209": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode206": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode208": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode210": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadE",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Drones/Vip/RaptorPack",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode205": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode216": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode214": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetHijack",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadD",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode211": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode215": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipInfestedMix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode213": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode212": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "PvpNode5": {
+        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level"
+    },
+    "SolNode217": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode218": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "ClanNode6": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "EventNode15": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SolNode219": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "SolNode220": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "EventNode12": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "EventNode17": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "ClanNode7": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationB",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
+    },
+    "EventNode16": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "NightwaveDerelictMobDefEuropa": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinateEuropa": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode400": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode401": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode402": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode403": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode404": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerForest",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode405": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode406": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode407": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode408": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode409": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode410": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode411": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageIcePlanet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAgent"
+    },
+    "SolNode412": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "EventNode27": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "EventNode38": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "CrewShipGenericTunnel": {
+        "levelOverride": "/Lotus/Levels/Railjack/TC19Demo/VoidRMWarpTunnelDojo.level"
+    },
+    "SettlementNode6": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode1": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateHumans",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "PvpNode2": {
+        "levelOverride": "/Lotus/Levels/PVP/GrineerSettlementDuel01.level"
+    },
+    "SettlementNode7": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode5": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode3": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode2": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode4": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode13": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode12": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode10": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRRaceA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "SettlementNode15": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode8": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlement",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode11": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode14": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "SettlementNode9": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode16": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "SettlementNode19": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
+    },
+    "EventNode13": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SettlementNode17": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "ClanNode10": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "SettlementNode20": {
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Spaceman/Vip/SniperAgent",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
+    },
+    "EventNode14": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SettlementNode18": {
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRRaceA",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
+    },
+    "ClanNode11": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "missionReward": {
+            "credits": 16000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
+    },
+    "NightwaveDerelictExterminatePhobos": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/InfestedNightwaveExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "NightwaveDerelictAssassinatePhobos": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Items/SyndicateDogTags/NoraInfestedDogTag",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "miscItemFee": {
+            "ItemType": "/Lotus/Types/Items/MiscItems/AntiSerumInjector",
+            "ItemCount": 1
+        }
+    },
+    "SolNode706": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedCorpusMixSquadA",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode707": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode708": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode709": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode710": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerSettlement",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode711": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode712": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/Vip/GolemFullAgent",
+        "missionReward": {
+            "credits": 7500
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "SolNode713": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
+        "missionReward": {
+            "credits": 7500
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinDerelictTileset"
+    },
+    "DeimosHub": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiSecretLabNecralisk"
+    },
+    "SolNode229": {
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedMicroplanetLandscape",
+        "enemySpec": "/Lotus/Types/Gameplay/InfestedMicroplanet/MissionAiSpecs/InfestedMicroplanetTestSquad"
+    },
+    "CeresToJupiterJunction": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBerserkerAgent",
+        "missionReward": {
+            "credits": 30000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnStaffBlueprint"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJRandomizedWallClingKillstreak",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJPlayedParkourTutorial",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJUpgradeRedirectionToRankFive"
+        ]
+    },
+    "EntratiLabHub": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiSecretLabNecralisk"
+    },
+    "SolNode715": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSwarm",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSwarmSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode716": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiExterminateSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode717": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode718": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabAlchemy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiAlchemySpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode719": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabMirrorDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiMirrorDefenseSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode720": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiVoidVault",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiVoidVaultsSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode721": {
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionEntratiLab",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode722": {
+        "tileset": "/Lotus/Types/Game/RegionTilesets/EntratiTileset"
+    },
+    "SolNode300": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer"
+    },
+    "SolNode306": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "SolNode302": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "SolNode305": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonDefense",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer"
+    },
+    "SolNode304": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadE",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "SolNode301": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer"
+    },
+    "SolNode307": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadD",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "SolNode308": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusLua",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "EventNode36": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalA",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus"
+    },
+    "SolNode309": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VoidEclipseSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer"
+    },
+    "SolNode310": {
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VoidEclipseSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer"
+    },
+    "SolNode741": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode742": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode743": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode744": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode745": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode746": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode747": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode748": {
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
+    },
+    "SolNode801": {
+        "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "SolNode802": {
+        "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset"
+    },
+    "CrewBattleNode553": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace02ExterminateCombined1Poi1GalleonProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
+        "missionReward": {
+            "credits": 85000
+        }
+    },
+    "CrewBattleNode554": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1HangarProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
+        "missionReward": {
+            "credits": 135000
+        }
+    },
+    "CrewBattleNode555": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1MissilePlatProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
+        "missionReward": {
+            "credits": 115000
+        }
+    },
+    "CrewBattleNode550": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1RadarProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
+        "missionReward": {
+            "credits": 92500
+        }
+    },
+    "CrewBattleNode538": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03StanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
+        "missionReward": {
+            "credits": 125000
+        }
+    },
+    "CrewBattleNode539": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03PillarVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
+        "missionReward": {
+            "credits": 131250
+        }
+    },
+    "CrewBattleNode540": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDSDefense",
+        "missionReward": {
+            "credits": 137500
+        }
+    },
+    "CrewBattleNode541": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
+        "missionReward": {
+            "credits": 143750
+        }
+    },
+    "CrewBattleNode542": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
+        "missionReward": {
+            "credits": 150000
+        }
+    },
+    "CrewBattleNode543": {
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
+        "missionReward": {
+            "credits": 150000
+        }
+    },
+    "ZarimanHub": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanHub"
+    },
+    "SolNode230": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanCorruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedAISpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedSquad",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset"
+    },
+    "SolNode231": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanExterminate",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset"
+    },
+    "SolNode232": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanSurvival",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset"
+    },
+    "SolNode233": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanAssassinateEndless",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanEndlessAssassinateSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset"
+    },
+    "SolNode234": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanHubApartment"
+    },
+    "SolNode235": {
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanMobileDefenseSpec",
+        "tileset": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset"
+    },
+    "SolNode236": {
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeJealous",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape"
+    },
+    "SolNode237": {
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape"
+    },
+    "SolNode238": {
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeArenasOnly",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape"
+    },
+    "1999Hub": {
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoProtoRelayHUBWinterSnow"
+    },
+    "1999PlayerHome": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaTailorShop"
+    },
+    "SolNode850": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaCaptureWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaEndlessCaptureSpec"
+    },
+    "SolNode851": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalScaldraWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode852": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalTechrotWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec"
+    },
+    "SolNode853": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateScaldraWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode854": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateTechrotSummer",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec"
+    },
+    "SolNode855": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode856": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaAssassinationWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode857": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode858": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaEchoesDefenseWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionScaldraSpec",
+        "vipAgent": "/Lotus/Types/Friendly/Agents/TempleDefenseAgent"
+    },
+    "SolNode859": {
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateScaldraWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec"
+    },
+    "SolNode250": {
+        "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeA",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+                    "ItemCount": 10
+                }
+            ]
+        }
+    },
+    "SolNode251": {
+        "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeB",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+                    "ItemCount": 10
+                }
+            ]
+        }
+    },
+    "SolNode252": {
+        "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeC",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+                    "ItemCount": 10
+                }
+            ]
+        }
+    },
+    "SolNode253": {
+        "levelOverride": "/Lotus/Levels/DevilTower/SpawnLobby.level"
+    },
+    "SolNode254": {
+        "levelOverride": "/Lotus/Levels/DevilTower/ProtoframeRoomWisp.level"
+    },
+    "SolNode255": {
+        "levelOverride": "/Lotus/Levels/DevilTower/ProtoframeRoomHarrow.level"
+    },
+    "SolNode256": {
+        "levelOverride": "/Lotus/Levels/DevilTower/BossArenaUriel.level"
+    }
+}

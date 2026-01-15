@@ -1,0 +1,20 @@
+{
+    "/Lotus/Types/StoreItems/Packages/AlchemistFrameItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LavosDeviceDeco",
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/CalibanDeluxeSkinBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/JadeShadows/LisetPropCalibanDeluxeGhosts",
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/StyanaxDeluxeSkinBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/XakuLotusDeluxeSkinBundle": "/Lotus/Types/StoreItems/Packages/XakuDeluxePotBundle",
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/YareliDeluxeSkinBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneYareliDeluxe",
+    "/Lotus/Types/StoreItems/Packages/StyanaxBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropStyanaxSpearShieldDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/CitrineItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/Cyte09ItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/Cyte09ExaltedSniperShipDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/DanteItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/GyreItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropGyrePulseDecoration",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/JadeItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/JadeShadows/JadeEyesShipDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/KoumeiItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/KoumeiShrineDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/NokkoItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropNokkoBabyDrone",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/OraxiaItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/TempleItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/TempleGuitarSpeakerShipDeco",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/UrielItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/LisetPropRoatheThrone",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/WolfFrameBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/Leverian/LisetPropMuralCycle",
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/YareliItemsBundle": "/Lotus/StoreItems/Types/Items/ShipDecos/YareliEffectDeco"
+}

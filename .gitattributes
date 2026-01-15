@@ -1,0 +1,3 @@
+extras/*.html linguist-vendored
+extras/*.lua linguist-vendored
+*.pluto linguist-language=Lua
