@@ -605,6 +605,12 @@ do
 					end
 				end
 			end
+
+			if TitleTag := obj_find_property(item.uniqueName, "TitleTag") then
+				item.__order:insert("titleTag")
+				item.titleTag = TitleTag
+				import_from_languages_bin(TitleTag)
+			end
 		end
 		if lang == "en" then
 			local missing = {
