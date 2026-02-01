@@ -620,7 +620,6 @@
 /Lotus/Interface/Icons/Player/ContentCreators/JustHailey.png: https://media.invisioncic.com/Mwarframe/pages_media/JustHailey.png
 /Lotus/Interface/Icons/Player/ConservationVendorGlyphVenusCritter.png: https://media.invisioncic.com/Mwarframe/pages_media/ConservationVendorGlyphVenusCritter.png
 /Lotus/Interface/Icons/Player/LokiChibi.png: https://media.invisioncic.com/Mwarframe/pages_media/LokiChibi.png
-/Lotus/Interface/Icons/Player/ContentCreators/HomiInvocado.png: https://media.invisioncic.com/Mwarframe/pages_media/HomiInvocado.png
 /Lotus/Interface/Icons/Player/ContentCreators/SerganIkari.png: https://media.invisioncic.com/Mwarframe/pages_media/SerganIkari.png
 /Lotus/Interface/Icons/Player/GlyphKavat.png: https://media.invisioncic.com/Mwarframe/pages_media/GlyphKavat.png
 /Lotus/Interface/Icons/Player/BaruukPrimeAvatarBright.png: https://media.invisioncic.com/Mwarframe/pages_media/BaruukPrimeAvatarBright.png
