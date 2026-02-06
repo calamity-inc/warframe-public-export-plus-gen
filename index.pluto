@@ -2320,6 +2320,7 @@ end
 for LANGS as lang do
 	local ExportWarframes = io.contents(PE_BASE .. "/ExportWarframes_" .. lang .. ".json") |> json.decode|json.withorder|
 	local exported_abilities = {}
+	local scaled_values_ground_truth = { __order = {} }
 	for ExportWarframes.ExportWarframes as warframe do
 		store_tag(lang, warframe, "name", obj_find_property(warframe.uniqueName, "LocalizeTag"))
 		store_tag(lang, warframe, "description", obj_find_property(warframe.uniqueName, "LocalizeDescTag"))
@@ -2384,6 +2385,62 @@ for LANGS as lang do
 				value = x.Value,
 			})]]
 
+			do
+				scaled_values_ground_truth.__order:insert(warframe.uniqueName)
+				scaled_values_ground_truth[warframe.uniqueName] = {}
+				local state = {
+					__order = { "health", "shield", "power", "armor", "ability_strength", "heal_rate" },
+					health = warframe.health,
+					shield = warframe.shield,
+					power = warframe.power,
+					armor = warframe.armor,
+					ability_strength = 1.0,
+					heal_rate = 0,
+				}
+				local LevelUpgrades = obj_find_property(warframe.uniqueName, "LevelUpgrades")
+				for i = 1, #LevelUpgrades do
+					switch LevelUpgrades[i].UpgradeType do
+						case "AVATAR_HEALTH_MAX":
+							assert(LevelUpgrades[i].OperationType == "ADD_BASE")
+							state.health += LevelUpgrades[i].Value
+							break
+
+						case "AVATAR_SHIELD_MAX":
+							assert(LevelUpgrades[i].OperationType == "ADD_BASE")
+							state.shield += LevelUpgrades[i].Value
+							break
+
+						case "AVATAR_POWER_MAX":
+							assert(LevelUpgrades[i].OperationType == "ADD_BASE")
+							state.power += LevelUpgrades[i].Value
+							break
+
+						case "AVATAR_ARMOUR":
+							assert(LevelUpgrades[i].OperationType == "ADD_BASE")
+							state.armor += LevelUpgrades[i].Value
+							break
+
+						case "AVATAR_ABILITY_STRENGTH":
+							assert(LevelUpgrades[i].OperationType == "STACKING_MULTIPLY")
+							state.ability_strength += LevelUpgrades[i].Value
+							break
+
+						case "AVATAR_HEAL_RATE":
+							assert(LevelUpgrades[i].OperationType == "ADD")
+							state.heal_rate += LevelUpgrades[i].Value
+							break
+
+						case "NONE":
+						case "AVATAR_ENERGY_SPAWN_PERCENT": -- Harrow has this as part of his passive ("Start missions at maximum energy.")
+							break
+
+						default:
+							error($"Unhandled UpgradeType {LevelUpgrades[i].UpgradeType} for {warframe.uniqueName}")
+					end
+					scaled_values_ground_truth[warframe.uniqueName][i] = state:clone()
+				end
+			end
+
 			warframe.__order:insert("platinumCost")
 			warframe.platinumCost = obj_find_property(warframe.uniqueName, "PremiumPrice")
 
@@ -2438,6 +2495,7 @@ for LANGS as lang do
 
 		write_mapped_data_file("ExportWarframes.json", ExportWarframes.ExportWarframes)
 		write_mapped_data_file("ExportAbilities.json", ExportWarframes.ExportAbilities)
+		io.contents("scaled_values_ground_truth.json", json.encode(scaled_values_ground_truth, true))
 	end
 end
 
