@@ -4728,9 +4728,10 @@ do
 					if rawItem.Affiliation ~= "" and (rawItem.MinAffiliationRank ~= 0 or rawItem.ReductionPerPositiveRank ~= 0 or rawItem.IncreasePerNegativeRank ~= 0) then
 						item.__order:insert("syndicate")
 						item.syndicate = {
-							__order = { "tag", "minRank", "reductionPerPositiveRank", "increasePerNegativeRank" },
+							__order = { "tag", "minRank", "standingCost", "reductionPerPositiveRank", "increasePerNegativeRank" },
 							tag = rawItem.Affiliation:split("/"):back(),
 							minRank = rawItem.MinAffiliationRank,
+							standingCost = rawItem.StandingCost,
 							reductionPerPositiveRank = rawItem.ReductionPerPositiveRank,
 							increasePerNegativeRank = rawItem.IncreasePerNegativeRank,
 						}
