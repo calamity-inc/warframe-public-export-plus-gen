@@ -1,4 +1,5 @@
-const { ExportWarframes, getScaledPowersuitValues } = require("../warframe-public-export-plus");
+const ExportWarframes = require("../warframe-public-export-plus/ExportWarframes.json");
+const getScaledPowersuitValues = require("../warframe-public-export-plus/supplementals/getScaledPowersuitValues.js");
 const scaled_values_ground_truth = require("./scaled_values_ground_truth.json");
 
 const joaat = (str) => {
