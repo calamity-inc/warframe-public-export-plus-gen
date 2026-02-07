@@ -24,7 +24,7 @@ const joaat = (str) => {
 				|| expected.shield != actual.shield
 				|| expected.power != actual.power
 				|| expected.armor != actual.armor
-				|| Math.abs(expected.ability_strength - actual.ability_strength) > 0.0000001
+				|| expected.ability_strength != actual.ability_strength
 				|| expected.heal_rate != actual.heal_rate
 				) {
 				console.log(`Mismatch for ${uniqueName} at rank ${rank}:`, { uniqueName_joaat: joaat(uniqueName), expected, actual });
