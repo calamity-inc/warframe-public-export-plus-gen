@@ -981,6 +981,78 @@ local DropData = {
 			SigilChance = 100,
 			Sigils = { { "Ambulas Sigil", "Sigil", 100 } } 
 		},
+		["Anarch Arcus"] = {
+			ModChance = 0.1,
+			Mods = {
+				{ "Vikla-Safor", "Mod", 33.33 },
+				{ "Hayan-Dabor", "Mod", 33.33 },
+				{ "Ulashta-Shol", "Mod", 33.33 }
+			},
+			Name = "Anarch Arcus",
+		},
+		["Anarch Arcus Lustratus"] = {
+			ModChance = 0.1,
+			Mods = {
+				{ "Vikla-Safor", "Mod", 33.33 },
+				{ "Hayan-Dabor", "Mod", 33.33 },
+				{ "Ulashta-Shol", "Mod", 33.33 }
+			},
+			Name = "Anarch Arcus Lustratus",
+		},
+		["Anarch Capsarii"] = {
+			ModChance = 0.5,
+			Mods = {
+				{ "Hok-Kaal", "Mod", 33.33 },
+				{ "Evir-Ti", "Mod", 33.33 },
+				{ "Sey-Taph", "Mod", 33.33 }
+			},
+			Name = "Anarch Capsarii",
+		},
+		["Anarch Gladius"] = {
+			ModChance = 0.1,
+			Mods = {
+				{ "Vikla-Safor", "Mod", 33.33 },
+				{ "Hayan-Dabor", "Mod", 33.33 },
+				{ "Ulashta-Shol", "Mod", 33.33 }
+			},
+			Name = "Anarch Gladius",
+		},
+		["Anarch Grineer Lancer"] = {
+			ModChance = 0.1,
+			Mods = {
+				{ "Vikla-Safor", "Mod", 33.33 },
+				{ "Hayan-Dabor", "Mod", 33.33 },
+				{ "Ulashta-Shol", "Mod", 33.33 }
+			},
+			Name = "Anarch Grineer Lancer",
+		},
+		["Anarch Grineer Trapper"] = {
+			ModChance = 0.5,
+			Mods = {
+				{ "Hok-Kaal", "Mod", 33.33 },
+				{ "Evir-Ti", "Mod", 33.33 },
+				{ "Sey-Taph", "Mod", 33.33 }
+			},
+			Name = "Anarch Grineer Trapper",
+		},
+		["Anarch Libritor"] = {
+			ModChance = 0.5,
+			Mods = {
+				{ "Lorun-Tash", "Mod", 33.33 },
+				{ "Talsek-An", "Mod", 33.33 },
+				{ "Yar Dal", "Mod", 33.33 }
+			},
+			Name = "Anarch Libritor",
+		},
+		["Anarch Tenebra"] = {
+			ModChance = 0.5,
+			Mods = {
+				{ "Hok-Kaal", "Mod", 33.33 },
+				{ "Evir-Ti", "Mod", 33.33 },
+				{ "Sey-Taph", "Mod", 33.33 }
+			},
+			Name = "Anarch Tenebra",
+		},
 		["Ancient Disruptor"] = {
 			ModChance = 3,
 			Mods = {
@@ -2279,6 +2351,78 @@ local DropData = {
 			Name = "Comet Shard",
 			ResourceChance = 7,
 			Resources = { { "Region Resource", "Resource", 100 } } 
+		},
+		["Commandeered Ash Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Ash Prime",
+		},
+		["Commandeered Caliban Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Caliban Prime",
+		},
+		["Commandeered Ember Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Ember Prime",
+		},
+		["Commandeered Mesa Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Mesa Prime",
+		},
+		["Commandeered Protea Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Protea Prime",
+		},
+		["Commandeered Volt Prime"] = {
+			ModChance = 15,
+			Mods = {
+				{ "Esti Vel-Ikha", "Mod", 16.67 },
+				{ "Metem-Hakh", "Mod", 16.67 },
+				{ "Metem-Erun", "Mod", 16.67 },
+				{ "Empazu-Shol", "Mod", 16.67 },
+				{ "Lashta-Vak", "Mod", 16.67 },
+				{ "Ubri-Kaneph", "Mod", 16.67 }
+			},
+			Name = "Commandeered Volt Prime",
 		},
 		Commander = {
 			ModChance = 3,
@@ -15558,7 +15702,7 @@ local DropData = {
 				},
 				C = {
 					{ "Ayatan Orta Sculpture", "Ayatan Sculpture", 20 },
-					{ "Vitus Essence", "Resource", 7, 3 },
+					{ "Vitus Essence", "Resource", 10, 3 },
 					{ "Arcane Pistoleer", "Arcane", 5 },
 					{ "Arcane Tanker", "Arcane", 5 },
 					{ "Arcane Blade Charger", "Arcane", 5 },
@@ -15566,9 +15710,8 @@ local DropData = {
 					{ "Combat Discipline", "Mod", 3.5 },
 					{ "Melee Guidance", "Mod", 3.5 },
 					{ "Swift Momentum", "Mod", 3.5 },
-					{ "Seeding Step Ephemera Blueprint", "Blueprint", 5 },
 					{ "Omni Forma Blueprint", "Blueprint", 4.5 },
-					{ "Endo", "Resource", 33, 1500 } 
+					{ "Endo", "Resource", 35, 1500 } 
 				} 
 			},
 			Tier = "All",
@@ -20448,7 +20591,7 @@ local DropData = {
 			Alias = "HexBounty1",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierABountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 55-60",
+			Name = "Höllvania Central Mall Bounty Lvl 65-70",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 19.51, 600 },
@@ -20461,14 +20604,14 @@ local DropData = {
 					{ "Experimental Arc-Relay", "Resource", 4.88, 1 } 
 				},
 			},
-			Tier = "55-60",
+			Tier = "65-70",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty2"] = {
 			Alias = "HexBounty2",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierBBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 65-70",
+			Name = "Höllvania Central Mall Bounty Lvl 75-80",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 18.60, 1200 },
@@ -20481,14 +20624,14 @@ local DropData = {
 					{ "Techrot Motherboard", "Resource", 4.65, 1 } 
 				},
 			},
-			Tier = "65-70",
+			Tier = "75-80",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty3"] = {
 			Alias = "HexBounty3",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierCBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 75-80",
+			Name = "Höllvania Central Mall Bounty Lvl 85-90",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 15.56, 1800 },
@@ -20501,14 +20644,14 @@ local DropData = {
 					{ "Techrot Motherboard", "Resource", 4.44, 4 } 
 				},
 			},
-			Tier = "75-80",
+			Tier = "85-90",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty4"] = {
 			Alias = "HexBounty4",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierDBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 85-90",
+			Name = "Höllvania Central Mall Bounty Lvl 95-100",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 12.96, 2400 },
@@ -20522,14 +20665,14 @@ local DropData = {
 					{ "Vesper 77 Blueprint", "Blueprint", 3.70 } 
 				},
 			},
-			Tier = "85-90",
+			Tier = "95-100",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty5"] = {
 			Alias = "HexBounty5",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierEBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 95-100",
+			Name = "Höllvania Central Mall Bounty Lvl 105-110",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 13.73, 3300 },
@@ -20543,14 +20686,14 @@ local DropData = {
 					{ "Reconifex Blueprint", "Blueprint", 3.92 } 
 				},
 			},
-			Tier = "95-100",
+			Tier = "105-110",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty6"] = {
 			Alias = "HexBounty6",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TierFBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 105-110",
+			Name = "Höllvania Central Mall Bounty Lvl 115-120",
 			Rewards = {
 				A = {
 					{ "Endo", "Resource", 14.00, 3300 },
@@ -20564,14 +20707,14 @@ local DropData = {
 					{ "Big Bytes Pizza", "Resource", 4.00, 1 } 
 				},
 			},
-			Tier = "105-110",
+			Tier = "115-120",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		["HexBounty7"] = {
 			Alias = "HexBounty7",
 			InternalName = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/InfestedLichBountyRewards",
 			Link = "Höllvania Central Mall#Bounties",
-			Name = "Höllvania Central Mall Bounty Lvl 115-120",
+			Name = "Höllvania Central Mall Bounty Lvl 125-130",
 			Rewards = {
 				A = {
 					{ "ByteRyte", "Mod", 12.5 },
@@ -20584,7 +20727,7 @@ local DropData = {
 					{ "Computer Cop", "Mod", 12.5 }
 				},
 			},
-			Tier = "115-120",
+			Tier = "125-130",
 			Type = "Höllvania Central Mall Bounty"
 		},
 		HiveCaches = {
@@ -25068,6 +25211,162 @@ local DropData = {
 			Tier = "The Index",
 			Type = "Arena" 
 		},
+		["The Perita Rebellion (Hunhullus)"] = {
+			Alias = "The Perita Rebellion (Hunhullus)",
+			InternalName = "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus",
+			Link = "The Perita Rebellion",
+			Name = "The Perita Rebellion (Hunhullus)",
+			Rewards = {
+				A = {
+					{ "Credits Cache", "Credits", 5.00, 10000 },
+					{ "Endo", "Resource", 5.00, 2500 },
+					{ "Agnovidisc", "Resource", 3.00, 150 },
+					{ "Laudavi", "Resource", 3.00, 60 },
+					{ "Servoris", "Resource", 3.00, 25 },
+					{ "Meso P17", "Relic", 3.65 },
+					{ "Meso V12", "Relic", 3.65 },
+					{ "Meso X1", "Relic", 3.65 },
+					{ "Meso V11", "Relic", 3.65 },
+					{ "Meso V13", "Relic", 3.65 },
+					{ "Meso Y1", "Relic", 3.65 },
+					{ "Meso A9", "Relic", 3.65 },
+					{ "Meso V14", "Relic", 3.65 },
+					{ "Sagek Prime Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Barrel Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Receiver Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blade Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Handle Blueprint", "Blueprint", 5.71 },					
+					{ "Sil-Tabol", "Mod", 2.3 },
+					{ "Da-Ren", "Mod", 2.3 },
+					{ "Omn-Evi", "Mod", 2.3 },
+					{ "Vik-Anam", "Mod", 2.3 },
+					{ "Kaal-zidi", "Mod", 2.3 },
+					{ "Ubri-Kaneph", "Mod", 1.0 },
+					{ "Metem-Hakh", "Mod", 1.0 },
+					{ "Metem-Erun", "Mod", 1.0 },
+					{ "Esti Vel-Ikha", "Mod", 1.0 },
+					{ "Empazu-Shol", "Mod", 1.0 },
+					{ "Lashta-Vak", "Mod", 1.0 },
+				},
+				B = { 
+					{ "Lyroic Bridge", "Resource", 100 }
+				},
+				C = {
+					{ "Zid-An Haras", "Arcane", 20.0 },
+					{ "Zid-An Uskos", "Arcane", 20.0 },
+					{ "Zid-An Asheir", "Arcane", 20.0 },
+					{ "Zid-An Osbok", "Arcane", 20.0 },
+					{ "Zid-An Sek-Eel", "Arcane", 20.0 },
+				},
+			},
+			Tier = "Normal",
+			Type = "The Perita Rebellion"
+		},
+		["The Perita Rebellion (Dactolyst)"] = {
+			Alias = "The Perita Rebellion (Dactolyst)",
+			InternalName = "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst",
+			Link = "The Perita Rebellion",
+			Name = "The Perita Rebellion (Dactolyst)",
+			Rewards = {
+				A = {
+					{ "Credits Cache", "Credits", 5.00, 10000 },
+					{ "Endo", "Resource", 5.00, 2500 },
+					{ "Agnovidisc", "Resource", 3.00, 150 },
+					{ "Laudavi", "Resource", 3.00, 60 },
+					{ "Servoris", "Resource", 3.00, 25 },
+					{ "Meso P17", "Relic", 3.65 },
+					{ "Meso V12", "Relic", 3.65 },
+					{ "Meso X1", "Relic", 3.65 },
+					{ "Meso V11", "Relic", 3.65 },
+					{ "Meso V13", "Relic", 3.65 },
+					{ "Meso Y1", "Relic", 3.65 },
+					{ "Meso A9", "Relic", 3.65 },
+					{ "Meso V14", "Relic", 3.65 },
+					{ "Sagek Prime Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Barrel Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Receiver Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blade Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Handle Blueprint", "Blueprint", 5.71 },					
+					{ "Sil-Tabol", "Mod", 2.3 },
+					{ "Da-Ren", "Mod", 2.3 },
+					{ "Omn-Evi", "Mod", 2.3 },
+					{ "Vik-Anam", "Mod", 2.3 },
+					{ "Kaal-zidi", "Mod", 2.3 },
+					{ "Ubri-Kaneph", "Mod", 1.0 },
+					{ "Metem-Hakh", "Mod", 1.0 },
+					{ "Metem-Erun", "Mod", 1.0 },
+					{ "Esti Vel-Ikha", "Mod", 1.0 },
+					{ "Empazu-Shol", "Mod", 1.0 },
+					{ "Lashta-Vak", "Mod", 1.0 },
+				},
+				B = { 
+					{ "Ren Hypercore", "Resource", 100 }
+				},
+				C = {
+					{ "Zid-An Haras", "Arcane", 20.0 },
+					{ "Zid-An Uskos", "Arcane", 20.0 },
+					{ "Zid-An Asheir", "Arcane", 20.0 },
+					{ "Zid-An Osbok", "Arcane", 20.0 },
+					{ "Zid-An Sek-Eel", "Arcane", 20.0 },
+				},
+			},
+			Tier = "Normal",
+			Type = "The Perita Rebellion"
+		},
+		["The Perita Rebellion (Prime Vanguard)"] = {
+			Alias = "The Perita Rebellion (Prime Vanguard)",
+			InternalName = "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes",
+			Link = "The Perita Rebellion",
+			Name = "The Perita Rebellion (Prime Vanguard)",
+			Rewards = {
+				A = {
+					{ "Credits Cache", "Credits", 5.00, 10000 },
+					{ "Endo", "Resource", 5.00, 2500 },
+					{ "Agnovidisc", "Resource", 3.00, 150 },
+					{ "Laudavi", "Resource", 3.00, 60 },
+					{ "Servoris", "Resource", 3.00, 25 },
+					{ "Meso P17", "Relic", 3.65 },
+					{ "Meso V12", "Relic", 3.65 },
+					{ "Meso X1", "Relic", 3.65 },
+					{ "Meso V11", "Relic", 3.65 },
+					{ "Meso V13", "Relic", 3.65 },
+					{ "Meso Y1", "Relic", 3.65 },
+					{ "Meso A9", "Relic", 3.65 },
+					{ "Meso V14", "Relic", 3.65 },
+					{ "Sagek Prime Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Barrel Blueprint", "Blueprint", 5.71 },
+					{ "Sagek Prime Receiver Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Blade Blueprint", "Blueprint", 5.71 },
+					{ "Galariak Prime Handle Blueprint", "Blueprint", 5.71 },					
+					{ "Sil-Tabol", "Mod", 2.3 },
+					{ "Da-Ren", "Mod", 2.3 },
+					{ "Omn-Evi", "Mod", 2.3 },
+					{ "Vik-Anam", "Mod", 2.3 },
+					{ "Kaal-zidi", "Mod", 2.3 },
+					{ "Ubri-Kaneph", "Mod", 1.0 },
+					{ "Metem-Hakh", "Mod", 1.0 },
+					{ "Metem-Erun", "Mod", 1.0 },
+					{ "Esti Vel-Ikha", "Mod", 1.0 },
+					{ "Empazu-Shol", "Mod", 1.0 },
+					{ "Lashta-Vak", "Mod", 1.0 },
+				},
+				B = { 
+					{ "Ascaris Prime", "Resource", 100 }
+				},
+				C = {
+					{ "Zid-An Haras", "Arcane", 20.0 },
+					{ "Zid-An Uskos", "Arcane", 20.0 },
+					{ "Zid-An Asheir", "Arcane", 20.0 },
+					{ "Zid-An Osbok", "Arcane", 20.0 },
+					{ "Zid-An Sek-Eel", "Arcane", 20.0 },
+				},
+			},
+			Tier = "Normal",
+			Type = "The Perita Rebellion"
+		},
 		["Tyl Regor"] = {
 			Alias = "Tyl Regor",
 			InternalName = "/Lotus/Types/Game/MissionDecks/BossMissionRewards/YinYangRewards",
@@ -26104,12 +26403,12 @@ local DropData = {
 					{ "Epitaph Barrel", "Blueprint", 10 },
 					{ "Epitaph Receiver", "Blueprint", 10 },
 					{ "Earth Resource Bundle", "Other", 2.5 },
-					{ "Lith C13 (Radiant)", "Relic", 2.5 },
+					{ "Lith D7 (Radiant)", "Relic", 2.5 },
 					{ "Lith E2 (Radiant)", "Relic", 2.5 },
 					{ "Lith K12 (Radiant)", "Relic", 2.5 },
-					{ "Lith A10 (Radiant)", "Relic", 2.5 },
-					{ "Lith O4 (Radiant)", "Relic", 2.5 },
-					{ "Lith N17 (Radiant)", "Relic", 2.5 },
+					{ "Lith N18 (Radiant)", "Relic", 2.5 },
+					{ "Lith G14 (Radiant)", "Relic", 2.5 },
+					{ "Lith L7 (Radiant)", "Relic", 2.5 },
 					{ "Lith Q2 (Radiant)", "Relic", 2.5 }
 				} 
 			},
@@ -26129,12 +26428,12 @@ local DropData = {
 					{ "Epitaph Barrel", "Blueprint", 10 },
 					{ "Epitaph Receiver", "Blueprint", 10 },
 					{ "Venus Resource Bundle", "Other", 2.5 },
-					{ "Lith C13 (Radiant)", "Relic", 2.5 },
+					{ "Lith D7 (Radiant)", "Relic", 2.5 },
 					{ "Lith E2 (Radiant)", "Relic", 2.5 },
 					{ "Lith K12 (Radiant)", "Relic", 2.5 },
-					{ "Lith A10 (Radiant)", "Relic", 2.5 },
-					{ "Lith O4 (Radiant)", "Relic", 2.5 },
-					{ "Lith N17 (Radiant)", "Relic", 2.5 },
+					{ "Lith N18 (Radiant)", "Relic", 2.5 },
+					{ "Lith G14 (Radiant)", "Relic", 2.5 },
+					{ "Lith L7 (Radiant)", "Relic", 2.5 },
 					{ "Lith Q2 (Radiant)", "Relic", 2.5 }
 				} 
 			},
@@ -26154,14 +26453,14 @@ local DropData = {
 					{ "Epitaph Barrel", "Blueprint", 9.52 },
 					{ "Epitaph Receiver", "Blueprint", 9.52 },
 					{ "Saturn Resource Bundle", "Other", 4.76 },
-					{ "Meso A8 (Radiant)", "Relic", 2.38 },
+					{ "Meso P17 (Radiant)", "Relic", 2.38 },
 					{ "Meso V12 (Radiant)", "Relic", 2.38 },
-					{ "Meso T8 (Radiant)", "Relic", 2.38 },
+					{ "Meso X1 (Radiant)", "Relic", 2.38 },
 					{ "Meso V11 (Radiant)", "Relic", 2.38 },
-					{ "Meso G9 (Radiant)", "Relic", 2.38 },
-					{ "Meso A7 (Radiant)", "Relic", 2.38 },
-					{ "Meso P16 (Radiant)", "Relic", 2.38 },
-					{ "Meso L3 (Radiant)", "Relic", 2.38 },
+					{ "Meso V13 (Radiant)", "Relic", 2.38 },
+					{ "Meso Y1 (Radiant)", "Relic", 2.38 },
+					{ "Meso A9 (Radiant)", "Relic", 2.38 },
+					{ "Meso V14 (Radiant)", "Relic", 2.38 },
 				} 
 			},
 			Tier = "Tier 2 Saturn",
@@ -26180,14 +26479,14 @@ local DropData = {
 					{ "Sevagoth Neuroptics Blueprint", "Blueprint", 9.52 },
 					{ "Sevagoth Systems Blueprint", "Blueprint", 9.52 },
 					{ "Neptune Resource Bundle", "Other", 4.76 },
-					{ "Meso A8 (Radiant)", "Relic", 2.38 },
+					{ "Meso P17 (Radiant)", "Relic", 2.38 },
 					{ "Meso V12 (Radiant)", "Relic", 2.38 },
-					{ "Meso T8 (Radiant)", "Relic", 2.38 },
+					{ "Meso X1 (Radiant)", "Relic", 2.38 },
 					{ "Meso V11 (Radiant)", "Relic", 2.38 },
-					{ "Meso G9 (Radiant)", "Relic", 2.38 },
-					{ "Meso A7 (Radiant)", "Relic", 2.38 },
-					{ "Meso P16 (Radiant)", "Relic", 2.38 },
-					{ "Meso L3 (Radiant)", "Relic", 2.38 },
+					{ "Meso V13 (Radiant)", "Relic", 2.38 },
+					{ "Meso Y1 (Radiant)", "Relic", 2.38 },
+					{ "Meso A9 (Radiant)", "Relic", 2.38 },
+					{ "Meso V14 (Radiant)", "Relic", 2.38 },
 				} 
 			},
 			Tier = "Tier 2 Neptune",
@@ -26206,13 +26505,13 @@ local DropData = {
 					{ "Sevagoth Neuroptics Blueprint", "Blueprint", 10 },
 					{ "Sevagoth Systems Blueprint", "Blueprint", 10 },
 					{ "Pluto Resource Bundle", "Other", 2.5 },
-					{ "Neo D10 (Radiant)", "Relic", 2.5 },
-					{ "Neo A15 (Radiant)", "Relic", 2.5 },
+					{ "Neo C7 (Radiant)", "Relic", 2.5 },
+					{ "Neo P9 (Radiant)", "Relic", 2.5 },
 					{ "Neo D9 (Radiant)", "Relic", 2.5 },
 					{ "Neo C6 (Radiant)", "Relic", 2.5 },
-					{ "Neo T9 (Radiant)", "Relic", 2.5 },
-					{ "Neo A14 (Radiant)", "Relic", 2.5 },
-					{ "Neo X1 (Radiant)", "Relic", 2.5 } 
+					{ "Neo O3 (Radiant)", "Relic", 2.5 },
+					{ "Neo K9 (Radiant)", "Relic", 2.5 },
+					{ "Neo T10 (Radiant)", "Relic", 2.5 } 
 				} 
 			},
 			Tier = "Tier 3 Pluto",
@@ -26234,9 +26533,9 @@ local DropData = {
 					{ "Axi S18 (Radiant)", "Relic", 2.5 },
 					{ "Axi P8 (Radiant)", "Relic", 2.5 },
 					{ "Axi C10 (Radiant)", "Relic", 2.5 },
-					{ "Axi Y2 (Radiant)", "Relic", 2.5 },
+					{ "Axi T13 (Radiant)", "Relic", 2.5 },
 					{ "Axi Y1 (Radiant)", "Relic", 2.5 },
-					{ "Axi V13 (Radiant)", "Relic", 2.5 },
+					{ "Axi A20 (Radiant)", "Relic", 2.5 },
 					{ "Axi N13 (Radiant)", "Relic", 2.5 }
 				} 
 			},
