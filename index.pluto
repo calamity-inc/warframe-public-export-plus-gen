@@ -1619,11 +1619,11 @@ do
 			end
 		end
 		if lang == "en" then
-			--[[for io.listdir(PACKAGES_BIN_BASE .. "/Lotus/Upgrades/CosmeticEnhancers", true) as file do
+			for io.listdir(PACKAGES_BIN_BASE .. "/Lotus/Upgrades/CosmeticEnhancers", true) as file do
 				if io.isfile(file) then
 					local path = file:sub(#PACKAGES_BIN_BASE + 1, -6):replace("\\", "/")
 					local obj = obj_from_path(path)
-					if obj.parent == "/Lotus/Types/Game/MeleeCosmeticEnhancer" then
+					if obj.parent == "/Lotus/Types/Game/BaseAntiqueCosmeticEnhancer" then
 						local LocalizeTag = obj_find_property(path, "LocalizeTag")
 						import_from_languages_bin(LocalizeTag)
 						local arcane = {
@@ -1636,11 +1636,12 @@ do
 							fusionLimit = fusion_level_to_rank(obj_find_property(path, "FusionLimit") or "QA_MEDIUM"),
 							distillPointValue = obj_find_property(path, "BaseDistillPointValue"),
 						}
+						assert(not ExportArcanes:find(|x| -> x.uniqueName == path))
 						ExportArcanes:insert(arcane)
 						name_to_storeitem_map[dicts.en[LocalizeTag]:lower()] = to_storeitem(path)
 					end
 				end
-			end]]
+			end
 			write_mapped_data_file("ExportArcanes.json", ExportArcanes)
 			write_mapped_data_file("ExportRelics.json", ExportRelics)
 			import_from_languages_bin("/Lotus/Language/Relics/VoidProjectionName")
