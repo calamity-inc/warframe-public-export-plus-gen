@@ -1928,7 +1928,7 @@ for LANGS as lang do
 				upgrade.fusionLimit = 8
 			end
 
-			if obj_find_property(upgrade.uniqueName, "IncludeInBoosterPack") == 1 then
+			if obj_find_property(upgrade.uniqueName, "IncludeInBoosterPack") == 1 and obj_find_property(upgrade.uniqueName, "ExcludeFromCodex") ~= 1 then
 				upgrade.__order:insert("canBeTransmutation")
 				upgrade.canBeTransmutation = true
 			end
