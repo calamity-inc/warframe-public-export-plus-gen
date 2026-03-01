@@ -4426,6 +4426,7 @@ do
 		["/Lotus/Types/DropTables/AscensionWrinkleNormalDropTable"] = "sister of parvos (ascension mode)",
 		["/Lotus/Types/DropTables/AscensionWrinkleHardDropTable"] = "sister of parvos (ascension hard mode)",
 		["/Lotus/Types/DropTables/ContainerDropTables/VoidVaultMissionRewardsDropTable"] = "entrati netracell coffer",
+		["/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWPrimeMinibossSteelPathDropTable"] = "commandeered ash prime",
 	} do
 		ExportEnemies.droptables.__order:insert(droptable)
 		ExportEnemies.droptables[droptable] = drops_by_enemy_name[name]
