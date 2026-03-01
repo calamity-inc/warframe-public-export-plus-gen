@@ -1447,6 +1447,7 @@ do
 							case "Assassination" -> 0 -- MT_ASSASSINATION
 							case "Ascension" -> 39 -- MT_ASCENSION
 							case "Survival" -> 2 -- MT_SURVIVAL
+							case "Free Roam" -> 28 -- MT_LANDSCAPE
 						end,
 						missionName = switch mission.Type do
 							case "Skirmish", "Free Flight" -> "/Lotus/Language/Missions/MissionName_Railjack"

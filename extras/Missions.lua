@@ -86,6 +86,14 @@ local MissionData = {
 			InternalName = "MT_CAPTURE",
 			IsEndless = false
 		},
+		Deception = {
+			Name = "Deception",
+			Link = "Deception",
+			Introduced = "Vanilla",
+			Index = 6,
+			InternalName = "MT_COUNTER_INTEL",
+			IsEndless = false
+		},
 		Spy = {
 			Name = "Spy",
 			Link = "Spy",
@@ -115,7 +123,24 @@ local MissionData = {
 			Name = "Conclave",
 			Link = "Conclave",
 			Introduced = "10",
+			Index = 10,
 			InternalName = "MT_PVP",
+			IsEndless = false
+		},
+		["Mastery Test"] = {
+			Name = "Mastery Test",
+			Link = "Mastery Rank",
+			Introduced = "7",
+			Index = 11,
+			InternalName = "MT_MASTERY",
+			IsEndless = false
+		},
+		Recovery = {
+			Name = "Recovery",
+			Link = "Recovery",
+			Introduced = "11.7.3",
+			Index = 12,
+			InternalName = "MT_RECOVERY",
 			IsEndless = false
 		},
 		Interception = {
@@ -140,7 +165,7 @@ local MissionData = {
 			Link = "Sabotage/Hive",
 			Introduced = "13.8",
 			Index = 15,
-			InternalName = "MT_DEFENSE", -- TODO: Double check in EE.log if this is true
+			InternalName = "MT_HIVE",
 			IsEndless = false
 		},
 		["Solar Rail Conflict"] = {
@@ -148,7 +173,7 @@ local MissionData = {
 			Link = "Solar Rail Conflict",
 			Introduced = "14",
 			Index = 16,
-			InternalName = "MT_SECTOR",
+			InternalName = "MT_SALVAGE",
 			IsEndless = false
 		},
 		Excavation = {
@@ -171,7 +196,8 @@ local MissionData = {
 			Name = "Trial",
 			Link = "Trial",
 			Introduced = "16",
-			InternalName = "",
+			Index = 18,
+			InternalName = "MT_RAID",
 			IsEndless = false
 		},
 		["Annihilation"] = {
@@ -195,6 +221,20 @@ local MissionData = {
 			InternalName = "",
 			IsEndless = false
 		},
+		["MT_PURGE"] = {
+			Name = "MT_PURGE",
+			Link = "MT_PURGE",
+			Introduced = "999",
+			Index = 19,
+			InternalName = "MT_PURGE"
+		},
+		["MT_GENERIC"] = {
+			Name = "MT_GENERIC",
+			Link = "MT_GENERIC",
+			Introduced = "999",
+			Index = 20,
+			InternalName = "MT_GENERIC"
+		},
 		["Infested Salvage"] = {
 			Name = "Infested Salvage",
 			Link = "Infested Salvage",
@@ -216,13 +256,16 @@ local MissionData = {
 			Name = "Lunaro",
 			Link = "Lunaro",
 			Introduced = "Lunaro",
-			InternalName = "",
+			Index = 10,
+			InternalName = "MT_PVP",
 			IsEndless = false
 		},
 		["Solar Rail Junction"] = {
 			Name = "Solar Rail Junction",
 			Link = "Junction",
 			Introduced = "Specters of the Rail",
+			Index = 23,
+			InternalName = "MT_JUNCTION",
 			IsEndless = false
 		},
 		Pursuit = {
@@ -230,7 +273,7 @@ local MissionData = {
 			Link = "Pursuit",
 			Introduced = "Specters of the Rail",
 			Index = 24,
-			InternalName = "",
+			InternalName = "MT_PURSUIT",
 			IsEndless = false
 		},
 		Rush = {
@@ -273,11 +316,29 @@ local MissionData = {
 			InternalName = "",
 			IsEndless = false
 		},
+		["MT_RESOURCE_THEFT"] = {
+			Name = "MT_RESOURCE_THEFT",
+			Link = "",
+			Introduced = "999",
+			Index = 29,
+			InternalName = "MT_RESOURCE_THEFT",
+			IsEndless = false
+		},
 		["Sanctuary Onslaught"] = {
 			Name = "Sanctuary Onslaught",
 			Link = "Sanctuary Onslaught",
 			Introduced = "22.18",
+			Index = 30,
 			InternalName = "MT_ENDLESS_EXTERMINATION",
+			IsEndless = true,
+			RewardRotation = "AABC"
+		},
+		["The Circuit"] = {
+			Name = "The Circuit",
+			Link = "The Circuit",
+			Introduced = "33",
+			Index = 31,
+			InternalName = "MT_ENDLESS_DUVIRI",
 			IsEndless = true,
 			RewardRotation = "AABC"
 		},
@@ -285,7 +346,7 @@ local MissionData = {
 			Name = "Disruption",
 			Link = "Disruption",
 			Introduced = "25",
-			Index = 32,
+			Index = 33,
 			InternalName = "MT_ARTIFACT",
 			IsEndless = true,
 			RewardRotation = "Unique, see [[Disruption#Rewards]]"
@@ -294,12 +355,15 @@ local MissionData = {
 			Name = "Free Flight",
 			Link = "Free Flight",
 			Introduced = "27",
+			Index = 32,
+			InternalName = "MT_RAILJACK",
 			IsEndless = false
 		},
 		Skirmish = {
 			Name = "Skirmish",
 			Link = "Skirmish",
 			Introduced = "27",
+			Index = 32,
 			InternalName = "MT_RAILJACK",
 			IsEndless = false
 		},
@@ -307,7 +371,8 @@ local MissionData = {
 			Name = "Orphix",
 			Link = "Orphix (Mission)",
 			Introduced = "29.6",
-			InternalName = "",
+			Index = 32,
+			InternalName = "MT_RAILJACK",
 			IsEndless = true,
 			RewardRotation = "AABC"
 		},
@@ -315,14 +380,15 @@ local MissionData = {
 			Name = "Volatile",
 			Link = "Volatile",
 			Introduced = "29.10",
-			InternalName = "",
+			Index = 32,
+			InternalName = "MT_RAILJACK",
 			IsEndless = false
 		},
 		["Void Flood"] = {
 			Name = "Void Flood",
 			Link = "Void Flood",
 			Introduced = "31.5",
-			Index = 33,
+			Index = 34,
 			InternalName = "MT_CORRUPTION",
 			IsEndless = true,
 			RewardRotation = "AABC"
@@ -331,7 +397,7 @@ local MissionData = {
 			Name = "Void Cascade",
 			Link = "Void Cascade",
 			Introduced = "31.5",
-			Index = 34,
+			Index = 35,
 			InternalName = "MT_VOID_CASCADE",
 			IsEndless = true,
 			RewardRotation = "AABC"
@@ -340,7 +406,7 @@ local MissionData = {
 			Name = "Void Armageddon",
 			Link = "Void Armageddon",
 			Introduced = "31.5",
-			Index = 35,
+			Index = 36,
 			InternalName = "MT_ARMAGEDDON",
 			IsEndless = true,
 			RewardRotation = "AABC"
@@ -349,16 +415,8 @@ local MissionData = {
 			Name = "Mirror Defense",
 			Link = "Mirror Defense",
 			Introduced = "32.3",
-			Index = 36,
+			Index = 8,
 			InternalName = "MT_DEFENSE",
-			IsEndless = true,
-			RewardRotation = "AABC"
-		},
-		Alchemy = {
-			Name = "Alchemy",
-			Link = "Alchemy",
-			Introduced = "35",
-			InternalName = "MT_ALCHEMY",
 			IsEndless = true,
 			RewardRotation = "AABC"
 		},
@@ -366,13 +424,24 @@ local MissionData = {
 			Name = "Netracells",
 			Link = "Netracells",
 			Introduced = "35",
+			Index = 37,
 			InternalName = "MT_VAULTS",
 			IsEndless = false
+		},
+		Alchemy = {
+			Name = "Alchemy",
+			Link = "Alchemy",
+			Introduced = "35",
+			Index = 38,
+			InternalName = "MT_ALCHEMY",
+			IsEndless = true,
+			RewardRotation = "AABC"
 		},
 		Ascension = {
 			Name = "Ascension",
 			Link = "Ascension",
 			Introduced = "36",
+			Index = 39,
 			InternalName = "MT_ASCENSION",
 			IsEndless = false
 		},
@@ -417,6 +486,22 @@ local MissionData = {
 			InternalName = "MT_DEFENSE",
 			IsEndless = true,
 			RewardRotation = "AABC"
+		},
+		["The Descendia"] = {
+			Name = "The Descendia",
+			Link = "The Descendia",
+			Index = 43,
+			Introduced = "41",
+			InternalName = "MT_DESCENT",
+			IsEndless = false,
+		},
+		["The Perita Rebellion"] = {
+			Name = "The Perita Rebellion",
+			Link = "The Perita Rebellion",
+			Index = 44,
+			Introduced = "41",
+			InternalName = "MT_TAU_WAR",
+			IsEndless = false,
 		},
 	},
 	-- Gameplay modifiers or unique gameplay objectives within a particular the mission type
@@ -470,6 +555,11 @@ local MissionData = {
 			Name = "Dark Sectors",
 			Link = "Dark Sectors",
 			LocationNote = "See [[Dark Sectors#Locations]] for specific locations"
+		},
+		["Deepmines Bounty"] = {
+			Name = "Deepmines Bounty",
+			Link = "Deepmines#Bounties",
+			LocationNote = "*[[Fortuna]], [[Venus]]; talk to [[Nightcap]]; Must complete [[The New War]] quest"
 		},
 		["Deep Archimedea"] ={
 			Name = "Deep Archimedea",
@@ -716,6 +806,7 @@ local MissionData = {
 		
 		{ Name = "Fortuna", Link = "Fortuna", Planet = "Venus", Type = "Hub", Quotes = "Fortuna/Quotes", Tileset = "Fortuna", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "SolarisUnitedHub1", Introduced = "24", NextNodes = { "Orb Vallis" }, PreviousNodes = { "E Gate" }, CreditReward = 0 },
 		{ Name = "Orb Vallis", Link = "Orb Vallis", Image = "Orb Vallis.png", Planet = "Venus", Type = "Free Roam", Quotes = "Free Roam/Quotes", Tileset = "Orb Vallis", Enemy = "Corpus", MinLevel = 10, MaxLevel = 30, DropTableAlias = "Landscape", Pic = "SolarisUnitedSigil.png", MasteryExp = 24, InternalName = "SolNode129", Introduced = "24", PreviousNodes = { "Fortuna" }, IsTracked = true, CreditReward = 0, NextNodes = { "Fossa" }},
+		{ Name = "Deepmines", Link = "Deepmines", Image = "Deepmines.png", Planet = "Venus", Type = "Free Roam", Quotes = "Deepmines/Quotes", Tileset = "Deepmines", Enemy = "Corpus", MinLevel = 30, MaxLevel = 40, DropTableAlias = "Landscape", MasteryExp = 0, InternalName = "NokkoColony", Introduced = "40", IsTracked = false, CreditReward = 0 },
 		{ Name = "Aphrodite", Link = "Aphrodite", Planet = "Venus", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 6, MaxLevel = 8, MasteryExp = 18, InternalName = "SolNode2", NextNodes = { "Fossa", "Cytherean" }, PreviousNodes = { "Kiliken" }, IsTracked = true },
 		{ Name = "Cytherean", Link = "Cytherean", Planet = "Venus", Type = "Interception", Quotes = "Interception/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 3, MaxLevel = 8, DropTableAlias = "Interception1", MasteryExp = 18, InternalName = "SolNode23", PreviousNodes = { "Aphrodite" },NextNodes = { "Romula", "V Prime" }, IsTracked = true },
 		{ Name = "E Gate", Link = "E Gate", Planet = "Venus", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 3, MaxLevel = 5, MasteryExp = 18, InternalName = "SolNode128", NextNodes = { "Tessera", "Fortuna", "Kiliken" }, PreviousNodes = { "Venus Junction" }, IsTracked = true, CreditsReward = 1200 },
@@ -730,7 +821,7 @@ local MissionData = {
 		{ Name = "Venera", Link = "Venera", Planet = "Venus", Type = "Capture", Quotes = "Capture/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 5, MaxLevel = 7, DropTableAlias = "Capture", MasteryExp = 18, InternalName = "SolNode107", NextNodes = { "Aphrodite" }, PreviousNodes = { "Tessera", "Unda" }, IsTracked = true, CreditsReward = 1400 },
 		{ Name = "V Prime", Link = "V Prime", Planet = "Venus", Type = "Survival", Quotes = "Survival/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 3, MaxLevel = 8, DropTableAlias = "Survival1", MasteryExp = 18, InternalName = "SolNode123",  PreviousNodes = { "Cytherean" }, IsTracked = true },
 		{ Name = "Fossa", Link = "Fossa", Planet = "Venus", Type = "Assassination", Quotes = "Jackal/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 6, MaxLevel = 8, DropTableAlias = "Jackal",  Boss = "Jackal", Pic = "Jackal_sigil_b.png", Drops = {"Rhino"}, MasteryExp = 41, InternalName = "SolNode104", PreviousNodes = { "Unda", "Orb Vallis", "Aphrodite" }, NextNodes = { "Mercury Junction" }, IsTracked = true },
-		{ Name = "Mercury Junction", Planet = "Venus", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "VenusToMercuryJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "M Prime", "Pantheon", "Larunda Relay" }, PreviousNodes = { "Fossa" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Mercury Junction", Planet = "Venus", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Mercury Junction", MasteryExp = 1000, InternalName = "VenusToMercuryJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "M Prime", "Pantheon", "Larunda Relay" }, PreviousNodes = { "Fossa" }, IsTracked = true, CreditReward = 0 },
 		
 
 		{ Name = "Cetus", Link = "Cetus", Planet = "Earth", Type = "Hub", Quotes = "Cetus/Quotes", Tileset = "Cetus", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "CetusHub4", Introduced = "22", NextNodes = { "Plains of Eidolon", "Saya's Visions" }, PreviousNodes = { "Mantle" }, CreditReward = 0 },
@@ -750,8 +841,8 @@ local MissionData = {
 		{ Name = "Oro", Link = "Oro (Node)", Planet = "Earth", Type = "Assassination", Quotes = "Councilor Vay Hek/Quotes", Tileset = "Grineer Forest", Enemy = "Grineer", MinLevel = 20, MaxLevel = 25, DropTableAlias = "Vay Hek",  Boss = "Councilor Vay Hek", Pic = "VeyHek_sigil_b.png", Drops = {"Hydroid"}, MasteryExp = 24, InternalName = "SolNode24", NextNodes = { "Tikal" }, PreviousNodes = { "Erpo" }, IsTracked = true, Requirements = "Must be [[Mastery Rank]] 5 or higher to access" },
 		{ Name = "Tikal", Link = "Tikal", Planet = "Earth", Type = "Excavation", Quotes = "Excavation/Quotes", IsDarkSector = true, Tileset = "Grineer Forest", Enemy = "Infested", MinLevel = 6, MaxLevel = 16, DropTableAlias = "Excavation1", AdditionalCreditReward = 12000, DSResourceBonus = 0.15, DSXPBonus = 0.12, DSWeaponBonus = 0.08, DSWeapon = "Melee", MasteryExp = 0, InternalName = "ClanNode3", Introduced = "13", PreviousNodes = { "Oro" }, IsTracked = true, Requirements = "Must have [[Saya's Vigil]] completed to access" },
 		{ Name = "Saya's Visions", Link = "Saya's Visions", Planet = "Earth", Type = "Shrine Defense", Quotes = "Shrine Defense/Quotes", Tileset = "Cetus", Enemy = "Infested", MinLevel = 5, MaxLevel = 15, DropTableAlias = "ShrineDefense", MasteryExp = 0, InternalName = "SolNode451", Introduced = "37", PreviousNodes = { "Cetus" }, IsTracked = false },
-		{ Name = "Venus Junction", Planet = "Earth", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "EarthToVenusJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "E Gate" }, PreviousNodes = { "Cambria" }, IsTracked = true, CreditReward = 0 },
-		{ Name = "Mars Junction", Planet = "Earth", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Junction", MasteryExp = 1000, InternalName = "EarthToMarsJunction", Introduced = "Specters of the Rail 0.0", PreviousNodes = { "Eurasia" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Venus Junction", Planet = "Earth", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Venus Junction", MasteryExp = 1000, InternalName = "EarthToVenusJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "E Gate" }, PreviousNodes = { "Cambria" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Mars Junction", Planet = "Earth", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Mars Junction", MasteryExp = 1000, InternalName = "EarthToMarsJunction", Introduced = "Specters of the Rail 0.0", PreviousNodes = { "Eurasia" }, IsTracked = true, CreditReward = 0 },
 		{ Name = "Drifter's Camp", Link = "Drifter's Camp", Planet = "Earth", Type = "Hub", Quotes = "Drifter's Camp/Quotes", Tileset = "Grineer Forest", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "ToggleBootLevel", IsHidden = true, Introduced = "31", CreditReward = 0 },
 		{ Name = "The Orbiter", Link = "Orbiter", Planet = "Earth", Type = "Hub", Quotes = "Hub/Quotes", Tileset = "Orbiter", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "ToggleBootLevel", IsHidden = true, Introduced = "31", CreditReward = 0 },
 		{ Name = "Strata Relay", Link = "Relay", Planet = "Earth", Type = "Relay", Quotes = "Relay/Quotes", Tileset = "Relay", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "EarthHUB", Introduced = "15.6", PreviousNodes = { "Mars Junction" }, CreditReward = 0 },
@@ -775,8 +866,8 @@ local MissionData = {
 		{ Name = "Vallis", Link = "Vallis", Planet = "Mars", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 11, MaxLevel = 13, MasteryExp = 51, InternalName = "SolNode68", PreviousNodes = { "Martialis" }, IsTracked = true },
 		{ Name = "Wahiba", Link = "Wahiba", Planet = "Mars", Type = "Survival", Quotes = "Survival/Quotes", IsDarkSector = true, Tileset = "Corpus Ship", Enemy = "Infested", MinLevel = 10, MaxLevel = 20, DropTableAlias = "DSSurvival2", AdditionalCreditReward = 14000, DSResourceBonus = 0.2, DSXPBonus = 0.15, DSWeaponBonus = 0.1, DSWeapon = "Pistols", MasteryExp = 0, InternalName = "ClanNode9", Introduced = "13", PreviousNodes = { "Ultor" }, IsTracked = true },
 		{ Name = "War", Link = "War (Node)", Planet = "Mars", Type = "Assassination", Quotes = "Lieutenant Lech Kril/Quotes", Tileset = "Grineer Settlement", Enemy = "Grineer", MinLevel = 11, MaxLevel = 13, DropTableAlias = "Lech Kril", Boss = "Lieutenant Lech Kril", Pic = "LechKril_sigil_b.png", Drops = {"Excalibur"}, MasteryExp = 51, InternalName = "SolNode99", NextNodes = { "Martialis", "Horend" }, PreviousNodes = { "Augustus" }, IsTracked = true },
-		{ Name = "Ceres Junction", Planet = "Mars", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Junction", MasteryExp = 1000, InternalName = "MarsToCeresJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Pallas" }, PreviousNodes = { "Martialis" }, IsTracked = true, CreditReward = 0 },
-		{ Name = "Phobos Junction", Planet = "Mars", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "MarsToPhobosJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Roche" }, PreviousNodes = { "Gradivus" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Ceres Junction", Planet = "Mars", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Ceres Junction", MasteryExp = 1000, InternalName = "MarsToCeresJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Pallas" }, PreviousNodes = { "Martialis" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Phobos Junction", Planet = "Mars", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Phobos Junction", MasteryExp = 1000, InternalName = "MarsToPhobosJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Roche" }, PreviousNodes = { "Gradivus" }, IsTracked = true, CreditReward = 0 },
 		
 		{ Name = "Roche", Link = "Roche", Planet = "Phobos", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 10, MaxLevel = 12, MasteryExp = 157, InternalName = "SettlementNode1", NextNodes = { "Sharpless", "Shklovsky" }, PreviousNodes = { "Phobos Junction" }, IsTracked = true },
 		{ Name = "Sharpless", Link = "Sharpless", Planet = "Phobos", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 11, MaxLevel = 13, MasteryExp = 157, InternalName = "SettlementNode15", NextNodes = { "Gulliver", "Kepler" }, PreviousNodes = { "Roche" }, IsTracked = true },
@@ -808,7 +899,7 @@ local MissionData = {
 		{ Name = "Munio", Link = "Munio", Planet = "Deimos", Type = "Mirror Defense", Quotes = "Mirror Defense/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiMirrorDefense", MasteryExp = 0, InternalName = "SolNode719", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
 		{ Name = "Testudo", Link = "Testudo", Planet = "Deimos", Type = "Netracells", Quotes = "Netracells/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 220, MaxLevel = 240, DropTableAlias = "Netracells", MasteryExp = 0, InternalName = "SolNode720", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsHidden = true, IsTracked = false },
 		{ Name = "Armatus", Link = "Armatus", Planet = "Deimos", Type = "Disruption", Quotes = "Disruption/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiDisruption", MasteryExp = 0, InternalName = "SolNode721", Introduced = "35.5", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
-		{ Name = "Jupiter Junction", Planet = "Deimos", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "CeresToJupiterJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Elara" }, PreviousNodes = { "Formido" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Jupiter Junction", Planet = "Deimos", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Jupiter Junction", MasteryExp = 1000, InternalName = "CeresToJupiterJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Elara" }, PreviousNodes = { "Formido" }, IsTracked = true, CreditReward = 0 },
 		
 		{ Name = "Bode", Link = "Bode", Planet = "Ceres", Type = "Spy", Quotes = "Spy/Quotes", Tileset = "Grineer Shipyard", Enemy = "Grineer", MinLevel = 12, MaxLevel = 14, DropTableAlias = "Spy2", MasteryExp = 163, InternalName = "SolNode132", NextNodes = { "Casta", "Nuovo" }, PreviousNodes = { "Pallas" }, IsTracked = true },
 		{ Name = "Casta", Link = "Casta", Planet = "Ceres", Type = "Defense", Quotes = "Defense/Quotes", Tileset = "Grineer Shipyard", Enemy = "Grineer", MinLevel = 12, MaxLevel = 17, DropTableAlias = "Defense1", Other = "I", MasteryExp = 163, InternalName = "SolNode149", NextNodes = { "Lex", "Seimeni" }, PreviousNodes = { "Bode" }, IsTracked = true },
@@ -841,8 +932,8 @@ local MissionData = {
 		{ Name = "Sinai", Link = "Sinai", Planet = "Jupiter", Type = "Defense", Quotes = "Defense/Quotes", IsDarkSector = true, Tileset = "Corpus Gas City", Enemy = "Infested", MinLevel = 20, MaxLevel = 30, DropTableAlias = "DSDefense", AdditionalCreditReward = 14000, DSResourceBonus = 0.2, DSXPBonus = 0.15, DSWeaponBonus = 0.1, DSWeapon = "Melee", MasteryExp = 0, InternalName = "ClanNode4", Introduced = "13", PreviousNodes = { "Amalthea" }, IsTracked = true },
 		{ Name = "Themisto", Link = "Themisto", Planet = "Jupiter", Type = "Assassination", Quotes = "Alad V/Quotes", Tileset = "Corpus Gas City", Enemy = "Corpus", MinLevel = 18, MaxLevel = 20, DropTableAlias = "Alad V", Boss = "Alad V", Pic = "AladV_sigil_b.png", Drops = {"Valkyr"}, MasteryExp = 51, InternalName = "SolNode53", Introduced = "11", NextNodes = { "Saturn Junction" }, PreviousNodes = { "Io", "Thebe" }, IsTracked = true },
 		{ Name = "The Ropalolyst", Link = "The Ropalolyst", Planet = "Jupiter", Type = "Assassination", Quotes = "Ropalolyst/Quotes", Tileset = "Corpus Gas City", Enemy = "Corpus", MinLevel = 40, MaxLevel = 40, DropTableAlias = "Ropalolyst", ExtraDropTableAlias = "RopalolystExtra", Boss = "Ropalolyst", Pic = "Ropalolyst.png", Drops = {"Wisp"}, MasteryExp = 55, InternalName = "SolNode740", Introduced = "25", PreviousNodes = { "Ganymede" }, IsTracked = true, Requirements = "Must complete [[Chimera Prologue]] to access" },
-		{ Name = "Europa Junction", Planet = "Jupiter", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "JupiterToEuropaJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Morax" }, PreviousNodes = { "Carpo" }, IsTracked = true, CreditReward = 0 },
-		{ Name = "Saturn Junction", Planet = "Jupiter", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "JupiterToSaturnJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Cassini", "Dione", "Kronia Relay" }, PreviousNodes = { "Themisto" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Europa Junction", Planet = "Jupiter", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Europa Junction", MasteryExp = 1000, InternalName = "JupiterToEuropaJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Morax" }, PreviousNodes = { "Carpo" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Saturn Junction", Planet = "Jupiter", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Saturn Junction", MasteryExp = 1000, InternalName = "JupiterToSaturnJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Cassini", "Dione", "Kronia Relay" }, PreviousNodes = { "Themisto" }, IsTracked = true, CreditReward = 0 },
 		
 		{ Name = "Abaddon", Link = "Abaddon", Planet = "Europa", Type = "Capture", Quotes = "Capture/Quotes", Tileset = "Corpus Ice Planet", Enemy = "Corpus", MinLevel = 21, MaxLevel = 23, DropTableAlias = "Capture", MasteryExp = 138, InternalName = "SolNode203", NextNodes = { "Larzac" }, PreviousNodes = { "Kokabiel" }, IsTracked = true, CreditsReward = 3000 },
 		{ Name = "Armaros", Link = "Armaros", Planet = "Europa", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Infested Ship", Enemy = {"Infested", "Corpus"}, MinLevel = 18, MaxLevel = 20, MasteryExp = 138, InternalName = "SolNode204", PreviousNodes = { "Naamah" }, IsTracked = true },
@@ -877,7 +968,7 @@ local MissionData = {
 		{ Name = "Telesto", Link = "Telesto", Planet = "Saturn", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 22, MaxLevel = 24, MasteryExp = 55, InternalName = "SolNode20", NextNodes = { "Tethys" }, PreviousNodes = { "Dione" }, IsTracked = true },
 		{ Name = "Titan", Link = "Titan", Planet = "Saturn", Type = "Survival", Quotes = "Survival/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 21, MaxLevel = 26, DropTableAlias = "Survival2", MasteryExp = 55, InternalName = "SolNode96", PreviousNodes = { "Enceladus" }, IsTracked = true },
 		{ Name = "Tethys", Link = "Tethys", Planet = "Saturn", Type = "Assassination", Quotes = "General Sargas Ruk/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 24, MaxLevel = 26, DropTableAlias = "Sargas Ruk", Boss = "General Sargas Ruk", Pic = "SargusRuk_sigil_b.png", Drops = {"Ember"}, MasteryExp = 55, InternalName = "SolNode32", NextNodes = { "Uranus Junction" }, PreviousNodes = { "Telesto", "Helene", "Keeler" }, IsTracked = true },
-		{ Name = "Uranus Junction", Planet = "Saturn", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "SaturnToUranusJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Sycorax" }, PreviousNodes = { "Tethys" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Uranus Junction", Planet = "Saturn", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Uranus Junction", MasteryExp = 1000, InternalName = "SaturnToUranusJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Sycorax" }, PreviousNodes = { "Tethys" }, IsTracked = true, CreditReward = 0 },
 		{ Name = "Kronia Relay", Planet = "Saturn", Type = "Relay", Quotes = "Relay/Quotes", Tileset = "Relay", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, Link = "Relay", MasteryExp = 0, InternalName = "SaturnHUB", Introduced = "15.6", PreviousNode = "Saturn Junction", Requirements = "Must be [[Mastery Rank]] 4 or higher to access", CreditReward = 0 },
 		
 		{ Name = "Ariel", Link = "Ariel", Planet = "Uranus", Type = "Capture", Quotes = "Capture/Quotes", Tileset = "Grineer Sealab", Enemy = "Grineer", MinLevel = 25, MaxLevel = 27, DropTableAlias = "Capture", MasteryExp = 69, InternalName = "SolNode33", NextNodes = { "Cressida" }, PreviousNodes = { "Sycorax" }, IsTracked = true, CreditsReward = 3400 },
@@ -895,7 +986,7 @@ local MissionData = {
 		{ Name = "Umbriel", Link = "Umbriel", Planet = "Uranus", Type = "Interception", Quotes = "Interception/Quotes", Tileset = "Grineer Sealab", Enemy = "Grineer", MinLevel = 24, MaxLevel = 29, DropTableAlias = "Interception2", MasteryExp = 69, InternalName = "SolNode64", NextNodes = { "Ophelia" }, PreviousNodes = { "Stephano" }, IsTracked = true },
 		{ Name = "Ur", Link = "Ur", Planet = "Uranus", Type = "Disruption", Quotes = "Disruption/Quotes", IsDarkSector = true, Tileset = "Grineer Galleon", Enemy = "Infested", MinLevel = 30, MaxLevel = 35, DropTableAlias = "DisruptionUranus", AdditionalCreditReward = 16000, DSResourceBonus = 0.25, DSXPBonus = 0.18, DSWeaponBonus = 0.13, DSWeapon = "Pistols", MasteryExp = 0, InternalName = "ClanNode16", Introduced = "13", PreviousNodes = { "Cressida" }, IsTracked = true },
 		{ Name = "Titania", Link = "Titania (Node)", Planet = "Uranus", Type = "Assassination", Quotes = "Tyl Regor/Quotes", Tileset = "Grineer Sealab", Enemy = "Grineer", MinLevel = 27, MaxLevel = 29, DropTableAlias = "Tyl Regor", Boss = "Tyl Regor", Pic = "TylRegor_sigil_b.png", Drops = {"Equinox"}, MasteryExp = 69, InternalName = "SolNode105", NextNodes = { "Neptune Junction" }, PreviousNodes = { "Cressida", "Puck", "Rosalind" }, IsTracked = true },
-		{ Name = "Neptune Junction", Planet = "Uranus", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "UranusToNeptuneJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Galatea" }, PreviousNodes = { "Titania" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Neptune Junction", Planet = "Uranus", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Neptune Junction", MasteryExp = 1000, InternalName = "UranusToNeptuneJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Galatea" }, PreviousNodes = { "Titania" }, IsTracked = true, CreditReward = 0 },
 		
 		{ Name = "Despina", Link = "Despina", Planet = "Neptune", Type = "Excavation", Quotes = "Excavation/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 27, MaxLevel = 32, DropTableAlias = "Excavation3", MasteryExp = 52, InternalName = "SolNode6", NextNodes = { "Sao" }, PreviousNodes = { "Galatea" }, IsTracked = true },
 		{ Name = "Galatea", Link = "Galatea", Planet = "Neptune", Type = "Capture", Quotes = "Capture/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 27, MaxLevel = 29, DropTableAlias = "Capture", MasteryExp = 52, InternalName = "SolNode1", NextNodes = { "Despina", "Triton" }, PreviousNodes = { "Neptune Junction" }, IsTracked = true, CreditsReward = 3500 },
@@ -911,7 +1002,7 @@ local MissionData = {
 		{ Name = "Yursa", Link = "Yursa", Planet = "Neptune", Type = "Defection", Quotes = "Defection/Quotes", IsDarkSector = true, Tileset = "Infested Ship", Enemy = "Infested", MinLevel = 30, MaxLevel = 40, DropTableAlias = "Defection3", AdditionalCreditReward = 18000, DSResourceBonus = 0.3, DSXPBonus = 0.23, DSWeaponBonus = 0.18, DSWeapon = "Shotguns", MasteryExp = 0, InternalName = "ClanNode20", Introduced = "13", PreviousNodes = { "Salacia" }, IsTracked = true },
 		{ Name = "Psamathe", Link = "Psamathe", Planet = "Neptune", Type = "Assassination", Quotes = "Hyena Pack/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 30, MaxLevel = 32, DropTableAlias = "Hyena Pack", Boss = "Hyena Pack", Pic = "HyenaPack_sigil_b.png", Drops = {"Loki"}, MasteryExp = 52, InternalName = "SolNode127", NextNodes = { "Pluto Junction" }, PreviousNodes = { "Laomedeia", "Nereid" }, IsTracked = true },
 		{ Name = "The Index: Endurance", Link = "The Index", Planet = "Neptune", Type = "Arena", Quotes = "Arena/Quotes", Tileset = "The Index", Enemy = "Corpus", MinLevel = 30, MaxLevel = 30, DropTableAlias = "TheIndex", MasteryExp = 0, InternalName = "EventNode763", PreviousNodes = { "Nereid" }, CreditReward = 0 },
-		{ Name = "Pluto Junction", Planet = "Neptune", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Junction", MasteryExp = 1000, InternalName = "NeptuneToPlutoJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Hydra", "Minthe", "Orcus Relay" }, PreviousNodes = { "Psamathe" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Pluto Junction", Planet = "Neptune", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Pluto Junction", MasteryExp = 1000, InternalName = "NeptuneToPlutoJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Hydra", "Minthe", "Orcus Relay" }, PreviousNodes = { "Psamathe" }, IsTracked = true, CreditReward = 0 },
 		
 		{ Name = "Acheron", Link = "Acheron", Planet = "Pluto", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 34, MaxLevel = 38, MasteryExp = 51, InternalName = "SolNode4", NextNodes = { "Eris Junction" }, PreviousNodes = { "Oceanum" }, IsTracked = true },
 		{ Name = "Cerberus", Link = "Cerberus", Planet = "Pluto", Type = "Interception", Quotes = "Interception/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 30, MaxLevel = 40, DropTableAlias = "Interception3", MasteryExp = 51, InternalName = "SolNode43", NextNodes = { "Palus" }, PreviousNodes = { "Cypress" }, IsTracked = true },
@@ -926,8 +1017,8 @@ local MissionData = {
 		{ Name = "Hieracon", Link = "Hieracon", Planet = "Pluto", Type = "Excavation", Quotes = "Excavation/Quotes", IsDarkSector = true, Tileset = "Corpus Outpost", Enemy = "Infested", MinLevel = 35, MaxLevel = 45, DropTableAlias = "Excavation3", AdditionalCreditReward = 20000, DSResourceBonus = 0.35, DSXPBonus = 0.3, DSWeaponBonus = 0.25, DSWeapon = "Pistols", MasteryExp = 0, InternalName = "ClanNode25", Introduced = "13", PreviousNodes = { "Regna" }, IsTracked = true },
 		{ Name = "Sechura", Link = "Sechura", Planet = "Pluto", Type = "Defense", Quotes = "Defense/Quotes", IsDarkSector = true, Tileset = "Corpus Outpost", Enemy = "Infested", MinLevel = 35, MaxLevel = 45, DropTableAlias = "DSDefense", AdditionalCreditReward = 20000, DSResourceBonus = 0.35, DSXPBonus = 0.3, DSWeaponBonus = 0.25, DSWeapon = "Rifles", MasteryExp = 0, InternalName = "ClanNode24", Introduced = "13", PreviousNodes = { "Outer Terminus" }, IsTracked = true },
 		{ Name = "Hades", Link = "Hades", Planet = "Pluto", Type = "Assassination", Quotes = "Ambulas/Quotes", Tileset = "Corpus Outpost", Enemy = "Corpus", MinLevel = 35, MaxLevel = 45, DropTableAlias = "Ambulas", Boss = "Ambulas", Pic = "Ambulas_sigil_b.png", Drops = {"Trinity"}, MasteryExp = 51, InternalName = "SolNode51", PreviousNodes = { "Palus" }, IsTracked = true, Requirements = "Must have 5 [[Animo Nav Beacon]]s to access" },
-		{ Name = "Eris Junction", Planet = "Pluto", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Junction", MasteryExp = 1000, InternalName = "PlutoToErisJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Naeglar" }, PreviousNodes = { "Acheron" }, IsTracked = true, CreditReward = 0 },
-		{ Name = "Sedna Junction", Planet = "Pluto", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Junction", MasteryExp = 1000, InternalName = "ErisToSednaJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Naga" }, PreviousNodes = { "Oestrus" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Eris Junction", Planet = "Pluto", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Eris Junction", MasteryExp = 1000, InternalName = "PlutoToErisJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Naeglar" }, PreviousNodes = { "Acheron" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Sedna Junction", Planet = "Pluto", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 1, Link = "Sedna Junction", MasteryExp = 1000, InternalName = "ErisToSednaJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Naga" }, PreviousNodes = { "Oestrus" }, IsTracked = true, CreditReward = 0 },
 		{ Name = "Orcus Relay", Link = "Relay", Planet = "Pluto", Type = "Relay", Quotes = "Relay/Quotes", Tileset = "Relay", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "PlutoHUB", Introduced = "15.6", PreviousNodes = { "Pluto Junction" }, Requirements = "Must be [[Mastery Rank]] 8 or higher to access", CreditReward = 0 },
 			
 		{ Name = "Naga", Link = "Naga", Planet = "Sedna", Type = "Rescue", Quotes = "Rescue/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 30, MaxLevel = 34, DropTableAlias = "Rescue3", MasteryExp = 177, InternalName = "SolNode189", NextNodes = { "Adaro", "Rusalka" }, PreviousNodes = { "Sedna Junction" }, IsTracked = true },
@@ -997,17 +1088,20 @@ local MissionData = {
 		
 		{ Name = "Phorid Alert", Link = "Phorid", Planet = "Invasion", Type = "Assassination", Quotes = "Phorid/Quotes", Tileset = "Grineer Asteroid", Enemy = "Infested", MinLevel = 0, MaxLevel = 0, DropTableAlias = "Phorid", Boss = "Phorid", Pic = "Phorid_sigil_b.png", Drops = {"Nyx"}, MasteryExp = 0, InternalName = "", CreditReward = 0 },
 		
-		{ Name = "Tuvul Commons", Link = "Tuvul Commons", Planet = "Zariman Ten Zero", Type = "Void Cascade", Quotes = "Void Cascade/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidCascade", MasteryExp = 0, InternalName = "SolNode232", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
-		{ Name = "Everview Arc", Link = "Everview Arc", Planet = "Zariman Ten Zero", Type = "Void Flood", Quotes = "Void Flood/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidFlood", MasteryExp = 0, InternalName = "SolNode230", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
-		{ Name = "Halako Perimeter", Link = "Halako Perimeter", Planet = "Zariman Ten Zero", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "ZarimanExterminate", MasteryExp = 0, InternalName = "SolNode231", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
-		{ Name = "The Greenway", Link = "The Greenway", Planet = "Zariman Ten Zero", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "ZarimanMobileDefense", MasteryExp = 0, InternalName = "SolNode235", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
-		{ Name = "Oro Works", Link = "Oro Works", Planet = "Zariman Ten Zero", Type = "Void Armageddon", Quotes = "Void Armageddon/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidArmageddon", MasteryExp = 0, InternalName = "SolNode233", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
-		{ Name = "The Duviri Experience", Link = "The Duviri Experience", Planet = "Zariman Ten Zero", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
-		{ Name = "The Lone Story (Duviri)", Link = "The Lone Story", Planet = "Zariman Ten Zero", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode237", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
-		{ Name = "The Circuit", Link = "The Circuit", Planet = "Zariman Ten Zero", Type = "Free Roam", Quotes = "The Circuit/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheCircuit", MasteryExp = 0, InternalName = "SolNode238", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
-		{ Name = "Isleweaver", Link = "Isleweaver", Planet = "Zariman Ten Zero", Type = "Free Roam", Quotes = "Isleweaver/Quotes", Tileset = "Duviri", Enemy = "Murmur", MinLevel = 60, MaxLevel = 62, DropTableAlias = "Isleweaver", Pic = "MurmurIcon.png", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "39", Requirements = "Must have [[The Hex]] completed to access", IsTracked = true, CreditReward = 0 },
-		{ Name = "Chrysalith", Link = "Chrysalith", Image = "Chrysalith.jpg", Planet = "Zariman Ten Zero", Type = "Hub", Quotes = "Chrysalith/Quotes", Tileset = "Chrysalith", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "ZarimanHub", Introduced = "31.5", NextNodes = { "Everview Arc", "Halako Perimeter", "Tuvul Commons", "Oro Works", "The Greenway" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", CreditReward = 0 },
-		{ Name = "Dormizone", Link = "Dormizone", Planet = "Zariman Ten Zero", Type = "Hub", Quotes = "Dormizone/Quotes", Tileset = "Dormizone", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "SolNode234", Introduced = "31.5", CreditReward = 0 },
+		-- Zariman
+		{ Name = "Tuvul Commons", Link = "Tuvul Commons", Planet = "Zariman", Type = "Void Cascade", Quotes = "Void Cascade/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidCascade", MasteryExp = 0, InternalName = "SolNode232", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
+		{ Name = "Everview Arc", Link = "Everview Arc", Planet = "Zariman", Type = "Void Flood", Quotes = "Void Flood/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidFlood", MasteryExp = 0, InternalName = "SolNode230", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
+		{ Name = "Halako Perimeter", Link = "Halako Perimeter", Planet = "Zariman", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "ZarimanExterminate", MasteryExp = 0, InternalName = "SolNode231", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
+		{ Name = "The Greenway", Link = "The Greenway", Planet = "Zariman", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "ZarimanMobileDefense", MasteryExp = 0, InternalName = "SolNode235", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
+		{ Name = "Oro Works", Link = "Oro Works", Planet = "Zariman", Type = "Void Armageddon", Quotes = "Void Armageddon/Quotes", Tileset = "Zariman (Tileset)", Enemy = "Grineer or Corpus", MinLevel = 50, MaxLevel = 55, DropTableAlias = "VoidArmageddon", MasteryExp = 0, InternalName = "SolNode233", Introduced = "31.5", PreviousNodes = { "Chrysalith" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", IsTracked = true },
+		{ Name = "Chrysalith", Link = "Chrysalith", Image = "Chrysalith.jpg", Planet = "Zariman", Type = "Hub", Quotes = "Chrysalith/Quotes", Tileset = "Chrysalith", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "ZarimanHub", Introduced = "31.5", NextNodes = { "Everview Arc", "Halako Perimeter", "Tuvul Commons", "Oro Works", "The Greenway" }, Requirements = "Must have [[Angels of the Zariman]] completed to access", CreditReward = 0 },
+		{ Name = "Dormizone", Link = "Dormizone", Planet = "Zariman", Type = "Hub", Quotes = "Dormizone/Quotes", Tileset = "Dormizone", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "SolNode234", Introduced = "31.5", CreditReward = 0 },
+		
+		-- Duviri
+		{ Name = "The Duviri Experience", Link = "The Duviri Experience", Planet = "Duviri", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
+		{ Name = "The Lone Story (Duviri)", Link = "The Lone Story", Planet = "Duviri", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode237", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
+		{ Name = "The Circuit", Link = "The Circuit", Planet = "Duviri", Type = "Free Roam", Quotes = "The Circuit/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheCircuit", MasteryExp = 0, InternalName = "SolNode238", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
+		{ Name = "Isleweaver", Link = "Isleweaver", Planet = "Duviri", Type = "Free Roam", Quotes = "Isleweaver/Quotes", Tileset = "Duviri", Enemy = "The Murmur", MinLevel = 60, MaxLevel = 62, DropTableAlias = "Isleweaver", Pic = "MurmurIcon.png", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "39", Requirements = "Must have [[The Hex]] completed to access", IsTracked = true, CreditReward = 0 },
 		
 		-- 1999
 		{ Name = "Köbinn West", Link = "Köbinn West", Planet = "Höllvania", Type = "Legacyte Harvest", Quotes = "Legacyte Harvest/Quotes", Tileset = "Höllvania", Enemy = "Techrot", MinLevel = 65, MaxLevel = 70, DropTableAlias = "1999LegacyteHarvest", MasteryExp = 0, InternalName = "SolNode850", Introduced = "38", Requirements = "Must have [[The Hex (Quest)]] completed to access", IsTracked = true },
@@ -1020,8 +1114,14 @@ local MissionData = {
 		{ Name = "Vehrvod District", Link = "Vehrvod District", Planet = "Höllvania", Type = "Faceoff", Quotes = "Faceoff/Quotes", Tileset = "Höllvania", Enemy = "Scaldra", MinLevel = 65, MaxLevel = 70, DropTableAlias = "Faceoff", MasteryExp = 0, InternalName = "SolNode857", Introduced = "38", Requirements = "Must have [[The Hex (Quest)]] completed to access\nMust have [[Lower Vehrvod]] completed", IsTracked = true },
 		{ Name = "Solstice Square", Link = "Solstice Square", Planet = "Höllvania", Type = "Stage Defense", Quotes = "Solstice Square/Quotes", Tileset = "Höllvania", Enemy = "Scaldra", MinLevel = 65, MaxLevel = 70, DropTableAlias = "1999Defense", MasteryExp = 0, InternalName = "SolNode858", Introduced = "38.5", Requirements = "Must have [[The Hex (Quest)]] completed to access", IsTracked = true },
 		{ Name = "Höllvania Central Mall", Link = "Höllvania Central Mall", Planet = "Höllvania", Type = "Hub", Quotes = "", Tileset = "Höllvania", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "1999Hub", Introduced = "38", Requirements = "Must have [[The Hex (Quest)]] completed to access", CreditReward = 0 , IsTracked = false },
+	
+		-- The Dark Refractory
+		{ Name = "The Descendia", Link = "The Descendia", Planet = "Dark Refractory", Image = "CohPrecpice.png", Type = "The Descendia", Quotes = "The Descendia/Quotes", Tileset = "Descendia", Enemy = "Orokin", MinLevel = 65, MaxLevel = 85, DropTableAlias = "The Descendia", MasteryExp = 0, InternalName = "SolNode253", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Roathe (Boss)" },
+		{ Name = "The Perita Rebellion (Hunhullus)", Link = "The Perita Rebellion", Image = "Tau12MinHunhullus.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Hunhullus)", MasteryExp = 0, InternalName = "SolNode250", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Hunhullus", Pic = "Hunhullus.png" },
+		{ Name = "The Perita Rebellion (Dactolyst)", Link = "The Perita Rebellion", Image = "Tau12MinOkokin.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Dactolyst)", MasteryExp = 0, InternalName = "SolNode251", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Dactolyst", Pic = "Dactolyst.png" },
+		{ Name = "The Perita Rebellion (Prime Vanguard)", Link = "The Perita Rebellion", Image = "Tau12MinPeople.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Prime Vanguard)", MasteryExp = 0, InternalName = "SolNode252", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = false, Boss = "Prime Vanguard" },
 
--- Empyrean
+		-- Empyrean
 		{ Name = "Technocyte Coda Concert", Link = "Technocyte Coda", Planet = "Earth Proxima", Type = "Assassination", Quotes = "Assassination/Quotes", Tileset = "Technocyte Coda Stadium", Enemy = "Techrot", MinLevel = 100, MaxLevel = 100, FighterMinLevel = 20, FighterMaxLevel = 30, MaxFighters = 0, MaxCrewships = 0, Objectives = 0, Drops = {}, MasteryExp = 0, InternalName = "CrewBattleNode559", IsHidden = true, Introduced = "38.5", IsRailjack = true, Requirements = "Must complete [[The Hex (Quest)|The Hex]] quest to access and active [[Technocyte Coda]]." },
 		{ Name = "Free Flight", Link = "Free Flight", Planet = "Earth Proxima", Type = "Free Flight", Quotes = "Free Flight/Quotes", Tileset = "Free Space", Enemy = "Grineer", MinLevel = 1, MaxLevel = 1, MasteryExp = 0, FighterMinLevel = 1, FighterMaxLevel = 1, MaxFighters = 0, MaxCrewships = 0, Objectives = 0, InternalName = "CrewBattleNode556", Introduced = "27", IsRailjack = true, CreditReward = 0 },
 		{ Name = "Sover Strait", Link = "Sover Strait", Planet = "Earth Proxima", Type = "Skirmish", Quotes = "Skirmish/Quotes", Tileset = "Free Space", Enemy = "Grineer", MinLevel = 15, MaxLevel = 20, DropTableAlias = "EarthProximaSkirmish", CacheDropTableAlias = "EarthProximaCaches", ExtraDropTableAlias = "GrineerProximaExtra", FighterMinLevel = 3, FighterMaxLevel = 6, MaxFighters = 30, MaxCrewships = 2, Objectives = 0, MasteryExp = 0, InternalName = "CrewBattleNode502", Introduced = "27", IsRailjack = true, NextNodes = { "Iota Temple" }, Requirements = "Must have [[Rising Tide]] completed to access", AdditionalCreditReward = 32000 },
@@ -1085,6 +1185,7 @@ local MissionData = {
 		'MasteryExp',
 		'ObjectiveDetails',
 		'InternalName',
+		'IsDarkSector',
 	},
 }
 
