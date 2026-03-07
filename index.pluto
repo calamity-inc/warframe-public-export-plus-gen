@@ -2694,6 +2694,11 @@ local function process_weapon(weapon)
 		end
 	end
 
+	if AltWeaponType := obj_find_property(weapon.uniqueName, "AltWeaponType") then
+		weapon.__order:insert("bayonetOtherWeaponType")
+		weapon.bayonetOtherWeaponType = obj_resolve_path(weapon.uniqueName, AltWeaponType)
+	end
+
 	if name := dicts.en[weapon.name] then
 		name_to_storeitem_map[name:lower()] = to_storeitem(weapon.uniqueName)
 	end
@@ -2776,6 +2781,7 @@ for LANGS as lang do
 			"/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaPlayerWeapon", -- Syam
 			"/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaPlayerWeapon", -- Azothane
 			"/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldPlayerWeapon", -- Argo & Vel
+			"/Lotus/Weapons/Tenno/Bayonet/TnBayonetMeleeWeapon", -- Vinquibus (Melee)
 		}
 		for missing_weapons as path do
 			ExportWeapons_dedup.__order:insert(path)
