@@ -2891,24 +2891,10 @@ do
 		if io.isfile(file) then
 			local path = file:sub(#PACKAGES_BIN_BASE + 1, -6):replace("\\", "/")
 			--local obj = obj_from_path(path)
-			if path ~= "/Lotus/Types/BoosterPacks/CommonArtifactPack"
-				and path ~= "/Lotus/Types/BoosterPacks/CommonFusionPack"
-				and path ~= "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackBase"
+			if path ~= "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackBase"
 				and path ~= "/Lotus/Types/BoosterPacks/GreaterRandomProjection"
 				and path ~= "/Lotus/Types/BoosterPacks/LotusArtifactUpgradePackBase"
-				and path ~= "/Lotus/Types/BoosterPacks/PremiumRareArtifactPack"
-				and path ~= "/Lotus/Types/BoosterPacks/PremiumRareFusionPack"
-				and path ~= "/Lotus/Types/BoosterPacks/PremiumUncommonArtifactPack"
-				and path ~= "/Lotus/Types/BoosterPacks/PremiumUncommonFusionPack"
-				and path ~= "/Lotus/Types/BoosterPacks/RandomKey"
-				and path ~= "/Lotus/Types/BoosterPacks/RareArtifactPack"
-				and path ~= "/Lotus/Types/BoosterPacks/RareFusionPack"
-				and path ~= "/Lotus/Types/BoosterPacks/SingleCommonArtifact"
-				and path ~= "/Lotus/Types/BoosterPacks/SingleRareArtifact"
 				and path ~= "/Lotus/Types/BoosterPacks/Tennobaum2021PackBase"
-				and path ~= "/Lotus/Types/BoosterPacks/UltraRareFusionPack"
-				and path ~= "/Lotus/Types/BoosterPacks/UncommonArtifactPack"
-				and path ~= "/Lotus/Types/BoosterPacks/UncommonFusionPack"
 				and path ~= "/Lotus/Types/BoosterPacks/1999StickersPackBase"
 			then
 				--print(path)
