@@ -1077,7 +1077,6 @@
 /Lotus/Interface/Icons/Player/ExcaliburChibi.png: https://media.invisioncic.com/Mwarframe/pages_media/ExcaliburChibi.png
 /Lotus/Interface/Icons/Player/CommunityTennobaumGrimoireGlyph.png: https://media.invisioncic.com/Mwarframe/pages_media/CommunityTennobaumGrimoireGlyph.png
 /Lotus/Interface/Icons/Player/ContentCreators/CanOfCraig.png: https://media.invisioncic.com/Mwarframe/pages_media/CanOfCraig.png
-/Lotus/Interface/Icons/Player/ContentCreators/Sixixgatsu.png: https://media.invisioncic.com/Mwarframe/pages_media/Sixixgatsu.png
 /Lotus/Interface/Icons/Player/FrostS3AvatarDark.png: https://media.invisioncic.com/Mwarframe/pages_media/FrostS3AvatarDark.png
 /Lotus/Interface/Icons/Player/BaruukDeluxeAvatar.png: https://media.invisioncic.com/Mwarframe/pages_media/BaruukDeluxeAvatar.png
 /Lotus/Interface/Icons/Player/ContentCreators/Trysmj.png: https://media.invisioncic.com/Mwarframe/pages_media/Trysmj.png
