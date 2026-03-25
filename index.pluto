@@ -1067,14 +1067,14 @@ do
 	local factionIndexToTag = {}
 	local ExportFactions = { __order = {} }
 	for json.decode(io.contents("extras/eFaction.json")) as faction do
+		factionIndexToTag[faction.id] = faction.tag
+		ExportFactions.__order:insert(faction.tag)
+		ExportFactions[faction.tag] = {
+			__order = { "index", "name" },
+			index = faction.id,
+			name = faction.name
+		}
 		if faction.name then
-			factionIndexToTag[faction.id] = faction.tag
-			ExportFactions.__order:insert(faction.tag)
-			ExportFactions[faction.tag] = {
-				__order = { "index", "name" },
-				index = faction.id,
-				name = faction.name
-			}
 			import_from_languages_bin(faction.name)
 		end
 	end
@@ -1177,7 +1177,7 @@ do
 				if languages_bin_dicts.en[system_tags[item.uniqueName]] ~= item.systemName then print(item.uniqueName .. " does not have a correct system tag: " .. item.systemName) end
 
 				item.__order:insert(7, "missionType")
-				item.missionType = missionIndexToTag[item.missionIndex]
+				item.missionType = missionIndexToTag[item.missionIndex] or error(item.missionIndex)
 
 				item.__order:insert(9, "missionName")
 				item.missionName = switch item.uniqueName do
@@ -1191,7 +1191,7 @@ do
 				import_from_languages_bin(item.missionName)
 
 				item.__order:insert(10, "faction")
-				item.faction = factionIndexToTag[item.factionIndex]
+				item.faction = factionIndexToTag[item.factionIndex] or error(item.factionIndex)
 
 				item.__order:insert(12, "factionName")
 				item.factionName = ExportFactions[item.faction].name
@@ -2816,17 +2816,16 @@ do
 	local ExportAchievements = { __order = {} }
 	for obj_from_path("/Lotus/Types/Challenges/LotusChallengeMgr").data.EnabledChallenges as tag do
 		local path = "/Lotus/Types/Challenges/"..tag
-		local obj = obj_from_path(path)
 		ExportAchievements.__order:insert(tag)
 		ExportAchievements[tag] = {
 			__order = { "uniqueName", "name", "description", "icon", "hidden", "requiredCount", "progressIndicatorFreq" },
 			uniqueName = path,
 			name = $"/Lotus/Language/Challenges/Challenge_{tag}_Name",
 			description = $"/Lotus/Language/Challenges/Challenge_{tag}_Description",
-			icon = obj.data.Icon,
-			hidden = obj.data.HideChallenge == 1 ? true : nil,
-			requiredCount = obj.data.RequiredCount,
-			progressIndicatorFreq = obj.data.ProgressIndicatorFreq,
+			icon = obj_find_property(path, "Icon"),
+			hidden = obj_find_property(path, "HideChallenge") == 1 ? true : nil,
+			requiredCount = obj_find_property(path, "RequiredCount"),
+			progressIndicatorFreq = obj_find_property(path, "ProgressIndicatorFreq"),
 		}
 		if languages_bin_dicts.en[ExportAchievements[tag].name] then
 			import_from_languages_bin(ExportAchievements[tag].name)
@@ -2835,8 +2834,8 @@ do
 			ExportAchievements[tag].name = nil
 			ExportAchievements[tag].description = nil
 		end
-		if obj.data.Parents then
-			for obj.data.Parents as parentTag do
+		if Parents := obj_find_property(path, "Parents") then
+			for Parents as parentTag do
 				if not ExportAchievements[parentTag].children then
 					ExportAchievements[parentTag].__order:insert("children")
 					ExportAchievements[parentTag].children = {}
@@ -4027,7 +4026,9 @@ for DropTables.Missions as mission do
 		end
 		for mission.InternalName as InternalName do
 			if not ExportRewards[InternalName] then
-				validate_path(InternalName)
+				if InternalName ~= "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearRailjackRewards" and InternalName ~= "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearCondrixRewards" then
+					validate_path(InternalName)
+				end
 				ExportRewards.__order:insert(InternalName)
 				ExportRewards[InternalName] = deck
 			end
@@ -4645,7 +4646,7 @@ do
 	write_data_file("ExportSyndicates.json", ExportSyndicates)
 end
 
-print "Creating ExportTextIcons..."
+--[[print "Creating ExportTextIcons..."
 do
 	local ExportTextIcons = { __order = {} }
 	for obj_from_path("/Lotus/Types/Interface/LotusPlatformIconCollection").data.Icons as icon do
@@ -4681,7 +4682,7 @@ do
 		end
 	end
 	write_data_file("ExportTextIcons.json", ExportTextIcons)
-end
+end]]
 
 do
 	local ExportTilesets = { __order = {} }
