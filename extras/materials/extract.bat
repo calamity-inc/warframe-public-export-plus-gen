@@ -1,2 +1,2 @@
-"../Warframe-Exporter-Advanced.exe" --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --extract-materials --internal-path EE
-"../Warframe-Exporter-Advanced.exe" --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --extract-materials --internal-path Lotus
+"..\Warframe-Exporter-CLI_Windows.exe" --game Warframe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --extract-materials --internal-path EE
+"..\Warframe-Exporter-CLI_Windows.exe" --game Warframe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --extract-materials --internal-path Lotus
