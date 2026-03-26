@@ -248,8 +248,9 @@
         },
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
-    "VenusHUB": {
-        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
+    "SolNode239": {
+        "levelOverride": "/Lotus/Levels/Muse/Proc/MuseHubRandomized",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Shadowgrapher/ShadowGrapherSpec"
     },
     "SolNode902": {
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRExterminate",
@@ -3667,5 +3668,18 @@
     },
     "SolNode256": {
         "levelOverride": "/Lotus/Levels/DevilTower/BossArenaUriel.level"
+    },
+    "SolNode257": {
+        "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeDHardMode",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarHardModeGrineerSpec",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+                    "ItemCount": 10
+                }
+            ]
+        }
     }
 }

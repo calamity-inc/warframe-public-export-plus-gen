@@ -1,173 +1,41 @@
 {
-    "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem": {
-        "minValue": 1,
-        "maxValue": 2
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/TrachonsRailjackItem": {
-        "minValue": 5,
-        "maxValue": 10
-    },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem": {
-        "minValue": 3,
-        "maxValue": 6
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem": {
-        "minValue": 1,
-        "maxValue": 2
-    },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem": {
-        "minValue": 4,
-        "maxValue": 8
-    },
-    "/Lotus/Types/Items/MiscItems/PolymerBundleRaidTutorial": {
-        "minValue": 100,
-        "maxValue": 100
-    },
-    "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal": {
-        "minValue": 15,
-        "maxValue": 25
-    },
     "/Lotus/Types/Items/MiscItems/PolymerBundle": {
         "minValue": 40,
         "maxValue": 75
-    },
-    "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem": {
-        "minValue": 3,
-        "maxValue": 6
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem": {
-        "minValue": 15,
-        "maxValue": 30
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/PustrelsRailjackItem": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Items/MiscItems/Salvage500JunctionReward": {
-        "minValue": 500,
-        "maxValue": 500
-    },
-    "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem": {
-        "minValue": 4,
-        "maxValue": 8
-    },
-    "/Lotus/Types/Items/MiscItems/DagathAbyssItem": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem": {
-        "minValue": 1,
-        "maxValue": 3
     },
     "/Lotus/Types/Items/RailjackMiscItems/BracoidRailjackItem": {
         "minValue": 1,
         "maxValue": 2
     },
-    "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem": {
-        "minValue": 5,
-        "maxValue": 10
+    "/Lotus/Types/Game/KubrowPet/KubrowPetFood": {
+        "minValue": 6,
+        "maxValue": 12
     },
-    "/Lotus/Types/Items/MiscItems/SteelEssence20Pack": {
-        "minValue": 20,
-        "maxValue": 20
-    },
-    "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem": {
-        "minValue": 3,
-        "maxValue": 6
-    },
-    "/Lotus/Types/Items/MiscItems/NeuralSensor": {
-        "minValue": 1,
-        "maxValue": 2
-    },
-    "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem": {
-        "minValue": 1,
-        "maxValue": 3
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem": {
+    "/Lotus/Types/Items/MiscItems/Rubedo": {
         "minValue": 15,
         "maxValue": 25
     },
-    "/Lotus/Types/Items/MiscItems/ConcentratedGas": {
-        "minValue": 5,
-        "maxValue": 10
-    },
-    "/Lotus/Types/Items/MiscItems/Salvage1000JunctionReward": {
-        "minValue": 1000,
-        "maxValue": 1000
-    },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem": {
-        "minValue": 1,
-        "maxValue": 2
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/CopernicsRailjackItem": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem": {
-        "minValue": 5,
-        "maxValue": 10
+    "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem": {
+        "minValue": 4,
+        "maxValue": 8
     },
     "/Lotus/Types/Items/MiscItems/Kuva": {
         "minValue": 1,
         "maxValue": 4
     },
-    "/Lotus/Types/Game/KubrowPet/KubrowPetFood": {
-        "minValue": 6,
-        "maxValue": 12
-    },
-    "/Lotus/Types/Items/MiscItems/SyringeComponent": {
-        "minValue": 5,
-        "maxValue": 15
-    },
-    "/Lotus/Types/Items/MiscItems/ControlModule": {
-        "minValue": 1,
-        "maxValue": 3
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem": {
-        "minValue": 5,
-        "maxValue": 10
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/FresnelsRailjackItem": {
+    "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem": {
         "minValue": 1,
         "maxValue": 2
     },
-    "/Lotus/Types/Items/RailjackMiscItems/KesslersRailjackItem": {
-        "minValue": 5,
-        "maxValue": 10
+    "/Lotus/Types/Items/MiscItems/SalvageRaidTutorial": {
+        "minValue": 100,
+        "maxValue": 100
     },
-    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentB": {
-        "minValue": 1,
-        "maxValue": 2
-    },
-    "/Lotus/Types/Items/MiscItems/Plastids": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Items/MiscItems/AlloyPlate": {
-        "minValue": 50,
+    "/Lotus/Types/Items/MiscItems/Salvage": {
+        "minValue": 75,
         "maxValue": 150
     },
-    "/Lotus/Types/Items/MiscItems/Salvage450TutorialQuest": {
-        "minValue": 450,
-        "maxValue": 450
-    },
-    "/Lotus/Types/Items/MiscItems/AntiSerumInjector": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal": {
-        "minValue": 15,
-        "maxValue": 25
-    },
-    "/Lotus/Types/Items/MiscItems/Nanospores": {
-        "minValue": 150,
-        "maxValue": 200
-    },
-    "/Lotus/Types/Items/MiscItems/PolymerBundle240TutorialQuest": {
-        "minValue": 240,
-        "maxValue": 240
-    },
-    "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem": {
+    "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem": {
         "minValue": 2,
         "maxValue": 4
     },
@@ -175,21 +43,89 @@
         "minValue": 3,
         "maxValue": 6
     },
-    "/Lotus/Types/Items/MiscItems/Circuits": {
-        "minValue": 35,
-        "maxValue": 50
+    "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem": {
+        "minValue": 15,
+        "maxValue": 30
     },
-    "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem": {
-        "minValue": 1,
-        "maxValue": 2
+    "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem": {
+        "minValue": 30,
+        "maxValue": 60
+    },
+    "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem": {
+        "minValue": 5,
+        "maxValue": 10
+    },
+    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem": {
+        "minValue": 3,
+        "maxValue": 6
     },
     "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem": {
         "minValue": 5,
         "maxValue": 10
     },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem": {
-        "minValue": 2,
+    "/Lotus/Types/Game/CatbrowPet/CatbrowGeneticSignatureStarterPack": {
+        "minValue": 10,
+        "maxValue": 10
+    },
+    "/Lotus/Types/Items/MiscItems/Circuits": {
+        "minValue": 35,
+        "maxValue": 50
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/KesslersRailjackItem": {
+        "minValue": 5,
+        "maxValue": 10
+    },
+    "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem": {
+        "minValue": 5,
+        "maxValue": 10
+    },
+    "/Lotus/Types/Items/MiscItems/PolymerBundle240TutorialQuest": {
+        "minValue": 240,
+        "maxValue": 240
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/MiscItems/VoidTearDrop": {
+        "minValue": 1,
         "maxValue": 4
+    },
+    "/Lotus/Types/Items/MiscItems/PolymerBundleRaidTutorial": {
+        "minValue": 100,
+        "maxValue": 100
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/FresnelsRailjackItem": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/MiscItems/Ferrite": {
+        "minValue": 50,
+        "maxValue": 100
+    },
+    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem": {
+        "minValue": 5,
+        "maxValue": 10
+    },
+    "/Lotus/Types/Items/MiscItems/DataFragment": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/PustrelsRailjackItem": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/MiscItems/SteelEssence20Pack": {
+        "minValue": 20,
+        "maxValue": 20
     },
     "/Lotus/Types/Items/MiscItems/Gallium": {
         "minValue": 1,
@@ -199,76 +135,140 @@
         "minValue": 7,
         "maxValue": 12
     },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem": {
-        "minValue": 3,
-        "maxValue": 6
-    },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem": {
-        "minValue": 5,
-        "maxValue": 10
-    },
-    "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem": {
+    "/Lotus/Types/Items/MiscItems/Plastids": {
         "minValue": 15,
         "maxValue": 25
     },
-    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem": {
+    "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem": {
         "minValue": 5,
         "maxValue": 10
     },
-    "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem": {
-        "minValue": 1,
-        "maxValue": 2
+    "/Lotus/Types/Items/RailjackMiscItems/TrachonsRailjackItem": {
+        "minValue": 5,
+        "maxValue": 10
     },
-    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentC": {
-        "minValue": 1,
-        "maxValue": 3
+    "/Lotus/Types/Items/MiscItems/ConcentratedGas": {
+        "minValue": 5,
+        "maxValue": 10
     },
-    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentD": {
-        "minValue": 1,
-        "maxValue": 4
-    },
-    "/Lotus/Types/Items/MiscItems/Rubedo": {
+    "/Lotus/Types/Items/RailjackMiscItems/CopernicsRailjackItem": {
         "minValue": 15,
         "maxValue": 25
     },
-    "/Lotus/Types/Items/MiscItems/VoidTearDrop": {
-        "minValue": 1,
-        "maxValue": 4
+    "/Lotus/Types/Items/MiscItems/AntiSerumInjector": {
+        "minValue": 15,
+        "maxValue": 25
     },
     "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA": {
         "minValue": 9,
         "maxValue": 16
     },
-    "/Lotus/Types/Game/CatbrowPet/CatbrowGeneticSignatureStarterPack": {
-        "minValue": 10,
+    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentC": {
+        "minValue": 1,
+        "maxValue": 3
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem": {
+        "minValue": 1,
+        "maxValue": 3
+    },
+    "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem": {
+        "minValue": 5,
         "maxValue": 10
     },
-    "/Lotus/Types/Items/MiscItems/Salvage": {
-        "minValue": 75,
-        "maxValue": 150
+    "/Lotus/Types/Items/MiscItems/Salvage1000JunctionReward": {
+        "minValue": 1000,
+        "maxValue": 1000
     },
-    "/Lotus/Types/Items/MiscItems/Ferrite": {
-        "minValue": 50,
-        "maxValue": 100
+    "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem": {
+        "minValue": 3,
+        "maxValue": 6
     },
-    "/Lotus/Types/Items/MiscItems/DataFragment": {
+    "/Lotus/Types/Items/MiscItems/NeuralSensor": {
         "minValue": 1,
         "maxValue": 2
     },
-    "/Lotus/Types/Items/MiscItems/SalvageRaidTutorial": {
-        "minValue": 100,
-        "maxValue": 100
+    "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem": {
+        "minValue": 3,
+        "maxValue": 6
+    },
+    "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/MiscItems/AlloyPlate": {
+        "minValue": 50,
+        "maxValue": 150
+    },
+    "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem": {
+        "minValue": 2,
+        "maxValue": 4
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem": {
+        "minValue": 1,
+        "maxValue": 3
+    },
+    "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/MiscItems/ControlModule": {
+        "minValue": 1,
+        "maxValue": 3
+    },
+    "/Lotus/Types/Items/MiscItems/Nanospores": {
+        "minValue": 150,
+        "maxValue": 200
+    },
+    "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem": {
+        "minValue": 3,
+        "maxValue": 6
+    },
+    "/Lotus/Types/Items/MiscItems/Salvage450TutorialQuest": {
+        "minValue": 450,
+        "maxValue": 450
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/MiscItems/Salvage500JunctionReward": {
+        "minValue": 500,
+        "maxValue": 500
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/MiscItems/SyringeComponent": {
+        "minValue": 5,
+        "maxValue": 15
     },
     "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem": {
         "minValue": 3,
         "maxValue": 6
     },
-    "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem": {
-        "minValue": 30,
-        "maxValue": 60
+    "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem": {
+        "minValue": 4,
+        "maxValue": 8
     },
-    "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem": {
+    "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem": {
         "minValue": 15,
         "maxValue": 25
+    },
+    "/Lotus/Types/Items/MiscItems/DagathAbyssItem": {
+        "minValue": 15,
+        "maxValue": 25
+    },
+    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentB": {
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentD": {
+        "minValue": 1,
+        "maxValue": 4
+    },
+    "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem": {
+        "minValue": 1,
+        "maxValue": 2
     }
 }
