@@ -503,6 +503,22 @@ local MissionData = {
 			InternalName = "MT_TAU_WAR",
 			IsEndless = false,
 		},
+		["The Guilty"] = {
+			Name = "The Guilty",
+			Link = "The Guilty",
+			Index = 44,
+			Introduced = "42",
+			InternalName = "MT_TAU_WAR",
+			IsEndless = false,
+		},
+		["Follie's Hunt"] = {
+			Name = "Follie's Hunt",
+			Link = "Follie's Hunt",
+			Index = 45,
+			Introduced = "42",
+			InternalName = "MT_PAINT_FLOOD",
+			IsEndless = false
+		}
 	},
 	-- Gameplay modifiers or unique gameplay objectives within a particular the mission type
 	-- ("the mission/gamemode within the mission" or "the mission on top of the base mission").
@@ -822,8 +838,8 @@ local MissionData = {
 		{ Name = "V Prime", Link = "V Prime", Planet = "Venus", Type = "Survival", Quotes = "Survival/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 3, MaxLevel = 8, DropTableAlias = "Survival1", MasteryExp = 18, InternalName = "SolNode123",  PreviousNodes = { "Cytherean" }, IsTracked = true },
 		{ Name = "Fossa", Link = "Fossa", Planet = "Venus", Type = "Assassination", Quotes = "Jackal/Quotes", Tileset = "Corpus Ship", Enemy = "Corpus", MinLevel = 6, MaxLevel = 8, DropTableAlias = "Jackal",  Boss = "Jackal", Pic = "Jackal_sigil_b.png", Drops = {"Rhino"}, MasteryExp = 41, InternalName = "SolNode104", PreviousNodes = { "Unda", "Orb Vallis", "Aphrodite" }, NextNodes = { "Mercury Junction" }, IsTracked = true },
 		{ Name = "Mercury Junction", Planet = "Venus", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Mercury Junction", MasteryExp = 1000, InternalName = "VenusToMercuryJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "M Prime", "Pantheon", "Larunda Relay" }, PreviousNodes = { "Fossa" }, IsTracked = true, CreditReward = 0 },
+		{ Name = "Vesper Relay", Image = "FolliesHuntEntrance.jpg", Planet = "Venus", Type = "Follie's Hunt", Quotes = "Follie's Hunt/Quotes", Tileset = "Relay", Enemy = "Tenno", MinLevel = 35, MaxLevel = 45, DropTableAlias = "Follie's Hunt", Link = "Follie's Hunt", MasteryExp = 0, InternalName = "SolNode239", Introduced = "42.0", PreviousNodes = { "Venus Junction" }, IsTracked = true, CreditReward = 0 },
 		
-
 		{ Name = "Cetus", Link = "Cetus", Planet = "Earth", Type = "Hub", Quotes = "Cetus/Quotes", Tileset = "Cetus", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "CetusHub4", Introduced = "22", NextNodes = { "Plains of Eidolon", "Saya's Visions" }, PreviousNodes = { "Mantle" }, CreditReward = 0 },
 		{ Name = "Plains of Eidolon", Link = "Plains of Eidolon", Image = "Plains of Eidolon.png", Planet = "Earth", Type = "Free Roam", Quotes = "Plains of Eidolon/Quotes", Tileset = "Plains of Eidolon", Enemy = "Grineer", MinLevel = 10, MaxLevel = 30, DropTableAlias = "Landscape", Pic = "DawnsEarlyLight.png", MasteryExp = 24, InternalName = "SolNode228", Introduced = "22", NextNodes = { "Everest" }, PreviousNodes = { "Cetus" }, IsTracked = true, CreditReward = 0 },
 		{ Name = "Cambria", Link = "Cambria", Planet = "Earth", Type = "Spy", Quotes = "Spy/Quotes", Tileset = "Grineer Forest", Enemy = "Grineer", MinLevel = 2, MaxLevel = 4, DropTableAlias = "Spy1", MasteryExp = 24, InternalName = "SolNode79", NextNodes = { "Venus Junction" }, PreviousNodes = { "Gaia" }, IsTracked = true },
@@ -901,6 +917,7 @@ local MissionData = {
 		{ Name = "Armatus", Link = "Armatus", Planet = "Deimos", Type = "Disruption", Quotes = "Disruption/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiDisruption", MasteryExp = 0, InternalName = "SolNode721", Introduced = "35.5", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
 		{ Name = "Jupiter Junction", Planet = "Deimos", Type = "Solar Rail Junction", Quotes = "Junction/Quotes", Tileset = "Solar Rail", Enemy = "Tenno", MinLevel = 1, MaxLevel = 3, Link = "Jupiter Junction", MasteryExp = 1000, InternalName = "CeresToJupiterJunction", Introduced = "Specters of the Rail 0.0", NextNodes = { "Elara" }, PreviousNodes = { "Formido" }, IsTracked = true, CreditReward = 0 },
 		
+		{ Name = "Abyssal Zone", Link = "Abyssal Zone", Planet = "Ceres", Type = "Exterminate", Quotes = "Abyssal_Zone/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 40, MaxLevel = 45, DropTableAlias = "AbyssalZoneRewards", MasteryExp = 0, InternalName = "/Lotus/Types/Keys/SyndicateCacheHuntBaseKeyItem", Introduced = "34.0", IsTracked = true },
 		{ Name = "Bode", Link = "Bode", Planet = "Ceres", Type = "Spy", Quotes = "Spy/Quotes", Tileset = "Grineer Shipyard", Enemy = "Grineer", MinLevel = 12, MaxLevel = 14, DropTableAlias = "Spy2", MasteryExp = 163, InternalName = "SolNode132", NextNodes = { "Casta", "Nuovo" }, PreviousNodes = { "Pallas" }, IsTracked = true },
 		{ Name = "Casta", Link = "Casta", Planet = "Ceres", Type = "Defense", Quotes = "Defense/Quotes", Tileset = "Grineer Shipyard", Enemy = "Grineer", MinLevel = 12, MaxLevel = 17, DropTableAlias = "Defense1", Other = "I", MasteryExp = 163, InternalName = "SolNode149", NextNodes = { "Lex", "Seimeni" }, PreviousNodes = { "Bode" }, IsTracked = true },
 		{ Name = "Cinxia", Link = "Cinxia", Planet = "Ceres", Type = "Interception", Quotes = "Interception/Quotes", Tileset = "Grineer Shipyard", Enemy = "Grineer", MinLevel = 12, MaxLevel = 17, DropTableAlias = "Interception1", MasteryExp = 163, InternalName = "SolNode147", NextNodes = { "Kiste", "Nuovo" }, PreviousNodes = { "Pallas" }, IsTracked = true },
@@ -1117,9 +1134,10 @@ local MissionData = {
 	
 		-- The Dark Refractory
 		{ Name = "The Descendia", Link = "The Descendia", Planet = "Dark Refractory", Image = "CohPrecpice.png", Type = "The Descendia", Quotes = "The Descendia/Quotes", Tileset = "Descendia", Enemy = "Orokin", MinLevel = 65, MaxLevel = 85, DropTableAlias = "The Descendia", MasteryExp = 0, InternalName = "SolNode253", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Roathe (Boss)" },
-		{ Name = "The Perita Rebellion (Hunhullus)", Link = "The Perita Rebellion", Image = "Tau12MinHunhullus.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Hunhullus)", MasteryExp = 0, InternalName = "SolNode250", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Hunhullus", Pic = "Hunhullus.png" },
-		{ Name = "The Perita Rebellion (Dactolyst)", Link = "The Perita Rebellion", Image = "Tau12MinOkokin.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Dactolyst)", MasteryExp = 0, InternalName = "SolNode251", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Dactolyst", Pic = "Dactolyst.png" },
-		{ Name = "The Perita Rebellion (Prime Vanguard)", Link = "The Perita Rebellion", Image = "Tau12MinPeople.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "The Perita Rebellion (Prime Vanguard)", MasteryExp = 0, InternalName = "SolNode252", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = false, Boss = "Prime Vanguard" },
+		{ Name = "Recall: Hunhullus", Link = "The Perita Rebellion", Image = "Tau12MinHunhullus.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "Recall: Hunhullus", MasteryExp = 0, InternalName = "SolNode250", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Hunhullus", Pic = "Hunhullus.png" },
+		{ Name = "Recall: Dactolyst", Link = "The Perita Rebellion", Image = "Tau12MinOkokin.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "Recall: Dactolyst", MasteryExp = 0, InternalName = "SolNode251", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Dactolyst", Pic = "Dactolyst.png" },
+		{ Name = "Recall: Prime Vanguard", Link = "The Perita Rebellion", Image = "Tau12MinPeople.png", Planet = "Dark Refractory", Type = "The Perita Rebellion", Quotes = "The Perita Rebellion/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 65, MaxLevel = 70, DropTableAlias = "Recall: Prime Vanguard", MasteryExp = 0, InternalName = "SolNode252", Introduced = "41", Requirements = "Must have [[The Old Peace]] completed to access", IsTracked = true, Boss = "Prime Vanguard" },
+		{ Name = "The Guilty", Link = "The Guilty", Image = "PeritaHardModeImageWide.png", Planet = "Dark Refractory", Type = "The Guilty", Quotes = "The Guilty/Quotes", Tileset = "Perita", Enemy = "Anarchs", MinLevel = 165, MaxLevel = 170, DropTableAlias = "The Guilty", MasteryExp = 0, InternalName = "SolNode257", Introduced = "42", Requirements = "", IsTracked = true },
 
 		-- Empyrean
 		{ Name = "Technocyte Coda Concert", Link = "Technocyte Coda", Planet = "Earth Proxima", Type = "Assassination", Quotes = "Assassination/Quotes", Tileset = "Technocyte Coda Stadium", Enemy = "Techrot", MinLevel = 100, MaxLevel = 100, FighterMinLevel = 20, FighterMaxLevel = 30, MaxFighters = 0, MaxCrewships = 0, Objectives = 0, Drops = {}, MasteryExp = 0, InternalName = "CrewBattleNode559", IsHidden = true, Introduced = "38.5", IsRailjack = true, Requirements = "Must complete [[The Hex (Quest)|The Hex]] quest to access and active [[Technocyte Coda]]." },
