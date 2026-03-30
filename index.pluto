@@ -4648,7 +4648,7 @@ do
 	write_data_file("ExportSyndicates.json", ExportSyndicates)
 end
 
---[[print "Creating ExportTextIcons..."
+print "Creating ExportTextIcons..."
 do
 	local ExportTextIcons = { __order = {} }
 	for obj_from_path("/Lotus/Types/Interface/LotusPlatformIconCollection").data.Icons as icon do
@@ -4665,10 +4665,10 @@ do
 					ExportTextIcons[icon.Name].__order:insert(platformIcon.IconPlatform)
 					ExportTextIcons[icon.Name][platformIcon.IconPlatform] = obj_resolve_path(platformIcon.Material, path)
 				else
-					for line in io.lines("extras/materials/Extracted/Export" .. platformIcon.Material .. ".txt") do
-						if line:sub(1, 14) == "TX:DiffuseMap=" then
+					for line in io.lines("extras/materials/Extracted" .. platformIcon.Material .. ".txt") do
+						if line:startswith("TX:DiffuseMap = ") and line:endswith(".png") then
 							ExportTextIcons[icon.Name].__order:insert(platformIcon.IconPlatform)
-							local path = line:sub(15)
+							local path = line:sub(17)
 							if path[1] ~= "/" then
 								path = path_get_parent(platformIcon.Material) .. "/" .. path
 							end
@@ -4684,7 +4684,7 @@ do
 		end
 	end
 	write_data_file("ExportTextIcons.json", ExportTextIcons)
-end]]
+end
 
 do
 	local ExportTilesets = { __order = {} }
