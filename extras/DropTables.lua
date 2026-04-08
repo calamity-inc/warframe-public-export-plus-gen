@@ -3270,7 +3270,7 @@ local DropData = {
 			Resources = { { "Kuva", "Resource", 100, 50 } } 
 		},
 		["Demolisher Boiler"] = {
-			BlueprintChance = 2.5,
+			BlueprintChance = 5,
 			Blueprints = {
 				{ "Akarius Blueprint", "Blueprint", 50 },
 				{ "Acceltra Blueprint", "Blueprint", 50 } 
@@ -3313,7 +3313,7 @@ local DropData = {
 			} 
 		},
 		["Demolisher Charger"] = {
-			BlueprintChance = 2.5,
+			BlueprintChance = 5,
 			Blueprints = {
 				{ "Akarius Blueprint", "Blueprint", 50 },
 				{ "Acceltra Blueprint", "Blueprint", 50 } 
@@ -3389,7 +3389,7 @@ local DropData = {
 			} 
 		},
 		["Demolisher Juggernaut"] = {
-			BlueprintChance = 3.75,
+			BlueprintChance = 7.5,
 			Blueprints = {
 				{ "Pherliac Pods Blueprint", "Blueprint", 33.33 },
 				{ "Akarius Blueprint", "Blueprint", 33.33 },
@@ -3450,7 +3450,7 @@ local DropData = {
 			Resources = { { "Kuva", "Resource", 100, 50 } } 
 		},
 		["Demolisher Thrasher"] = {
-			BlueprintChance = 2.5,
+			BlueprintChance = 5,
 			Blueprints = {
 				{ "Akarius Blueprint", "Blueprint", 50 },
 				{ "Acceltra Blueprint", "Blueprint", 50 } 
@@ -8642,7 +8642,7 @@ local DropData = {
 			}
 		},
 		["Narmer Thumper Bull"] = {
-			BlueprintChance = 2.5,
+			BlueprintChance = 5,
 			Blueprints = { { "Korrudo Blueprint", "Blueprint", 100 } },
 			ModChance = 15,
 			Mods = {
@@ -8692,7 +8692,7 @@ local DropData = {
 			} 
 		},
 		["Narmer Thumper Doma"] = {
-			BlueprintChance = 5,
+			BlueprintChance = 10,
 			Blueprints = { { "Korrudo Blueprint", "Blueprint", 100 } },
 			ModChance = 15,
 			Mods = {
@@ -9986,6 +9986,26 @@ local DropData = {
 			Name = "Remech Osprey",
 			ResourceChance = 7,
 			Resources = { { "Region Resource", "Resource", 100 } } 
+		},
+		Roathe = {
+			Alias = "Roathe",
+			InternalName = "/Lotus/Types/Game/MissionDecks/BossMissionRewards/RhinoRewards",
+			Link = "Roathe (Boss)",
+			Name = "Roathe (Descendia, Infernum 21)",
+			Rewards = {
+				A = {
+					{ "Uriel Chassis Blueprint", "Blueprint", 12.5 },
+					{ "Uriel Neuroptics Blueprint", "Blueprint", 12.5 },
+					{ "Uriel Systems Blueprint", "Blueprint", 12.5 },
+					{ "Vinquibus Barrel Blueprint", "Blueprint", 12.5 },
+					{ "Vinquibus Blade Blueprint", "Blueprint", 12.5 },
+					{ "Vinquibus Receiver Blueprint", "Blueprint", 12.5 },
+					{ "Vinquibus Stock Blueprint", "Blueprint", 12.5 },
+					{ "Vinquibus Blueprint", "Blueprint", 12.5 },
+				},
+			},
+			Tier = "Roathe",
+			Type = "The Descendia" 
 		},
 		["Rogue Condroc"] = {
 			Name = "Rogue Condroc",
@@ -13146,7 +13166,7 @@ local DropData = {
 			},
 		},
 		["Tusk Thumper Bull"] = {
-			BlueprintChance = 2.5,
+			BlueprintChance = 5,
 			Blueprints = { { "Korrudo Blueprint", "Blueprint", 100 } },
 			ModChance = 15,
 			Mods = {
@@ -13196,7 +13216,7 @@ local DropData = {
 			} 
 		},
 		["Tusk Thumper Doma"] = {
-			BlueprintChance = 5,
+			BlueprintChance = 10,
 			Blueprints = { { "Korrudo Blueprint", "Blueprint", 100 } },
 			ModChance = 15,
 			Mods = {
@@ -23723,6 +23743,7 @@ local DropData = {
 					{ "Braton Vandal Receiver", "Blueprint", 2.51 },
 					{ "Braton Vandal Stock", "Blueprint", 2.51 },
 					{ "Braton Vandal Blueprint", "Blueprint", 2.51 },
+					{ "Braton Vandal Barrel", "Blueprint", 2.51 },
 					{ "Kuva Fortress Crevice Scene", "Scene", 2.51 },
 					{ "Lua Balcony Scene", "Scene", 2.51 },
 					{ "Lith D7 (Radiant)", "Relic", 7.04 },
@@ -26691,7 +26712,6 @@ local DropData = {
 			Tier = "Vor",
 			Type = "Assassinate" 
 		},
-	
 		["Follie's Hunt"] = {
 			Alias = "Follie's Hunt",
 			InternalName = "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherRewards",
@@ -26699,12 +26719,65 @@ local DropData = {
 			Name = "Follie's Hunt",
 			Rewards = {
 				A = {
-					{ "Follie Chassis Blueprint", "Blueprint", 5 },
-					{ "Follie Neuroptics Blueprint", "Blueprint", 5 },
-					{ "Follie Systems Blueprint", "Blueprint", 5 }
-				} 
+					{ "Credits Cache", "Credits", 12.5, 3000 },
+					{ "Endo", "Resource", 17.5, 1000 },
+					{ "Follie Blueprint", "Blueprint", 5.0, },
+					{ "Follie Neuroptics Blueprint", "Blueprint", 5.0 },
+					{ "Follie Systems Blueprint", "Blueprint", 5.0 },
+					{ "Follie Chassis Blueprint", "Blueprint", 5.0 },
+					{ "Enkaus Blueprint", "Blueprint", 5.0, },
+					{ "Enkaus Barrel Blueprint", "Blueprint", 5.0 },
+					{ "Enkaus Receiver Blueprint", "Blueprint", 5.0 },
+					{ "Enkaus Stock Blueprint", "Blueprint", 5.0 },
+					{ "Medallion", "Resource", 5.0 },
+					{ "Datum", "Resource", 5.0 },
+					{ "Seed", "Resource", 5.0 },
+					{ "Quittance", "Resource", 5.0 },
+					{ "Mark", "Resource", 5.0 },
+					{ "Insignia", "Resource", 5.0 }
+				},
+				B = {
+					{ "Atramentum", "Resource", 100.0, 15 }
+				},
+				C = {
+					{ "Nightmare Tatters", "Resource", 100.0, 3 }
+				}
 			},
-			Tier = "TBA",
+			Tier = "Normal",
+			Type = "Follie's Hunt" 
+		},
+		["Follie's Hunt Extra"] = {
+			Alias = "Follie's Hunt Extra",
+			InternalName = "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherSteelPathRewards",
+			Link = "Follie's Hunt",
+			Name = "Follie's Hunt (Steel Path)",
+			Rewards = {
+				A = {
+					{ "Credits Cache", "Credits", 9.0, 10000 },
+					{ "Endo", "Resource", 15.0, 3000 },
+					{ "Follie Blueprint", "Blueprint", 6.0, },
+					{ "Follie Neuroptics Blueprint", "Blueprint", 6.0 },
+					{ "Follie Systems Blueprint", "Blueprint", 6.0 },
+					{ "Follie Chassis Blueprint", "Blueprint", 6.0 },
+					{ "Enkaus Blueprint", "Blueprint", 6.0, },
+					{ "Enkaus Barrel Blueprint", "Blueprint", 6.0 },
+					{ "Enkaus Receiver Blueprint", "Blueprint", 6.0 },
+					{ "Enkaus Stock Blueprint", "Blueprint", 6.0 },
+					{ "Lawful Medallion", "Resource", 4.67 },
+					{ "Intriguing Datum", "Resource", 4.67 },
+					{ "Bountiful Seed", "Resource", 4.67 },
+					{ "Executive Quittance", "Resource",4.67 },
+					{ "Honored Mark", "Resource", 4.67 },
+					{ "Defender Insignia", "Resource", 4.67 }
+				},
+				B = {
+					{ "Atramentum", "Resource", 100.0, 25 }
+				},
+				C = {
+					{ "Nightmare Tatters", "Resource", 100.0, 4 }
+				}
+			},
+			Tier = "Steel Path",
 			Type = "Follie's Hunt" 
 		},
 	},

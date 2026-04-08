@@ -607,6 +607,11 @@ local MissionData = {
 			Link = "Fomorian Sabotage",
 			LocationNote = "Near [[Relay]] that is being attacked during [[Fomorian Sabotage]] event"
 		},
+		["Follie's Hunt"] = {
+			Name = "Follie's Hunt",
+			Link = "Follie's Hunt",
+			LocationNote = "*[[Vesper Relay]], [[Venus]]; Must complete [[Chains of Harrow]] quest to access."
+		},
 		["Ghoul Bounty"] = {
 			Name = "Ghoul Bounty",
 			Link = "Ghoul Purge",
