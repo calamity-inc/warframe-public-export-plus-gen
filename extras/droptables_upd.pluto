@@ -1,0 +1,201 @@
+local { json, xml } = require "*"
+dofile("../../pluto-query/query.pluto")
+local html = io.contents("droptables.html") |> xml.decode|"html"|
+
+local dict = io.contents("../../warframe-public-export-plus/dict.en.json") |> json.decode
+local ExportRegions = io.contents("../../warframe-public-export-plus/ExportRegions.json") |> json.decode
+local missionDeckToDroptableName = {}
+for ExportRegions as node do
+	if node.rewardManifests and #node.rewardManifests ~= 0 then
+		local mission
+		if node.missionName:sub(1, 45) == "/Lotus/Language/Missions/MissionName_Railjack" then
+			mission = "Skirmish"
+		else
+			mission = dict[node.missionName]
+		end
+		missionDeckToDroptableName[node.rewardManifests[1]] = (dict[node.systemName] .. "/" .. dict[node.name] .. " (" .. mission .. ")"):lower():replace(" (mirror defense)", " (defense)"):replace(" (conjunction survival)", " (survival)"):replace(" proxima/", "/")
+	end
+	if node.cacheRewardManifest then
+		missionDeckToDroptableName[node.cacheRewardManifest] = (dict[node.systemName] .. "/" .. dict[node.name] .. " (Caches)"):lower():replace(" proxima/", "/")
+	end
+end
+missionDeckToDroptableName["/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"] = nil
+
+local allparsed = {}
+local function parse_table(id, droptableNameToMissionDeck)
+	local table = xml.query(html, "#"..id.." + table")
+	local current_name, current_tier, parsed
+	for table.children as tr do
+		assert(tr.tag == "tr")
+		if #tr.children == 1 or not tr.children[2].children then
+			if tr.children[1].children then
+				assert(#tr.children[1].children == 1)
+				if tr.children[1].children[1] == "Rotation A" then
+					current_tier = "A"
+				elseif tr.children[1].children[1] == "Rotation B" then
+					current_tier = "B"
+				elseif tr.children[1].children[1] == "Rotation C" then
+					current_tier = "C"
+				else
+					if current_name then
+						if missionDeck := droptableNameToMissionDeck[current_name:lower()] then
+							allparsed[missionDeck] = parsed
+						end
+					end
+					current_name = tr.children[1].children[1]
+					current_tier = "A"
+					parsed = {}
+				end
+			end
+		elseif #tr.children == 2 then
+			local probability = tr.children[2].children[1]
+			if probability == "Beyond Legendary (Under Review) (0.00%)" then
+				probability = 0
+			else
+				probability = probability:split(" (")[2]:sub(1, -3) / 100
+			end
+			parsed[current_tier] ??= {}
+			if entry := parsed[current_tier]:find(|x| -> x.name == tr.children[1].children[1]) then
+				entry.prob += probability
+			else
+				parsed[current_tier]:insert({ name = tr.children[1].children[1], prob = probability })
+			end
+		end
+	end
+end
+parse_table("missionRewards", missionDeckToDroptableName:invert())
+parse_table("transientRewards", { ["faceoff: single squad"] = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards" })
+
+local name_to_category = {
+	["health restore (large)"] = "Item",
+	["omni ammo box"] = "Item",
+	-- railjack
+	["seeker volley"] = "Mod",
+	["void hole"] = "Mod",
+	["phoenix blaze"] = "Mod",
+	["tether"] = "Mod",
+	["particle ram"] = "Mod",
+	["shatter burst"] = "Mod",
+	["countermeasures"] = "Mod",
+	["munitions vortex"] = "Mod",
+	["blackout pulse"] = "Mod",
+}
+do
+	local ExportResources = io.contents("../../warframe-public-export-plus/ExportResources.json") |> json.decode
+	for ExportResources as item do
+		if dict[item.name] then
+			name_to_category[dict[item.name]:lower()] = "Resource"
+		end
+	end
+	local ExportUpgrades = io.contents("../../warframe-public-export-plus/ExportUpgrades.json") |> json.decode
+	for ExportUpgrades as item do
+		if dict[item.name] then
+			name_to_category[dict[item.name]:lower()] = "Mod"
+		end
+	end
+	local ExportArcanes = io.contents("../../warframe-public-export-plus/ExportArcanes.json") |> json.decode
+	for ExportArcanes as item do
+		if dict[item.name] then
+			name_to_category[dict[item.name]:lower()] = "Arcane"
+		end
+	end
+end
+
+local current_deck
+local remade = {}
+local do_not_emit = false
+for line in io.lines("DropTables.lua") do
+	if InternalName := line:match("\t\t\tInternalName = \"(.+)\"") then
+		current_deck = InternalName
+		remade:insert(line)
+	elseif line == "\t\t\tAlias = \"Faceoff\"," then
+		remade:insert(line)
+		current_deck = "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
+	elseif line == "\t\t\tRewards = {" then
+		remade:insert(line)
+		if rotations := allparsed[current_deck] then
+			--print(current_deck)
+			local tiers = {"A", "B", "C"}
+			for i = 1, 3 do
+				local tier = tiers[i]
+				if rotations[tier] then
+					if i == 2 and not rotations["A"] then
+						-- /Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy
+						--print("Inserting A for "..current_deck)
+						remade:insert("\t\t\t\tA = {},")
+					end
+					remade:insert("\t\t\t\t"..tier.." = {")
+					for rotations[tier] as reward do
+						local name = reward.name
+						local category = "UNKNOWN"
+						local count
+						if mcount, mname := name:match("(%d+)X (.+)") then
+							count = tonumber(mcount)
+							name = mname
+						end
+						if name:sub(-10) == " Blueprint" then
+							category = "Blueprint"
+						elseif name:sub(-6) == " Relic" then
+							category = "Relic"
+							name = name:sub(1, -7)
+						elseif " Relic (" in name then
+							category = "Relic"
+							name = name:replace(" Relic (", " (")
+						elseif name:sub(-6) == " Scene" then
+							category = "Scene"
+						elseif name:sub(-14) == " Credits Cache" then
+							count ??= 1
+							count *= tonumber(name:sub(1, -15):replace(",", ""))
+							name = "Credits Cache"
+							category = "Credits"
+						elseif name:sub(-15) == " Höllars Cache" then
+							count ??= 1
+							count *= tonumber(name:sub(1, -16):replace(",", ""))
+							name = "Höllars Cache"
+							category = "Credits"
+						elseif name:sub(-5) == " Endo" then
+							count ??= 1
+							count *= tonumber(name:sub(1, -6):replace(",", ""))
+							name = "Endo"
+							category = "Resource"
+						elseif "Mk Iii" in name then
+							name = name:replace("Mk Iii", "Mk III")
+							category = "Blueprint"
+						elseif "Mk Ii" in name then
+							name = name:replace("Mk Ii", "Mk II")
+							category = "Blueprint"
+						elseif "Mk I" in name then
+							category = "Blueprint"
+						elseif name_to_category[name:lower()] then
+							category = name_to_category[name:lower()]
+							if category == "Resource" and ("Barrel" in name or "Receiver" in name or "Stock" in name or "Handle" in name or "Carapace" in name or "Cerebrum" in name or "Systems" in name or "Blade" in name or "Chassis" in name) then
+								category = "Blueprint"
+							end
+						else
+							print("WARNING: Unknown category for "..name)
+						end
+						if name == "Bane Of Orokin" then
+							name = "Bane of Orokin"
+						elseif name == "Bane Of Infested" then
+							name = "Bane of Infested"
+						end
+						count = count ? $", {count}" : ""
+						remade:insert("\t\t\t\t\t{ \""..name.."\", \""..category.."\", "..(reward.prob * 100)..count.." },")
+					end
+					remade:insert("\t\t\t\t},")
+				end
+			end
+
+			do_not_emit = true
+		end
+	elseif line == "\t\t\t}," or line == "\t\t\t}" then
+		remade:insert(line)
+		if do_not_emit then
+			do_not_emit = false
+			current_deck = nil
+		end
+	elseif not do_not_emit then
+		remade:insert(line)
+	end
+end
+io.contents("DropTables.lua", remade:concat("\r\n"))
