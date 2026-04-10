@@ -2287,6 +2287,9 @@ for LANGS as lang do
 	end
 end
 
+local wikiVersionData = dofile("extras/wiki/Version.lua")
+local wikiWarframes = dofile("extras/wiki/Warframes.lua")
+
 print "Processing ExportWarframes..."
 local baseSuitToInnateDamageTag = {}
 do
@@ -2452,6 +2455,15 @@ for LANGS as lang do
 				warframe.__order:insert("excludeFromMarket")
 				warframe.excludeFromMarket = true
 			end
+
+			for wikiWarframes as category do
+				if wiki_data := category:find(|x| -> x.InternalName == warframe.uniqueName) then
+					local version = (wikiVersionData.Versions[wiki_data.Introduced] or wikiVersionData.Aliases[wiki_data.Introduced])
+					warframe.__order:insert("introducedAt")
+					warframe.introducedAt = version.Timestamp
+					break
+				end
+			end
 		end
 	end
 	for ExportWarframes.ExportAbilities as ability do
@@ -2502,6 +2514,12 @@ for LANGS as lang do
 		io.contents("scaled_values_ground_truth.json", json.encode(scaled_values_ground_truth, true))
 	end
 end
+
+local wikiWeapons = {
+	primary = dofile("extras/wiki/Weapons/primary.lua"),
+	secondary = dofile("extras/wiki/Weapons/secondary.lua"),
+	melee = dofile("extras/wiki/Weapons/melee.lua"),
+}
 
 print "Processing ExportWeapons..."
 local damageTypes = {
@@ -2757,6 +2775,14 @@ for LANGS as lang do
 				if DonationStandingBonus := obj_find_property(weapon.uniqueName, "DonationStandingBonus") then
 					weapon.__order:insert("donationStandingBonus")
 					weapon.donationStandingBonus = DonationStandingBonus
+				end
+
+				for wikiWeapons as category do
+					if wiki_data := category:find(|x| -> x.InternalName == weapon.uniqueName) then
+						local version = (wikiVersionData.Versions[wiki_data.Introduced] or wikiVersionData.Aliases[wiki_data.Introduced])
+						weapon.__order:insert("introducedAt")
+						weapon.introducedAt = version.Timestamp
+					end
 				end
 
 				ExportWeapons_dedup.__order:insert(weapon.uniqueName)
