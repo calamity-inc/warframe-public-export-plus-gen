@@ -3094,8 +3094,8 @@ do
 		for jm.data.Jobs as job do
 			export_bounty(obj_resolve_path(jm_path, job))
 		end
-		if jm.data.NarmerJobs then
-			for jm.data.NarmerJobs as job do
+		if jm.data.ExtraJobs then
+			for jm.data.ExtraJobs as job do
 				export_bounty(obj_resolve_path(jm_path, job))
 			end
 		end
