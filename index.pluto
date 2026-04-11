@@ -1029,7 +1029,6 @@ end
 local DropTables = dofile("extras/DropTables.lua")
 do
 	local starchart_export = io.contents("extras/starchart-export.json") |> json.decode|json.withorder|
-	local mission_exp = { ["SolNode119"] = 3, ["SolNode211"] = 138, ["SolNode58"] = 51, ["SolNode114"] = 44, ["SolNode21"] = 51, ["SettlementNode11"] = 157, ["SolNode75"] = 24, ["SolNode196"] = 177, ["EarthToMarsJunction"] = 1000, ["SolNode203"] = 138, ["SolNode83"] = 69, ["SolNode12"] = 3, ["SolNode209"] = 138, ["SolNode36"] = 51, ["SolNode184"] = 177, ["SolNode74"] = 51, ["SolNode181"] = 177, ["SolNode30"] = 51, ["SolNode18"] = 55, ["JupiterToSaturnJunction"] = 1000, ["SolNode59"] = 24, ["SolNode97"] = 51, ["SolNode904"] = 51, ["SolNode4"] = 51, ["SolNode6"] = 52, ["SolNode907"] = 69, ["SolNode905"] = 51, ["SolNode141"] = 163, ["SolNode103"] = 3, ["SolNode138"] = 163, ["SolNode167"] = 279, ["SettlementNode20"] = 100, ["SolNode113"] = 51, ["SolNode9"] = 69, ["SolNode17"] = 52, ["SolNode104"] = 41, ["SolNode225"] = 3, ["SolNode50"] = 55, ["SolNode118"] = 52, ["SolNode164"] = 279, ["SolNode175"] = 279, ["SolNode137"] = 163, ["SolNode139"] = 163, ["SolNode128"] = 18, ["SolNode42"] = 55, ["SolNode204"] = 138, ["MarsToPhobosJunction"] = 1000, ["SolNode147"] = 163, ["SolNode99"] = 51, ["SolNode20"] = 55, ["SolNode79"] = 24, ["SolNode171"] = 279, ["SolNode88"] = 51, ["SolNode146"] = 163, ["SolNode76"] = 51, ["SolNode98"] = 69, ["SolNode135"] = 163, ["SolNode199"] = 177, ["SolNode93"] = 55, ["MarsToCeresJunction"] = 1000, ["SolNode43"] = 51, ["SolNode27"] = 24, ["SolNode740"] = 55, ["SolNode2"] = 18, ["SolNode61"] = 24, ["SolNode187"] = 177, ["SolNode162"] = 279, ["SolNode10"] = 51, ["SolNode131"] = 163, ["SolNode66"] = 18, ["SolNode31"] = 55, ["SolNode129"] = 24, ["SolNode172"] = 279, ["SolNode902"] = 18, ["SolNode81"] = 51, ["SolNode126"] = 51, ["SaturnToUranusJunction"] = 1000, ["SolNode25"] = 51, ["SolNode188"] = 177, ["SolNode85"] = 20, ["SolNode96"] = 55, ["SolNode193"] = 100, ["SettlementNode12"] = 157, ["SolNode16"] = 51, ["SolNode166"] = 279, ["SolNode153"] = 279, ["SolNode205"] = 138, ["SolNode183"] = 177, ["PlutoToErisJunction"] = 1000, ["SolNode191"] = 177, ["SolNode122"] = 69, ["SolNode190"] = 177, ["SolNode177"] = 177, ["SolNode173"] = 279, ["SolNode220"] = 138, ["SolNode195"] = 177, ["SolNode185"] = 50, ["SolNode189"] = 177, ["SolNode41"] = 51, ["SolNode32"] = 55, ["SettlementNode1"] = 157, ["SolNode109"] = 18, ["SolNode51"] = 51, ["SolNode62"] = 52, ["SolNode19"] = 49, ["SolNode72"] = 51, ["SolNode102"] = 51, ["SolNode101"] = 18, ["SolNode107"] = 18, ["SolNode38"] = 51, ["SolNode64"] = 69, ["SolNode56"] = 51, ["SolNode33"] = 69, ["SolNode127"] = 52, ["PlutoToSednaJunction"] = 1000, ["SolNode57"] = 52, ["SolNode908"] = 52, ["SolNode53"] = 51, ["SolNode11"] = 51, ["SolNode48"] = 51, ["SolNode68"] = 51, ["SolNode214"] = 138, ["SolNode84"] = 52, ["SettlementNode14"] = 157, ["SolNode87"] = 51, ["UranusToNeptuneJunction"] = 1000, ["SolNode226"] = 3, ["SolNode15"] = 24, ["SolNode106"] = 51, ["SolNode100"] = 51, ["SolNode49"] = 52, ["SolNode24"] = 24, ["SettlementNode15"] = 157, ["SolNode70"] = 55, ["SolNode73"] = 51, ["SolNode123"] = 18, ["SolNode903"] = 24, ["SolNode217"] = 138, ["SettlementNode3"] = 157, ["SolNode46"] = 51, ["VenusToMercuryJunction"] = 1000, ["SolNode14"] = 51, ["SolNode450"] = 18, ["SettlementNode2"] = 157, ["SolNode132"] = 163, ["SolNode906"] = 55, ["SolNode223"] = 3, ["SolNode140"] = 163, ["SettlementNode10"] = 157, ["SolNode1"] = 52, ["CeresToJupiterJunction"] = 1000, ["SolNode26"] = 24, ["SolNode34"] = 69, ["SolNode105"] = 69, ["SolNode216"] = 138, ["SolNode39"] = 24, ["SolNode69"] = 69, ["SolNode144"] = 163, ["SolNode45"] = 51, ["SolNode65"] = 45, ["SolNode228"] = 24, ["SolNode67"] = 55, ["SolNode60"] = 69, ["SolNode63"] = 24, ["JupiterToEuropaJunction"] = 1000, ["SolNode125"] = 51, ["SolNode224"] = 3, ["SolNode22"] = 18, ["SolNode130"] = 3, ["SolNode212"] = 138, ["SolNode108"] = 25, ["SolNode215"] = 138, ["SolNode89"] = 24, ["SolNode82"] = 55, ["SolNode23"] = 18, ["SolNode121"] = 51, ["EarthToVenusJunction"] = 1000, ["SolNode78"] = 52, ["NeptuneToPlutoJunction"] = 1000, ["SolNode210"] = 138, ["SolNode149"] = 163 }
 	local system_english_to_tag = {
 		Mercury = "/Lotus/Language/Locations/Mercury",
 		Venus = "/Lotus/Language/Locations/Venus",
@@ -1197,13 +1196,14 @@ do
 				item.factionName = ExportFactions[item.faction].name
 
 				item.__order:insert("masteryExp")
-				item.masteryExp = mission_exp[item.uniqueName] or 0
 
 				fill_in_startchart_export(item)
 
 				item.__order:insert("rewardManifests")
 				item.rewardManifests = {}
 				if wiki_data := MissionData.MissionDetails:find(|x| -> x.InternalName == item.uniqueName) then
+					item.masteryExp = wiki_data.MasteryExp or 0
+
 					if type(wiki_data.Enemy) == "table" then
 						assert(#wiki_data.Enemy == 2, item.uniqueName)
 						local tag1 = factionNameToTag[wiki_data.Enemy[1]]
@@ -1271,6 +1271,8 @@ do
 
 					fill_in_wiki_data(item, wiki_data)
 				else
+					item.masteryExp = 0
+
 					item.__order:insert("nextNodes")
 					item.nextNodes = {}
 				end
