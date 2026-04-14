@@ -3024,6 +3024,7 @@ do
 			}
 			if bundle.name then
 				import_from_languages_bin(bundle.name)
+				name_to_storeitem_map[string.lower(languages_bin_dicts.en[bundle.name])] ??= uniqueName
 			end
 			if bundle.description then
 				import_from_languages_bin(bundle.description)
