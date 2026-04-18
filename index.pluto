@@ -4959,6 +4959,33 @@ do
 			end
 		end
 	end
+	local InventoryController = obj_from_path("/Lotus/Types/Player/InventoryController")
+	ExportCodex.__order:insert("songs")
+	ExportCodex.songs = { __order = {} }
+	for InventoryController.data.SongFragments as uniqueName do
+		local name = obj_find_property(uniqueName, "Name")
+		import_from_languages_bin(name)
+		ExportCodex.songs.__order:insert(uniqueName)
+		ExportCodex.songs[uniqueName] = {
+			__order = { "name", "song", "reqScans" },
+			name = name,
+			song = obj_find_property(uniqueName, "Song"),
+			reqScans = obj_find_property(uniqueName, "ScansNeeded"),
+		}
+	end
+	ExportCodex.__order:insert("fighterFrames")
+	ExportCodex.fighterFrames = { __order = {} }
+	for InventoryController.data.FrameFighterFragments as uniqueName do
+		local name = obj_find_property(uniqueName, "Name")
+		import_from_languages_bin(name)
+		ExportCodex.fighterFrames.__order:insert(uniqueName)
+		ExportCodex.fighterFrames[uniqueName] = {
+			__order = { "name", "suit", "reqScans" },
+			name = name,
+			suit = obj_find_property(uniqueName, "PowerSuitRes"),
+			reqScans = obj_find_property(uniqueName, "ScansNeeded"),
+		}
+	end
 	write_data_file("ExportCodex.json", ExportCodex)
 end
 
