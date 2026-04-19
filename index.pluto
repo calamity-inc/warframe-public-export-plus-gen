@@ -4948,6 +4948,7 @@ end
 print "Creating ExportCodex..."
 do
 	local ExportCodex = io.contents("extras/ExportCodex.json") |> json.decode|json.withorder|
+	ExportCodex.__order = { "objects", "loreFragments", "songs", "fighterFrames" }
 	for path, object in ExportCodex.objects do
 		if path ~= "__order" then
 			import_from_languages_bin(object.name)
@@ -4959,8 +4960,37 @@ do
 			end
 		end
 	end
+	ExportCodex.loreFragments = { __order = {} }
+	for ExportCodex.allTypes as uniqueName do
+		if uniqueName:startswith("/Lotus/Types/Lore/Fragments/") then
+			local name = obj_find_property(uniqueName, "Name")
+			import_from_languages_bin(name)
+			local description = obj_find_property(uniqueName, "Description")
+			if description then
+				import_from_languages_bin(description)
+			end
+			ExportCodex.loreFragments.__order:insert(uniqueName)
+			ExportCodex.loreFragments[uniqueName] = {
+				__order = { "name", "description", "image", "reqScans" },
+				name = name,
+				description = description,
+				image = obj_find_property(uniqueName, "Image"),
+				reqScans = obj_find_property(uniqueName, "ScansNeeded") or 5,
+			}
+			if secretTransmission := obj_find_property(uniqueName, "SecretTransmission") then
+				local stdata = obj_from_path(secretTransmission).data
+				ExportCodex.loreFragments[uniqueName].__order:insert("secretTransmission")
+				local text = obj_resolve_path(secretTransmission, stdata.Text)
+				import_from_languages_bin(text)
+				ExportCodex.loreFragments[uniqueName].secretTransmission = {
+					__order = { "sound", "text" },
+					sound = obj_resolve_path(secretTransmission, stdata.Sound),
+					text = text,
+				}
+			end
+		end
+	end
 	local InventoryController = obj_from_path("/Lotus/Types/Player/InventoryController")
-	ExportCodex.__order:insert("songs")
 	ExportCodex.songs = { __order = {} }
 	for InventoryController.data.SongFragments as uniqueName do
 		local name = obj_find_property(uniqueName, "Name")
@@ -4973,7 +5003,6 @@ do
 			reqScans = obj_find_property(uniqueName, "ScansNeeded"),
 		}
 	end
-	ExportCodex.__order:insert("fighterFrames")
 	ExportCodex.fighterFrames = { __order = {} }
 	for InventoryController.data.FrameFighterFragments as uniqueName do
 		local name = obj_find_property(uniqueName, "Name")
