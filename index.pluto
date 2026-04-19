@@ -4,7 +4,6 @@ $define OUTPUT_BASE = "../warframe-public-export-plus/"
 $define LANGUAGES_BASE = "../warframe-languages-bin-data/" -- https://github.com/calamity-inc/warframe-languages-bin-data
 $define PACKAGES_BIN_BASE = [[F:\warframe-packages-bin-data]] -- https://github.com/Sainan/warframe-packages-bin-data
 
-$define V6 = false
 $define MSGPACK = false
 
 local { cat, json, xml } = require "*"
@@ -526,9 +525,7 @@ for LANGS as lang do
 		store_tag(lang, item, "name", obj_find_property(item.uniqueName, "LocalizeTag"))
 		store_tag(lang, item, "description", obj_find_property(item.uniqueName, "LocalizeDescTag"))
 		item.specialities = nil
-		$if V6 then
-			item.capacityMultiplier = nil
-		$end
+		item.capacityMultiplier = nil
 
 		item.__order:insert(4, "icon")
 		item.icon = obj_find_property(item.uniqueName, "Icon")
@@ -651,9 +648,7 @@ for LANGS as lang do
 		item.__order:insert(4, "icon")
 		item.icon = obj_find_property(item.uniqueName, "Icon")
 
-		$if V6 then
-			item.codexSecret = nil
-		$end
+		item.codexSecret = nil
 	end
 	if lang == "en" then
 		write_mapped_data_file("ExportFusionBundles.json", ExportFusionBundles.ExportFusionBundles)
@@ -1277,13 +1272,11 @@ do
 					item.nextNodes = {}
 				end
 
-				$if V6 then
-					item.missionIndex = nil
-					item.factionIndex = nil
-					item.factionName = nil
-					item.secondaryFactionIndex = nil
-					item.secondaryFactionName = nil
-				$end
+				item.missionIndex = nil
+				item.factionIndex = nil
+				item.factionName = nil
+				item.secondaryFactionIndex = nil
+				item.secondaryFactionName = nil
 			end
 			store_tag(lang, item, "name", node_tags[item.uniqueName])
 			store_tag(lang, item, "systemName", system_tags[item.uniqueName])
@@ -1313,14 +1306,8 @@ do
 							nodeType = 1,
 							masteryReq = 0,
 							missionType = "MT_ARENA",
-							-- @pluto_warnings disable-next
-							missionIndex = V6 ? nil : ExportMissionTypes.MT_ARENA.index,
 							missionName = "/Lotus/Language/Missions/MissionName_Arena",
 							faction = "FC_CORPUS",
-							-- @pluto_warnings disable-next
-							factionIndex = V6 ? nil : 1,
-							-- @pluto_warnings disable-next
-							factionName = V6 ? nil : "/Lotus/Language/Game/Faction_CorpusUC",
 							minEnemyLevel = 30,
 							maxEnemyLevel = 30,
 							masteryExp = 0,
@@ -1347,14 +1334,8 @@ do
 							nodeType = 1,
 							masteryReq = 0,
 							missionType = "MT_ARENA",
-							-- @pluto_warnings disable-next
-							missionIndex = V6 ? nil : ExportMissionTypes.MT_ARENA.index,
 							missionName = "/Lotus/Language/Missions/MissionName_Arena",
 							faction = "FC_CORPUS",
-							-- @pluto_warnings disable-next
-							factionIndex = V6 ? nil : 1,
-							-- @pluto_warnings disable-next
-							factionName = V6 ? nil : "/Lotus/Language/Game/Faction_CorpusUC",
 							minEnemyLevel = 30,
 							maxEnemyLevel = 30,
 							masteryExp = 0,
@@ -1381,14 +1362,8 @@ do
 							nodeType = 1,
 							masteryReq = 0,
 							missionType = "MT_ARENA",
-							-- @pluto_warnings disable-next
-							missionIndex = V6 ? nil : ExportMissionTypes.MT_ARENA.index,
 							missionName = "/Lotus/Language/Missions/MissionName_Arena",
 							faction = "FC_CORPUS",
-							-- @pluto_warnings disable-next
-							factionIndex = V6 ? nil : 1,
-							-- @pluto_warnings disable-next
-							factionName = V6 ? nil : "/Lotus/Language/Game/Faction_CorpusUC",
 							minEnemyLevel = 30,
 							maxEnemyLevel = 30,
 							masteryExp = 0,
@@ -1522,13 +1497,11 @@ do
 						region.__order:insert("hidden")
 						region.hidden = true
 					end
-					$if V6 then
-						region.missionIndex = nil
-						region.factionIndex = nil
-						region.factionName = nil
-						region.secondaryFactionIndex = nil
-						region.secondaryFactionName = nil
-					$end
+					region.missionIndex = nil
+					region.factionIndex = nil
+					region.factionName = nil
+					region.secondaryFactionIndex = nil
+					region.secondaryFactionName = nil
 				end
 			end
 
@@ -1608,13 +1581,6 @@ do
 
 					item.__order:insert("distillPointValue")
 					item.distillPointValue = obj_find_property(item.uniqueName, "BaseDistillPointValue")
-
-					$if not V6 then
-						if item.excludeFromCodex then
-							item.__order:insert("isFrivolous")
-							item.isFrivolous = true
-						end
-					$end
 
 					if not item.excludeFromCodex then
 						name_to_storeitem_map[dicts.en[item.name]:lower()] = to_storeitem(item.uniqueName)
@@ -1931,11 +1897,6 @@ for LANGS as lang do
 			else]]if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaMod.png" then
 				upgrade.baseDrain = 10
 				upgrade.fusionLimit = 8
-			end
-
-			if obj_find_property(upgrade.uniqueName, "IncludeInBoosterPack") == 1 and obj_find_property(upgrade.uniqueName, "ExcludeFromCodex") ~= 1 then
-				upgrade.__order:insert("canBeTransmutation")
-				upgrade.canBeTransmutation = true
 			end
 
 			if obj_find_property(upgrade.uniqueName, "IsStarter") == 1 then
@@ -2686,10 +2647,6 @@ local function process_weapon(weapon)
 		if PremiumPrice ~= nil and PremiumPrice ~= 0 then
 			weapon.__order:insert("platinumCost")
 			weapon.platinumCost = PremiumPrice
-			$if not V6 then
-				weapon.__order:insert("premiumPrice")
-				weapon.premiumPrice = PremiumPrice
-			$end
 		end
 
 		if obj_find_property(to_storeitem(weapon.uniqueName), "ShowInMarket") == 0 then
@@ -3042,8 +2999,6 @@ do
 						typeName = typeName,
 						purchaseQuantity = component.PurchaseQuantity,
 						durabilityDays = booster_store_items[typeName] and math.tointeger(LotusGameConfig.UpgradeDurability[component.Durability] / 86400),
-						-- @pluto_warnings disable-next
-						durability = V6 ? nil : booster_store_items[typeName] and component.Durability,
 						giveMaxRank = (component.GiveMaxRank == 1 ? true : nil)
 					})
 				end
@@ -3063,14 +3018,6 @@ do
 					bundle.platinumBundlePair = obj_resolve_path(base, platinumBundlePair)
 				end
 			end
-
-			$if not V6 then
-				bundle.__order:insert("premiumPrice")
-				bundle.premiumPrice = bundle.platinumCost
-
-				bundle.__order:insert("bundledPremiumCredits")
-				bundle.bundledPremiumCredits = bundle.bundledPlatinum
-			$end
 
 			if obj_find_property(uniqueName, "ShowInMarket") == 0 then
 				bundle.__order:insert("excludeFromMarket")
@@ -3369,8 +3316,6 @@ do
 			icon = obj.data.Icon,
 			credits = obj.data.RegularPrice * -1,
 			platinumCost = obj.data.PremiumPrice,
-			-- @pluto_warnings disable-next
-			premiumPrice = V6 ? nil : obj.data.PremiumPrice,
 		}
 		import_from_languages_bin(obj.data.LocalizeTag)
 		if obj.data.LocalizeDescTag then
@@ -4529,41 +4474,6 @@ $if false then
 		end
 		write_data_file("ExportIntrinsics.json", ExportIntrinsics)
 	end
-$end
-
-$if V6 then
-	io.remove("ExportMisc.json")
-$else
-	print "Creating ExportMisc..."
-	local ExportMisc = {
-		__order = { "uniqueLevelCaps", "boosterDurations", "npcKillRewardMultiplier", "helminthSnacks", "creditBundles" },
-		uniqueLevelCaps = { __order = {} },
-		boosterDurations = LotusGameConfig.UpgradeDurability,
-		-- @pluto_warnings disable-next
-		npcKillRewardMultiplier = V6 ? nil : LotusGameConfig.NpcKillRewardMultiplier,
-		helminthSnacks = { __order = {} },
-		creditBundles = creditBundles
-	}
-	-- ExportWeapons is "missing" /Lotus/Weapons/Orokin/BallasSword/TNWQuestBallasSwordWeapon whereas uniqueLevelCaps does list it
-	for LotusGameConfig.ExportedGameConstants.UniqueItemLevelCaps as entry do
-		for entry.ItemTypes as itemType do
-			ExportMisc.uniqueLevelCaps.__order:insert(itemType)
-			ExportMisc.uniqueLevelCaps[itemType] = entry.LevelCap
-		end
-	end
-	local InfestedFoundryManifest = obj_from_path("/Lotus/Types/Game/Store/InfestedFoundryManifest").data
-	for InfestedFoundryManifest.Resources as resource do
-		local ItemType = resource.StoreItem:replace("/Lotus/StoreItems/", "/Lotus/")
-		local data = obj_from_path(resource.StoreItem).data
-		ExportMisc.helminthSnacks.__order:insert(ItemType)
-		ExportMisc.helminthSnacks[ItemType] = {
-			__order = { "type", "count", "gain" },
-			type = data.InfestedFoundryResourceType,
-			count = data.InfestedFoundryResourceBundleSize,
-			gain = data.InfestedFoundryMaxResourceBinGain
-		}
-	end
-	write_data_file("ExportMisc.json", ExportMisc)
 $end
 
 print "Creating ExportSyndicates..."
