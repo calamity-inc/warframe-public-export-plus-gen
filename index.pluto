@@ -1878,16 +1878,27 @@ for LANGS as lang do
 			upgrade.__order:insert(3, "icon")
 			upgrade.icon = obj_find_property(upgrade.uniqueName, "Icon")
 
+			local offset = upgrade.isUtility ? 10 : 9
+
 			do
-				upgrade.__order:insert(upgrade.isUtility ? 10 : 9, "compat")
 				local compat, compat_base = obj_find_property(upgrade.uniqueName, "ItemCompatibility")
 				if compat then
+					upgrade.__order:insert(offset++, "compat")
 					upgrade.compat = obj_resolve_path(compat_base, compat)
 				end
 			end
 
-			upgrade.__order:insert(upgrade.isUtility ? 11 : 10, "compatibilityTags")
-			upgrade.compatibilityTags = obj_find_property(upgrade.uniqueName, "CompatibilityTags")
+			++offset -- Skip compatName
+
+			if CompatibilityTags := obj_find_property(upgrade.uniqueName, "CompatibilityTags") then
+				upgrade.__order:insert(offset++, "compatibilityTags")
+				upgrade.compatibilityTags = CompatibilityTags
+			end
+
+			if IncompatibilityTags := obj_find_property(upgrade.uniqueName, "IncompatibilityTags") then
+				upgrade.__order:insert(offset++, "incompatibilityTags")
+				upgrade.incompatibilityTags = IncompatibilityTags
+			end
 
 			--[[if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaModIndistinctUnveiled.png" then
 				upgrade.__order:insert("omegaUpgradeTypes")
