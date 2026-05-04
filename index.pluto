@@ -402,6 +402,7 @@ local function export_excludedPlatforms(path)
 	if obj_find_property(path, "AvailableOnPlatform[CP_PS5]") == 0 then excludedPlatforms:insert("CP_PS5") end
 	if obj_find_property(path, "AvailableOnPlatform[CP_XSX]") == 0 then excludedPlatforms:insert("CP_XSX") end
 	if obj_find_property(path, "AvailableOnPlatform[CP_IOS]") == 0 then excludedPlatforms:insert("CP_IOS") end
+	if obj_find_property(path, "AvailableOnPlatform[CP_ANDROID]") == 0 then excludedPlatforms:insert("CP_ANDROID") end
 	return #excludedPlatforms == 0 ? nil : excludedPlatforms
 end
 
