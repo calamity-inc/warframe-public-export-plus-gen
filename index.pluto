@@ -4748,9 +4748,10 @@ do
 				if #items ~= 0 then
 					ExportVendors.__order:insert(path)
 					ExportVendors[path] = {
-						__order = { "isDynamic", "isOneBinPerCycle", "items" },
+						__order = { "isDynamic", "isOneBinPerCycle", "requiredGoalTag", "items" },
 						isDynamic = obj.IsDynamic == 1,
 						isOneBinPerCycle = obj.IsDynamic == 1 ? (obj.ScheduleOneBinPerCycle == 1) : nil,
+						requiredGoalTag = obj.RequiredGoalTag,
 						items = items,
 					}
 					if obj.ScheduleOneBinPerCycle == 1 then
