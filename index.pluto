@@ -1092,31 +1092,38 @@ do
 	write_data_file("ExportMissionTypes.json", ExportMissionTypes)
 
 	local function fill_in_startchart_export(item)
-		item.__order:insert("tileset")
-		if tileset := starchart_export[item.uniqueName]?.tileset then
-			item.tileset = tileset:split("/"):back() -- for easy indexing into ExportTilesets
+		if data := starchart_export[item.uniqueName] then
+			item.__order:insert("tileset")
+			if tileset := data.tileset then
+				item.tileset = tileset:split("/"):back() -- for easy indexing into ExportTilesets
+			end
+
+			item.__order:insert("levelOverride")
+			item.levelOverride = data.levelOverride
+
+			item.__order:insert("extraEnemySpec")
+			item.extraEnemySpec = data.extraEnemySpec
+
+			item.__order:insert("vipAgent")
+			item.vipAgent = data.vipAgent
+
+			item.__order:insert("customAdvancedSpawners")
+			item.customAdvancedSpawners = data.customAdvancedSpawners
+
+			item.__order:insert("missionReward")
+			item.missionReward = data.missionReward
+
+			item.__order:insert("miscItemFee")
+			item.miscItemFee = data.miscItemFee
+
+			if data.founders then
+				item.__order:insert("founders")
+				item.founders = data.founders:split(" ")
+			end
+
+			item.__order:insert("challenges")
+			item.challenges = data.challenges
 		end
-
-		item.__order:insert("levelOverride")
-		item.levelOverride = starchart_export[item.uniqueName]?.levelOverride
-
-		item.__order:insert("extraEnemySpec")
-		item.extraEnemySpec = starchart_export[item.uniqueName]?.extraEnemySpec
-
-		item.__order:insert("vipAgent")
-		item.vipAgent = starchart_export[item.uniqueName]?.vipAgent
-
-		item.__order:insert("customAdvancedSpawners")
-		item.customAdvancedSpawners = starchart_export[item.uniqueName]?.customAdvancedSpawners
-
-		item.__order:insert("missionReward")
-		item.missionReward = starchart_export[item.uniqueName]?.missionReward
-
-		item.__order:insert("miscItemFee")
-		item.miscItemFee = starchart_export[item.uniqueName]?.miscItemFee
-
-		item.__order:insert("challenges")
-		item.challenges = starchart_export[item.uniqueName]?.challenges
 	end
 
 	local function fill_in_wiki_data(region, mission)

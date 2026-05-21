@@ -1,39 +1,46 @@
 {
     "SolNode94": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
-        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA"
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+        "founders": "InsideDreamer Fada DawnpH Mogon _-Target-_ Jerome1223 KiMorJi ApexZer0 WubMasterWubz Etikim timforthenguyen rayndjk1 Jett hftang Allenschezar Naaru ProAverageJoe indo4everr kal92 StephanoTheGoldenStatue ProfessorParadox Luckinout 225018 SanguinusXII Ricest Omni29 FrydgeOvHell_-YFB- Lynches kuromasa airfobrat Palinas melistross mattobolizer"
     },
     "SolNode130": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
+        "founders": "MRTOOTZ Lunaticked lulupig LadyCorsica redchaostry DarkDestiny silasg610 Nepherti biga VF27 InTraining RustGear Scope_Lock CanIbiteU lemonlight Rhodox Iraiza Sidhion Xx562xX Tabious93 EpicAndAwsome ZHeKinToS Enidox Duyab Poison_Ivy Saraphys No0Vad Stalker2013 Kinori kirbe Killerpie9994 Kosler redfluffyhead Exxaxl Crinola stryder-swift",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode119": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "founders": "rehpycoren Cromaxion GField4ever Alexforgreenz Purio_JP LJ6580 Sephias lifetalk Septin Zoidiac Kotei Ahura_Mazda WolfsCry Gl08ule Xylia Cubic.R Morphiuse Justiceian Neo_Flux xBlackleafx Humenz Kairys nyuugyuu kaguno The-Enforcer NamaSan All4TheLoLz Blankedmind kreatus katmonster N0VAXIS Adi81 Kyuukei fc4848 Talos0940 343DLR Iterum",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode12": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
+        "founders": "Ghost_Dragon KBTKaiser Jenks CrazyKnave durtraw nerdrock Cairos Motoko-Kusanagi Hobbnobbs hedamu MavenACE draco575 NitroTrigger137 no1here4u2c Zeri0us gressklipper Romulus111 CetiAlpha-V Crette Jikoo Lilac_Meirin Balomare checho88db Omnity tom19882004 TheBulitt keNOOBi Bunathon Rubycon Miro_X LilithLovett Animae258 Exire555 Ecksiled",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode103": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
+        "founders": "MAG4 Labcat Tyrianstrasz BoomboxBunny uraharu Siamia caboosetheawsum Alarracakes Swift016 Maxapollyon Isendeldik zenteno miggsk AlphaGator Siegfayr Br33Skr33 DarkSentry Kanmoon Xennhorn XGoku Potton Krogothian EdwinLi Archmagus RyuGan932 Rising_Falling The-Ex-Wife dead_ghost_hope Nonamie jmakindow16 Giana Matamata DeadGoanna ArchangelASR",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode28": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerInfestedMix",
-        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne"
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne",
+        "founders": "Lasu Sartonis Copa Ph4lanx Xessos ANAGO meiK Jackuri Alkoor Scapegoat masa0107 nottiwara Tsune Xeddin RadicalGoodSpeed NthMysteron LotusDeek PurpsJL Krusial Rezolve Sarmondia SCORCH1 Cerca kitkrystylez Oyasai_aaa Drix013 Grim-Vestige Palukamike _Rue_ Deathfury serfex23 nyangb Bridgodette perpcacoph Riehorn com2 SweetWarmIce TekKanatliMelek"
     },
     "SolNode108": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent"
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent",
+        "founders": "Laterite Aksyl Brettlp88 Darkmyst Zarbone Inuchiyo Z_A_L_M_A_N Toro1d ArchangelAkroma Mordecai1990 Lokix84 graffr Relish the_privateer ClaymoreNo47 Negirian rinon Shirue MjrPackage Scission Taiven Vissor Qvintus Sullysaurusrex xRiFxCarson KOR_NEMO Evrom Shadow_of_the_beast Mavis_Vermilion Alienati0n manymangoes spaaloney Wagnsson"
     },
     "MercuryHUB": {
         "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain"
@@ -142,29 +149,34 @@
     "SolNode123": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "founders": "Ridentlor PrinceGumball HanakazeFR Dunks Jestyr7 Hodori Tunda snipez47 SlimFatBoi Nelua Austinstoner meconopsis -Arkio- Nari_Salmon Darkblue006 Ginzy Visarah TTBNC Beule87 ShinTec b4dkarm4 gsugu RentalBeast Vashido Kuppz90 Neo3602 nukoxtuti2010 TildeD RaystlinXI Archangel-Michael SolitaireX Naturalwinter Nadalax Nilla.No.Bake Vahlemon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode61": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
+        "founders": "Mastablasta Nagasher Kasp0me Middle_aged Raigoth l3loodless swirlyglasses Kirito66 toshi8 Rubbe SUS304 GlobalSwsaber collstro MysFire WolfBlitz Exitwound Eepon nightrider123 Deucanion Yanga Mourtimer Primalcore Paydirt slightlyorange Lucifer89757 NINJASAMURAI karetoflower Brosagi FriskyKitty Phycode D4WnY MisSix nh.rfx12 Hulu95 DARUMAX SnakeWildlife",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode2": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "DarkHumorXIII DemiTwilight ShadowHawkjr ArtiZiff TheMattaBase TapWatr Shnikerz Tsopheh escwald evilxuan Zilvern Kyrzon Sajik _D.O.A._Bones huscap_noodle Scarlett_Neko Stalkrr Jaedus AnnaAgain Drador-An KuaFu Ribeye Kaite AlphaOmega447 Turac tomoegozen iceblade92 Hallas MarcPG xXdeltakillerXx Lung1909 blastrick21 DreamKill3r stryker597",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode71": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "founders": "Greatstinger AetherRiddick Krestalve GunsNRoses Phlons QcDrummon89 iLrdy8 SgtTopher Jeerome0406 DAngelQT BANGsoGOOD Tainysi Nin-Tenno-69 Joezapp Balinfor Oosecks Crystite PlaguedSushi Monnicca Blamelob zinza NMCT WingSilver Letter13 shayna_TOR joez00 Lizzymon 2ndG Shadowdonut DEAdam Murzzy depravedmonk Daskine highlandpiper10 nekurakko",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode23": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "founders": "Bang_Doll NigJesus NickB demetriusjack DodgerJPS TC-137 Chloette mad__lad Killercage Zorthul The_Goddess_Nyx Solitude_Dragon Masterfo Keter-Quake TachibanaMei KStaR ToxicWulf DanielLin Werberder Arcadiace SmokeHaze Snapp3r Blydug joebywan _Makar_ Desmadre666 TheTrueSad Kypirioth racerx99999 Mordoron komenx Cyrith KAZRAK GTOKK Skygoth6",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "VenusToMercuryJunction": {
@@ -189,27 +201,32 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "rotrik ProfessorSnow swooshbear Pelsjager LucianT6 GreyMatter Vartrius Puresyn flexlitesin Mufride wagato1 Mr-Magic xXAntiMatterXx BiancaPony RTgoblin Goku-spn007 Nirtoxide blazer679 SHIiKo Kalwren Randomizeme ontorfel LOOKONSTRATOS JealousEel Ganek solozar Xares3k SACRIFICE_010889 Great_Grey_Wolf_Sif Ershak Harbinger942 nuruhachi",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode109": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "codi2325 GFORSPOLAR Hygron IAmNotAfk frawley6 Galadysvariadystana MadSantaX EastSenecaYetti jojokyung grndragon TvK11 Khanthal Dragga KashAhearn saemon00 ratsmttat Bast-et unpwned Googolplex CaptainPeanut Dorian-C jisoba Chulz Vanlain Shoryn TheMrMuscle Nova506 GluteusSupreme nug37 M93R Gwaiyn d4rkr4yn3 Alucardr216 Altics Kilroy512",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode104": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/QuadRobotAgentNEW",
+        "founders": "hole FallenSeraphHD Densuo Kintsurugi Smiggy SethStaples Tollomon Gaica Cultistus nclfrk799 AkemiHomura0928 shidyme SuckMyDiction siralextraffo RewindTY popcorn18 Lumera Raklor Daihazi ShadowHorse revsony Laisha burningprophet Ommnomnoms Serafim51rus Drachinos chochen plasmablade Ixous SocratesTheWise Vicious_D Gemmine Grishmark",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "PvpNode1": {
-        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level"
+        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level",
+        "founders": "Anin Tridman Hummerman_ Dr.Dosa Ruuji Divine4 MoonEater Salyute StrongBelieves ducky098 Caloera Kodiat Vexkz Warmspielen BladeAngel BIossome gideonstar Jordan2555 Daemonson TheGMan14 Spindal BostonUSNavy gathrawn198 Gormy0185 xXSakuraXx Lokreas kaz3n Spectre-Agent CathaStrofe vindicare241 MrTophats Gramdorn Coreworld Quarious DualFx"
     },
     "SolNode66": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersADropship",
+        "founders": "Uong Kiho Jinpu Zargath Nosfuratu Koagedo Funkmachine Hushalta ZetaReticulan rabidpirate NewBat PhoenixKiara Uncouth Terohero joonashei Totorlenoir Deviousity KaseZer0 Completionist OptimusV Eindwe Koscheisan Cyberwar SanctSigus SunsetVenus Kasmir WindLynx Xehtex KratosLegacy Playaboi NEFT hamuto MrSmileyy sadpandaz606 Urska YoukoAsamiya",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "ClanNode1": {
@@ -225,18 +242,21 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsEasyDropship",
+        "founders": "Elevorot Earris NutSlasher StanleyPain searious Ageha Cyrrel Dkarn robbiejn Edgecrusha Blood_Relic DroppedaBeat Exousia Mushuwushu sasafra5 Renrag Siro1x2Sora NueHoujuu Ethelwulf13 Synrah StinkyPygmy Aikan Schnubbelgurke Varsaar nevillelin Twistedmind94 Kid_Psychotic dr.sick Muralsparky Snoweagle007 Pechosa tengoku777 2zosan chocrazee",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode22": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "Habanero Onryu MasterMarglar Vadrigar krt17 ESAMIN Brazen_NL Nacel Nashell Metamorphic Ragnarok00 JollyWeavile Keltik0ne andytake OldGod Luva perochan Laerion Maelthorn Laguz_M RaTskhi Drag0nBorN mothra96 Jaxom84 XVII gmartinqc Mtbimmortal MrJackhammer Asimo Commando_Hazza H4sk33r-EGT- ChicagoWay JeroenC74 Cloudkill SumiHime ChonBuRi",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode101": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "Cassum xMaestrox TigrisRex Verdammte Countlessly sasamiiiii TheCatsPjamas Ryuzin Architrex ravenloong mokonono AetherWyrm StarTurs P0YNT1NG Mc_Sword NeoBlaze PAIN_REDEFINED MastaChggf Fungalcorpse Sacredrelics Marabitos Lias tatubon3 ragin2.0 RealName Draennon Lunafox Klavise LaughingProphet HappilyInsane kemu2 knightwolfe tryia",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "ClanNode0": {
@@ -331,6 +351,7 @@
     "SolNode333": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
+        "founders": "ZEDD xFinal KillerTofu Imperator99 Seiryu21 Jacomus EvilFruitz Flopsy Venrel LazyTheGypsy MootyWaffles shirokuro ThinkingToast Sulci zheng528 Rakdos92 MidgetTamer elysichan ZkaiW Greka.Pavlidi Rezign Zarkosan kimahn LordChronos Snellius Fenghal SweetBread SnowyKitty GreenScarabBeetle Topcat2234 obedzorf EganMC Campagna Syntharid",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode63": {
@@ -338,32 +359,38 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
         "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAgent",
+        "founders": "MrSnipes Stelek Portal_Hacker Skay SirHoneybadger Mt.Book-4403 TailOfZabu Visteck Whirrun crabcandy Creavyer azragermany01 Mistafab loopydirtysleepy Argonos Owio Lefahfnir Imperrator Dobravolets LemonSickle Leriel r0th PollonXD RYN0C Averageboi Loganius seanno1337 Jackieyena Shante Natas_Black Zazeck N_E_R_O Hyzu RAMBO911 Blackdog-SSP",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTilesetCaves"
     },
     "SolNode27": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
+        "founders": "philversprechend Ded_Sek land0thegreat YourLilWolfie FaustNight Relenting LeoSaysNO ssirownsalot Strixe Warry055 Crominix772 Ophion360 robbins689 Kevlar_Kron gunslinger420 GiYOM Mapuka Ice_Storm kpgav waagstrom LX_M3 MOGMOG3000 Zecrius GothicDragonX Letaris gomichan ForteXLR Mysteryman2000 xptn40S Lir87 Lumtay Generalwww highlanderIIc",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "SolNode79": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersForest",
+        "founders": "ZEDD xFinal KillerTofu Imperator99 Seiryu21 Jacomus EvilFruitz Flopsy Venrel LazyTheGypsy MootyWaffles shirokuro ThinkingToast Sulci zheng528 Rakdos92 MidgetTamer elysichan ZkaiW Greka.Pavlidi Rezign Zarkosan kimahn LordChronos Snellius Fenghal SweetBread SnowyKitty GreenScarabBeetle Topcat2234 obedzorf EganMC Campagna Syntharid",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "SolNode39": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExcavationA",
+        "founders": "BlackScythe FaalKorum ObSean VosAzazel Raman4434 TXPT Liantedan InAmberKlad Gil. mikeabc0123 HeWhoWatches noriou Recon1303 kennylagenz Smarkatch Iceshotgun Immortel Glazofig I3urg Appsin Saphra20 Y3Johnny MrBojangles321 Wazkamuko maximus1917 MidnightShades Satha_Nala aavvdkdk M4XVLTG3 Zenstrouv FlaverSaver... Lionite Shirow84 NexusDragoon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "SolNode15": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+        "founders": "Mortarion Barael saiphen VolkomShift Ryuodjn lerksand WeissKreuz xection9 shizuyami TenFool Tekyon greenblazes NimrodV Mianavich Malchezaar FattyFat Jedi_Snorlax Fosteri Auras77 lafarga iPaco Acrodia main_antagonist Shriekmau krabbe17 Divljina Stormgaleb SirMajava amenomikage tear1 WplayB Boolsv01 Rabid_Dolphin Nelovia Dart333 916422388",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode26": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
+        "founders": "Roujou RetroNights metharius hamsterextruder evilredpanda mageres VK4502b KnightofZero rahoni Ktunaxa dissius Nealybealy MaraudingZebra MKenny Permafrost70 Selvitarm -ERBE- Jiumu8 Techlonas Grandmaster-Builder5 TheShardBlade Neoneron Joviex evangelion7890 dlyf00c29i Douglasrayman Saboteur009 RoseateHemorrhage Chriso250 Avalonzo RedEagle86",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "CrewBattleNode502": {
@@ -384,21 +411,25 @@
     "SolNode89": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
+        "founders": "Wolf-of-Fenrir Detroid Aphyon Spoolooni FStadin mayrbear freekey MasterKarazard Ashmedai Kishira Gridfreak Kavinirp Pathular Edaciousascian AntarouDono hermestri Carutelia DE.Thief shadowfox8084 AcceI db-arcaneSANCTUM campusmaximus Isis_Dea Renairen Kaprys Avan VanityRobot Lord_bubba33 Merlinhawk DarkSunnies Asmic DisplacerBeast",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTilesetAnywhere"
     },
     "SolNode85": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
+        "founders": "PowerWagonKevin MA347612890GT4078579132R Flamekin FishermanX MrBiscuits Gummi Xavien Weird_Stealth GottFaust Syndikate sevsta Patchog spe_ ARKKITEURASTAJA GeKiRiN Exylan Kuronekko_reverse Deuces80th AndoValdr Cromica Tugor929 Xephial Bushido666 Mitchael Xlade91 Doopliss. Pupetmasta Klonelok maestrolima DeMiDOv Tharsus ShiresuBlade",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "SolNode59": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
+        "founders": "Rynax Arlayn Zedelous HavecEffected Naith Caedmon89 SonneillonZ XII-19 Smurfslayer Death.Lotus Snow_Fox IDS_Eliminator-one CaboraX Brangutang MaXMayheM VirisV Juoshwa Gyuver Wanikiya Lucky01 carson0310 Chirenkov JackStalka AlenArbatraitor Y0g1b34r Genethitami Mortenius_Noirdoom ArtoriasZero Naidam Severuslanskerr EmberStar zanbato120",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "SolNode75": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
+        "founders": "Tenoji AMadGenus Lufieres jellorockz ExKoder Bensherr Dingobox SNKRJ Silverwind01 infinxx Joehovah Honestlier wingsltd MCXL Rueful Telrayne SilverKey MommySaidICan N8LM Recklessly Vyp3r187 sickness24 Tinji LastToDie Baseline Ziefer IDKing iseeu2 Uvhash Bollewolle MasterEspionage Lainork Dedman008 GerryLawMartin Jouzo Myuria Felwhite",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "EarthToVenusJunction": {
@@ -436,6 +467,7 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestBossGrineerSquadOne",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HekBipedAgent",
+        "founders": "un4given huginrin Canadian_Guy x3n3tix Zeitgheist DoaN Mobia Gojahand Lovesody Project_Mako BenderOffender Garto k1sEy rusty8849 Sl4t3 Haun DarkArhont Green-Arr0w HimitsuDragon Timmysgotaids LunarFlareX Nemesistic Valfunde Poppet JaggedX BUTSHI309-EGT- FLSH_BNG Stormandreas Co-Bolt Ori9in KougamiShinya Taizen1990 Chauneko Souel Serade",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerForestTileset"
     },
     "ClanNode2": {
@@ -542,32 +574,38 @@
     "SolNode35": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "founders": "Zunaku Indictan Scarletwing dredfayt Siae tamon4116 matti_ HuntingForVodka Zappelzfry Louchar SayOink ROZSE RedtwoK Secretariat lesmat SovereignofSurp Pheather13 Furktato Rushukin _D.O.A._.Sunny ZeroFahrenheit PhoxxPhire Blazingblood Salishaz derfdca igyoung13 N3RDIB0I Blut_engel Oriko Nipponsei linuxoff FatalBukakke FX550 Tremnas",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode30": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls",
+        "founders": "Dac2142 DrPhill Stalebubblegum ocharake Vimax87 BMO77 sushidubya tibuta MitsX Magenta_Iris ORTRO Beaux KuroLuffy kathash Jaysus41 TheUncouthSir Sherbethomes Carnivor2000 zankanken codyhigginbotham MechantQc Surbelil BeanBandit zerogear5 Thumper2014 Dodger6 Kyrsaku phazefox DeadDraft Modana_Inamorta Skargagor Winters.Brightness LovelyRose",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode113": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "founders": "Ryladar Avenwing NikOff Csuragual Mr_Giggles Nexas XenivouS nagaknight BloodyJokester Chaos105 FEKETERIKO RMaXiMoo Nasmodok DenizenKane GalegoTrance ojamate Devilbear Mercury91 KrypticGamer JAYBWALKS IIgame95zII bmason LeighPouse leroy685 Numble Fuzz_ Fartbake VllShadowllV Dyspraxia TheCupCakePrincess23 N83RT83R AvaTriX TenzUK SuperFreq",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode46": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "founders": "Fraggoth Hazzrak Seldszar deaththekid66 Falcynfyghter AznVasion HypaH Tagms DreadWraith KingRiptide hippienut Rethink Kalomire Baltanner Mephisto73 Maddocy nullard claudeswares tatcher LilMozart Nakra iccy freakXshadow Wildjeck Nukliuz blkthunder Datenchi MachFarcon Klies MSQUAR3D Armored-raven NikOnRampage Hermod99 Rick233365 SlicinAndDicen",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode68": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
+        "founders": "Lumbering_Troll savageFRAME2000 Torviodoya Durandl UltimaHiryuu sk8erboi Korvun EFxZetaGundam KaeEbonrai moyasi1150 Slite zFrostBite urosurika Midaculous GeiBoruku Schleppi MagnusGrel Bodda84 MetsuZangetsu Bompf CripticCorp Xion28080 burj Hans_Zic Rubytooth Dragonenforcer2011 Hubert_J_Farnsworth Warzala MaxHardwood Rodrickinson Kongjokke",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode58": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "founders": "Grimhowl Fawk Wardog696 jinglar1993 DarkAnubis Tiboforge bobnik RedHawkJ G0RET3K myantyou neko4569 abbacon Shaolinchi lronman Thyldan PaK_ANiMaL RockSkar09 UnexpectedKiller wanren Kiroi Thatamos Duewater krabbe bully1 Kayjin545 misoru2012 Gouldian FLAUROS ottobeals Criticalanarchy SethA007 TheCometCE FoulMouthJester Omnipresence",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "TradeHUB1": {
@@ -592,37 +630,44 @@
     "SolNode106": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "founders": "Mikhalio nexterts MetalGerbil Murutang ShrikeAlpha DataSkworm jeongnam85 Dadalos WingsofLiberty Ulesche ChaozRain Alazif GreyRunner ftneko HappyBunny Devilwing Danameless Kissshot1385 Trasen56 Synthetic_Ghost disturbedj DragLoo karuruman GingerSmurfsown Sgorad Remsiv Vladistophel B0NES1129 MarlonID MOROGORO flame_hound-.- The_Phantom_Walker",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode41": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
+        "founders": "Thyrious PsychShaman Moebiuz NikVidXD Siltur Flaming_Snake Beehive Necrorobber AvatreDaemonSadi gravitystorm Ruffian Mr.Ryu redeyes777 AzroDobie Ronindream Cryo_Crits Shizonrhu BoosackNoodle Master54200 solitoidiota D1398342003 carpathia1928 Zanshinx Cytobel Vakaryn Gelor vunun ReaperO13 Cerberun Trem0rZ PhantomHatter Lorted kaith1018",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode14": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "founders": "Dhekhanur Hietala217 mMeAa GhodysThief Sordaz AzureOwl ctsniper211 Adunakhor SpFinX Aerelor CrazzyMonkey95 Introuble mituyu Santapwner Zanghoul merry-gate 41Danny1 Elysia KibaWesker TanatosJr Nabissco DE_Corey dcruz0 ligonare Savyar Majestic4est xMartyr Slumbering Beas7ie Haiova JeyZet hyphz Dolugius FoxyKabam Freddz Ikuna Hikosejuro",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
     },
     "SolNode16": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
+        "founders": "Trive Zerroth Verazix Krazuka Kerestel CHAPTERVI Gravefire ebi-tiri Rasealin Instinction Telalelazon i2agnarock Harmon British Void_King Eve_Lipp cgstrider Cevrin tomoki_the_wolf SGEliteMadness InfamousJim Diseenith Darkscars MaddL-EGT- Buzirq Okeya Chimera042 Xephex MeduSalem ZodiacShinryu tcolling AndyTok dav36rye RXRRanger VampSoL",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode45": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
+        "founders": "FBC ThatsNEET catslevanilla HighEmpty Gluck PhantomStals xanroth willthethird ricardoa2 LIMIchan Cynin Arweena Rime DreakinZ Varo_Sanumai skidzero Tity BeachedHippo Jaedlyn Kamakazi2664 ki11thief hojomcc SinfulBanHammer Soullesone 7TangoDown Mishotaki Bigbangs todokuro gege59 x7Evangelion esteinmetz slake1 Jyah karlomaniac fuzzbocks",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode54": {
-        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix"
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
+        "founders": "Attacus OGRoman EvilClownMan WeAreTheBorg fm2210323 Tranzil CrimsonOverlord Nebezial Vandred KorEllen Fearbuile LordOda BruceLi S_a_d_i_s_t SteaknBacon ZOOLOONINJA DKTNK superfat StarScribe LaroPade Daftbong vofthew Weissy BlackOil Anrieke schluepfer09 maku-ra Sev1107 jedikarma lstalri Jykke71 Kiddymonkey DivineSoul Crazykodiak lexxileno"
     },
     "SolNode36": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "founders": "Baitski PromethiousNathyra Granite neetway WulfZero AOJIRU0831 CROW1 yeborrm 667st ExhumedWolf rgkethoth Solarfreak Synndic Desmys Dont_worry Achibon idohasami sslowmo RuHaGon iP3RFECT Ussopp R4CL4W HDDr1vE GiottoXIII FreakLord Abraxo MueR Misuraki Deathdea7er Buldozers BoomDeBam Reano ZuraFPS ElleNooB Argontis wolfdrgnblade Arandurr",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "ClanNode8": {
@@ -642,6 +687,7 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOneNoManic",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/BossLechKrilAgent",
+        "founders": "Crothurzix FAQU420 Exodess Rawrish Stalker. moors Eiljond EmperorFooble z3st3r mr_hedgehog_boy Terrence_Knight IceDeCoup 0verwatch killaiam clocks Darkhawk622000 FateN Tallshade Charlemaqne PhatPirate Mr.Pleiades Freefall357 beeyan MichaelSD HothEdge grapho GenesisBlade Ayasedayo LXM_3 drachon1 XxSonicTheEdgeLordxX Pengwyn FinVortex",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "MarsToPhobosJunction": {
@@ -670,7 +716,8 @@
     "SolNode65": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
-        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA"
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
+        "founders": "filth Alcadiac PearlyWhite Ravenor444 ConfuciusMan Triskaideka muccmaster Noki-Nokiru ZCloudAceth kithsakhai Nafthali Alveriel LANtarou PR0ZAC -iCookies- Redline486 Nexoduz Kardiz BlackFlags Cradicias Noissar Blaze13 Divine_Angel MrCharrington Tkail NL774 liquidbacon Fayted Hybridon Khazura Mazorubka Pezaja Grimmsong P3t3rlord buell"
     },
     "ClanNode9": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
@@ -685,11 +732,13 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "founders": "FerchotheRipper Carnus alelipton CrossJunction Injhvb Sagi blondiejay WashWizard AstorSigma EviLAnB Benedikt Severant Arienzu PLUM00 RichManToy NOOBY1278 Shadowbal1er Arbitrarily448 f0R3Ver Capitulate Feylis MrSparkletime InfinityMC Grimstryker RiotKitten blugorilla TransistorX Lancer654 CouncilCat Stygere bonus_69 DaijuFuma TheCupcakeFairy",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode11": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
+        "founders": "lordshogun Drachau Unmortal Swiftness P1RAT3 Rynelia jitakukeibi cyborg405 g0sU ThatOneEdgyGuy Zelara Chastity 6h05t WhiteCopain NeuroByte PapaZen Grankain Xasters Raegmoar13 Manic_machiavelli LittleAnarchyFox SonicDoragon DEfyAbirTH Snatchy5962 Valhar JessicaAlba BreVaun Ralesmar amamura eavaan tahu653 XPYCT_KOCTEU getsownedmaster",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SolNode904": {
@@ -751,12 +800,14 @@
     "SolNode450": {
         "levelOverride": "/Lotus/Levels/Proc/LastWish/LastWishDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerDesertMix",
+        "founders": "Habanero Onryu MasterMarglar Vadrigar krt17 ESAMIN Brazen_NL Nacel Nashell Metamorphic Ragnarok00 JollyWeavile Keltik0ne andytake OldGod Luva perochan Laerion Maelthorn Laguz_M RaTskhi Drag0nBorN mothra96 Jaxom84 XVII gmartinqc Mtbimmortal MrJackhammer Asimo Commando_Hazza H4sk33r-EGT- ChicagoWay JeroenC74 Cloudkill SumiHime ChonBuRi",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode87": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusAmalgamEndless",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams",
+        "founders": "Cybele Galix Minbas -Hero- Migoe spik zuno shidowz Valdryn HaroldMiller PlisK1N silentx3ro FrostZT Kasom OyasiroRena shieldb Veselchuna GroovyGuru62 Bromaggedon CTRLFR34K REQUEST_49244 jsmimi Kiyashi11 intothesky87 NanoDecerto vadl Starkin56 Shadedwalk Jiguro huttd Radiance89 Quutio chocoal3x Wolfdragoon Johnny_Kep7 Ehza Dker ususu",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "JupiterToEuropaJunction": {
@@ -781,53 +832,63 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GasCorpusSabotageTiersBC",
+        "founders": "Lithon Thraxen Steel.Soldier BlastGoggles Sir.Rigamortis ms006699 Furioustrim Shagster sumeragi Cryofthecat ShinySneasel NTASLuckshot Hraesvelg wayline Reaper98 Kintroy Ragna_Folez SSJneo Brynnza Gaiters Wiredmonkey115 StrayWolfie TyrantBelial Voron351 x3RosKil amaring Naztor TheEt3rnalL1ght Brawleee Nightfall17 SynMonger CountAnykey",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode97": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD",
+        "founders": "Feather Kazuke Snipa Braken Bloodfeat Zarath Oni-shi RhinoPrime Nertlespeed wbattery xxRenvarxx gimkun HaemoFelia Grefter Dr.NooB ZetaBlade CoolWhip125698 Lolili Soulstealer316 Luncern Clarvoyance Bangkirai cathood Honkmahfah jazar97 hamiduRAGE KyuFubuki BipolarParrot Balone Basalt RogueWendigo Gygow Peenut FelixGoldenHeart Mikel_S",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode126": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity",
+        "founders": "Hybrass Ced23Ric Krrr8or lolk MrSpanky169 Riverchill Legaar Tekato Fortdeath Reppu Yelbommobley Evilroy Dragul _Aks_ Narvarus BlooDDeatthH Valience Darktearnal Altra1966 Dregunn hage1001 Hless Link_Highwind B1ack.P3ter bravetree The-Jester nmvlong Ralthan 911nsidejob FreeZeHD alxias8787 Authion ddongmang LennoFF OWNEDALLDAY Dentendo",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode125": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
+        "founders": "Albatrosse Ahrtimmer Ninnybottoms Dovahkiin_imoyan postum HiMAC4T kernkrieg spawngregory Comiquette High-Five DrButtface sir_deadlock NightStigma Sabal DiGiovanni Lost-Knight Spintflis R3n4m3 PocketMouse8 LoadingMaster XaeroSignal Shyapiere chuckyFEZ Z1000 Sheji Velius315 Zinouga Ralsin Warhead961 frozZzty TheStalker_00 Drednayt",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode100": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasSurvival",
+        "founders": "Inequal Daeron Deloak Takei_Naodar Meepsauce Shadowen Deathsight000 dogmonster inora RazzleTime AiquF LouarnRuz Hirum skilix Holycruz akebono029 Eliard EMC_SeaDog Vithos NightFury008 boss_cafe Tenzek Terra101 pfcsock Orolo Arakendo Hazards08 hanyiheng Cilleborg KuchikiByakuaya Matthies7 Lionadis89 DarkPrince0 Arelto Mystecia NCrysiSOFT",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode10": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies",
+        "founders": "TheVeteran PhoenixSouls ChaosSchley kurotsuki9675 Durrie balsen Jakob_OPPAI Sinther Botya Applet Cracksocks Detectus MrClunkers Excelsior10 Gabrie TommyV1 Finkregh Putridsoul RobotJello Sundances felbinac Hiro0000 choko1234 mienkid2o6 RedDevilDante Domeinator UZIUS Phoenix-EGT- zeroythe Ichino Physixx don231 TheGodFeather Indexion",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "PvpNode8": {
-        "levelOverride": "/Lotus/Levels/PVP/CTFCorpusGas.level"
+        "levelOverride": "/Lotus/Levels/PVP/CTFCorpusGas.level",
+        "founders": "Myopic_Sniper Asuko BloodRaideN JeffyThanatos Xtract03 Tekky Sorros Harshrow BlackNormandy MaYh3m707 Pierson Punchyfist Zerrakesh Darstrom MiNDBREAKz MakkyD MrMediumGray simaryex #NAME? Spearhead-au Marasamaru TunaMayo Dark-Berserker Crainial Kyle_R0Y Zohar Yggalad Desraedos ShorSnacks skull5555555555 MAXiMUSN13 rawhal Ragnarok96"
     },
     "SolNode25": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
+        "founders": "SpaecCaeks Jyuubei MrEndric69 WingedDivinity MilesCadre Verko7 BFfighter Crimson3lit3 Blendy. TheLordQ Indraroh Autage Amizem Quizzical Elitasaurus Kaneki Nemezix Sarjest jeffersonsiva TheItalianRage Rentago hot4ryan Idiom Moonshifter Shrecky Shondi Endurlay Wargreymon sci648 Shade_Slayer_300 amano-jack LYLeave Fulminology Shadaii",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode121": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
+        "founders": "Cademus Quexyz NetDefault DouLeX Totino Khorn3 Goth667 Deost LukePlaysx33 pincool Foxtail7 ecog H170k121 Iyoshua Shadom Wallgren Malindros seven_657 staticmetal Ackille sevydagreat Nakal Cartman126 Bakab4k4 kotin Csilla roboarthas Gambit_EK jellostairway Medivh Raiithe aTrane9001 Darth_Pink AtropGeon EngelAziraphale PossessedDesire",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode53": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/AladV/AladBossAgent",
+        "founders": "Cogrock Theowningone UnfoundSanity Nako-Chan JKIEra Q9650 ito9999 Memnarch amurray DODONGA Ninsji night_rustle Eidolus MasterZ BlackMupit Marim0 Jackal30 Rekahn 007Eleven Ku-Tan Kasino KnightCrawler SlimDante 0Aelia0 elitinx. RainDear Meuchelmoerder Benedict DrNinja493 Nindak Max.Power The-Demon AdventSign menolous UmbraVenator ChocolatePudding",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "JupiterToSaturnJunction": {
@@ -850,6 +911,7 @@
     "SolNode74": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
+        "founders": "Sexy.EXE StreetPreacher DoctorLocutis gokijets QuLle Hethkar GrowlingLeaf Sylkii Glitch233 yparalHl Zediex hemoru z1no Imotekh Zacktacular -Catbug- MaruGeeko SoulReaper000 XRay2391 Draelz Towlieban glees Katja Fardale ilBongo DarkJester32 gabrielorei Av4_UltimatuM texporter Lanceafew kevcast MrAgamemnon inkauto henrymcarvajal IIItenchIII",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "SolNode740": {
@@ -876,6 +938,7 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
         "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetCorpusFlyingAgent",
+        "founders": "STARSBarry Gunngnir der55 Jaelen WeiYuan DeusBlu ronkarad Geopelia Relimetica soukke ShadyAction iGoNinjaOnU MauleR MFPallytime Pepito_Feichter Sirdread Kendoz Fortifa TnegaLibram shotguns12 JutsudC Gencho Saba73 longboarder120 Behelliom ROVictiM Houndedheller TromOfMood ---Eliminator_one--- Nato4eyes Vandale Vere-Oblitus Soviet_Communist",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset"
     },
     "EventNode30": {
@@ -952,33 +1015,39 @@
     "SolNode110": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "founders": "Coobie Davante Ullr phoenixflame611 Kooboo PanicShot SynthDelicious Vaetir WanAhLun gonben Profesorcool dugweacr ManihaXX NickVato NobleChance ShadowFoxxs Hnkona PORKGOD sgmike GeistMD ircle ogredered Rigo_RHX Incarnadine Radonel JustinKILLA94 Divyna DE_Trevor DJCol7 hobolyra waudad01 L057C4U53 Falcon1357 hesti gex420 FrostSpiritS",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode7": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "founders": "Daikirai Suiku Baablenheart Oxziv Voidraptor Westmin TennoHydrangea FreakyFreddeh Resy FatalStyle Smith0rz Kryel takarasky Saintb09 Ipyrios ArcticDragonX Aeusyx BuildableDuck Shadowofzara Lord_Polygon Flashover Wryipqetuo AtraMors Bunn1e Aliiias McFlufferkins .SHINIGAMI. Cubana StratoS117 CaptainSminky CXVIII Sherpa_Rage A135T89Qjsa8",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode42": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
+        "founders": "SkyKit siriuslux Manchossak RiGGiR Znorali Alckatrazz CORONAA TheOperator Wo3dy Laughkiller KKyong Kraeion Chuchie shadowark Garei0 doreikun sangreaa Xaer_Qwickblade Zirconus Evvan FoXxXoT DeathlessRipper UnflinchingResolve gin2027 ShinRyuuji .X.A.M. Jeck063 SorrowfulWoe Doctiry NexAngelus AceEnvy ZuluDanger Ganic05 Tanothar DLDeath",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode19": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "founders": "FanaticGamer HaZe SleepOfTower meatROD Kenko AlbinoGeek Rathelas Torasutosan templa60 GG_DeathDealer Balerion84 MrGrap sagloq uraryon-jp Texr Darphnix Jamukha deaz14 Noctisque Satellizer-senpai Cazull Turbine Gasper22 Laevatein Deathstars Chupathingy 2Pro4U RecycleXu EggsOverEasy aalarin Aknologiy skirkendoll jacktbeach glreon masyomaro",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode96": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "founders": "Plagueoffire Revhan imsomeone IWATAKA AZ689 Ic3J0k3r RochTheShaman Cpt_Milton Nex_Incognito sundy001 Saslan Kenshin2942 Lastana Hircine FA70FH Vadeski Nescafe54231 fragmaster412 Tenshidono antibannik MaddHatterX212 Ssstheliss schism_ Cifer118 kujaku PrivatePile Ashurax Deathstroke2000 mayayameruru AlvanFodua Colorswirl throthren",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode67": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "founders": "ACRONYNJA Reiku EdenCode ThatGuyAgen PartyboyBrandin HellishWind Dodge-This SgtSpectre MrClavicus Franky409 demonsdeathgod Daskre SienRenegade RoyalTiger SymmetricalDocking Tanblch Warewulf Portagus.D.Ace HellSyn420 JackEC2 Kovdan seaman777 Zachbot20 HektorGTR PICS Saske92 DresdenB17 gadou56 OMEGAERROR kukamo23 EVER17 Shawxi StupidGnome",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "CrewBattleNode501": {
@@ -1031,36 +1100,43 @@
     "SolNode44": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
+        "founders": "Xarantur ArchonPook TGSlasher YOWANEHAKU Bgustav Hydrolysis DxDBox WFDeadman MIMORIN dharma1114 Ice_Jackal doubi-PG HuntingShadow SirSkellington Teh10sorrow Ceyrus berserkjoker ChameleonDude VoidSkiver DeltaTheOne WhiteTea Alanzarad sisne TiskiAine BladeofMars .-KG-..-Tschiller-. JasenZelMyth NaiveSatyr LoveSound demokriton Ciraeon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode91": {
+        "founders": "neonbregna Naples shattereddreams THZswedify RAZC Aurai K0bra ChristianDiehl stelky LuteZh LunariaN- Chainfox DeadPixel MrWafflez NixTrax Ungeared FNNCFX deathsapple BenSonBoy RDuncanIV oscarlol knotter4 Nyotarei Johnblade Kelvy yeelowsnow allksa sassybacon bzrkmaniac Cranial_Enigma OnlyThresh Diarist Vicon666 Anher Jhazor Manshima",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode47": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "founders": "Mortifactor miniKAD Kroanoah Alcross873 Royzen Orcs Xrunner Aciszen Rius Slarks Firebat86 Survical Eradicator Shmevil CosyPigeon Ramethus GuindHand tamakyon d00bi0us Danyael vubbler Supy Aggressor9000 French_Kitty_Maid Whazogamer d-otokomae Alpha00011 WolfX32 Jourmahagen KnightmareX87 patriksar KillerPan-Duh Toodalu DarkWolf9590",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode93": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
+        "founders": "Baitski LatencyRemix Gnarret Maddreams erogappa hellsquad2 Victim21 wtaps69 WindKing DarkLordEPIon Zhoyzu ApocDream Barren_Cookie falloutelite Nibos OneLoadedPistol HeroAscended itzspandex Erikas Artaire Noidor Soulsworne Porsner Svenrolic PsychoHazard Vixenize skit_tlez syp4nsig denshibushi demiti Enumine AccaT TheHorr0r Folgers",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode32": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukBossAgent",
+        "founders": "Tom_Hamster cuongusa130 DARKHUMAN_RU clouddz Achaemenes Chaosseed Skulliedoo Shwig Ravlok Exiwtound DJLethalDosage Dalohawk Mattimus Murks0815 CleruZemma smcyoyo NightRaven187 Rymaine ZansiBlackthorn Wherfy MekRedd Bazeka RainbowHooves AdrailUltran Sadiga FlamingRingz248 Similon AngelicDemon13 AzTrolicious Malorius131 TheFisherKing",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode80": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "founders": "Azurose Mathk Ista Dramavian Tikuf Pakkrat DavidSenjaya Dyxna Luxenor Brutukus PaleAbel TornadoChicken Shockness Shrike7 Kilreth DreWamek Dioxcyde AlwaysUltra xXSleepZz CrimsonGiraffe demurebeppe Wiks Archer86 LordCosmicHarmony Apocryphon akuronym Ungorisz A1kona y0214392 -Nerf-Herder- Vreal Korion321 Seqan RayDEus Trantum Spectyr_001",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode18": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
+        "founders": "Bishuu Xitel Kisatake Stefanspeed YuriTesla Valiran JudgeN Kura3 tonkachief MC2552John K1LLZ0NE Rigamortus SirDakuTheRed omegadeastro Scarae RampagingWeasel DANGERSLOTH narowood111 PaladinT Anubis0879 Blokono_Elfanio Phashi Matsutai Zaralis colestroup Fakeinit David_Ryder Khanzi Hyewol SoulConnector xyox PanzerKLOP Chaotic_Sky HardcoreBetty",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SaturnHUB": {
@@ -1070,11 +1146,13 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "founders": "Biggz222 dorf Renmaru jadenedaj BlissfulAokii Operative imChek Mizukyuubi Drew1PKT fridgeovhell Novemsol tsrm Raz777 yuma0629 NR_Y RaigaOlir soulgryph Kardomol Fallen_Angel_X2 SnazzyWolf Dave0015 Orro99 Spidflisk Shurakyo EightHearts Mystic-Zealot Calamir -0N3- se05239 Maddex MercilessAbyss Naymurr Ankiplank CrypticGraves artem1492",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode20": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
+        "founders": "Nanascow Masu.Buu Autoseal Benny.K Phlyn Reynhart Muchisute Djidanes IMBACalimba zzzmercury Lichtenlade hinatanuki Nagul Petch dialectic Kahpya Seigmann blessing256 Alymbic Roab EnvoyOfDeath Tea-Table Legaci27 Nanoligance Emeraudes th3wr41th Deathince Zinnister Visvol Shiroiyuki rion18 ExuRei Vilepresence cialjp Azarail excaliderp",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SaturnToUranusJunction": {
@@ -1101,27 +1179,32 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadTwo",
+        "founders": "mk45gunner Flippurs Khodos starcore Ozarrk MSGaming GiveMeFive Emiya_Oisawara DSMK2 AreusOmniae Yog-Sothoth C.A.R.N.A.G.E mag2201 mc2sk8er Drikun Lexder Klyern EinZelne pts722 f4rS Eisensteine Sophism HOLYGRACIOUS Zeriken Zippy249 Asphixious DLKnight5 Worelynn 666Batman666 SneakingHazama Zalp107 trinityrazgriz SpardaX01 S101 The-Exiled-One",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode55": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "founders": "Elantira Telzen Necessity lookcrabs DRThree Xantor gemcuttr bowac zruler tomaFKO InsaneAction EaglePeen Coarsan Ixxyness Airiner obi-wan819 Jazz01 pyr0420 d398b Falcolm0103 MinamoHinoe Hunter_V7 SUMA HUNK23 Xandorai Syuu1224 DynaR Shin_Ein Louware evoWF NovaStarr Ziralkia RetroCorn Phaze3 Consistentsin Evoleen Preshka JJBooklord42",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode70": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
+        "founders": "Con5tantine Aarkken Gooba AwYeahGirl fuseji Lordtorke Wardion2000 carnalKaiser 3qp3vndp2 mikarisu BetaMax DarthBear Walkerbait Tacgnomancer Triprunner Black__Star Thaelas Meatley hild620 cometjeon VenomSnake Leosdeath RamothElggur Aixsoul Bethesda_Reigns gosixt hyudra DarcnyssWolfe ZYLAN 71Dana sisao SEPT3MBER Fayader Zulaica Sanctios",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode31": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "founders": "Bharagha GabeRage Dscar turulger Illiros v270_FoR_LoLZ AgentNipples sgtNAM Dunk_Master SilverStormer edwardcpup SLIMJIMMONSTER Misojner KARAS-F deuter1207 urota3 LapJCheung Courrupt DvSiNt3nTiOnS NoMercy1981 Eguno LegendeRock xxsparthaxx Zerethon EisaGt ImNoky oblivios Gyronex N00blShowtek GuyTheBloody durmaPay DietEbolaCola Akuresu",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode50": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFiveAsteroid",
+        "founders": "thefirstrobo GlassRaven Spinechill HPHQ Halacon -Hero- LastRedshirtStanding Heavenstorm Kaedesan Aljaezo ABentSp00n Krultek Starentius AromaBlack Timcanpi Dark_Seraph CChicken AWanderingMage Zakatalos Neado 105poisin InZaen PulseGamer69 Danakar Mojira LiLYCIEL Shanoo seshomaruu R3d121 KnightOfCatarina MaxiKush CronosAU KotoneNanami",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "EventNode5": {
@@ -1143,6 +1226,7 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "founders": "Dinkydan Willjamma92 Lyson B0bbyl0rd EpicBoss Rekindle Adapa flaicher Ronin0889 ForOldGlory IovaTasha Steve3p0 Lotlock GodRecon geneparmesan yegaboo11 Presstige eiver Kriscake dendor ResetColor skittles105 DisillusionedX Sly_J KungPaoKevin _Wy_ AirXRengeki rubseneter megaveemon Lovemaker Myrzuk MagusZeal moody12 Aesthier Ailig liyinqiu111",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode906": {
@@ -1151,16 +1235,20 @@
         "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingGrineerSpaceTileset"
     },
     "PvpNode0": {
-        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level"
+        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "PvpNode9": {
-        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "PvpNode10": {
-        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "PvpNode11": {
-        "levelOverride": "/Lotus/Levels/PVP/TennoBallMoon.level"
+        "levelOverride": "/Lotus/Levels/PVP/TennoBallMoon.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "ClanNode13": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
@@ -1180,13 +1268,16 @@
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "PvpNode12": {
-        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level"
+        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "PvpNode13": {
-        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "PvpNode14": {
-        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level"
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
+        "founders": "JqHades iiZangetsu DonoLupus Laptopaddict BundleJumper Qooron PPaulT Ahkaskar diapermole Cicavic gauru412 NyreenKandros notthisagainlol Tr.Takip Maleb jiji8933 Enide NeRo_nV Draven0 Groovycrusher UnhlyEmpire Dante2gig Ben_Unit_2000 RodBSM Takai Qrave CyklonB AsasinNinja2 korean_random Terbium Neptius Kokyuseki Jaxuthor catpower"
     },
     "NightwaveDerelictDefenseSaturn": {
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
@@ -1246,6 +1337,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Valarfax Xan-Diesel BioRidley neochill Amyclas Xean Gadrak Maldhyr Karmapolis Dimonte Avepoon The_GazettE Kaerenai Zulunia Arkaster LordKeitaro UVDanger Keijima Asmodaen AgentStrange mrslashndash banzaiAttacker Rezri Gloomynoir InquisitorDresari fallouthirteen PhatPhoo Torreboy Lilith06 kalikilic DEEleanor Kontonno Lunua Stalcker159",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode33": {
@@ -1256,6 +1348,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "GangstaToAsT Gekritzel Mykko Slepnair daga Vert223 mausuke tarutarosu ExSys DisOrd3r Zor-Ragna bengkok Curliest Zanith Roxsic oisuu SuperKon taurus01 Istaro mgoodings semipro Venom20 SoulHunter2008 JorgeVD ThawingSpetsnaz MrChirpy pyrofiend88 SGAnthony xDivinity ShadowedReaver Treeky Tobscene Komotodragon tyunta kobihr CrimsonVotive",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode105": {
@@ -1266,6 +1359,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "wastu_spartan NobleWrath Explosive_Diarriah Trag richardddd nebulosa Treffgarnix Malil Zzz702 apinto1111 WinterKnives Lyubit ElectricDude Epsilon_ Nathan9872 kirillkov EinsatzWF sms900 Hathor s4itox Scuffedge GunSylph onthevergeofwar Miose SomeNarb ZR0DRGN Ikkimaru NIewERO RealJhereg K9black ShadyCactus6 Haiduk01 Riya666 PSDzavr",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTilesetAnywhere"
     },
     "UranusToNeptuneJunction": {
@@ -1291,6 +1385,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Tomain Llodilol PANGIGA Osouzai BadBrony Anzel Grim_Reaper13 Daener NikudanZyuto tomos Brandale Mistdiscrow Grogget erozen MunkusBFunky l3lueFire IspanoLFW PantyNinjaTM RobJ3917 TeddyBear117 QuantumCoder Schfifty Hakinator BicBoiCalmDown nustyboy A1CZERO Freeman-S8- royhawk RamzaLugria Northenshadow Noobstyles Zayrok66 jwdi Howie298",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode3": {
@@ -1300,6 +1395,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Crypher0xide Zeally Talkytoaster Icari tomface Fawksman Aege Vilesavant fab_u CrackRanger kaiyare LotusBunny DerVinho Desard KAzzU Anarchy66660 Alraune heiwadou wasuremono Eniffi godofwar16 KnightGear47 Drathin Rarnd SternenFeuer yodasears Legoman Haechwok xgamingx lagmastershaun LaMeP stocky12 KaeganDeoir Lanviirlo mattraoh Mr_Anon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode90": {
@@ -1308,6 +1404,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Raitter Daius intheblack Shmidley Aeonys RayKillYou SINOBI-HUNTER LightShining Mercurius.Howlings Draakje TenStorms HavocHawk ghexn MIRROR_ell Takayanegi LoLPanda Rayvic SekaiNoHikari PQNQS RustyStick GsInforce ShimmyShallyDillyDally NarkoloG Nateybird krantour Inflame Solomon85 NuraSoul Arcane1 pp152 Corporis Alexfurer Serlyn S3raph1s",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode69": {
@@ -1317,12 +1414,14 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "ZeroKaiser Mechwarrior5 deathtanet Remms Zerosaver Virtuamd Kendryck Souledge65 Fluffette yeeldarb TheErebus Scott913 frymyte Rlp1987 GarouPoildur mireille1293 shuho337 LordHavoc xGrimReaper zag1024 Niliu Daaag lancis doddadin Jin_Lightning ObsidianGKM TheShakiri Bayoumi Seluciel Zethir MaximusSkythicos DerpShot xRufus7x HaywoodJablomee",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode52": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "founders": "Cybele Saltfetch PapaShaow Torikage ma-bo-1203 Torquer bskurono peopsquik Schnuffs Macdonsr TricksterGM forbid Solma 49616E leklan Eratexon Kurosai Lorgdin -Kittens- WizCipher Baelanos Nodayo XueXi-USA Cade61 Grelt masa577 DanteMendoza nh0609 SixKegg Nolla Dracolord1987 Dandy_WhiteDeath asumirandah Raziel_Hexagra Kstyles Hoam Gennova",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode83": {
@@ -1332,6 +1431,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Crownclown1001 BaboYa Styms Iato Dorzim neppe Mr.LieutenantTimeBonkers DreadlordSirhc Archaic954 Stereomix chaotea Nesth Rathuul lostkoncepts sdkenny tno1 motuta Kronsor Nishida The_Stoned_Trooper TumanKiri Blackjack1405 Leshiy86 Felix_the_Wolf senorfusion686 Lights_Shadow VicesAndAdulation supercat005 OCHAIN mojojojo_3241 Deathsfury",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode111": {
@@ -1340,6 +1440,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Oni_Zero Xravius sgoverby Swift9 tastycakes5 IXGuilmonXI enear orracle Dvoidofbrains Anipsy DionysusLyaeus R3nGr4v3 Delta-56 Balios Bombypupe Toofu Tianren baddasz BooWooHoo HiddenKharma IrianaFluxx AtticusCraft IronWolfSaber omledu Bellator_umbra DAREX13666 Getsukage Whitestrake NajoudiggaNA Shuskei 4LUZ BloodArmoredApostle Illianna",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode98": {
@@ -1351,11 +1452,13 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Escaflon Ekkehard Tecrys jaketaylor Arkblade tanked Khaelen Pup2012 cwkhorne Deviousfurball Mi7ko_kotobuki RockDestroyer QUANTUMFUSiONXL Gungingr Zaichka azkidango Proxy83 Miraluka Alt13x Evauia moyasidptcom Suteeeve Goldeminer Rune_Sword Dwevan CTXCrimson Lockeh Hyxin El_Wray Bleak_Advent Kenastion Venstruthen Vereus BombDoragon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode77": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "founders": "SirSovereign NinaV Suprizebuttseks Yndil Boriit ShinobiNinja spikeyhare BWS-1 Dogeza Dogmata Hakurei_Sky punisher_LoS Breenland Reyjquit slone maecus Patchh RainArc Sacriel. Caldien SLNDR Mylittlebullet zeromoment Variencat look_a_pwny Inanimalia PlasmaticJj Shadow250000 BRad_Skirata GerrickTrier orijarot Thoramon Svoiobrazniy MapleLeafMerc",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode9": {
@@ -1366,6 +1469,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer",
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
         ],
+        "founders": "Frank_Aetheria Spoonie Stavos Kanabae Aquifn DeepbloodEclipse Peligaid donkdat elderchaves Original_Gamer Shotgun5784 DeadEyeDeale dollar_29800 Felork Terrimoto MOONFLUX Rumpa collon600 edolus Subdash ZrY- k31ny WoonyWoona R34LM TheBlueFalcon Kartumterek Moncalf L3YvaT3N DirtyQueen Phibra102 JaggedEdgeToo wankoromochi Heroslayer09",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode13": {
@@ -1374,6 +1478,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Larrizle Jikel Dzeath HeavyWeaponsCop Ebenholzdrache Rene1983 AlicesDoll LONGArashi KeitaroSama lunaticfang Aidith --TheDarkLaw-- Pistons Zaheen GreyFox. MICKEYPLS LINKS09 Multiple Tiven Azukra Akagawa Nikrul Skootss AseOfLife Tentaclaws Intel_XeoN Darthturk GearsII Lilleroy Denzetsu FrobozzDaMad DEAlex Unrelenting CobaltRat Funkymunkyya",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "EventNode20": {
@@ -1401,11 +1506,13 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Wrawness XiTWoUnDz Extraxi Gizmo44z Nyte Zyhend akaba0209 Graywofl iraka houligan Rayden752 BaronDrake Amya EvergreenGreg thor8797 2inchMonster loli_jesus gaburasu56 joshwz625 ugly03 Owlkin RecklessYI Snipermonkey89 TimeXFate LynKoyuki khmchik Frazeil Wanktastic Atrumvir Peraion sjqiannian Cathect Cytherin dj84722 lovemefire GOD-Zeus",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode5": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "founders": "deathdancer Naissa Zetasai Laviathor xCCx Ozentai Kidon Alkalne hrozvitnir Axeface1 Zynohtna DanSim123 TrustMeIGotThis Vinogrady Slowyjoey Bolzack LinoMesia Hineru lluobol Oblivionfox taka4242564 HowlingLung kei073 jmthebigman DETrevor VolOptQ DDelirium DeathPope Prosperity ZiLDoG basux zilltoid KrashOmnis Chta1234 Algonought Pachycondyla",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode116": {
@@ -1415,6 +1522,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Mercurius soroinen Sixnalia wjtonline CarVio nerro123 nullqasael torihu caconsis YourMoms Rasboinarrestabile VDread Effreem Gameface13 BushidoKill hamugoroshi Evultvole SgtKracker83 Grylla 8bitForLife NetSlayer KrAyZy SoggyPuncher Inquisitioner Bjeldor Sentaku Love_is_evoL Caelwyn z0014nd3r Hikaru023 titancerber Arcindrus Donaga01",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode112": {
@@ -1426,6 +1534,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "InfiniteMind Shatiya GOLDBURG Cmdrbubbles loveqinyi iDontLie SanguineSol Lord-Rainman achicken6 SpikeAC HansVanHugendong Shiftab Vixen89 Aerostia Faktum Eup356 xXshdw_EAGLEXx olliem77 DragonQueenSerena theironclad Carkis bldevaxZA Aversio Empty_Thoughts Lanamelach 43Emprah Squirter99 Etsoree -Omerta- LordDevan talbs ArawnAeterna",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode60": {
@@ -1435,6 +1544,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "LordVeil d0pE Emojojojo Esp10n Fimbul Quin OriKlein FrozenVoid CubbyCrusader Diewarp9 ironserenity Dordray KingSilataf irda Narq Akeva Kayen EliteTron Kiriyama01 syndi89 -CK- Mathiey Caladb0lg Valxeld Terrefeu r0ckwolf Vistha Disregardless snarkninja StrayCat NRX-044 McdIzzY NZRGD ronkangjh Operative-Prime Jinova_Sinner Xandir samuelania",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode114": {
@@ -1444,6 +1554,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "chaoswake Arutya Fesserson CausticRayne DaddyPain Riouichi Spanese Xirea sGs.Apoc Aselia nyanta Fluff.Dragon Augur Zeraa redbrigade RRZulu Nyther Abech archerkin Avalon3000 OctavalAcorn Zytist Behind-Jew Gagomli R8inbow_Ranger Archangel_of_Pain Lord.Satiro Db0ys742 GreatKurama Sadroth Blowfist Commaster Master_Xilliam Dalethor Beowulf850",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "EventNode21": {
@@ -1474,6 +1585,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Rahzael OptOut Darwin DarkUnity Vanshee Bronte NINJA_URN Calldero Cologne s3cShUn8 Xirs Nyiinx Theboondocks128 MeetTheJoves RyanDaniel638 Eins111 chem08 AeonPwny 2loud4u DeathByMustache Ashzur_Helix56 alienwrath Maladas Blackstein Magic_Fingers Steeledge wintersword SapphireKing AvABloodHiound Mibit Hyuks Peldain DonaFerentes mickestas",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode122": {
@@ -1482,6 +1594,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "Devovum Renan.Ruivo Brandy890 Azerenai Cemoe ChronoBodi crazyEd SugarMountain Mafipulater Yondho WindHorse Museion Asogi LitePix Porkchop97 MuriFire TheBoogeyman Adramelec thecool1232 Enjoired Poolvirus Nigimi Sawblade101 M3rKiN Treutonix alteranin93 Morveyn Leadpoisoning717 ShadowIron Sologhi Miokel sanraizer Mishil Aekold Yonnivin",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode124": {
@@ -1492,6 +1605,7 @@
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
+        "founders": "TROWAHC Sibis AlexCOOLEST nimbukie Thomill Vayna variable63 biscuit99 fortission Cingent Mongblin Nugget_ JP_ViViO nezroy KyoShiki Doomrunner MostUnholy royula Shadowmire Osiris_Talis Habataki Perenium Vermiculo_Ensis Gonkhalifa Fsneon _E_V_I_L_E_S_T_ Ned_Wiki ShiboNoTenshi Disloyal LOLZTACULAR biburi 1cloud9 TWstevenchiu Cpt_Orion",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode907": {
@@ -1523,6 +1637,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Griffypoo ViciousMink Grishord Terrator DerpyPug vieuxchat Crzy1 Mnitour zimmiie IceDragon279 Denninja Incubo1 Phlax Humming_Brooks Ayera Mepheus comtlex Syathan NaughtyFunTime Reishi Vargrym Lightning-Z Jaxartes KillaKrause Foreth CyRaiden Maedar TheStranger EramirD quietcanary yup4 Gunblaze A_ONLINE_Z tivskrad brenill Torsa Kalinda",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode95": {
@@ -1532,6 +1647,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "SaberAlter Nekonomable chukwu GlyphZero DarkZZY Marmy Penthe 7.T. Notvis Hyphee Raigir Cindyrate Woshii hal2210 BrainOfJ Metallax TheBombaiBeast Felkz Stundt KittyKat_Meow Casetwo KG-Tschiller TastetheRainbovv dirtyfrog Xeelon-EGT- bnbnhx Gorkhelek Charus Atled lordcirno puddle1 Saints_Revenge Sloth19451 SirRaiuKoren MCSubdued Damurah",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode117": {
@@ -1541,6 +1657,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "ColdMadHatter LoliLoveFart Gamephas3 Cerse Shadow6666 FireStorm1 dani_el_sakuya Mewtiger Rhokdelar Am0k Hakuryou Taikaviitta Pheenics Breathe mechausa Maggie86 Astralis SkaarjiXT 81rd01 Shadowblaze517 deshwitat001 Moyatto NoPanchoHere sakuya03983 Cyboran umbitual Aetha Ichiki-Kinshiro Belialspawn -BOPOH- sergmonstriker Kaellin Dorramt",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode1": {
@@ -1550,11 +1667,13 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Redstorm666 TheFBOMB TOGSolid shourin Alchimar Beckler BlueShadow29 SpookyLuke Scarsipian dynameos revanmaster lordsith001 Sanctimonious Mactax Malaheart Isythe MrDouchebag KiddRetro malikxxxxx liniv PoonHammer_Mk.II Deepfurry Borogoroeaesum TheWolfMo Makuren SKAntoniou SerPierce Rewopnivek Cryogenicist Devoltiox BirdUp Seldome VeraKeyes",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode17": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "founders": "Gotenks_Jr leadmax KiraSatome Morros KFSJ shadowtrap v3rninater BlackRhynos alain12 uberArchiver Trako Hericus Ragan42 JUNsan jGrondo Theodotos Iceofury karkun insane2g hokagekira ace10vitale HaroSpinx revolution556 RainHeaven vinicius19911218 WaveM6 Dragonknight525 evanjellyo petch11413 DE_Ami Ol_CheaterHandz eonNova Cosaki klankey",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode78": {
@@ -1563,6 +1682,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "FLCaboose T-KUAT himaou Liandra GupGup Laresistance N-0-NAME Jens2k AOD_sepulchrave Hidefrag souldead341 Xaeros01 Torguish alno1 MootValue Aldex Novashadow Gaav mokaiba BailWat Kamokamo iCaptTeemo MaRReMNaSHeR Rabidbluedeath GrandTeno Slimgoodie Exastiken xtxlancer scorp123_CH Hendryx lcggk Clichecaligirl Naohero greywolf914 vk2013",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode6": {
@@ -1572,6 +1692,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Farl Grimicus Gaaaaak Chuthul seshiro333 Metasoul bombgame AzuraFang OneUp. GoneM4d Asho panacakeman Friends4Fodder megane3 iniaes JaJuJo Banskyman catles Gungrifin Tagadada Depar traene Krux9 Nottiy Vengil Frogglerock Tombo136 crrider13 beruzebus NetherAngel Master_Griff atty303 JonnePires kyoteko Kalez azntrigboi Uictoriam sonantDAMO69",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "NeptuneToPlutoJunction": {
@@ -1649,6 +1770,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "rammenstein Travakh Chronomaly Sedz Zarlorg ShadowZeroX etep amura_r RictusX Verethragna sabibotan Jeito Rasnath Twigboy konpeto Genius88 The_Lost_One Bourgeoisie R.E.T.A Enterran Inviscidity WeepingWolf wittlemidget --Mag-- kunanana NGarai Rehdoras mailicor seradin Swallowme Houshu myfairlady XxHeartless09xX AznSm3xMachine KlaelDemon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode120": {
@@ -1658,12 +1780,14 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Quadruple SakuyaIzayoi Someguy89 varugain TheGarantine Glowwstick Si3g UNIQUEST Konpeki Kriego Di0medes bobhc Piell pablo john123 CheeksZeroG Miztazidz Asphalon Garway LTxNico buzao Yezee Woxit Sorrow Tomboii Folk_Lore Pamelz HuntedLight Aidaan Iashar ZenonSky Exedore MagiCandyBar Stakhanov proy27 lys1314 EnvisionAce onlycaio hitode1111",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode62": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "Akairra Lou91br Hallowedfern6 Earlslayer OLDREDGUY Kiyobutt mahoroba66 GopherO4O Phrixus Gelks Mjorindahl Exodus9000 hukhukhuk delv13 YggdrasilUmbrX Khezgaan Zerkini OmegaChaos pololoa XxXBruePandaXxX Corbane Ramary Bad_Dog69 Armanant Vicous morituruss Musashi92 Sordan Nomad_Freeman Swaggergasted Stinger554 LoxeBi Shinigami295 Geminikanon",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
     },
     "SolNode908": {
@@ -1678,6 +1802,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "zeonz Pohtamo RainbowDashness Securus Iceursus Neurotmesis MetalGrunt Tsenkai Egotripp LanceSeriya92 pavlovaface Windsake yam43rfzfa ArchRaphael Creed490 xcelzeplin n0bAdI2142 _Elric_ legenddark13 Kishward Donguri Tempist Aestate Blackbrair pinoynube Valgaldr Ominous73 Taiti Yoichi_11 Konnivar dxl790513 igunis Deldaran Apollofirestorm",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode118": {
@@ -1687,6 +1812,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
         ],
+        "founders": "Pr1nce Aethial Valecia Firewatch Adro232 ALTINES Rohloc GlowSilverMain Svenskeren yu-say Opsidian TerataiHancur DoctorLime Trapaholic Shadow51247 LordKayen malfacto Destinyx TouchMyDiction Chapel88 Aaron_Valfore Serritor raifuru RageT MasterFrostBite Kill3rBee Tezro predator192 Shetkiy Simten Snow-Cube pikuchan RoyValdez TheBever",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode84": {
@@ -1696,6 +1822,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Savenath LeoTheFabulous Dartus Exzelsion TehLaggy Billy5tyle Switchback89 lapilli Kiroxxigg Beebles Veidgrim Draykes Humz Harem.Incubi NanaShion Birdbox Jaren-117 Doxum ndantony ttap Nakalol GM1494 ChaosX3p Yuu9 Sadonkorjaaja NaruKami09 tanasinn45454 DragonNine Crimson_red KnightInShiningOni LTD03 Danny297 Ilumenseeker SgtShapes",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
     },
     "ClanNode20": {
@@ -1721,7 +1848,8 @@
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "PvpNode3": {
-        "levelOverride": "/Lotus/Levels/PVP/CTFOrokin.level"
+        "levelOverride": "/Lotus/Levels/PVP/CTFOrokin.level",
+        "founders": "Guyver-X13 Machon DEFonz xXFlutterXx Gamerkongen Cheeseypuffs163 Tanilu Lazek1 Kwout 3ch3o mailman312 Asatoru Nakorim Aviyara OnidemoninO Wolfdale blkvolt MAXiMUSN7 zamna Kasom-EGT- Huangjianwen MrHatterMadigan C.M.K -IX- mean_jake ReBornElite Arabel Alpha52 Poly5on kusayaki BIGBYRD007 Lokun Peleta FreeChild Bonicsoom Zurkr juzzsk1ll-EGT-"
     },
     "SolNode761": {
         "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
@@ -1804,12 +1932,14 @@
     "SolNode4": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
+        "founders": "Kaiuku Fairchild lostinnate Artielon Bjos Shadeseer jedoshin Shiroron 1beerhead1 SubtleSauce RevelationL81 Edusk Shendelaze Bambilio Ranho ccmm hetaresama kotetsu001 ExiledShinigami BlkPanda HO14 garasya linthimar Ltltsmash Emase nagoyomi Cisaka MGS85LU Rocktapus RexSol Terrathorn DrawarDragon thonto Calypso6612 NewtMechanist Mhykiel",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode72": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "founders": "Testickler DogManDan etienneqcfr Posca Raygario Kirasat Viperesk Malakai111 Gunninja kainblood KillOrder Foula Scysie OgouFeray SUP3RMUCH Vypor Electronite flp213 kamakaze9 kir03royal Pegasy Darkx013 BangUrDeadTC xXHELIOSSXx PandaMarine Yura4629 Mozzo FriendlyClam ABCDEFail Hiro25 Verixa emmaitica Kiwi-Azza LongShotForgetMeNot xittes",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode48": {
@@ -1819,12 +1949,14 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Balroth Tsoe Zh40 Wraithguard Aridenus Hazanko10155 motsumoto Cadaveriffic Thodin Kalenath jedimindfreak89 itherules Dostanica Protomorph Erlkaizer misterman_sg Xernic herturmor Ansixilus Chibidesu PBnJs Keyyu Th3Dean Ruzu Deldri Markito66 M3GAL0 radthezero kage132 Sgt_Kekka Glu.TtoNy WarWolfSW Zachles SuperHornetA51 Ssmokee neoryde",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode21": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "founders": "Cythe69 Timaleiatra Mailo187 Cavespider FAD3D Empiren zeroeric2020 Xaxxus Paul118x LunarSilence Borgdramon Taoism_ Giradeli J09301984 Aliothale Hatecube ErebusDook echophyber Moesashi_Angel_of_fire operator68 ebls CrimsonCricket ZetaplusC2 EngPyre Granyty Kyota Zoleef XCureWhite Scofield-D-Yuki RiloRilo Xonyaurn Sternensturm deadlydime",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode92": {
@@ -1834,6 +1966,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "carking OchaMaN YaoYao J-Pax Necoshot Urbanspaceman Alizaster DfeactiveWeapon HunterV00 Connallx Grazel Apocryst Solitaire BloodyOrion CIRAXYS SenAdaraGar PROJECT-RAVEN GroundWalker Rainzo AboveTheClouds AIISpark 041.Vento Roitsue SimonGame MelonofJustice Chronickles Saint333 TheHitcher23 TheHunterintheRye Predator_Atar YeTr2 reki4869",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode76": {
@@ -1843,6 +1976,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "WishDealer81 Beowulf Hazrik K2DamiR FMTMK Gorgor Ligeia Trigarion Don_Von_Hulio Blem rimlet Daruma TempusErus kanakuta Habba RS-CreeD PKillerNine Oppression Metaslayer JudgeDreddMantis TerrorRift F43AK Y6ibaka kokonotu SevenGlitch itsJustThomasHD Vondredd -Sinful- AKSnow Navy_Chief anubis000 Aerilith JUNGOSSI Malacheska WhiteViking",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode51": {
@@ -1864,6 +1998,7 @@
             "ItemType": "/Lotus/Types/Items/Events/AmbulasDataFragment",
             "ItemCount": 5
         },
+        "founders": "Hellebarde Eisen boubouqc Art0rius Ognihs SYOTOS_Gambit Mordefy Xaeres Nickeltoe Framebreaker DoinkBoink Axiris Nerwander Odeasu Zanzad Talmora Highwind74 nak123k TheRedShark strtmknx CypherXi Commander_Pancakes FirebirdX RipperLua MattNix DemonFu Berenike kaoses poehunterd lSHADEl dr.kaloman DrRitz RomulusWolfborn Nkro K1rkhaug",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode38": {
@@ -1873,6 +2008,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Elrian Valkav Bebop1492 Kuhl-Ka Tomkinz Terrorxfury MegaWuchi Xerf DarkLegacy12 LithiumPicnic SchwalzG Soc274 Iceheart Laxe TooMuchSpareTime Reamar Vadayen Zealo disrael94 kurosu626 vvnt InfectedStylez DrJed piecesoftofu DJSeraph Trolicpawa Crimsontiger Helkern Sgt.Deagle [DE]Cah Ihatebullettime -ReaverX- timsta -Shinozaki- LemonChickGG",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "PlutoToErisJunction": {
@@ -1898,6 +2034,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Vishram fukudanntyou Paranoia_Agent ULTRAn1ce KingZoidberg thebrassthief Delgatto VladimirKacht ChiChiDango Knapster Jahdoh Killerthor3 Asura00 Blaster3600 _PawnStar_ kengyufuyang LeucienWeaver EvilDudeofDoom Skepsis Zammy909 fthulydffgdf SkYEMc Ziiklz Chrome_9912 Zyrkal Veritas0506 starplatinumtheworld OrcishSpacesuit Cyonee ProminenceVII",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode56": {
@@ -1906,6 +2043,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Gorram nefrai Nattyote Tate AeonNoire Rufilius Darkdays 2ply ComeAgian AvinJingzu NanoDark Kaweru L3gndary LanceIot MyrskyArkkoni KennyTGuy TheSlyJ TCRbackdraft snowbrdd JotS Rognar81 ScArrogant Flippa299 Ignaesia kirigakuresaizou Ragnis 13briars Mikovsky Riol ninjaanonymous Fe_Angel Dialix iris.8ri7 Metikulous SyTh57 ShottySniper",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode43": {
@@ -1915,6 +2053,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "UnholyCow Xerik UniQcorN Dednerve IronFerret Golgesh Roland2 Filiz Fr33ak DglShadow Darkstar076 Zarn0 Verocchio TheRogue Zero5530 CTM4126 ejiejidayo DigitalMarty 2dark oykt009 Xorriel Llanwyllan GoreScreamingShow FaceOfIntolerance SanguineCor Mixxon Naminaze SevenIntoThree Skavang Silverzergling KenPatchie kidzmagnum Clamlon DustyEight",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode81": {
@@ -1923,6 +2062,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "yenlowang Mohfuu nyuuworld ansonee ecchikun armoredfox22 Romagna AHBIKER star_panda Lucifur HyZeN KogSothoth Canadabis crimsonkaizer Bloodreturn36 ikhd JeniWar TeloZ Tezra DKevil Tpaloki rongo_mai 0N3N3SS Seze Devilucky Dancingdao cookiemobsta1 a1a2b3 Tapioca HarrierR Playfuul vincentga7 Fire_Marshall_Bill SIDESTRE4M Dikuut yi-fey",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "ClanNode24": {
@@ -1940,10 +2080,12 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "PHail Kyoushin satinjt MilOuZ Quxxe JesterOfDeth chilledfrench AstroNight ADDpillz VKhaun Sebssy Pixil IlIlllIO0pallaO0IlIlIlIl DragonXIII MasterBuilder5 BeBoninYou Wagase Majpisano mohimohi Pourvoir LazySteve BUCCI_EXE Silencer001 Chrisztoph Zahktuthal Saben MagneticMoon Claymores armeria31 GlockenZero Brogot Regalz DarkOwl94 Aldreksis",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "PvpNode6": {
-        "levelOverride": "/Lotus/Levels/PVP/CorpusOutpostDuel02.level"
+        "levelOverride": "/Lotus/Levels/PVP/CorpusOutpostDuel02.level",
+        "founders": "[DE]Mark Levgrim anon2326 El1Te-5nIpEr Daftable p3ndr4g0n ZeroFWG REV451 AtomicWaffles Karonimus michael9324 moosebot Sharkbutt Craftsman Samuo varmillionx Weidro Hestian BrowncoatBrony MacMedicine WARFLEX DEWill jch02140 VisualGloss zachhayabusa Pherenike brianlee987 MetaTrooper SeJun SoulSama Pete-Force Mikowo Deadstorm89 Chaunikus"
     },
     "ClanNode25": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
@@ -2053,6 +2195,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "zoadac MonkJayn LeSparrow BiymIwin369 Rhiesse KNIFE_CRIME Gauron Welchmek JuliousBelmont Pullus katadream Dskdemonic arxidemon3 SLI75 Ailia Zippo124 Hikari889 100Yaksa Luckyfer Hyrold Castiel117 Essai MesiA Dova1308 BLOODYSAINTS LouisThau Washmachine Knight_Of_Light MrCrabs Nirfa RyuujixTakaharu SolReapr Arkathor voodoocola PenguinBlade",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode131": {
@@ -2061,6 +2204,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Destryer774 AtomGamers Sgt_Bilko yanmotu Zeekaob Nipplemilker ss4chris KaizerPrime ZebraATX Nesseroth Razeil Rikov Kyght sisyamo Shizzuko redragon309 Altagar KuzcoUK Volunterrorist roshanbo JulesT Sa9a Vortune Operative_Shift Rotjeknor lazykobolds SupaRedz RedLightning Necrodog Cartu Le_lutin_magique Mixaza1995 TeaboySOCHI Gironimo42",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode133": {
@@ -2069,12 +2213,14 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Reyals Lexxa Meazus Nightingale HogoshaDai AlexWolf EESDESESESRDT Gorzagorz leverus Fdokkaku Docjaycee CharlesSnippy kasa DGdoom Persnoody harusame0000 KaraLotus Spitfire2k Xorpheus Weoroth INFRAGGABLE CanonessDeTylmarande NoxFuria Stanry Dunkelheit r00ster CiboTesoni Francorix SoGeilivable Doomsdayparade Nick-ka-ka TrustIssue Rocs009",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode135": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo",
+        "founders": "Pairadix Darkmoon AntariaNova gonta MuskyStick Damrok pixelkitty europure mjwrazor riobera Cashew338 YaTaGaN.PriME yocchan Hyunkyu KnightOfChoaos .Saryn Weakone Xtermyn8R LoneSoldier95 Istial aluminiumpigeon faviiee M135 Dollow nanasiro Iron_Killa Fungi ssfsx17 Hypothermial EXPEREMENTAT0R jamanje Felcoreous Thraknar AnnoJm OminousClouds",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode132": {
@@ -2084,6 +2230,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Subsparx Ev0lt4 Thero Swirly SirRavin undeadmagee Haiku Sankaruic Tumlek Canadianese ex1t8 Feightry The.Guyver Hurma Zilash 00Arthera Crohn_Ninja sGs.salp FlashMinato ShibalChobo Mugenjin Lybriss Kosigan Gazmar SkyfliRenok azyreil ZOGOK lhace JP-BelWing CT5108 Gazza0490 Brainrot Roach130 Sinisstar EdgeMaster364 conman72 KD134 Energy008",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode134": {
@@ -2092,6 +2239,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "InterceptorSix8 JoeyKPhan B00M Gunrack99 DE_Glen Soncho Grand_Master_William Aryll xxallerxx Yurisviel Vypr Corvan Navarian BenZeb Kuroneko1go Zaturi Kalawaki Katoki Corthie KOOLNANO 3th3ndil Ouendanation Knyam Jok3R777 DanteFoxdie axiskiller343 sPehx charadrius0 Shadowpen Monkey789 xNelSx Usekey hjojojo Deathsweep Neuth xMORADINx",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode139": {
@@ -2101,6 +2249,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Ripparan projectpumpkin Draslide HawkEyesAsche xXElToro45Xx Kallias satan1zm Zeanion Hydenoff Moonsword86 ta-torukame VinnieMN Mrhattu melnok TorrentWolf Kelevera59 Myutwo AxelAZ Throrface Xesigi cursedhebi emitbreaker Fluxum StormGoose Shraud Awakenedsins Korlandril Pwyll EisodosZao DerelictDawn tycastella DE_Onur DragonDance Fearphobia",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode141": {
@@ -2109,6 +2258,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Danjiro Frostmourne wambulance oppaidragon EX0DUS Thesaintrow Adenaur Fish_pit Kraox JoeFaust AlkiorTilmorand Conquest101 carolemmm RavenTheWhite The_Warlords_FR Crixez Kimoswag IIlIIlIIl fabunil V4un Rocketchicken TheBigGareBear Alaestor Killernights WittyShark ShadowLuke BierWurstGER DaEnMgOeNl Txamin Darth_Velox Malidictuim TheHunter3151",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode137": {
@@ -2118,6 +2268,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Tekhno Tsukinoki Harrowed capitalskr Koavu Jopler Me21 Ophan Azorid Celemine KenSyuu Aprosule Freshking SPBmayhem Melchiah serega_makarov_1 EvilTux Kindanoob Kazeth Battle.Flag JinxsAnonymous Snipher Snixpix decrepitDANISHdiplodocus Bofy MaoDZeSeN -Too-Much-Grinding- WolfieWolfieWolfie Nyrell WarOverlord chronokid1 Vegvisir Pipo1390",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode142": {
@@ -2127,6 +2278,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Eximo LordCrim IceBeams Ravilis Krovakon TrueCMan Schattenkater Pochitama HySigel Solahtar Mecentreti yuikami adriangunter00 AlBeThere Chizi reivnitz Zealren Schards Silvertail NecroaVirus Zhenanigans Sintrifugal PlaguedEmbrace Neyro nimjastriker Ellkira Kazuya3 enuze Colfax Ron1nN Maverick.of.UC zeroys Jnr_KentuckyFriedSpy Grominet",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode140": {
@@ -2135,6 +2287,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "pacta_sunt_servanda zeotetra Sgt.Frog Immakulate Chronify epsilon01 Rawrkitteh 000Blank000 quisye Hammerbrah Tetrabor ReconBug Fredpiso Gorillabear Chupachab fuzzyramen Lycistus Torkonoodle 10mm pillowjam Weke Zogtavious yu.dll Valcarios Dusk_of_Life tris1 KrabJesus -izayoi- Selgald ForceMajor spasitelb ChairmanChan Unformed florianlang",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode138": {
@@ -2143,6 +2296,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Aldrunari Cyrexus Lasurebeam szarekh DarknessDream cidiantoby TatNi _brain Metou Sparrohawk PettyOfficerBelgarion kerthal Lakart Riley1AQ SWATomgea Warhand ERIDTOFF Awshuckz DelGA.Star Dru84 ragealc Inuichi Twinsnake Rainboom_Dash Cyrusklep ObsceneSoul zinche Nerad-EGT- Enji_Arklight delloria JB-M RadioactiveF0X EvilOsmosis LokiThe2nd",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode143": {
@@ -2151,6 +2305,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Zethurus Yehlan Kitaria For Trace Showheyhey sprgk2 KoJIbacka StormBlade23 ZendXi Undying_Dest ZanderArch WNxFIREBORN Relkin Ofortuna ScrubinMuhTub Nereality Froh BKBeard DeatH-ReapeR Blackhawk12 NATSUMESENSEI Fendewen Enzomniak bigj2002 Sazka XRYST DE_Matt gibimo Leto-be Darkness-Prime Saravind Vooradzi genouske GaoSiNi Rayhan37",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode144": {
@@ -2160,6 +2315,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Dynamis Zackai Grounded_Eagle Squagmire Tygran naxrusnekro jocast snergster Tuskaaja NaughtyMonkey Yoshi6 DingoFurry Curona Nayoko ughcochise cactuarknight yatono Lenivez007 Overkill. Period_Meister Typharius dereklake Duneday BasedBeck DigitalGenocide Sovogal Chuklz Incunabulum AsianTom --COMET-- Jakefinslap22 Chint obsiddiann Nothv13",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode149": {
@@ -2168,6 +2324,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Red404 iamthebest22 LadyGenevieve Mouki Virkel Apocalipse83 amone abeshi Sagefoxwood Subaru_Momoi Dreadnought29 CheekyMonkey Exurgency luanle21 MAXIM0 EliteHunterG happy_rodger Aspergo plasmaterial Holochrome Dalis918 McclarenYeti dylisterblade Kiafis abar Hize BlueHarvest HumanVain Valinquish JiceMasters ryo0612 Mx1508 Crawnic Hellseth",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode148": {
@@ -2176,6 +2333,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "M4sterofp4in doskoycafe CaptMytre Rinnungagap MachineSailor rera123 RedBrilliance lightsnake31 Devious_Machine Iceholder omamama inariwan RejectedShotgun yu-ku Dustvayne Madkey Suicidal-Toast wabzr TheManFace Gr_Truffle W4cky arunes UTUGAMI-02 Gavaudan Bagamuut t045ter scar3cr0 zanarathas Marco9630 Oglethorpe y.misao HandsomeDirk",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode147": {
@@ -2184,11 +2342,13 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Kanary GrimBourne63 Discord91 Vexation 8GUNDAM8 darkkterror initialSKY Kaniwo Heizo Arribel NCM_Sco FalsePride ERBUS Noboderp kibbet KOOLFk CrescentCrux esara SusanoKai KarmaDemon Praeceptor Piranah1 TheWordles Mr.Satiro Deadmice Tyesos QgeL DarkcatXIII Kdore Shigo Ayliax -Sick- Sarsis Renegade-CIX KamishirasawaKeine -Dissolution-",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode150": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/SpaceGrineerExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerB",
+        "founders": "Allcard ninjadrone Mimmik47 pacomaxa OneFlame Othen Idriallos matt52 ABC_Howard kosmochaos DrTeaSpoon Venomancer ehrlychia xKazie Vahlak B01scout XiangGeNoOver Tyras_385 hanhoon Deathticle FatalionPanic BennSpeeD Spizh Zerointerupt nepgya petulance Reaper_Remnant Charir Karr285 GStw Shadowhuntergod Jack-Daniel.S Raeshi BHeir Setalio",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode145": {
@@ -2197,6 +2357,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "Tokkobot Zenetos Hieu1386 W45hu AuroraZ Kuria yagamiren BloodDoll Tooyamamasuo unimog75 EXangjg WreckerNC Barhandar BelieverZ khowhl Laelapz --Sly-- Zimio hide7010 Oblio drIGNITION XxKharrxX xdoubl3t4px Roidmonkie Strengthofsin sowf -Scissor- thatdamnlobster Mecgruff FirstExcalibur crabman09 Shryga TheTofuBlaow xeonbell Delpheus",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode146": {
@@ -2205,6 +2366,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
+        "founders": "hamtax elementalforce Riotstean Dommega HangingDeath Artimes NiklasHornor BluesyPrime Rahvinous Harunoame hamao MightyCheese Lucied TrainerMaroon Grundig666 Hoktomaster Ragnarrok Lauriel Tigerstone hujitubo BlueJam Arxangelov Maxim63ru Nise127 KnightCat RaveRaptor February Spires Harliquin8 TacOpsBubba Killerbaerchen UnyieldingTide",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "EventNode9": {
@@ -2273,6 +2435,7 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedIntelSquadB",
+        "founders": "kebra cryosai Wolffie TKsTOAm Ononemi ZeroSeed MURAMURA_KY HanbunDake Risu GeistHeller BiG-sAL Ryu-Ran Plaah007 monkeys9ab zlogo SnowDragon kimaraastro sorn51 DosKeBay sub-zero_br Zetaemu Volcan1984 DarkerZenkai L_Walk hexamurdock Svetoniy Arkfall Schael Techsmith Enkomaru Raken Paanreis Meinas Billylolol SockBadger hjaimz swain2013",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "ErisHUB": {
@@ -2282,88 +2445,105 @@
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "founders": "Xarfai_Psych Tomko Bvoiash TeinLaeda Tyzzer Aavex Raidenoh ArcticSl0th Zauv Dubsteve Kamahl xrxtypeo Elefantmarkus Xaero9 NovaKiller ShadowsFusion LightLan xNanox Torutoa Taizi Kita-no-Kori Il_Demone Neuetype Storchenbein Yuan1993 osanpo nicadopolas Kashaar Cimber SteamFella Wake-N-Bake BennyBerserk MiniMunchkin HellishYoda Zonet",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode154": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
+        "founders": "Heroic Feindfeuer _-Target-_ StrykerWolf Gynsu Nikolaz Monocle harriermk2 Lyvshalker whiterain1000 nonaskuap 3XT3RM1NATUS HoopDaBopZappidyZooDunSn Tiamatbabiro bgrimes ArchLux revereve JedIkachi Hiakuryu Belomorwk ErroR47 Zegobax LunarBear RobbyRage edryuu ShadowtheArcher AKShamu28 totemoturai C0untZ3Ro xiora JoeTemple anyboro YaKuaZa",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode152": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "Xaston Ithzerian appulse Cruelly NIL2154 zeven2013 Acciyn ChiquitaTojo BionicBlaze AngelicWaffle Xorph Duriax KazeNoKama Juul0 jagijagi0931 iArucard SidrA Konzetsu NakedJustice DetectiveHazama m1ru0809 yoshikun0721 nysath GeorG_CuTTer Aridus92 nentoy unirock Forsakend Nixes Ahcruna Gaelan Fintasy-Sephiroth JadedSandman ErikLestat",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode157": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "founders": "Milenos heyitsmecmon CalamityCookie Soulless_Insanity stacey69 RapidKill SocknBoppers Dvervolf Haern Remory Umpfer nine7114 Mokunen Ergosum Das-Boom Nokore inbland Eruend turn_left_246 Q587 noncombat zero0231 Algreed ExplosiveLiberty Evil69Bunny SirFluffKillington Savaak phys1xspirit HoldOn _nameless GeneralPipicka AjtheIV IlSanGuelI",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode151": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "founders": "Bjorgen MrGrae Phasra MordredGuilt Logear Kars Deathseid Curaidh translus3nt GamingWolf xNoSkillz TETRARCH Leekyun Dwaggie Vindrax RRDryfire Furaiken Saeton miniminimalist DerGolemking v_raf TierHarribel Namie NamutQ Squishy_The_Great ScryTexS SchmuseDecke Jamescell Darkarian Peekachoo --Lord-ForZel-- CasareBanada Catastroph3 ResolutePaladin",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode153": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+        "founders": "Grimfall Betongrau Gibor Amaymon Masons cpuman Saiko_Namora pushihunta TheConchNorris KatManDid LordMalpercio Blorend TERA Rokstdy UncannyPenguin Nyarlythotech CenSilver rizhard Rymen13 Biggs Jagmar HinaNemo Mysrav3n Facts Wickious SgtGonzo DormantGames SuperMochi Hirokin2.0 Nairse KushMastaRob joe57152002 DarkDreamZ Geheran Karigane",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode159": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadB",
+        "founders": "Matal 5UP4N0V4 ElrongMcbong gottkeks Blackoutt Kwrath7 K1ngIsBack fateaxis Scorpion606 ItsuMade kageneko3 BrosephBronilla Barmallini Trucider Takezo.M JhonnyRidden Fyreblood Proxidian Mikhel Chief_MF KoSDutch Lister isawaseb varto Ulcerrhoea WhalesarntOrange YmanC Rektolisk Drool_The_Magnificent o-man ckyking 1stKaizer ByosF3ra Wolf447",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode164": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "NagaJones Zauberpudding TheNYSlice Commander_Snake_Eyes Vjorkal Shaakanty 410maximus Midareyuki king12121212 PomfPomfKimochi LiveStalk FINtoCHill -KTM- Kcin0935 Fightgar Anneliese.Clausewitz Sakeitor Saelben rhoenix Hemminator drissit spectrefps Xadriar zdeathclock Demoonic Mach3te Asphalon-EGT- Stekk Sokina Saruhi Xiaon Zaizz Kalzin",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode161": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "founders": "flarp22 Rost87 Balgrim Iruleatgames fanier mike99 NiGHTS Yobatron ginjo_0.23 Plocko Mbgunsling KRO209 ch3wbacca7 Windgod Foureyes Pwner4lyfe ShasVa DevilsWarrior darktris Blackwolf_swe Vistix teris3021 MiltonTPike Princess.luna. thelaststarfall comeonandslam Papajoe77 Voidstalker9929 SweetCuppinCakes Ninikubaby Geefal ReichenbachFalls",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode162": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "founders": "Jillo Tetsuharan ninebreaker Jirou Phaustus Romuz Harutos06 TheNDude ninjyakun Ev1s StrikeXII Ten_Storms Valcondrious panke Stephen_Pershaw Mr-War TheJugde Objectless Midkraft still_alive FENTILFIN khaoticangel Gizma2212 GLa-DOS MrGambel GoldTaurus Jeeva XIIVIIX TittenHenry Thunder_Chicken IGreenStarI Aquiem Lafaye Zig404 Vinhy Agent959",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode158": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusInfestedMixB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
+        "founders": "Tarudizer Skeptic Gaidall VoidFlux LapsisAngelus Annaculis RainDreamer AuricSol FrozenTurtle TheDarkOnes General_Sticky Cirilo Imrogfada Sambr0 AngryKrogan Corinthains Production-No.13 Nytshaide Capn.Crank.De.Durty metroidman12311 OronElendil EyeHaveYou247 Seamus Prosy gnz8800 Saitoupepe ShougaOokami Lunarsage MechaSmurf Bentya SteelSlicersSS",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode160": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
+        "founders": "CreampuffBLR Irgi DakotaPaw Alpha101 Trang-Oul Hawkfellow Lanjelive JINNBABA Gumber007 Chantt Mu7hU Houkasuru Lamentz Vard Dn9z LucidTS BrokenWolf Duder87 Synchroneity XEventhorizonx Demress Abdul_Alhazred bigkstrykernl TrueMetalKing Mihwa gloomy1118 uBaIIIka Zinkaiser THEKHC kegi KoreaFunnyMan Dewgy uhyo1 JackieLee13 GaleReaper",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode165": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "lunarian Fencemuffin XorXborn LetGoMyLegHo Chyrhime HostileCreation RuFus1123 SunderedEcho DrAstiCz M15F1T RNCguy Mysdrial Yogorouza333 Zetames ElRobertio Funell59 Echo9Hotel Savanis Kaoru_Konneko stovepipe117 neowildfox Hackoasis RUFION Hafaza Nalad4ik MechTech laurentium0812 Garyusu vissroid Kraken1122 RAINFORSS Whit3_ Cygni-195",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode163": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "Cakers majorsephiroth Zaeryn Servius_Vivo Clawofbear GrimOmens Sinwallace Phenixy Ashiotomi Spectore Ryzel Narlymark 3DPolygon King_Shinobi RTamis enigma646 Reapeddeamon Exia05 Badooski nseijogarx Zom0001 Mezzio Infiniteonvitae Gast pznicho Biankha 0phiuchus matsuo Draconis1383 KnightScootaloo NT-D_system counterblast Dyscrasia ramflax92",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset"
     },
     "SolNode171": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+        "founders": "Sfeed Sluggo Nailhead 0xFate Crossroad77 meidos BobBoberson SpartanChief1170 Supern00b sawadashunsuke ELREYULTIMO Schalimah Shamefulprawn41 CielFoehn -Prestige- GRIMXSamurai Corrosion2 Broducer Spectrocity MCP95 Hypotamoose jedoshin-EGT- Paladin0987 Grey-The-SInner NydusTemplar 6493 C.A.Menethil Djinm NkiyoN VVikid Suedz DONKEY1408",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode168": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "Renni Kaiku PepePan MkyMTR besalamto Taimaishu Nero0ren DaymareCelestia Axeface Arkantos nedkelly72 Jackrabbit Swakke CptRummy pako79 -Mint- Tarquin69 barmar Scatcat279 Punch2YourFace kmui FoX_JP NexNavarus sigma59 Destromaker Luna_BlueCrescent Wivern Scorrex RC8609 FlintMonk FORGEE MDKKFC666 indestructable93 Autopsiii GuardianKain",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode167": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipPurify",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
+        "founders": "SortaNEET Dagnome WeezusChrist twotailed fumy1903 Jybillkrag Tegajinn Ralthor Prufflies Cheekymeister Alohoe Ralens WeeChan Macaroon SoulFallen avenew Dangomusi COOL-WOLF Evochill lot9 Arriving pochi-fu Annedroid Deadl0ck DXBBERSERKER Zipira Dueler Itna KiloRAM Tonya QQYuan KnifeySpoony KaoSEcho ColonelJS Grumpyhen Draven609 Silpir",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTilesetCaves"
     },
     "ErisToSednaJunction": {
@@ -2386,16 +2566,19 @@
     "SolNode170": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
+        "founders": "Iatemyshorts rotekz Host Sighz21 NexSeiZa ciproflux Lorath vash91 vixen7777 Incesticles Mith XenoSight Penance43 Dradorken Valiantz lostinrehab The_Sempai tommyrt WarPony Seldom SkyValkyrie poseidones67 Moneybagsa51 ColinMcRaeTR grant987 Ahohu ChipuChipu CurlyWurly URB4N-OBSIDIAN n1ckmz -Tamashii- blackweed Arh1Angel Cupcake-GIR",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode169": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC",
+        "founders": "Jay.ID FrankJaeger BOBUsan ghost780 Hentaichan Coatsey TheHangman mipusy CINNAMONBUNMAN Kaidate DrinkingFrog Zh3ro AdmiralMeatball Theodyn Nitocchi Ozmodeous Magiwarrior AyuChanUguu TiffiTigress Projectile usio_okazaki nightviper909 Spikeai Roltair RealSxXi PootisMaine Boneseye Hilanthis ar154 nfeyrna UnicornArmy rbhgbx33 Yuki.Kaze",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode166": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
+        "founders": "Meskalyyn FatBastrd JackQW Ascobol89 Any_the_Baboon Murazi hellsend Zerebos Hades1977 Ble4ch evibibi FrostbiteOH Karko zewi Davideogame darkaura304 HairyHooker MDAriakas WolfMan743 gala72 HK_MKIV xXXKaZeXXx Redhawken Ghostem Avlaen Violation2013 Fogg davidorviet Sardaukar66 Nadger Baugrimus lazyerman Morbidis CHUMQA Oladif Aairyk",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "EventNode10": {
@@ -2406,6 +2589,7 @@
     "SolNode173": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
+        "founders": "McGuffin Phosphorus Nehgromancer Ryjeon NexNeci Bonhomme Squig Sleuth Gurkha Volnamix SergeSlade ScoobyDooKenobi Solstic IICRIMZONII FatalEmbrace Katuo.Isono_JP MrBLANK -KocMoc- JODangerz0ne Visual_Flux Tediore Weech MagnumX SoubiLight Glanza Calik0 YamiNoSekai Stinker mammone0 Azekeal FussyParts Silk_Sk 71701 Waikikamukau igulfast",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "ClanNode18": {
@@ -2419,17 +2603,20 @@
     "SolNode174": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
+        "founders": "HUmar SpiritO Griffon Akhlys lexvulpes Codec7z Exitium3 J-SHERIDAN Antric Warpsun Aogiri518 casla87 Destrobael DarkSage Krylov Killertacos spotcmc XTheMajorX madpuma13 QUED Asethe TheGiriel Morkei DarkKingSlayer kazimarou JorhWing DJPon3. Xenosa vlsg NoonKnight MajorBinkx HUNK3 thapac RyanGaGa Arkyhead Bacikal97 DarkSabyr Xyana Jyoung420",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode172": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
+        "founders": "Ryukerz Khtugg NEObowski Silveger DominusNox Marukeru Wi11-I-Am TheDarkSwarm Evilrip venucci Locarus powdery GrumsMcGuff guyuman StrafeHunter Bryy Blitzex Ptibot PHIRANA 7footsativa Alcent Vollkommen LunaOphelia Salme FatalionPanic-EGT- DJ_Redwire ChrisTheDonut WarPhoenix16 ClawedZETA Cintik Delta.one plursprout MindlesMagician Samuel235902 SyCry",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode176": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC",
+        "founders": "Hellsamurai VoinVereska gusmil sugizo Kurovic Rexxor16 nerdyone255 Rhalellan ShinryuYamato Major714 4rt0r1as Sycological 1Spirit1 mothman810 LunarRaptor ulsuspect DoVelon Loxon PressXnottodie Zephrial MILS06 Brahmastra Cortot LittleHalfkin Surrey Monarch-Studios graemhoek Falconxxx Fraank-EGT- Rumthorp nitemare123 Devilsln Dtuck",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "ClanNode19": {
@@ -2443,31 +2630,37 @@
     "SolNode175": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
+        "founders": "Prexx Nassergamez AMD386 MisterKevinX Raucherkaffee estbash Casio Blueangel44 Sigmundo Garr_Alkahest ubercaek Buschti mea. mushichan Koberhofer Props.BoXb yaoren1986 Demerius PretzelBear Kavain MALLICA666 Cocia BUTSHI309 Nevz93 Morteunious Veilan Aetas Ugostree Ikonix GothicRhino codougan Fates.Madness oktusambitur Contror_ okometubu",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "PvpNode4": {
-        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel01.level"
+        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel01.level",
+        "founders": "Praetoriate Naezul RadulfRock sciicers Baelnes RAVENCAT58 zetsu06 Lycoris nago33 evileat Luthanor Rinkira Psyclosarin sarge7045 Td143Cg falith Shikamaru23 MetaMushRoom Nicodemus666 Oleum Rhinothewino Tubroken Mercurius.Geminus Silatuyok HotfixInbound 2Legit4U360YOLOSWAGGA420 KitsuneSHadow annonamouse Lord_Soth zxwarrior Wonglokat"
     },
     "SolNode177": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer",
+        "founders": "Vilrein Mekratrig Meruze CountBarbaroy Lion.Montana Lou_Polish __YaTaGan__ Ocyra Darkdeeds ElThor Toastngravy KnaveSkye Minto Stalphyr MaceWaldo Abbadon_The_Eradicator Behindyou321 ThyCurse BadTennoBanned FIEDER JayGar187 Gunununu eklyppss Baldguy julyblade Cybernetix GaseousGrey ghost5519 Mr.Keuner I_Waste_Air 9pope 9ClonE Sienen",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode184": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
+        "founders": "Bluesnarf Kuhl-Ka mizuhasu_kekkon BobthePlumber Weedyalvin Timzu nanamin Sardak LongBrodie Abbo Keisuka Askeladden Tenebraex NorskBior Niladric ShadowPony HughMorris TEST-Prototype DOSHMASTERCASH 1N33DM0N3Y zenJinRui Ozzie387 NoWhereManX Martialnuttz isaacrender aaa9 umadfact Scarth Blasty Patzer Ahioma xiaoyifeng harusora rairairou",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode182": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
+        "founders": "Dethryl Earthworm_Jim Naeli Wallyology B1ACKD3VI7 D3V1ZER Nalah sl3dg3hamm3r Pathyriel Sekshunate FatalisBane ScorpDK deatheye9 Affidavit scae FaytFion medic163 RGC_Bacon HawtBawlz Madduin AliceSv 120hz Hououza Lonerin SAOLazengann RadhioNoise Daxmort TolisX Krael Adamant_Pariah kiri2339 abbadon283 Seventian iShankYou grimseiver",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode181": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "founders": "Maeka Yorinar Sheepbox Volrishan ShadedBelief gzilla Tenno-Zombie Tankah Yuria Monk098 Sophart Revpeachs Girthquake KorReaPeR Ditaneous shishimaru Koujien Samuraiofslide teammcdonalds -Calas-Typhon- nanamu Tritanya Darzk Vole25 FaytKenbu Afterimage Xpozee Aemini KrzR MOMIZI_Shadow zymla PanzeRDragoN Myrn lunate-elf zimmix LaoweiShiuFeng",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode183": {
@@ -2485,12 +2678,14 @@
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "ItemCount": 15
         },
+        "founders": "Minfduck Knight_Of_Rapture Heillder kikk Kotsuno Ramsteg PastaMachine llPacoll blueseven0078 Holydiablo Torakiyo The_Jacmac Aero-929 imasiro Hacknslash01 dverWF Bobsplosion Lereu Shockzero FrenchAussie Zorbo T-REX-SKRILLEX Exenax MolochTheReal Mongobeef Bozza 2cupid Zurakci Draakaos GrimoireNeko DaedricLoard Stormnaut Ynnah Zhizn",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode178": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
-        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies"
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "founders": "Teostrala Raptorbane Damnationd DivineBluebolt Buzz3092 frayhavoc Dispenzor angus27655 KnightRE KoalaSaur SurfinShadow Travelbot J0TAR0 JawnHenry SovereignCoffee TeemoSoCute SHINGENKI FetusArmor Galhound TheDuckey JpCastle Prides BrokenPinky Daggerjaw valdrak gkdms0513 wasdsaw soker96 BrotherOfBlood polaris120990 Jagdbombe xxJnastyxx"
     },
     "SolNode180": {
         "levelOverride": "/Lotus/Levels/KelaArenas/GalleonArena.level",
@@ -2504,11 +2699,13 @@
                 }
             ]
         },
+        "founders": "histori SHiftt87 iBuGNS UNO168 ZeDeRom95 mr.Penetrator newslacker Solciel WindsofTime Enot83 invin Chingador Bunx Fieldy Lykalos iDust Lazyspiral SniperMcRifle CuddlySage Zalistair DiscoJesus Jewinja Mofester IApologizeInFull applaudedlemon3 DTSk Mortrad D-error Nemorensis Torxe xexohunter Walderian JisatsuHoshi Acidist DiamondoJozu",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode179": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
+        "founders": "Krjal OldSnakeMGS4 TOKEI Ryouji Swishee Kinnarae Seltvik CATorDOG GoodKiddo Hostler vomder TbReaper Mu-Shu-Fasa HunterToren kezza69 MonkeyScope C1a4gent ryandjk1 TehWolfman MrDevilPrime korvuscruor charano Quartex IronGun OperationSilentStorm ICrackShot SkittleHunter Konfused SilasAlcide SenNishimori b22c34v56 olemarioliveat Psychio",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode190": {
@@ -2522,44 +2719,52 @@
                 }
             ]
         },
+        "founders": "Tayolith Zyloc RealityRipper The_Shang Valimous HexeJaeger Kinjeto BattleFTW mekido Ruthless1988 ironserenity4902 Wolfxhunter Anubis.89lse pitschon BaneaneMan Skemrin TrueBlueAL Ksenius Surferio DanyDamager Oruva CryoTeknix GM_Whale Demo-d Preakzon Perllonus Vandoore Liubei28 Galleth Pressure-Chief FossilHunter13 SA-KU-RA IGAAAAAAAAA",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode185": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterceptionTwo",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
+        "founders": "cunhadutra Chasa2 Ceberion Breadman666 BossDuke TempestDemon soraneko834 Azerock uewataru Dagon5 RylaiCrestfall tels LinaPhantom Ameretat Ohz-san Sithgar IceStorm_E.Z.K Visi76 Sorha MisterWolfer Sparda013 DrThunder SuperCoolAdam Myothope FC-Jj MasterOnix AcuaTec Xylek ZeroXD77 isenator DareDevilz Vanakoji 0Ulrich0 Wladislaus mtv648",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode192": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress",
+        "founders": "Espadar MrDESC Wraithfull Yuri.Ono LaminatedTruck mithie2 Ravenant Waterblue XAlectoX DBugII Onebigparty Nortoman DarkEminence RedSkittlez Grissli Noteefs sugokukitanai BryJFlex kabotya RahuStalker NoveLove Reiseafa spv55es9 Rubrok AKIBAHARA soulest Katzenwolf CampingSnake OolongTea Bjorsvart Shadedraxe AidenHawk Shinbakura j.u.n",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
     },
     "SolNode187": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
+        "founders": "SilverBones Teran Vrystaat ASDWMan Commander_Harvx SaintLucifer Renegadesien1 eriamgh Nusiance Deadpoolmerc Andyzero Fiddler6291 .Shadow GiGaByTe142 Trohaniel Illthak Valquereon sleekbc07 Ebohcalyps3 VALKEN831013 BlazinSingh ultramaks baxwar1995 Zeribos Buettling Dwitty TheBluePylon MysticShimmer Bolmeteus greybishop23 Neocryses",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode191": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "founders": "MrSuperDuck Baelzebub Kaomi WarNpeace Tesshu70 Ninjamel tbroo MLGsouth yuu-JP Reaper5573 EternallyPrussian ClearlyConfused M3rav3n Yoyox Nighthawk2088 Mobile21 Havarian Sroxah Kelenus LethalGoat Druides Ymnar Cpt_Lone the_silver_shadow ApolIo Ikaruga Khaos_Zand3r Bennfiroth DaCrazyPom EagleF Yoshimitsu. Tiqalicious Jamjack Nblk NoHappiness117",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset"
     },
     "SolNode186": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress",
+        "founders": "daibido1123 odenwww Vexice PomtoFear JukeJukeGio ericcha Shinzengumi RampageSlayer LuckyMag 5stareraser SilentSamurai EndTheSilence nmoyer SacredTempest Ostrav AlexizNakata Healthfulblitz 11thCommandment Daxxn Hania nobushigex Konnen2459 Nocuous_Noah DesignerWolf StarOcean DynamitHarry buthead87 Nova-Infinite TheMilkMan92 Zorgath",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset"
     },
     "SolNode188": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix",
+        "founders": "Hilgrad kobjim sudomaru Misanthropist Toddzy pandaking01 Sigmalio TracerNNC Sikab Dirty_Dwarf Postalpatriot Tytamice d1n0saur Britney skalJP chanw4 xXtHeDiLlStErXx Josia77 D3M0N1CZ Bibosh Lone_Killer Sub-Zero_BR rokkuon Leviathas runatya Desp3rado NimbleGull Malorien twilightfan031493 WZX64 sabinGa NSDCGaming BlottyBlaze Vlavius",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode189": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+        "founders": "Garuda1 przibilla BlackButler SILVERHAND Monjiro Dafans PataponMask Rumors Staphylococcus Erafox EnMar disper Procene Aoyoma Litey Rozen_Fire Higesama papab12 SylentG Makabrex nuniki IversGarn-LG Eightclouds Kimster Raenx Gynock DJDoctorWhooves Furyion ProfessorCookie Captain_Bubbles Razule WeCanVectorMan encelor AussieReg TheAborted",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode199": {
@@ -2577,11 +2782,13 @@
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "ItemCount": 10
         },
+        "founders": "SchoolZombie Lydon thevisad TWolfJaeger ZeroPhobic Voliours Enlil Arujisu Bladereap3r Aendrolan Solace2488 Sentric SMBA DEADSIGHTzer0 HanDdukBaegi Teammate T0mism MalevolentReaper Hastrel Auralion sTINKYpINKy woshijieyi SilverBladeDragon Mr.Lube BringingTelos Jowain92 Valedrel Replicatar Nortlanyer Misterhatter Phoenix0117 Vintagexs",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset"
     },
     "SolNode194": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+        "founders": "TheP CapricaSix DamnCold Caderynn spohr ColdLogical Nitrocrisis ReikuYin J4c3 Rayjhis AmoBro devil1994 _DiaboliK_ 420weedlord Thule-666 TheP0p3 Deliagwath Verdith XRamza gugutkata StallordD NumbMetal erutaka CapnKristo jsha6 KingAnnihilus Ratblast Zephyrasable Mataois BlockshotOrange Murenas due2 Wyvaud Mr._Squiggles Arcanistha iCanHasFrame",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode193": {
@@ -2592,26 +2799,31 @@
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "ItemCount": 25
         },
+        "founders": "Casval_Rouge Fatbluck Donisio Mourgram Mesohorknee UnknownPersona DMCXIII Kenkai The-Grim-Reaper. TetsuoYamato Zamber Dewblood Snowy-Owl Ahzidal Dead_Frame Cavitate Nijuku Katchon SWAT_Omega Zyion KneeMongler DarkTennoWar Odude4 Igido ZanthiaGGx FlameSoulis Jadelian Harkoonan Breakerzero1 CrimsonLeviathan Deferian dorogoi.vasilich",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode196": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "founders": "Siza fratous xion9001 Mictlan Brukan DragoonLord0 Lonestarx sige3 noobway Kryasis T-buta LordDoom01 nonoriri AttackBacon CR1PPLE Aluraine __firefLY Sojurn AhJeff ArchBlood blackhawk752 The_Void_Shogun BlueThundera Dendarii BladeDragon64 Igor1076 MuZiKaL GANDA Ravingrabidmoose Overlord_Hades Rasuido Sir-JCOLD ryzed27 Sindr1 Lustral",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode197": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
+        "founders": "lukehall ChaoTrux Grimmhound prime22 DarkFenix2k5 MrSoda Raming Uzi-type-S Alacratha wolcot Googie emriko Monkeybones snurton NixonSoo Xirka The_vb rmedrogue Gravalite Ackito ViolatedSlendy HunterIZ Kellervo Krullis Snaglepuss Tudinis e2asama MetroidBoy Legion0601 Visyge CrazyArson Capt.C SovietWorm Andrax01 FN-F2000 Sovesky Asei",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "SolNode195": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
+        "founders": "MrFahrenheit bomboras Liam1608 MrFrost FruityKitty Paper_Rabbit Nokto Ohzza Kuma-45 SiaraArc PochiDX Darkmuramasa Iso. Drakonskyr Megamanzero latoco Free-Fighter Desultory julianiswin BloodRavensClaw orzLOVEorz Daigoro Lucian.Silverblood Azamagon Reapercussions Wayhedgehog KoRny176as StrangeLob Kivarra Merc13 babafaust wllc Sevvoras",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode198": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+        "founders": "IZavager Equinox604 VVar Helwig FrostWolf RobotJoe Raz13 aimingok xxDecoyxx Kisei Basuru Sniper3005 DS201 FacelessOne sawayaka drduval nullCassielle Landreu AlphaMeow S1XTH Devantex Agava Ten24-Seven CheekySwine TheDonLos LVMAX Huffshee pKxLulu jrkong OrdoXenos tasteofsound maccha_o_s TavisW Ragzen fundoshimasuku ziizii211211 ZTAKE",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "EventNode11": {
@@ -2622,15 +2834,18 @@
     "SolNode201": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "founders": "Venarge AeGz kiwicanfly Pay2Win Thosowath Vandraven DioEraclea KingShinobi Touya13 Plasmaface Skyangelx RubAxy Nightvaile SirMagnus Maisen Lenard09 Zaulus Hatenak Scottyfat POLONUSX SanguineKiss GlamGrave Kr0w ReMomi ToastieJames Mr_Slippy_Fist HyenaButter Joggingson feng249 solidhope ARCBLOOD Racod MYNAMEISSPY Temeras Huhumann",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "SolNode202": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
+        "founders": "Abysma Ostellos DaEnemy obliminal SymphNo9 LotLP Rukki Lightwire Kairaku Ashrad200 Haat_Hetur nateo13 splodead COOKIExWARRIOR PizzaBoy88 Gordromic ayersman teril raylfer Infinitystorm16 Tenn00b OurSorrow shrapn3l Ekpcat41 Doitrite Kabal613 TheFollower74 Spartanslayer513 KungFuJesus IIIAIIIJIbIK Vorcan ToxicTwinkie [DE]Edwin Citizen_Nappa",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "PvpNode7": {
-        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel03.level"
+        "levelOverride": "/Lotus/Levels/PVP/GrineerAsteroidDuel03.level",
+        "founders": "Kiroth Histori Crond Estlay asdfg23160 FrydHamstr IgnisFatuus fngeddie Hammercannon Lutz069 Sakura-Seta ViciousDelicious Zorag Nu_Zero Zashein CyborgDragon ScaryMonster Mr.Bright Seasalt xhris Weiss1705 DuskBeam G3m1n1 OriVerda non1337jerkface Chazon Heretic_Zero m.karasuma Gietinho JAzoth CitizenV Aphael ezsage Milmurnir WarOutcast"
     },
     "ClanNode14": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
@@ -2643,6 +2858,7 @@
     "SolNode200": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+        "founders": "gear DesiredxDoom sgtarpin Sybarite Woahkid tyeri Rayata Pyropos XII-BlackCat Dr.Awkward iCookies 1Rogue Catnip_Addict Cephians KINGSKNIGHT warabee Fbkkrieger Singalong525 Kazan808 RUKANI lewdeh Jakemm EgoS Oli121210 Tergaa SSJ3500 RatchetyCBolt Hoverbike Lothiril Doubledee harly Torrent_IV altiarxsaint GREENMAN41z Warwickane ThePhenomenon_",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset"
     },
     "ClanNode15": {
@@ -2698,6 +2914,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Scyr kamisama85 Mortraven Wiseman Darkrequiem Sporkie PotatoCorea shonuph Raphaello deltaoscarcharlie grayam SHADOW66633 Raptor642 TotallyPete TheSteelPhantom DodgerPvP Ranmyaku Kaligar Eiderdown Jeetza Nemiscus Saraa Alicemix PlagueDoctorGrim Majicebe Tyr_Swe nordvrede Darchangel psychoswine213 MadDokGrotsnik Gojin maconarider",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "EuropaHUB": {
@@ -2709,12 +2926,14 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "AntsyMac Xedx InsaneAxeman UrdenLLTS Zyphre redghostchaser WhiteCr0w jaycloud7 Squizza Faxfacis Vovolov JohnnyBadhair Elzu ak74su karupurunia DragonMonkey Wrunt SpaceTuna BrandySchnapps Hipolipolopigus corpsemaker Acaelus chris111496 Girugamesshu tyutoro Necromancer_Prime Kriegerurteil Jakeylakes Sasdazor hkordi MrTellus Kesucho",
         "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
     },
     "SolNode204": {
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateToxic",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "founders": "KaranVess Rootway VVolF RedDawn141 SoSly chotofish Zelios kallekanin Rayjer Gnaix Xoso Kageryou Szordrin Gradiole Dansilent QuicKs GreySyzygos Daedalus_Fox Rhydian Achillesv3 WoderMalon GaserlaND Winter-Knight zerosaisai Boof IshigE ShiningArmor Relg Slexara sieggm3600 BenjiBent Akiroff Fu-Quan frees83 Jazz0411 marelooke Zentith",
         "tileset": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset"
     },
     "SolNode209": {
@@ -2724,12 +2943,14 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Gibblemung biospank Chilia tokenl3roken BBFTechno shibbyshoogoo Anesah Greyd-51 the3rdphantasma Stheno JackBui Seindrache CypherTheFallen Soreene Kallale pqxgeno motikoo hurze SPIDERBUGBEAR WaltzBlack YunchanMAX Vilkaos Brainapc weizen MrGleitgel Infusco NEKROLUSTFIEND Avaan Feenecks dark_king_I4 JACK874 Las_Garras_del_Dragon Winterguard",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode206": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "Zazuku Freighttrain b0ksah DoctorYoshi Hollowatcher Agrom XphereOmega Gomiquz IroKane xenomorph4444 CANYOUSAY Leon0000 doran1120 Fonnetics MaybeTstrike MrMuad necole okuyami Juliet4802 palexk kinghouse_51 YggdrasilShadow Vorzac Creebe cuththlu Teagel Ntdinthehouse Atommo Habel15 AngeloNear1 Slidius Glisp UselessHK anzhi Atelui ponkege",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode208": {
@@ -2739,6 +2960,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Doomer Coujo Dogdrams Cryonic Dethmega RabidTestSubject GrimWar Oxxian FlashGrit Hizikia esqaz sirotako Shirogane_Takeru MindlessWar mondav mwpo777 Ensun777 NoShoes XxNimrodxX Azazel_Hawkeye Murus Voxine AntoineFlemming Hellion74 holygral Aibori Demitsorou Slade2561 NE555 -GM-Cha_Dude- Jubis evman97 DrKawaii Nihluss66 MrHankins",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode210": {
@@ -2746,12 +2968,14 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadE",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Drones/Vip/RaptorPack",
+        "founders": "Kyuta Seatwo Nukeschool echoMusician Gadgez grayfoxCode Aivean Sir_Twitchy Merk890 AbyssSeeker Aclysuss Jeadron Mnemoidian Altair003 ToshiroAkechi chanw4a Redscyte Esoteric_Vendetta Edgork ArchetypeEithe Sweetchuck ULTRAn1ce-EGT- Omnios Transmorphic_Wyvern ISharedblood ActionLong graku Kesella SanguinisCor Heart_Seeker Romari Mouselabber",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode205": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "Enzeru Seasoning Testinchen Umbra2614 Citgollts Sephiroth1988 Vack purejunk Matheyx AmaTuKey CafeAlpha UnderHale Theller dragonslayer146 not-tu -CeII- Jirva Rudraya Spoet Zengeist S3H.ILLUMINATI flintleroy dreampuke Tensamunie _Otsumato Craj23 Klomster ninjamaxou LaXid djentlemenBehold thecarrera LittlePhenomena Stasong GuyverGT",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode216": {
@@ -2761,6 +2985,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Feardemon Zanzibarr11 kulabear NaBoCi Eeshaan Leprica Diseasecarrier Revelati0nz PinkBucket Montablac sGs.Proto eeric5 gti96401 ghostbentley Akkarusin MaddRedMoxxi Adrenazen Ultr4M4rinE Z3GR4M -Guardian-of-the-Lotus- FyreNForget Vantuka KaisusSkaro Templar-13 S1kTh Feldgrep slydde nyundi Nokus .Tenno.Az. Schirotan Mortico Vadlira",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode214": {
@@ -2770,6 +2995,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "shinreyj MikeMG Ilfar Mornstar GrimmLiberty SarahM HAURES Shammario Ravenlocke Yukimi ahokusa Nazarus Necr0m0nkey Itache Lighty sishou DamianDrake -Flashkin- Grnd91 GunsAblazin LukasLupine Kazris Xeelon EVULJEZUZ Ennokk 0ptimus.Prime Andyo450 ALFINE-00 Craixis JengKe FarticusMaximus 3rdNipplOfFury Wraith1716 tomy110288 Anerrchaos",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode211": {
@@ -2779,6 +3005,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Sidiuos FauxPaws N-0-NAME Yuushi concierge MSN0402 badwolf007 killerjoint Teknight Lyrido Gore_Gronch SGeriguerrilla Ozmax Aleborg XIII-BlackCat piggymcsticks HotHotShot Faulcon JustDont Lithine zonezs Lurchguy Cartalgash MisterJohnnyGat WickedWanderer Cyrosage Spolin zeronx ZOMBdie56 deaf2heart MetaEthereal -ISTANBUL- Santiak Crozan",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode215": {
@@ -2788,6 +3015,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "Chardansearavitriol imDx Salvinous Rivalen_Thantul gio_ukki atlas758 CobaltdeLis Verjarlim DragonBAC Mokufu SettaNX cynical175 Zephyran Pixol_Scoot FredrichChoppin Golothonoa littlebigbubba t0xical SpL1ght Shadow2356 madman_07 Freezyloon OniDarkClown sknz Quinella vermin298 Daenir AAAAAAAQAAAAAAA VenatDax BrokenBell SonicZERO PanicSpace",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SolNode213": {
@@ -2797,16 +3025,19 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "naeris Kether EagleRider GrimFolf Angellez76 BlackApple maces006 ArcherV Hukahire0699 Dracontology Silverind Cerokhol Branwen rage661 IronEagle_X HolyDiablo Lakitel 0taku Khrovatan Frankleton OaKLeYz shironekop PlatinumVanguard Zilq Phtonos-01s Techsage kiteohatto homiedudemanguy filkie Libeira Phaleon048 Ouranos_Shock Shadowsnow",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode212": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "founders": "BlackDogCpt neokimo Cazdiel mechgunner DeadRuin NarohDethan Minsc Blued Shadowlee Talrivian SmilesForMiles Soredore ayum Afters EchoCorsair Cardy-Chan BlackIceDragoon Uthanar alif3 oooBAHRAINooo UnearthedArcana UncleCoord Beaton NastyButler86 manto2 GeeXtah mike3788warren SCP001 Ore_ Little_Sparrow Bad_Ideas DropDeadFred Arfe HateFueled",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "PvpNode5": {
-        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level"
+        "levelOverride": "/Lotus/Levels/PVP/CorpusShipDuel01.level",
+        "founders": "DERebecca Patrick-Swayze Creydah ValhaHazred Ashbourne Rander032 Earthflame Wh1teReaper TwoSquares DigitalMist Seerena maddoctorgrim Aronwk Azexton-Hunter Galtharos Sohsama LeoAtKnight Gysahl Pest1lenz JJBanton Rhyddian LoRDxDeMoN DeMeritus Forcium Zlden Swanny13B SC4R TheGE Balter Bomber-52 xXDyavol666Xx Eyelsi AltsOfWar stixi"
     },
     "SolNode217": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
@@ -2815,6 +3046,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "sighence62 masaki Tulvral Trikun Tannaros Deso fluffybut AnimaOnline Atlas5 Mabswer jmp404d lKiZZ Zauvx WinterCane Regentel FuryXIV Sanjuurou.T N_S_S Junova TheThirdNipple NINmann01 instrumedly4350 baglodush Drunk_Kong Tarnakk NostalgicLink Emperion92 Kellador Kohabarro maisterlacher Paranoialife TheDrift ViperCZ Fser Acharo valistrox",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode218": {
@@ -2823,6 +3055,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "EightyH Bensk Deathborn Zynilix demonshadow Radigast SirDizzy ObsidianSky RaptorV zet_roan daffy92 Onyxism IFORA272_NIRVASH CrazyMonkey99 Zeital Uber_Skills Shogun89 Forsettii Cennix ecyu Negative01 Ferentus Ninja22Prime UNKFIRE L1GHTd3M0N Hwansaenggye JellyT89 HorizonAriadust Schwarz5 Zawan NailAndThorn ImTehTea moninoni LegendarySins",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "ClanNode6": {
@@ -2846,6 +3079,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "For-Trace Sereos raynielbb Eiferia uneasyirish Remvarian TechAng3l Atruskin Bey999 GozertNL zordor0 Linquisitor Cerien MinHao Crimson_King256 FriskyNewt gezzkron Asurge khetku maximil10 Kroul Mortificator archzinno Barrett-M82 Cpt_Atroxium SirHattington ThousandNight Ninjatrollz ultravi0l3nce DrakenFire Theo_Te NeverEatTheLemonsAlone",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "SolNode220": {
@@ -2855,6 +3089,7 @@
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
+        "founders": "BianSeLong MrCynic LastLordKail Mr.Snnickers Xylan Temporary AvaSorc otaru Zuut Relyq Irona Alias_2v10 SlothOfDoom iCheezuz MiSSilE_HeaD EMPEMPEMP JVmaken Mexall ZeigeistD Evandro.SC.BR Bernardelli Xacca Dustmoss NemesisStryker SirReginold cheryll Piplup Chrisand yinyangmaster Noobinsky ChaosRayne DLWronin Urzay Librus_Sigmus Stevert",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusIcePlanetTileset"
     },
     "EventNode12": {
@@ -3014,95 +3249,113 @@
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "founders": "Blitzkriegt Lodovico CptMorganio Moogs Dragowolf DevzSpy Jiggelypuff www.amazon.co.jp Kelthious Tissue_Tairyou TheBlack525 Aldmare Vakkus GehrigK Averra vaticiduous Tutebatti Fire_W1zard Runningspec bkralp24 RabidSmurfsown kurobuta_jp DoaW028 DaddysHome calranthe Zarthidan Goremound CDWangs HoldMyDill Valdemore BH0938 shadeeye Ciel.Phantomhive",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode1": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateHumans",
+        "founders": "Uriel05 GATORx Glov3 Nomgnus ih8dis Irdin DomDon Draizix The_Mustypines ExplosiveFuel Takage-EGT- Dragooner Phant0m_Hunter Idriallos-EGT- Naflea AznMadness Drionchaos PantsAdvance Maxit64 Yotmow yrkar SkarletSails PettiTheYeti HouseTimeFM SpykeIV klue StrahlTiger pirenika VirtusMan CptTibas UltraM4rine TheComod TehLegendZ xXJ3richoXx",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "PvpNode2": {
-        "levelOverride": "/Lotus/Levels/PVP/GrineerSettlementDuel01.level"
+        "levelOverride": "/Lotus/Levels/PVP/GrineerSettlementDuel01.level",
+        "founders": "Lord-Raiden [DE]Glen WaffL AlminoGrey Novocrane ZeroNada Bahamur Popwar00 Norry7 WEREWOLF132009 HoodedArcher gthtdjlxbr_ueuk Gamer_Colgate unholyblood Freak5589 D3m0nFr34k Sleazin DunDoo Geo_Prismic VonnThor Zacharias89 The_Epic_Rage tuduken Depsilon Shade-0117 MalCrescent Artconway Hi00ih Helldevon Rdikin AM-Tiger Myroa Marthrym"
     },
     "SettlementNode7": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "founders": "DarkWolfGod Desae K_Hisame Druja LunaMagna Kerius yellowincarnate Suicide_Commando CrownFire Decker2468 DCL0 RaiuKusanagi Omiroth yukyu MoonCalf Elemor Psyqhical AceWarder samanime WundaWaffles Koseklumpen randomsyllable Goodwill Zeuvz Ringa StarKnight Jaygumji The-Rural-Cleric yukiyoxy Albeiro Daxternator proto132 dd020020 Rififi",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode5": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
+        "founders": "GameFace Clockwork_Corvid Rish HEYDEN2910 CoCoLatte Owhynot Broseidon88 Intox JULIOISGOD Exinanis Divided010 NacaIcon Dragonah imases Ss3trnks2 Nordice chaosdragoon GantradiesDracos Friedwings cornwallis1492 Sithgar-EGT- Calyptic Kerion Ognava Ivia KRATONRUS theammostore Eciria Omega496 evafan002 TeFarRus CyBeR_Junky juvey Monolythic",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode3": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
+        "founders": "Rebul EtHoc FracturedSolace DemonNinja-Abraxas RAMBOat CyberBunnny Recklair ExInfernus AaronLee0079 oZown Dasweb Vantage_Aust Gilthuzad Daikotanite Verlayne Yukkex Happicakes RealityDistorted Mr.Strong Armouredhunter Kroshindo GIMO mtbook3104 Shados DEMarat Eresius FakerImposter246 GreenWire rusiedo Disasterisk Wizz666 kishmasters",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode2": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
+        "founders": "Meck900 skyrile Sunflower Col._Hawke Slashsummer douTeaEmperor Hellscare KageKiba Vatsyayana ACR_SuperStar cr1ppl3r Beclouder Sotasusi79 Fick Misoran Shrie5k BigDestiny Hazardine ArchMageAuron savarava iCr4zZy-EGT- Falkieri ComputerKim Gioven Rakaine 6SoNe9 BirdDK Dargras Zaraki0112 alexbr69 Accretios Tyvar01 timex100 MonteSori",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode4": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
+        "founders": "Gogeta91 Atyrnx Hitmonfree Sweetish Hastelfel Chomps123 Milthor XCypherX khros Kung-Fu-Poodin-Boots XodiacNeos ethanelt4 Ac3xNinjaX Nokea Ixeldan lalaman1970 edoyan Roadkill02289 Hefaistos5 DJUMS loren270 Grenthor Brontolith dragonvenom Avatar1123 Krunk_Juice zerodragon9 SneakyBagel The_Villain Cheizer ichibby Hybrids metalmaster92",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode13": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "founders": "darryl1 Zeyami h8seekr DevSmoke xero_zero Czarok FrustratedTaco Kagefumi Cedric_101 maiori0725 Cladric Ronahtos okome-jp Raincoat Kodus JesterFenix Akutabi sbdserial Inferndragon IndigoBird XKaiXDynames lyravega HQAH twigsatiy Divinehawk CodeFrame Serpent Kalthos End1essSky TheR4ndomKnight Ueffie Leats RonnocN zatsx Bodox NuGash",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode12": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
+        "founders": "jhomini22 TheWolfsLunch ArcticFenrir PsychoSocialPlumb OrionSincoat LuggTheUnholy ranpig Gromfir BloodAspYZF RainZero Sharpsnare killingfurby LichKnight2794 k1ngd0md00m Marfy Bifurious Phanden ConstantinPhoenix Naegling Pekelo vIoOoIv ACB3 DiabloCM Revolexx HexxenHammer Rayjon mihailtes chiekat AgentOsoPolar NoSpoon xEviy volps78",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode10": {
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRRaceA",
+        "founders": "FurryHawk ChuTora58 O121JAY Remnant03 Kiln dongacha Sypher2200 bpmdude Justifiedkandy zerojustice won2much Kynian St4rrk LukeTheLungfish Jinouga_The_Thunder-Wolf Ruriko Wriptrip Turboski Winglit xer02hiro Walkerboh Dethwish Rain-Maker ronin1282 Ronin_Warder DaJoXTeR FREEMAN2rus KK4444KK4444KK -StalkersUnDoing- Erukanu Hurakel Sekisyusai",
         "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
     },
     "SettlementNode15": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
+        "founders": "LionCub EXrumia Akita Hammerparty algolagnist krutoijeka DESKWOLF Vholst zeolok SupernovaTiffy Devote85 Fureya L1538 Shin-G ObsceneDream ArkLouze Kalygula Ninjetti-Power Aellea ryouryu umbrALepus Elyisa Zombieslut Onimu BeatMax sanferic Wasabitrooper ApocalypseHD UndaCuvaChikin Karetchi Blahrio CosoMos MOUSE68 Crimson_Trinity Maythorn",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode8": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlement",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "founders": "Greedey TheBestPound4Pound chunky123 Svaiis embracethed Haobaby Veld. AnInfamousDerka Commander_ike PanZZeRCaT Limestone_Pie TheWeyMendossa midoma34 Arakiann Majorxshake Lundarius Maardok Eksatio Aratink Daramouse jayfur99 Blainan WindSLinger xxxKombaiNxxx Buhh454 LobsterMagician hardcorehero Kabigon SuperIngo-OMC-GER Artoah EarnAMuse",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode11": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
+        "founders": "Qu3er Deathstroke1985 Vaben DemonofChaos Drakontis Foxx-iZ-3sT Karkovius kitkatgs connykotten Platerogue Kimcheee CainL GritandoPolomo Nexarc IzUaL36 Tobiah Doitordie Kung-POW nattams Rireisu HateWing lewtt Maitso Sjofetim astarx5 thecolin- matsudc2vvv deathjet lordlazko dizty_doo silverstarfurry Kotenarok LegendDarkNight Out-last",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode14": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "founders": "samok79 agios1804 .Zona. Carmine Laucivol Deum_Bellum_Chaosque Mega_Tyrant sanaamv Death.D.Reaper Icewhynd noobulastic Zaiaku Eric.W The-Bishop MistyShuriken Davincivirus I34STI4N_HERO nex. Rhogorn Lord_Sinstar pitchcherry Zer02 Akulatraxas Logajam Odinheim Rahvinox Lewellyn Ashgan_Luther jpstahl r3vi7 mr_birtchwood Rayleonard07",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "SettlementNode9": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
+        "founders": "Kur0 Kypex ZehelAsaki TangoSierra Mobius-Ra ripobetan21 fanof666 babbottv Picard42 Helyeon DrPhill94 baisu clonehituji Blitzburg Blueryl windsong86 Spiffmeister -GM-iCookies .DarkFighter. AtomicPlatypus Terpiscorei DeltaCross canigetahelyeh blackninja4eva TheWackyWombat D0nk3yPunch3r Solarie GERUO q1dm4 GhostPrototyp Michiri H1R0N0R1",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode16": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
+        "founders": "Shieo ZelcoreS Nariboo IIQII Rallinious Pei3 Skurai018 Jaegermeister matrixEXO Quilliam BiancaRoughfin HeatHunter CenturionPrime Arbalest1356 DeniedTechniq -Yautja- Alencar Hoonani T0tooth LordCobalt m4x192 NBlitZ Hexorcist po2n CryptidByte examsystem GENEVASPUR Daison Ceurin NagamiKai Yuzurukia Commander_Mawile Vondoan Sinastrus",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "SettlementNode19": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+        "founders": "ThreeDogKnight TripleWorld k4z0ku Solatium WorkSafeBC xXDarthXx Ravenspark bitesizefour Okatsu ElectricCoiteBodher Dylbag Arisenhavok Fr0stB1te Num_54 Chenriak zakualice Bill55 Tuchaka BlackEther Xenien ut4m4ru benedictacm Scythos HaruKomatsu PantherX ReconZ3X RuneGrey Loriwen Uluu shorage ObviousLee Defrag22 Grim_Shadow xXFrostBite",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset"
     },
     "EventNode13": {
@@ -3114,6 +3367,7 @@
     "SettlementNode17": {
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA",
+        "founders": "Apexis_Knight Alouette koolnim shanedflett TommY27 BeyondBatty Teran-EGT- those_in_asylum CorruSi DeathHunter227 shinoan morgo77 Kamiko_yk HerrBiernot kasuga0046 Albadir turntekGodhead Tifa GURAUDE ssh83 Morakniv Skathes NightEyedWolf John.Doe Umbranox NicoDeMagio sakurawwt --Ragon-- wsx0h Braith Giltiamesh silkaria Arion85 Oouchus",
         "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset"
     },
     "ClanNode10": {
@@ -3129,6 +3383,7 @@
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Spaceman/Vip/SniperAgent",
+        "founders": "xNEOxThief HipsterSal exrz Litros LiquidCoolDrips TheImpKing Mr.Kiwi NightHound evil_m3nace LtWorf jlsnyperx Asmend Ragecall Peaclewood Krepos SoldatoDiMorte mugen8 Bothrops DrakeMontana ZHui Wolfshangs VICIOUSVICTORTEA Astromarine JerichoFayne Conargle_xD Shinrak AlStrife rockmong yona2790 Klespyrian Sully101x gojirra Valerye KennyYang",
         "tileset": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset"
     },
     "EventNode14": {
@@ -3140,6 +3395,7 @@
     "SettlementNode18": {
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRRaceA",
+        "founders": "Deathdevon AtV3617 Koyyume Arvelek sz4yel Mallyx CraZy_Tenno Infinity-Arc Wustinhurf Gilder1985 IcarusMori Redifined01 Reavenstriek fshow BroStephStalin Vexil_Listelia Lynius kazuki7530 RedBandit86 NexiKuro brilliancy DaremoAlpha Umaril ADAsarcasm [DE]Timo BurroWreck Shiph NullCurrent BergerKing28 Dreksontar tibikko c0okie123 Tim2012",
         "tileset": "/Lotus/Types/Game/RegionTilesets/ArchwingCorpusTrenchrunTileset"
     },
     "ClanNode11": {
