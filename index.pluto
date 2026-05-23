@@ -1960,6 +1960,8 @@ end
 
 print "Processing ExportUpgrades..."
 local exclude_mods = io.contents("../warframe-build-evaluator/data-generator/exclude-mods.json") |> json.decode
+local wikiVersionData = dofile("extras/wiki/Version.lua")
+local wikiMods = dofile("extras/wiki/Mods.lua").Mods
 for LANGS as lang do
 	local ExportUpgrades = io.contents(PE_BASE .. "/ExportUpgrades_" .. lang .. ".json") |> json.decode|json.withorder|
 	for ExportUpgrades.ExportUpgrades as upgrade do
@@ -2113,6 +2115,15 @@ for LANGS as lang do
 							upgrade.compatibleItems:insert(compat.ItemType)
 						end
 					end
+				end
+			end
+
+			if wiki_data := wikiMods:find(|x| -> x.InternalName == upgrade.uniqueName) then
+				if wiki_data.Introduced then
+					local version = (wikiVersionData.Versions[wiki_data.Introduced] or wikiVersionData.Aliases[wiki_data.Introduced])
+					assert(version, upgrade.uniqueName)
+					upgrade.__order:insert("introducedAt")
+					upgrade.introducedAt = version.Timestamp
 				end
 			end
 		end
@@ -2366,7 +2377,6 @@ for LANGS as lang do
 	end
 end
 
-local wikiVersionData = dofile("extras/wiki/Version.lua")
 local wikiWarframes = dofile("extras/wiki/Warframes.lua")
 
 print "Processing ExportWarframes..."
