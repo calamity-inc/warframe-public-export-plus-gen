@@ -134,7 +134,7 @@ local dicts = {
 	zh = { __order = tag_order },
 }
 
-function store_tag(lang, item, field, tag)
+local function store_tag(lang, item, field, tag)
 	if tag == nil or tag == "" then
 		print(field.." is nil or empty in "..dumpvar(item))
 	end
@@ -154,6 +154,13 @@ function store_tag(lang, item, field, tag)
 		item[field] = tag
 	end
 end
+
+--[[local function set_tag(lang, tag, value)
+	if lang == "en" and not dicts[lang][tag] then
+		tag_order:insert(tag)
+	end
+	dicts[lang][tag] = value
+end]]
 
 local function fusion_level_to_rank(qa): int
 	return switch qa do
@@ -188,7 +195,7 @@ end
 --languages_bin_dicts.uk["/Lotus/Language/Relics/VoidProjectionName"] = "Реліквія |ERA| |CATEGORY|"
 --languages_bin_dicts.zh["/Lotus/Language/Relics/VoidProjectionName"] = "|ERA| |CATEGORY| 遗物"
 
-function import_from_languages_bin(tag)
+local function import_from_languages_bin(tag)
 	if not dicts.en[tag] then
 		tag_order:insert(tag)
 		local english = languages_bin_dicts.en[tag]
@@ -228,7 +235,7 @@ local function unsub(init_str, fin_str)
 		while i < #schema do
 			res.__order:insert(schema[i + 1])
 			pattern ..= pattern_escape(schema[i])
-			pattern ..= "(.+)"
+			pattern ..= "(.*)"
 			i += 2
 		end
 		pattern ..= pattern_escape(schema[i])
@@ -242,6 +249,17 @@ local function unsub(init_str, fin_str)
 end
 assert(unsub("|CONDITION|:\r\n|BONUS|", "On Kill:\r\nRefresh Double Jump up to 1x while Airborne.").BONUS == "Refresh Double Jump up to 1x while Airborne.")
 assert(unsub("|CONDITION|:\r\n|BONUS| for |DURATION|s", "On 6 Melee Kills within 6s:\r\n+20% Status and Critical Chance for Secondary Weapon for 4s").DURATION == "4")
+assert(unsub("Bla |val| bla. |BONUS_TEXT|", "Bla 10 bla. ").val == "10")
+assert(unsub("Bla |val| bla. |BONUS_TEXT|", "Bla 10 bla. ").BONUS_TEXT == "")
+
+local function unsub_tag(tag, fin_str)
+	import_from_languages_bin(tag)
+	return {
+		__order = { "tag", "sub" },
+		tag = tag,
+		sub = unsub(dicts.en[tag], fin_str),
+	}
+end
 
 local function write_data_file(file, data)
 	io.contents(OUTPUT_BASE .. file,
@@ -1518,6 +1536,78 @@ do
 	end
 end
 
+local function convert_upgrade_levelStats(item)
+	if EnhancementTag := obj_find_property(item.uniqueName, "EnhancementTag") then
+		-- If an EnhancementTag is present, it absorbs whatever Upgrades would contribute as |BONUS| or |BONUS1|, |BONUS2|, etc.
+		import_from_languages_bin(EnhancementTag)
+		for i, level in item.levelStats do
+			if #level.stats > 1 then
+				-- In this case, the ExtraUpgrades seem to be appended in the offical export, so we need to fix that
+				local str = "\r\n" .. level.stats:slice(2):concat("\r\n")
+				if level.stats[1]:sub(-#str) == str then
+					level.stats[1] = level.stats[1]:sub(1, -#str - 1)
+				end
+			end
+			local res = unsub(dicts.en[EnhancementTag], level.stats[1])
+			if res.CONDITION then
+				res.CONDITION = obj_find_property(item.uniqueName, "ConditionTag")
+				import_from_languages_bin(res.CONDITION)
+			end
+			if res.BONUS then
+				local Upgrades = obj_find_property(item.uniqueName, "Upgrades")
+				res.BONUS = unsub_tag(Upgrades[1].LocTag, res.BONUS)
+			end
+			if res.BONUS1 then
+				local Upgrades = obj_find_property(item.uniqueName, "Upgrades")
+				if not Upgrades then
+					local sub = obj_resolve_path(item.uniqueName, obj_find_property(item.uniqueName, "SubUpgrades")[1])
+					Upgrades = obj_find_property(sub, "Upgrades")
+				end
+				assert(Upgrades, item.uniqueName)
+				res.BONUS1 = unsub_tag(Upgrades[1].LocTag, res.BONUS1)
+			end
+			if res.BONUS2 then
+				local Upgrades = obj_find_property(item.uniqueName, "Upgrades")
+				res.BONUS2 = unsub_tag(Upgrades[2].LocTag, res.BONUS2)
+			end
+			if res.BONUS_TEXT and res.BONUS_TEXT ~= "" then
+				-- AbilityStrengthOnSummonAttack
+				res.BONUS_TEXT = unsub_tag(
+					obj_find_property_2(item.uniqueName, "EnhancementTagLocScript", "_giveBonusStatLoc"),
+					res.BONUS_TEXT
+				)
+			end
+			level.stats[1] = {
+				__order = { "tag", "sub" },
+				tag = EnhancementTag,
+				sub = res,
+			}
+			if #level.stats > 1 then
+				local ExtraUpgrades = obj_find_property(item.uniqueName, "ExtraUpgrades")
+				for j = 2, #level.stats do
+					local upgrade = ExtraUpgrades[j - 1]
+					level.stats[j] = unsub_tag(upgrade.LocTag, level.stats[j])
+				end
+			end
+			item.levelStats[i] = level.stats
+		end
+	else
+		local Upgrades = obj_find_property(item.uniqueName, "Upgrades")
+		--[[if not Upgrades then
+			local sub = obj_resolve_path(item.uniqueName, obj_find_property(item.uniqueName, "SubUpgrades")[1])
+			Upgrades = obj_find_property(sub, "Upgrades")
+		end]]
+		local ExtraUpgrades = obj_find_property(item.uniqueName, "ExtraUpgrades")
+		for i, level in item.levelStats do
+			for j, stat in level.stats do
+				local upgrade = j <= #Upgrades ? Upgrades[j] : ExtraUpgrades[j - #Upgrades]
+				level.stats[j] = unsub_tag(upgrade.LocTag, stat)
+			end
+			item.levelStats[i] = level.stats
+		end
+	end
+end
+
 print "Processing ExportRelicArcane..."
 local ExportRewards = { __order = {} }
 do
@@ -1574,7 +1664,9 @@ do
 			else
 				store_tag(lang, item, "name", obj_find_property(item.uniqueName, "LocalizeTag"))
 				if lang == "en" then
-					item.levelStats = nil
+					if item.levelStats then
+						convert_upgrade_levelStats(item)
+					end
 
 					item.__order:insert(3, "icon")
 					item.icon = obj_find_property(item.uniqueName, "Icon")
@@ -2083,9 +2175,14 @@ for LANGS as lang do
 	end
 	for ExportUpgrades.ExportAvionics as upgrade do
 		store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
-		upgrade.levelStats = nil
-		if name := dicts.en[upgrade.name] then
-			name_to_storeitem_map[name:lower()] = to_storeitem(upgrade.uniqueName)
+		if lang == "en" then
+			upgrade.levelStats = nil
+			--[[if upgrade.levelStats then
+				convert_upgrade_levelStats(upgrade)
+			end]]
+			if name := dicts.en[upgrade.name] then
+				name_to_storeitem_map[name:lower()] = to_storeitem(upgrade.uniqueName)
+			end
 		end
 	end
 	for ExportUpgrades.ExportFocusUpgrades as focusUpgrade do
