@@ -4763,7 +4763,7 @@ do
 				ExportTilesets[name] = {
 					__order = { "uniqueName", "faction", "missions" },
 					uniqueName = path,
-					faction = obj.data.Faction,
+					faction = obj.data.Faction ?? (name == "VenusLandscapeTileset" ? "FC_CORPUS" : "FC_GRINEER"),
 					missions = obj.data.MissionPermutations:filter(|x| -> x.procLevel ~= ""),
 				}
 			end
