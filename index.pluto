@@ -4858,6 +4858,14 @@ do
 							increasePerNegativeRank = rawItem.IncreasePerNegativeRank,
 						}
 					end
+					if rawItem.FocusXpCost.Polarity ~= "AP_UNIVERSAL" and rawItem.FocusXpCost.Cost ~= 0 then
+						item.__order:insert("focusXpCost")
+						item.focusXpCost = {
+							__order = { "polarity", "cost" },
+							polarity = rawItem.FocusXpCost.Polarity,
+							cost = rawItem.FocusXpCost.Cost,
+						}
+					end
 					items:insert(item)
 				end
 				if #items ~= 0 then
