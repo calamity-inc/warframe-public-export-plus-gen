@@ -2388,6 +2388,7 @@ do
 			baseSuitToInnateDamageTag[baseSuit] = entry.UpgradeTag
 		end
 	end
+	baseSuitToInnateDamageTag["/Lotus/Powersuits/Excalibur/DarkExcalibur"] = "InnateElectricityDamage" -- Fix to make sure Umbra gets nemesisUpgradeTag
 end
 local function process_ability(lang, ability)
 	ability.__order[1] = "uniqueName"
