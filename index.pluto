@@ -3608,6 +3608,9 @@ end
 
 print "Creating ExportRewards..."
 local function bundle_fusion_points(fusion_points)
+	if fusion_points == 6000 then
+		return "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverSteelPathFusionBundle", 1
+	end
 	if (fusion_points % 80) == 0 then
 		return "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle", (fusion_points // 80)
 	elseif (fusion_points % 50) == 0 then
