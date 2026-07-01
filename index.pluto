@@ -2149,41 +2149,6 @@ for LANGS as lang do
 			canBeTransmutation = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "IncludeInBoosterPack") == 1) ? true : nil,
 			tradable = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "TradeCapability") ~= "RO_NEVER"),
 		})
-
-		-- And 3 more that are missing as of 38.5.0...
-		import_from_languages_bin("/Lotus/Language/Pets/KubrowMagneticEventMeleeModName")
-		ExportUpgrades.ExportUpgrades:insert(json.decode([[{
-			"uniqueName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
-			"name": "/Lotus/Language/Pets/KubrowMagneticEventMeleeModName",
-			"icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowMagneticEventMeleeMod.png",
-			"polarity": "AP_ATTACK",
-			"rarity": "RARE",
-			"codexSecret": false,
-			"baseDrain": 4,
-			"fusionLimit": 3,
-			"compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
-			"compatName": "Claws",
-			"type": "MELEE",
-			"tradable": true
-		}]], json.withorder))
-		name_to_storeitem_map["magnetic claws"] = "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/KubrowMagneticEventMeleeMod"
-
-		import_from_languages_bin("/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod")
-		ExportUpgrades.ExportUpgrades:insert(json.decode([[{
-			"uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
-			"name": "/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod",
-			"icon": "/Lotus/Interface/Cards/Images/Melee/MagneticAttackSpeedMeleeMod.png",
-			"polarity": "AP_ATTACK",
-			"rarity": "RARE",
-			"codexSecret": false,
-			"baseDrain": 4,
-			"fusionLimit": 3,
-			"compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
-			"compatName": "Melee",
-			"type": "MELEE",
-			"tradable": true
-		}]], json.withorder))
-		name_to_storeitem_map["magnetic rush"] = "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod"
 	end
 	for ExportUpgrades.ExportAvionics as upgrade do
 		store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
