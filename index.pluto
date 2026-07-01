@@ -1959,249 +1959,256 @@ for LANGS as lang do
 end
 
 print "Processing ExportUpgrades..."
-local exclude_mods = io.contents("../warframe-build-evaluator/data-generator/exclude-mods.json") |> json.decode
 local wikiVersionData = dofile("extras/wiki/Version.lua")
-local wikiMods = dofile("extras/wiki/Mods.lua").Mods:values()
-for LANGS as lang do
-	local ExportUpgrades = io.contents(PE_BASE .. "/ExportUpgrades_" .. lang .. ".json") |> json.decode|json.withorder|
-	for ExportUpgrades.ExportUpgrades as upgrade do
-		if upgrade.name == "" then
-			continue
+do
+	local exclude_mods = io.contents("../warframe-build-evaluator/data-generator/exclude-mods.json") |> json.decode
+	local wikiMods = dofile("extras/wiki/Mods.lua").Mods:values()
+	for LANGS as lang do
+		local ExportUpgrades = io.contents(PE_BASE .. "/ExportUpgrades_" .. lang .. ".json") |> json.decode|json.withorder|
+		local missingMods = io.contents("extras/ExportUpgrades-missing.json") |> json.decode|json.withorder|
+		for missingMods as mod do
+			mod.name = languages_bin_dicts[lang][obj_find_property(mod.uniqueName, "LocalizeTag")]
+			ExportUpgrades.ExportUpgrades:insert(mod)
 		end
-		store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
-		if upgrade.description then
-			assert(#upgrade.description == 1, upgrade.uniqueName)
-			upgrade.description = upgrade.description[1]
-			store_tag(lang, upgrade, "description", obj_find_property(upgrade.uniqueName, "LocalizeDescTag") or "/Lotus/Language/Items/EmptyArtifactDesc")
-		end
-		if lang == "en" then
-			upgrade.levelStats = nil
-
-			upgrade.__order:insert(3, "icon")
-			upgrade.icon = obj_find_property(upgrade.uniqueName, "Icon")
-
-			local offset = upgrade.isUtility ? 10 : 9
-
-			do
-				local compat, compat_base = obj_find_property(upgrade.uniqueName, "ItemCompatibility")
-				if compat then
-					upgrade.__order:insert(offset++, "compat")
-					upgrade.compat = obj_resolve_path(compat_base, compat)
-				end
+		for ExportUpgrades.ExportUpgrades as upgrade do
+			if upgrade.name == "" then
+				continue
 			end
-
-			++offset -- Skip compatName
-
-			if CompatibilityTags := obj_find_property(upgrade.uniqueName, "CompatibilityTags") then
-				upgrade.__order:insert(offset++, "compatibilityTags")
-				upgrade.compatibilityTags = CompatibilityTags
+			store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
+			if upgrade.description then
+				assert(#upgrade.description == 1, upgrade.uniqueName)
+				upgrade.description = upgrade.description[1]
+				store_tag(lang, upgrade, "description", obj_find_property(upgrade.uniqueName, "LocalizeDescTag") or "/Lotus/Language/Items/EmptyArtifactDesc")
 			end
+			if lang == "en" then
+				upgrade.levelStats = nil
 
-			if IncompatibilityTags := obj_find_property(upgrade.uniqueName, "IncompatibilityTags") then
-				upgrade.__order:insert(offset++, "incompatibilityTags")
-				upgrade.incompatibilityTags = IncompatibilityTags
-			end
+				upgrade.__order:insert(3, "icon")
+				upgrade.icon = obj_find_property(upgrade.uniqueName, "Icon")
 
-			--[[if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaModIndistinctUnveiled.png" then
-				upgrade.__order:insert("omegaUpgradeTypes")
-				upgrade.omegaUpgradeTypes = obj_find_property(upgrade.uniqueName, "OmegaUpgradeTypes")
-				upgrade.__order:insert("omegaUpgradeWeights")
-				upgrade.omegaUpgradeWeights = obj_find_property(upgrade.uniqueName, "OmegaUpgradeWeights")
-			else]]if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaMod.png" then
-				upgrade.baseDrain = 10
-				upgrade.fusionLimit = 8
-			end
+				local offset = upgrade.isUtility ? 10 : 9
 
-			if obj_find_property(upgrade.uniqueName, "IsStarter") == 1 then
-				upgrade.__order:insert("isStarter")
-				upgrade.isStarter = true
-			elseif upgrade.uniqueName:sub(-6) == "SubMod" or exclude_mods[upgrade.uniqueName] == "unreleased/unobtainable" or exclude_mods[upgrade.uniqueName] == "broken (beginner/intermediate)" then
-				upgrade.__order:insert("isFrivolous")
-				upgrade.isFrivolous = true
-			end
-
-			upgrade.__order:insert("tradable")
-			upgrade.tradable = (obj_find_property(upgrade.uniqueName, "TradeCapability") ~= "RO_NEVER")
-
-			-- This shit isn't translated in the upstream exports, so using Languages.bin imports.
-			if upgrade.upgradeEntries then
-				local UpgradeEntries = obj_find_property(upgrade.uniqueName, "UpgradeEntries")
-				for i, entry in upgrade.upgradeEntries do
-					assert(UpgradeEntries[i].Tag == entry.tag)
-					if entry.prefixTag ~= "" then
-						--store_tag(lang, entry, "prefixTag", UpgradeEntries[i].LocalizePrefixTag)
-						--store_tag(lang, entry, "suffixTag", UpgradeEntries[i].LocalizeSuffixTag)
-						entry.prefixTag = UpgradeEntries[i].LocalizePrefixTag
-						entry.suffixTag = UpgradeEntries[i].LocalizeSuffixTag
-						import_from_languages_bin(entry.prefixTag)
-						import_from_languages_bin(entry.suffixTag)
+				do
+					local compat, compat_base = obj_find_property(upgrade.uniqueName, "ItemCompatibility")
+					if compat then
+						upgrade.__order:insert(offset++, "compat")
+						upgrade.compat = obj_resolve_path(compat_base, compat)
 					end
-					entry.__order:insert(4, "canBeBuff")
-					entry.canBeBuff = (UpgradeEntries[i].CanBeBuff == 1)
-					entry.__order:insert(5, "canBeCurse")
-					entry.canBeCurse = (UpgradeEntries[i].CanBeCurse == 1)
-					for j, sub in entry.upgradeValues do
-						if sub.locTag then
-							assert(UpgradeEntries[i].Upgrades[j].Schema.LocTag, upgrade.uniqueName)
-							--store_tag(lang, sub, "locTag", UpgradeEntries[i].Upgrades[j].Schema.LocTag)
-							sub.locTag = UpgradeEntries[i].Upgrades[j].Schema.LocTag
-							import_from_languages_bin(sub.locTag)
+				end
+
+				++offset -- Skip compatName
+
+				if CompatibilityTags := obj_find_property(upgrade.uniqueName, "CompatibilityTags") then
+					upgrade.__order:insert(offset++, "compatibilityTags")
+					upgrade.compatibilityTags = CompatibilityTags
+				end
+
+				if IncompatibilityTags := obj_find_property(upgrade.uniqueName, "IncompatibilityTags") then
+					upgrade.__order:insert(offset++, "incompatibilityTags")
+					upgrade.incompatibilityTags = IncompatibilityTags
+				end
+
+				--[[if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaModIndistinctUnveiled.png" then
+					upgrade.__order:insert("omegaUpgradeTypes")
+					upgrade.omegaUpgradeTypes = obj_find_property(upgrade.uniqueName, "OmegaUpgradeTypes")
+					upgrade.__order:insert("omegaUpgradeWeights")
+					upgrade.omegaUpgradeWeights = obj_find_property(upgrade.uniqueName, "OmegaUpgradeWeights")
+				else]]if upgrade.icon == "/Lotus/Interface/Cards/Images/OmegaMod.png" then
+					upgrade.baseDrain = 10
+					upgrade.fusionLimit = 8
+				end
+
+				if obj_find_property(upgrade.uniqueName, "IsStarter") == 1 then
+					upgrade.__order:insert("isStarter")
+					upgrade.isStarter = true
+				elseif upgrade.uniqueName:sub(-6) == "SubMod" or exclude_mods[upgrade.uniqueName] == "unreleased/unobtainable" or exclude_mods[upgrade.uniqueName] == "broken (beginner/intermediate)" then
+					upgrade.__order:insert("isFrivolous")
+					upgrade.isFrivolous = true
+				end
+
+				upgrade.__order:insert("tradable")
+				upgrade.tradable = (obj_find_property(upgrade.uniqueName, "TradeCapability") ~= "RO_NEVER")
+
+				-- This shit isn't translated in the upstream exports, so using Languages.bin imports.
+				if upgrade.upgradeEntries then
+					local UpgradeEntries = obj_find_property(upgrade.uniqueName, "UpgradeEntries")
+					for i, entry in upgrade.upgradeEntries do
+						assert(UpgradeEntries[i].Tag == entry.tag)
+						if entry.prefixTag ~= "" then
+							--store_tag(lang, entry, "prefixTag", UpgradeEntries[i].LocalizePrefixTag)
+							--store_tag(lang, entry, "suffixTag", UpgradeEntries[i].LocalizeSuffixTag)
+							entry.prefixTag = UpgradeEntries[i].LocalizePrefixTag
+							entry.suffixTag = UpgradeEntries[i].LocalizeSuffixTag
+							import_from_languages_bin(entry.prefixTag)
+							import_from_languages_bin(entry.suffixTag)
+						end
+						entry.__order:insert(4, "canBeBuff")
+						entry.canBeBuff = (UpgradeEntries[i].CanBeBuff == 1)
+						entry.__order:insert(5, "canBeCurse")
+						entry.canBeCurse = (UpgradeEntries[i].CanBeCurse == 1)
+						for j, sub in entry.upgradeValues do
+							if sub.locTag then
+								assert(UpgradeEntries[i].Upgrades[j].Schema.LocTag, upgrade.uniqueName)
+								--store_tag(lang, sub, "locTag", UpgradeEntries[i].Upgrades[j].Schema.LocTag)
+								sub.locTag = UpgradeEntries[i].Upgrades[j].Schema.LocTag
+								import_from_languages_bin(sub.locTag)
+							end
 						end
 					end
-				end
-			elseif not upgrade.isStarter and not upgrade.isFrivolous then
-				local name_lower = dicts.en[upgrade.name]:lower()
-				name_to_storeitem_map[name_lower] = to_storeitem(upgrade.uniqueName)
-				if "orokin" in name_lower then
-					name_to_storeitem_map[name_lower--[[:replace("orokin", "corrupted")]]] = to_storeitem(upgrade.uniqueName)
-				end
-			end
-			if upgrade.availableChallenges then
-				local AvailableChallenges = obj_find_property(upgrade.uniqueName, "AvailableChallenges")
-				for i, challenge in upgrade.availableChallenges do
-					assert(AvailableChallenges[i].Challenge == challenge.fullName)
-
-					challenge.description = $"/Lotus/Language/Challenges/Challenge_{challenge.fullName:sub(25)}_Description"
-					import_from_languages_bin(challenge.description)
-
-					local orderIndex = 3
-					local singleDescriptionTag = $"/Lotus/Language/Challenges/Challenge_{challenge.fullName:sub(25)}_Single_Description"
-					if languages_bin_dicts.en[singleDescriptionTag] then
-						import_from_languages_bin(singleDescriptionTag)
-						challenge.__order:insert(orderIndex, "singleDescription") ++orderIndex
-						challenge.singleDescription = singleDescriptionTag
+				elseif not upgrade.isStarter and not upgrade.isFrivolous then
+					local name_lower = dicts.en[upgrade.name]:lower()
+					name_to_storeitem_map[name_lower] = to_storeitem(upgrade.uniqueName)
+					if "orokin" in name_lower then
+						name_to_storeitem_map[name_lower--[[:replace("orokin", "corrupted")]]] = to_storeitem(upgrade.uniqueName)
 					end
+				end
+				if upgrade.availableChallenges then
+					local AvailableChallenges = obj_find_property(upgrade.uniqueName, "AvailableChallenges")
+					for i, challenge in upgrade.availableChallenges do
+						assert(AvailableChallenges[i].Challenge == challenge.fullName)
 
-					-- The complications in the OG exports are complete nonsense e.g. for HighSurvivalPacifist
-					challenge.complications = {}
-					for AvailableChallenges[i].Complications as complication do
-						local descTag = $"/Lotus/Language/Challenges/Challenge_Complication_{complication.Complication:sub(39)}"
-						import_from_languages_bin(descTag)
-						local overrideTag
-						if item := obj_find_property(challenge.fullName, "ComplicationOverrideTags")?:find(|x| -> x.complication == complication.Complication:sub(25)) then
-							overrideTag = item.tag
-							import_from_languages_bin(overrideTag)
+						challenge.description = $"/Lotus/Language/Challenges/Challenge_{challenge.fullName:sub(25)}_Description"
+						import_from_languages_bin(challenge.description)
+
+						local orderIndex = 3
+						local singleDescriptionTag = $"/Lotus/Language/Challenges/Challenge_{challenge.fullName:sub(25)}_Single_Description"
+						if languages_bin_dicts.en[singleDescriptionTag] then
+							import_from_languages_bin(singleDescriptionTag)
+							challenge.__order:insert(orderIndex, "singleDescription") ++orderIndex
+							challenge.singleDescription = singleDescriptionTag
 						end
-						challenge.complications:insert({
-							__order = { "fullName", "description", "overrideTag", "countMultiplier", "weight" },
-							fullName = complication.Complication,
-							description = descTag,
-							overrideTag = overrideTag,
-							countMultiplier = complication.Multiplier,
-							weight = complication.Weight,
-						})
+
+						-- The complications in the OG exports are complete nonsense e.g. for HighSurvivalPacifist
+						challenge.complications = {}
+						for AvailableChallenges[i].Complications as complication do
+							local descTag = $"/Lotus/Language/Challenges/Challenge_Complication_{complication.Complication:sub(39)}"
+							import_from_languages_bin(descTag)
+							local overrideTag
+							if item := obj_find_property(challenge.fullName, "ComplicationOverrideTags")?:find(|x| -> x.complication == complication.Complication:sub(25)) then
+								overrideTag = item.tag
+								import_from_languages_bin(overrideTag)
+							end
+							challenge.complications:insert({
+								__order = { "fullName", "description", "overrideTag", "countMultiplier", "weight" },
+								fullName = complication.Complication,
+								description = descTag,
+								overrideTag = overrideTag,
+								countMultiplier = complication.Multiplier,
+								weight = complication.Weight,
+							})
+						end
+
+						challenge.__order:insert(orderIndex, "countRange") ++orderIndex
+						challenge.countRange = AvailableChallenges[i].RequiredCountRange
+
+						challenge.__order:insert(orderIndex, "complicationChance") ++orderIndex
+						challenge.complicationChance = AvailableChallenges[i].ComplicationChance
 					end
+					import_from_languages_bin("/Lotus/Language/Challenges/Challenge_Complication_Combiner")
 
-					challenge.__order:insert(orderIndex, "countRange") ++orderIndex
-					challenge.countRange = AvailableChallenges[i].RequiredCountRange
-
-					challenge.__order:insert(orderIndex, "complicationChance") ++orderIndex
-					challenge.complicationChance = AvailableChallenges[i].ComplicationChance
-				end
-				import_from_languages_bin("/Lotus/Language/Challenges/Challenge_Complication_Combiner")
-
-				upgrade.__order:insert("compatibleItems")
-				upgrade.compatibleItems = {}
-				for obj_find_property(upgrade.uniqueName, "ItemCompatibilities") as compat do
-					if compat.Rarity ~= "NONE" then
-						assert(compat.Rarity == "COMMON")
-						upgrade.compatibleItems:insert(compat.ItemType)
-					end
-				end
-				if SentinelItemCompatibilities := obj_find_property(upgrade.uniqueName, "SentinelItemCompatibilities") then
-					for SentinelItemCompatibilities as compat do
+					upgrade.__order:insert("compatibleItems")
+					upgrade.compatibleItems = {}
+					for obj_find_property(upgrade.uniqueName, "ItemCompatibilities") as compat do
 						if compat.Rarity ~= "NONE" then
 							assert(compat.Rarity == "COMMON")
 							upgrade.compatibleItems:insert(compat.ItemType)
 						end
 					end
+					if SentinelItemCompatibilities := obj_find_property(upgrade.uniqueName, "SentinelItemCompatibilities") then
+						for SentinelItemCompatibilities as compat do
+							if compat.Rarity ~= "NONE" then
+								assert(compat.Rarity == "COMMON")
+								upgrade.compatibleItems:insert(compat.ItemType)
+							end
+						end
+					end
+				end
+
+				local wiki_matches = wikiMods:filtered(|x| -> x.InternalName == upgrade.uniqueName):reorder()
+				if #wiki_matches ~= 0 then
+					if introduced := wiki_matches:map(|x| -> x.Introduced):sort()[1] then
+						local version = (wikiVersionData.Versions[introduced] or wikiVersionData.Aliases[introduced])
+						assert(version, upgrade.uniqueName)
+						upgrade.__order:insert("introducedAt")
+						upgrade.introducedAt = version.Timestamp
+					end
 				end
 			end
-
-			local wiki_matches = wikiMods:filtered(|x| -> x.InternalName == upgrade.uniqueName):reorder()
-			if #wiki_matches ~= 0 then
-				if introduced := wiki_matches:map(|x| -> x.Introduced):sort()[1] then
-					local version = (wikiVersionData.Versions[introduced] or wikiVersionData.Aliases[introduced])
-					assert(version, upgrade.uniqueName)
-					upgrade.__order:insert("introducedAt")
-					upgrade.introducedAt = version.Timestamp
+		end
+		if lang == "en" then
+			-- https://forums.warframe.com/topic/1435518-scan-aquatic-lifeforms-is-missing-in-the-app-public-export/
+			import_from_languages_bin("/Lotus/Language/Mods/LocateCreaturesMod")
+			ExportUpgrades.ExportUpgrades:insert({
+				uniqueName = "/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures",
+				__order = { "name", "icon", "polarity", "rarity", "codexSecret", "baseDrain", "fusionLimit", "compat", "excludeFromCodex", "compatName", "type", "canBeTransmutation", "tradable" },
+				name = "/Lotus/Language/Mods/LocateCreaturesMod",
+				icon = "/Lotus/Interface/Cards/Images/Pets/LocateCreatures.png",
+				polarity = "AP_PRECEPT",
+				rarity = "COMMON",
+				codexSecret = false,
+				baseDrain = 0,
+				fusionLimit = 3,
+				compat = "/Lotus/Types/Sentinels/SentinelPowersuits/RadarBasePowerSuit",
+				excludeFromCodex = true,
+				compatName = "Oxylus",
+				type = "SENTINEL",
+				canBeTransmutation = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "IncludeInBoosterPack") == 1) ? true : nil,
+				tradable = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "TradeCapability") ~= "RO_NEVER"),
+			})
+		end
+		for ExportUpgrades.ExportAvionics as upgrade do
+			store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
+			if lang == "en" then
+				upgrade.levelStats = nil
+				--[[if upgrade.levelStats then
+					convert_upgrade_levelStats(upgrade)
+				end]]
+				if name := dicts.en[upgrade.name] then
+					name_to_storeitem_map[name:lower()] = to_storeitem(upgrade.uniqueName)
 				end
 			end
 		end
-	end
-	if lang == "en" then
-		-- https://forums.warframe.com/topic/1435518-scan-aquatic-lifeforms-is-missing-in-the-app-public-export/
-		import_from_languages_bin("/Lotus/Language/Mods/LocateCreaturesMod")
-		ExportUpgrades.ExportUpgrades:insert({
-			uniqueName = "/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures",
-			__order = { "name", "icon", "polarity", "rarity", "codexSecret", "baseDrain", "fusionLimit", "compat", "excludeFromCodex", "compatName", "type", "canBeTransmutation", "tradable" },
-			name = "/Lotus/Language/Mods/LocateCreaturesMod",
-			icon = "/Lotus/Interface/Cards/Images/Pets/LocateCreatures.png",
-			polarity = "AP_PRECEPT",
-			rarity = "COMMON",
-			codexSecret = false,
-			baseDrain = 0,
-			fusionLimit = 3,
-			compat = "/Lotus/Types/Sentinels/SentinelPowersuits/RadarBasePowerSuit",
-			excludeFromCodex = true,
-			compatName = "Oxylus",
-			type = "SENTINEL",
-			canBeTransmutation = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "IncludeInBoosterPack") == 1) ? true : nil,
-			tradable = (obj_find_property("/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures", "TradeCapability") ~= "RO_NEVER"),
-		})
-	end
-	for ExportUpgrades.ExportAvionics as upgrade do
-		store_tag(lang, upgrade, "name", obj_find_property(upgrade.uniqueName, "LocalizeTag") or "/Lotus/Language/Items/EmptyArtifact")
+		for ExportUpgrades.ExportFocusUpgrades as focusUpgrade do
+			store_tag(lang, focusUpgrade, "name", obj_find_property(focusUpgrade.uniqueName, "LocalizeTag"))
+			if lang == "en" then
+				focusUpgrade.__order:insert("description")
+				local LocalizeDescTag = obj_find_property(focusUpgrade.uniqueName, "LocalizeDescTag")
+				focusUpgrade.description = LocalizeDescTag
+				import_from_languages_bin(LocalizeDescTag)
+				local description_en = dicts.en[LocalizeDescTag]
+				for i, level in focusUpgrade.levelStats do
+					assert(#level.stats == 1, focusUpgrade.uniqueName)
+					focusUpgrade.levelStats[i] = unsub(description_en, level.stats[1])
+				end
+
+				focusUpgrade.__order:insert(3, "icon")
+				focusUpgrade.icon = obj_find_property(focusUpgrade.uniqueName, "Icon")
+
+				focusUpgrade.__order:insert("baseFocusPointCost")
+				focusUpgrade.baseFocusPointCost = obj_find_property(focusUpgrade.uniqueName, "BaseFocusPointCost")
+			end
+		end
 		if lang == "en" then
-			upgrade.levelStats = nil
-			--[[if upgrade.levelStats then
-				convert_upgrade_levelStats(upgrade)
-			end]]
-			if name := dicts.en[upgrade.name] then
-				name_to_storeitem_map[name:lower()] = to_storeitem(upgrade.uniqueName)
+			for ExportUpgrades.ExportModSet as modSet do
+				modSet.__order:insert(1, "description")
+				modSet.description = obj_find_property(modSet.uniqueName, "Upgrades")[1].LocTag
+				import_from_languages_bin(modSet.description)
+
+				modSet.__order:insert(2, "icon")
+				modSet.icon = obj_find_property(modSet.uniqueName, "ModSetIcon")
+
+				modSet.__order:insert("levelStats")
+				modSet.levelStats = {}
+				for i, str in modSet.stats do
+					modSet.levelStats[i] = unsub(dicts.en[modSet.description], str)
+				end
+				modSet.stats = nil
 			end
+			write_mapped_data_file("ExportUpgrades.json", ExportUpgrades.ExportUpgrades)
+			write_mapped_data_file("ExportModSet.json", ExportUpgrades.ExportModSet)
+			write_mapped_data_file("ExportAvionics.json", ExportUpgrades.ExportAvionics)
+			write_mapped_data_file("ExportFocusUpgrades.json", ExportUpgrades.ExportFocusUpgrades)
 		end
-	end
-	for ExportUpgrades.ExportFocusUpgrades as focusUpgrade do
-		store_tag(lang, focusUpgrade, "name", obj_find_property(focusUpgrade.uniqueName, "LocalizeTag"))
-		if lang == "en" then
-			focusUpgrade.__order:insert("description")
-			local LocalizeDescTag = obj_find_property(focusUpgrade.uniqueName, "LocalizeDescTag")
-			focusUpgrade.description = LocalizeDescTag
-			import_from_languages_bin(LocalizeDescTag)
-			local description_en = dicts.en[LocalizeDescTag]
-			for i, level in focusUpgrade.levelStats do
-				assert(#level.stats == 1, focusUpgrade.uniqueName)
-				focusUpgrade.levelStats[i] = unsub(description_en, level.stats[1])
-			end
-
-			focusUpgrade.__order:insert(3, "icon")
-			focusUpgrade.icon = obj_find_property(focusUpgrade.uniqueName, "Icon")
-
-			focusUpgrade.__order:insert("baseFocusPointCost")
-			focusUpgrade.baseFocusPointCost = obj_find_property(focusUpgrade.uniqueName, "BaseFocusPointCost")
-		end
-	end
-	if lang == "en" then
-		for ExportUpgrades.ExportModSet as modSet do
-			modSet.__order:insert(1, "description")
-			modSet.description = obj_find_property(modSet.uniqueName, "Upgrades")[1].LocTag
-			import_from_languages_bin(modSet.description)
-
-			modSet.__order:insert(2, "icon")
-			modSet.icon = obj_find_property(modSet.uniqueName, "ModSetIcon")
-
-			modSet.__order:insert("levelStats")
-			modSet.levelStats = {}
-			for i, str in modSet.stats do
-				modSet.levelStats[i] = unsub(dicts.en[modSet.description], str)
-			end
-			modSet.stats = nil
-		end
-		write_mapped_data_file("ExportUpgrades.json", ExportUpgrades.ExportUpgrades)
-		write_mapped_data_file("ExportModSet.json", ExportUpgrades.ExportModSet)
-		write_mapped_data_file("ExportAvionics.json", ExportUpgrades.ExportAvionics)
-		write_mapped_data_file("ExportFocusUpgrades.json", ExportUpgrades.ExportFocusUpgrades)
 	end
 end
 

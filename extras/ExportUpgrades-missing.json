@@ -1,0 +1,110 @@
+[
+    // Gone missing with U43
+    {
+        "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree",
+        "name": "Clashing Forest",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 3,
+        "compatName": "Staves",
+        "type": "STANCE",
+        "description": [
+            "Arcing strikes and focused combos."
+        ]
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarSlideBoostMod",
+        "name": "Maglev",
+        "polarity": "AP_TACTIC",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5,
+        "isUtility": true,
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "levelStats": [
+            {
+                "stats": [
+                    "+5% Slide",
+                    "-5% Friction"
+                ]
+            },
+            {
+                "stats": [
+                    "+10% Slide",
+                    "-10% Friction"
+                ]
+            },
+            {
+                "stats": [
+                    "+15% Slide",
+                    "-15% Friction"
+                ]
+            },
+            {
+                "stats": [
+                    "+20% Slide",
+                    "-20% Friction"
+                ]
+            },
+            {
+                "stats": [
+                    "+25% Slide",
+                    "-25% Friction"
+                ]
+            },
+            {
+                "stats": [
+                    "+30% Slide",
+                    "-30% Friction"
+                ]
+            }
+        ]
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarPowerToHealthOnDeathMod",
+        "name": "Quick Thinking",
+        "polarity": "AP_DEFENSE",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 5,
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "levelStats": [
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +40% Efficiency."
+                ]
+            },
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +80% Efficiency."
+                ]
+            },
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +120% Efficiency."
+                ]
+            },
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +160% Efficiency."
+                ]
+            },
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +200% Efficiency."
+                ]
+            },
+            {
+                "stats": [
+                    "Drains Energy to stop Lethal Damage with +240% Efficiency."
+                ]
+            }
+        ]
+    },
+]
