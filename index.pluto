@@ -1609,6 +1609,20 @@ local function convert_upgrade_levelStats(item)
 end
 
 print "Processing ExportRelicArcane..."
+
+local function dofile_patched(path)
+	local src = assert(io.contents(path))
+	src = src
+		:gsub("local%s+Table%s*=%s*require%b()", "-- %0")
+		:gsub("\n(%s*addDucatValueKey%s*%(%s*primeData%s*%))", "\n-- %1")
+	--[[local r = assert(io.open(path .. ".patched.lua", "wb"))
+	r:write(src)
+	r:close()]]
+	return assert(load(src, "@" .. path))()
+end
+
+local wikiVoid = dofile_patched("extras/wiki/Void.lua").RelicData:values()
+local wikiVersionData = dofile("extras/wiki/Version.lua")
 local ExportRewards = { __order = {} }
 do
 	local relic_categories = {}
@@ -1659,6 +1673,16 @@ do
 					elseif item.quality == "VPQ_PLATINUM" then
 						name_to_storeitem_map[$"{item.era} {item.category} Relic (Radiant)":lower()] = to_storeitem(item.uniqueName) -- Droptables
 						name_to_storeitem_map[$"{item.era} {item.category} (Radiant)":lower()] = to_storeitem(item.uniqueName) -- Wiki
+					end
+
+					if wiki_data := wikiVoid:find(|x| -> x.Name == $"{item.era} {item.category}") then
+						local version = (wikiVersionData.Versions[wiki_data.Introduced] or wikiVersionData.Aliases[wiki_data.Introduced])
+						item.__order:insert("introducedAt")
+						item.introducedAt = version.Timestamp
+						if wiki_data.Vaulted then
+							item.__order:insert("vaultedAt")
+							item.vaultedAt = (wikiVersionData.Versions[wiki_data.Vaulted] or wikiVersionData.Aliases[wiki_data.Vaulted]).Timestamp
+						end
 					end
 				end
 			else
@@ -1959,7 +1983,6 @@ for LANGS as lang do
 end
 
 print "Processing ExportUpgrades..."
-local wikiVersionData = dofile("extras/wiki/Version.lua")
 do
 	local exclude_mods = io.contents("../warframe-build-evaluator/data-generator/exclude-mods.json") |> json.decode
 	local wikiMods = dofile("extras/wiki/Mods.lua").Mods:values()

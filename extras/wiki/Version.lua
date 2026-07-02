@@ -18025,8 +18025,8 @@ local Versions = {
 		Date = "2024-10-10",
 		Parent = "37.0",
 		ForumLink = "https://forums.warframe.com/topic/1418210-koumei-the-five-fates-hotfix-3704/",
-		ArchiveLink = "https://archive.md/AqBaC",
-		ArchiveDate = "2024-10-10",
+		ArchiveLink = "https://web.archive.org/web/20251105141305/https://forums.warframe.com/topic/1418210-koumei-the-five-fates-hotfix-3704/",
+		ArchiveDate = "2025-11-05",
 		Timestamp = 1728572529,
 	},
 	{
@@ -18037,8 +18037,8 @@ local Versions = {
 		Date = "2024-10-10",
 		Parent = "37.0",
 		ForumLink = "https://forums.warframe.com/topic/1418289-koumei-the-five-fates-hotfix-3705/",
-		ArchiveLink = "https://archive.md/PVnbv",
-		ArchiveDate = "2024-10-10",
+		ArchiveLink = "https://web.archive.org/web/20241109100314/https://forums.warframe.com/topic/1418289-koumei-the-five-fates-hotfix-3705/",
+		ArchiveDate = "2024-11-09",
 		Timestamp = 1728583490,
 	},
 	{
@@ -18049,8 +18049,8 @@ local Versions = {
 		Date = "2024-10-11",
 		Parent = "37.0",
 		ForumLink = "https://forums.warframe.com/topic/1418558-koumei-the-five-fates-hotfix-3706/",
-		ArchiveLink = "https://archive.md/553hA",
-		ArchiveDate = "2024-10-11",
+		ArchiveLink = "https://web.archive.org/web/20241127032302/https://forums.warframe.com/topic/1418558-koumei-the-five-fates-hotfix-3706/",
+		ArchiveDate = "2024-11-27",
 		Timestamp = 1728662983,
 	},
 	{
@@ -18061,8 +18061,8 @@ local Versions = {
 		Date = "2024-10-16",
 		Parent = "37.0",
 		ForumLink = "https://forums.warframe.com/topic/1419483-koumei-the-five-fates-hotfix-3707/",
-		ArchiveLink = "https://archive.md/4S4yp",
-		ArchiveDate = "2024-10-16",
+		ArchiveLink = "https://web.archive.org/web/20241126174744/https://forums.warframe.com/topic/1419483-koumei-the-five-fates-hotfix-3707/",
+		ArchiveDate = "2024-11-26",
 		Timestamp = 1729090875,
 	},
 	{
@@ -18073,8 +18073,8 @@ local Versions = {
 		Date = "2024-10-16",
 		Parent = "37.0",
 		ForumLink = "https://forums.warframe.com/topic/1419626-koumei-the-five-fates-hotfix-3708/",
-		ArchiveLink = "https://archive.md/NonSI",
-		ArchiveDate = "2024-10-16",
+		ArchiveLink = "https://web.archive.org/web/20241126232305/https://forums.warframe.com/topic/1419626-koumei-the-five-fates-hotfix-3708/",
+		ArchiveDate = "2024-11-26",
 		Timestamp = 1729113354,
 	},
 	{
@@ -18170,8 +18170,8 @@ local Versions = {
 		Date = "2024-12-17",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1428568-warframe-1999-hotfix-3804/",
-		ArchiveLink = "https://archive.md/hu60r",
-		ArchiveDate = "2024-12-18",
+		ArchiveLink = "https://web.archive.org/web/20250730193209/https://forums.warframe.com/topic/1428568-warframe-1999-hotfix-3804/",
+		ArchiveDate = "2025-07-30",
 		Timestamp = 1734470211,
 	},
 	{
@@ -18182,8 +18182,8 @@ local Versions = {
 		Date = "2024-12-18",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1429043-warframe-1999-hotfix-3805/",
-		ArchiveLink = "https://archive.md/M2KFF",
-		ArchiveDate = "2024-12-19",
+		ArchiveLink = "https://web.archive.org/web/20251203225430/https://forums.warframe.com/topic/1429043-warframe-1999-hotfix-3805/",
+		ArchiveDate = "2025-12-03",
 		Timestamp = 1734553165,
 	},
 	{
@@ -18278,8 +18278,8 @@ local Versions = {
 		Date = "2025-03-19",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1442589-update-385-techrot-encore/",
-		ArchiveLink = "https://archive.md/EhHSH",
-		ArchiveDate = "2025-03-19",
+		ArchiveLink = "https://web.archive.org/web/20251114053118/https://forums.warframe.com/topic/1442589-update-385-techrot-encore/",
+		ArchiveDate = "2025-11-14",
 		Timestamp = 1742364222,
 		Subtitle = "Techrot Encore"
 	},
@@ -18291,7 +18291,7 @@ local Versions = {
 		Date = "2025-03-19",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1443036-techrot-encore-hotfix-3851/",
-		ArchiveLink = "https://archive.today/8wlR3",
+		ArchiveLink = "https://web.archive.org/web/20250320000000/https://forums.warframe.com/topic/1443036-techrot-encore-hotfix-3851/",
 		ArchiveDate = "2025-03-20",
 		Timestamp = 1742418697
 	},
@@ -18303,7 +18303,7 @@ local Versions = {
 		Date = "2025-03-20",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1443893-techrot-encore-hotfix-3852/",
-		ArchiveLink = "https://archive.today/fiNtF",
+		ArchiveLink = "https://web.archive.org/web/20250320000000/https://forums.warframe.com/topic/1443893-techrot-encore-hotfix-3852/",
 		ArchiveDate = "2025-03-20",
 		Timestamp = 1742501014
 	},
@@ -18315,7 +18315,7 @@ local Versions = {
 		Date = "2025-03-25",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1446347-techrot-encore-hotfix-3853/",
-		ArchiveLink = "https://archive.today/yrmNV",
+		ArchiveLink = "https://web.archive.org/web/20250325000000/https://forums.warframe.com/topic/1446347-techrot-encore-hotfix-3853/",
 		ArchiveDate = "2025-03-25",
 		Timestamp = 1742925807
 	},
@@ -18327,7 +18327,7 @@ local Versions = {
 		Date = "2025-03-26",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1446837-techrot-encore-hotfix-3854/",
-		ArchiveLink = "https://archive.today/ANFup",
+		ArchiveLink = "https://web.archive.org/web/20250326000000/https://forums.warframe.com/topic/1446837-techrot-encore-hotfix-3854/",
 		ArchiveDate = "2025-03-26",
 		Timestamp = 1743018432
 	},
@@ -18339,7 +18339,7 @@ local Versions = {
 		Date = "2025-03-27",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1447225-techrot-encore-hotfix-3855/",
-		ArchiveLink = "https://archive.today/ktOSQ",
+		ArchiveLink = "https://web.archive.org/web/20250327000000/https://forums.warframe.com/topic/1447225-techrot-encore-hotfix-3855/",
 		ArchiveDate = "2025-03-27",
 		Timestamp = 1743107526
 	},
@@ -18351,7 +18351,7 @@ local Versions = {
 		Date = "2025-04-02",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1448704-techrot-encore-hotfix-3856/",
-		ArchiveLink = "https://archive.today/ijWrg",
+		ArchiveLink = "https://web.archive.org/web/20250402000000/https://forums.warframe.com/topic/1448704-techrot-encore-hotfix-3856/",
 		ArchiveDate = "2025-04-02",
 		Timestamp = 1743615462
 	},
@@ -18363,7 +18363,7 @@ local Versions = {
 		Date = "2025-04-03",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1448992-techrot-encore-hotfix-3857/",
-		ArchiveLink = "https://archive.today/FRABo",
+		ArchiveLink = "https://web.archive.org/web/20250403000000/https://forums.warframe.com/topic/1448992-techrot-encore-hotfix-3857/",
 		ArchiveDate = "2025-04-03",
 		Timestamp = 1743708820
 	},
@@ -18375,7 +18375,7 @@ local Versions = {
 		Date = "2025-04-04",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1449216-techrot-encore-hotfix-3858/",
-		ArchiveLink = "https://archive.today/5DJGf",
+		ArchiveLink = "https://web.archive.org/web/20250404000000/https://forums.warframe.com/topic/1449216-techrot-encore-hotfix-3858/",
 		ArchiveDate = "2025-04-04",
 		Timestamp = 1743778530
 	},
@@ -18387,7 +18387,7 @@ local Versions = {
 		Date = "2025-04-07",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1449869-techrot-encore-hotfix-3859/",
-		ArchiveLink = "https://archive.today/OcKLx",
+		ArchiveLink = "https://web.archive.org/web/20250407000000/https://forums.warframe.com/topic/1449869-techrot-encore-hotfix-3859/",
 		ArchiveDate = "2025-04-07",
 		Timestamp = 1744051663
 	},
@@ -18435,7 +18435,7 @@ local Versions = {
 		Date = "2025-05-21",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1455013-yareli-prime-hotfix-3861/",
-		ArchiveLink = "https://archive.today/jOdcR",
+		ArchiveLink = "https://web.archive.org/web/20250523000000/https://forums.warframe.com/topic/1455013-yareli-prime-hotfix-3861/",
 		ArchiveDate = "2025-05-23",
 		Timestamp = 1747856166
 	},
@@ -18447,7 +18447,7 @@ local Versions = {
 		Date = "2025-05-22",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1455356-yareli-prime-hotfix-3862/",
-		ArchiveLink = "https://archive.today/034tt",
+		ArchiveLink = "https://web.archive.org/web/20250523000000/https://forums.warframe.com/topic/1455356-yareli-prime-hotfix-3862/",
 		ArchiveDate = "2025-05-23",
 		Timestamp = 1747939825
 	},
@@ -18459,7 +18459,7 @@ local Versions = {
 		Date = "2025-05-23",
 		Parent = "38.0",
 		ForumLink = "https://forums.warframe.com/topic/1455575-yareli-prime-hotfix-3863/",
-		ArchiveLink = "https://archive.today/mYvqE",
+		ArchiveLink = "https://web.archive.org/web/20250523000000/https://forums.warframe.com/topic/1455575-yareli-prime-hotfix-3863/",
 		ArchiveDate = "2025-05-23",
 		Timestamp = 1748017403
 	},
@@ -18471,7 +18471,7 @@ local Versions = {
 		Date = "2025-06-25",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1458589-update-39-isleweaver/",
-		ArchiveLink = "https://archive.today/maE8O",
+		ArchiveLink = "https://web.archive.org/web000000/20250625/https://forums.warframe.com/topic/1458589-update-39-isleweaver/",
 		ArchiveDate = "2025-06-25",
 		Timestamp = 1750863779,
 		Subtitle = "Isleweaver"
@@ -18520,7 +18520,7 @@ local Versions = {
 		Date = "2025-07-03",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1461121-isleweaver-hotfix-3904/",
-		ArchiveLink = "https://archive.today/Wy4gk",
+		ArchiveLink = "https://web.archive.org/web000000/20250703/https://forums.warframe.com/topic/1461121-isleweaver-hotfix-3904/",
 		ArchiveDate = "2025-07-03",
 		Timestamp = 1751554921
 	},
@@ -18532,7 +18532,7 @@ local Versions = {
 		Date = "2025-07-07",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1461749-isleweaver-hotfix-3905/",
-		ArchiveLink = "https://archive.today/d0Ajo",
+		ArchiveLink = "https://web.archive.org/web000000/20250707/https://forums.warframe.com/topic/1461749-isleweaver-hotfix-3905/",
 		ArchiveDate = "2025-07-07",
 		Timestamp = 1751915568
 	},
@@ -18568,7 +18568,7 @@ local Versions = {
 		Date = "2025-08-26",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1467163-update-391-caliban-prime/",
-		ArchiveLink = "http://archive.today/0fRIx",
+		ArchiveLink = "http://web.archive.org/web/20250826000000/https://forums.warframe.com/topic/1467163-update-391-caliban-prime/",
 		ArchiveDate = "2025-08-26",
 		Timestamp = 1756220687,
 		Subtitle = "Caliban Prime"
@@ -18581,7 +18581,7 @@ local Versions = {
 		Date = "2025-08-26",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1467231-caliban-prime-hotfix-3911/",
-		ArchiveLink = "http://archive.today/AaDlu",
+		ArchiveLink = "http://web.archive.org/web/20250826000000/https://forums.warframe.com/topic/1467231-caliban-prime-hotfix-3911/",
 		ArchiveDate = "2025-08-26",
 		Timestamp = 1756235453
 	},
@@ -18593,7 +18593,7 @@ local Versions = {
 		Date = "2025-08-28",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1467505-caliban-prime-hotfix-3912/",
-		ArchiveLink = "http://archive.today/VpPXd",
+		ArchiveLink = "http://web.archive.org/web/20250828000000/https://forums.warframe.com/topic/1467505-caliban-prime-hotfix-3912/",
 		ArchiveDate = "2025-08-28",
 		Timestamp = 1756393289
 	},
@@ -18605,8 +18605,8 @@ local Versions = {
 		Date = "2025-09-02",
 		Parent = "39.0",
 		ForumLink = "https://forums.warframe.com/topic/1468008-caliban-prime-hotfix-3913/",
-		ArchiveLink = "https://archive.md/f8gE9",
-		ArchiveDate = "2025-09-02",
+		ArchiveLink = "https://web.archive.org/web/20250920084851/https://forums.warframe.com/topic/1468008-caliban-prime-hotfix-3913/",
+		ArchiveDate = "2025-09-20",
 		Timestamp = 1756843402
 	},
 	{
@@ -18617,7 +18617,7 @@ local Versions = {
 		Date = "2025-10-15",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1470920-update-40-the-vallis-undermind/",
-		ArchiveLink = "http://archive.today/lRYhS",
+		ArchiveLink = "http://web.archive.org/web/20251015/https000000://forums.warframe.com/topic/1470920-update-40-the-vallis-undermind/",
 		ArchiveDate = "2025-10-15",
 		Timestamp = 1760540652,
 		Subtitle = "The Vallis Undermind"
@@ -18630,7 +18630,7 @@ local Versions = {
 		Date = "2025-10-15",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1471164-the-vallis-undermind-hotfix-4001/",
-		ArchiveLink = "http://archive.today/cffON",
+		ArchiveLink = "http://web.archive.org/web/20251015/https000000://forums.warframe.com/topic/1471164-the-vallis-undermind-hotfix-4001/",
 		ArchiveDate = "2025-10-15",
 		Timestamp = 1760559652
 	},
@@ -18642,7 +18642,7 @@ local Versions = {
 		Date = "2025-10-16",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1471801-the-vallis-undermind-hotfix-4002/",
-		ArchiveLink = "http://archive.today/TFObi",
+		ArchiveLink = "http://web.archive.org/web/20251016/https000000://forums.warframe.com/topic/1471801-the-vallis-undermind-hotfix-4002/",
 		ArchiveDate = "2025-10-16",
 		Timestamp = 1760645791
 	},
@@ -18654,7 +18654,7 @@ local Versions = {
 		Date = "2025-10-21",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1473145-the-vallis-undermind-hotfix-4003/",
-		ArchiveLink = "http://archive.today/IzYuC",
+		ArchiveLink = "http://web.archive.org/web/20251021/https000000://forums.warframe.com/topic/1473145-the-vallis-undermind-hotfix-4003/",
 		ArchiveDate = "2025-10-21",
 		Timestamp = 1761070042
 	},
@@ -18666,8 +18666,8 @@ local Versions = {
 		Date = "2025-10-23",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1473933-the-vallis-undermind-hotfix-4004/",
-		ArchiveLink = "http://archive.ph/NxLZK",
-		ArchiveDate = "2025-10-23",
+		ArchiveLink = "https://web.archive.org/web/20251101101224/https://forums.warframe.com/topic/1473933-the-vallis-undermind-hotfix-4004/",
+		ArchiveDate = "2025-11-01",
 		Timestamp = 1761246300
 	},
 	{
@@ -18678,7 +18678,7 @@ local Versions = {
 		Date = "2025-10-28",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1474626-the-vallis-undermind-hotfix-4005-40051/",
-		ArchiveLink = "http://archive.today/f3yCB",
+		ArchiveLink = "http://web.archive.org/web/20251101/https://forums000000.warframe.com/topic/1474626-the-vallis-undermind-hotfix-4005-40051/",
 		ArchiveDate = "2025-11-01",
 		Timestamp = 1761681745
 	},
@@ -18690,7 +18690,7 @@ local Versions = {
 		Date = "2025-10-29",
 		Parent = "40.0",
 		ForumLink = "https://forums.warframe.com/topic/1474626-the-vallis-undermind-hotfix-4005-40051/",
-		ArchiveLink = "http://archive.today/f3yCB",
+		ArchiveLink = "http://web.archive.org/web/20251101/https://forums000000.warframe.com/topic/1474626-the-vallis-undermind-hotfix-4005-40051/",
 		ArchiveDate = "2025-11-01",
 		Timestamp = 1761753797 -- based on redtext
 	},
@@ -18702,7 +18702,7 @@ local Versions = {
 		Date = "2025-12-10",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1478634-update-41-the-old-peace/",
-		ArchiveLink = "http://archive.today/4D6W3",
+		ArchiveLink = "http://web.archive.org/web/20251210/https000000://forums.warframe.com/topic/1478634-update-41-the-old-peace/",
 		ArchiveDate = "2025-12-10",
 		Timestamp = 1765382829,
 		Subtitle = "The Old Peace"
@@ -18715,7 +18715,7 @@ local Versions = {
 		Date = "2025-12-11",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1479283-the-old-peace-hotfix-4101/",
-		ArchiveLink = "http://archive.today/8ud2z",
+		ArchiveLink = "http://web.archive.org/web/20251211/https000000://forums.warframe.com/topic/1479283-the-old-peace-hotfix-4101/",
 		ArchiveDate = "2025-12-11",
 		Timestamp = 1765412305
 	},
@@ -18727,7 +18727,7 @@ local Versions = {
 		Date = "2025-12-12",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1480227-the-old-peace-hotfix-4102/",
-		ArchiveLink = "http://archive.today/Xxv3I",
+		ArchiveLink = "http://web.archive.org/web/20251213/https000000://forums.warframe.com/topic/1480227-the-old-peace-hotfix-4102/",
 		ArchiveDate = "2025-12-13",
 		Timestamp = 1765498352
 	},
@@ -18739,7 +18739,7 @@ local Versions = {
 		Date = "2025-12-16",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1482563-the-old-peace-hotfix-4103/",
-		ArchiveLink = "http://archive.today/dLVEB",
+		ArchiveLink = "http://web.archive.org/web/20251216/https000000://forums.warframe.com/topic/1482563-the-old-peace-hotfix-4103/",
 		ArchiveDate = "2025-12-16",
 		Timestamp = 1765901013
 	},
@@ -18751,7 +18751,7 @@ local Versions = {
 		Date = "2025-12-17",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1483162-the-old-peace-hotfix-4104/",
-		ArchiveLink = "http://archive.today/4sg7K",
+		ArchiveLink = "http://web.archive.org/web/20251217/https000000://forums.warframe.com/topic/1483162-the-old-peace-hotfix-4104/",
 		ArchiveDate = "2025-12-17",
 		Timestamp = 1766000054
 	},
@@ -18763,7 +18763,7 @@ local Versions = {
 		Date = "2025-12-18",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1483603-the-old-peace-hotfix-4105/",
-		ArchiveLink = "http://archive.today/EgdQJ",
+		ArchiveLink = "http://web.archive.org/web/20251219/https000000://forums.warframe.com/topic/1483603-the-old-peace-hotfix-4105/",
 		ArchiveDate = "2025-12-19",
 		Timestamp = 1766089174
 	},
@@ -18775,7 +18775,7 @@ local Versions = {
 		Date = "2026-01-08",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1488098-the-old-peace-hotfix-4106/",
-		ArchiveLink = "http://archive.today/v3zYN",
+		ArchiveLink = "http://web.archive.org/web/20260109/https000000://forums.warframe.com/topic/1488098-the-old-peace-hotfix-4106/",
 		ArchiveDate = "2026-01-09",
 		Timestamp = 1767897314
 	},
@@ -18787,7 +18787,7 @@ local Versions = {
 		Date = "2026-01-14",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1489292-the-old-peace-hotfix-7/",
-		ArchiveLink = "http://archive.today/kkVHO",
+		ArchiveLink = "http://web.archive.org/web/20260115/https000000://forums.warframe.com/topic/1489292-the-old-peace-hotfix-7/",
 		ArchiveDate = "2026-01-15",
 		Timestamp = 1768421381
 	},
@@ -18799,7 +18799,7 @@ local Versions = {
 		Date = "2026-02-11",
 		Parent = "41.0",
 		ForumLink = "https://forums.warframe.com/topic/1492778-update-411-vauban-heirloom/",
-		ArchiveLink = "http://archive.today/apEtG",
+		ArchiveLink = "http://web.archive.org/web/20260211000000/https://forums.warframe.com/topic/1492778-update-411-vauban-heirloom/",
 		ArchiveDate = "2026-02-11",
 		Timestamp = 1770825818,
 		Subtitle = "Vauban Heirloom"
@@ -19021,6 +19021,91 @@ local Versions = {
 		ArchiveLink = "",
 		ArchiveDate = "",
 		Timestamp = 1778698740,
+	},
+	{
+		Name = "Update 43.0",
+		Link = "Update 43: Jade Shadows: Constellations",
+		Aliases = { "43", "43.0", "Jade Shadows: Constellations" },
+		ShortName = "U43.0",
+		Date = "2026-06-17",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1509589-update-43-jade-shadows-constellations/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1781708746,
+		Subtitle = "Jade Shadows: Constellations"
+	},
+	{
+		Name = "Hotfix 43.0.1",
+		Link = "Update 43#Hotfix 43.0.1",
+		Aliases = { "43.0.1" },
+		ShortName = "H43.0.1",
+		Date = "2026-06-17",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1510149-jade-shadows-constellations-hotfix-4301/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1781736948,
+	},
+	{
+		Name = "Hotfix 43.0.2",
+		Link = "Update 43#Hotfix 43.0.2",
+		Aliases = { "43.0.2" },
+		ShortName = "H43.0.2",
+		Date = "2026-06-18",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1510970-jade-shadows-constellations-hotfix-4302/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1781818080,
+	},
+	{
+		Name = "Hotfix 43.0.3",
+		Link = "Update 43#Hotfix 43.0.3",
+		Aliases = { "43.0.3" },
+		ShortName = "H43.0.3",
+		Date = "2026-06-19",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1511623-jade-shadows-constellations-hotfix-4303/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1781914860,
+	},
+	{
+		Name = "Hotfix 43.0.4",
+		Link = "Update 43#Hotfix 43.0.4",
+		Aliases = { "43.0.4" },
+		ShortName = "H43.0.4",
+		Date = "2026-06-23",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1782241689,
+	},
+	{
+		Name = "Hotfix 43.0.5",
+		Link = "Update 43#Hotfix 43.0.5",
+		Aliases = { "43.0.5" },
+		ShortName = "H43.0.5",
+		Date = "2026-06-25",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1513670-jade-shadows-constellations-hotfix-4305/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1782413611,
+	},
+	{
+		Name = "Hotfix 43.0.6",
+		Link = "Update 43#Hotfix 43.0.6",
+		Aliases = { "43.0.6" },
+		ShortName = "H43.0.6",
+		Date = "2026-06-30",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1514654-jade-shadows-constellations-hotfix-4306/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1782833480,
 	},
 }
 
