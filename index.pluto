@@ -2186,6 +2186,10 @@ do
 				--[[if upgrade.levelStats then
 					convert_upgrade_levelStats(upgrade)
 				end]]
+
+				upgrade.__order:insert(3, "icon")
+				upgrade.icon = obj_find_property(upgrade.uniqueName, "Icon")
+
 				if name := dicts.en[upgrade.name] then
 					name_to_storeitem_map[name:lower()] = to_storeitem(upgrade.uniqueName)
 				end
