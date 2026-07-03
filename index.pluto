@@ -1029,6 +1029,9 @@ do
 			recipe.__order:insert("excludeFromMarket")
 			recipe.excludeFromMarket = true
 		end
+
+		recipe.__order:insert("oneTimePurchasable")
+		recipe.oneTimePurchasable = (obj_find_property(recipe.uniqueName, "OneTimePurchasable") == 1) ? true : nil
 	end
 	write_mapped_data_file("ExportRecipes.json", ExportRecipes.ExportRecipes)
 end
@@ -1845,6 +1848,9 @@ do
 					item.__order:insert("excludeFromMarket")
 					item.excludeFromMarket = true
 				end
+
+				item.__order:insert("oneTimePurchasable")
+				item.oneTimePurchasable = (obj_find_property(item.uniqueName, "OneTimePurchasable") == 1) ? true : nil
 
 				item.__order:insert("purchaseQuantity")
 				item.purchaseQuantity = obj_find_property(item.uniqueName, "PurchaseQuantity")
@@ -2780,6 +2786,9 @@ local function process_weapon(weapon)
 			weapon.__order:insert("excludeFromMarket")
 			weapon.excludeFromMarket = true
 		end
+
+		weapon.__order:insert("oneTimePurchasable")
+		weapon.oneTimePurchasable = (obj_find_property(weapon.uniqueName, "OneTimePurchasable") == 1) ? true : nil
 	end
 
 	weapon.__order:insert("compatibilityTags")
@@ -3150,6 +3159,9 @@ do
 				bundle.__order:insert("excludeFromMarket")
 				bundle.excludeFromMarket = true
 			end
+
+			bundle.__order:insert("oneTimePurchasable")
+			bundle.oneTimePurchasable = (obj_find_property(uniqueName, "OneTimePurchasable") == 1) ? true : nil
 
 			if excludedPlatforms := export_excludedPlatforms(uniqueName) then
 				bundle.__order:insert("excludedPlatforms")
