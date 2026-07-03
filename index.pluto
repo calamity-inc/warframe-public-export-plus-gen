@@ -1615,7 +1615,7 @@ print "Processing ExportRelicArcane..."
 
 local function dofile_patched(path)
 	local src = assert(io.contents(path))
-	src = src
+	src = "-- @pluto_warnings disable-unused\n"..src
 		:gsub("local%s+Table%s*=%s*require%b()", "-- %0")
 		:gsub("\n(%s*addDucatValueKey%s*%(%s*primeData%s*%))", "\n-- %1")
 	--[[local r = assert(io.open(path .. ".patched.lua", "wb"))
