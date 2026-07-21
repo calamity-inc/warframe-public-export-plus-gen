@@ -1436,6 +1436,8 @@ do
 							case "PvpNode10" -> "/Lotus/Language/Locations/ConclaveDM"
 							case "EntratiLabHub" -> "/Lotus/Language/Entrati/SolarMapEntratiLabsShortcut"
 							case "1999Hub" -> "/Lotus/Language/1999/1999HubName"
+							case "CrewBattleNode560" -> "/Lotus/Language/JadeShadowsPart2Constellations/AshRJMissionName"
+							case "CrewBattleNode561" -> "/Lotus/Language/JadeShadowsPart2Constellations/GarudaRJMissionName"
 							default -> english_to_tag[mission.Name] or english_to_tag[mission.Name:upper()]
 						end,
 						systemName = switch mission.Planet do
@@ -1492,6 +1494,7 @@ do
 					assert(region.systemIndex, mission.InternalName)
 					assert(region.systemName, mission.InternalName)
 					ExportRegions.ExportRegions:insert(region)
+					assert(region.name ~= "NOT UNIQUE", mission.Name)
 					import_from_languages_bin(region.name)
 					if region.systemName then
 						import_from_languages_bin(region.systemName)
