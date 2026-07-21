@@ -1468,6 +1468,7 @@ do
 							case "Spy" -> "/Lotus/Language/Missions/MissionName_RailjackSpy"
 							case "Survival" -> "/Lotus/Language/Missions/MissionName_RailjackSurvival"
 							case "Volatile" -> "/Lotus/Language/Missions/MissionName_RailjackVolatile"
+							case "Skirmish + Assassinate" -> "/Lotus/Language/Missions/MissionName_RailjackSpace"
 						end,
 						faction = factionNameToTag[mission.Enemy],
 						factionIndex = ExportFactions[factionNameToTag[mission.Enemy]]?.index,
