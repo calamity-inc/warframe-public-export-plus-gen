@@ -7,6 +7,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -29,6 +30,7 @@ return {
 		Disposition = 1.33,
 		ExilusPolarity = "Madurai",
 		Family = "Acrid",
+		GripType = "GUN_ONE_HAND",
 		Image = "Acrid.png",
 		InternalName = "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
 		Introduced = "8.0",
@@ -52,6 +54,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Direct Hit",
 				CritChance = 0.37,
 				CritMultiplier = 1.9,
@@ -67,7 +70,9 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Detonation",
+				AttackParentIndex = 1,
 				CritChance = 0.37,
 				CritMultiplier = 2,
 				Damage = { Blast = 797 },
@@ -87,6 +92,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Aegrit",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Aegrit.png",
 		InternalName = "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
 		Introduced = "32",
@@ -111,6 +117,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -131,6 +138,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Afuris",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Afuris.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
 		Introduced = "5.3",
@@ -156,6 +164,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -176,6 +185,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Afuris",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AfurisPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
 		Introduced = "32.2.5",
@@ -191,7 +201,7 @@ return {
 		Tradable = 2,
 		Traits = { "Prime" },
 		Trigger = "Auto",
-		Users = { },
+		Users = {  },
 		_TooltipAttackDisplay = 1 
 	},
 	Akarius = {
@@ -202,6 +212,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Rocket Impact",
 				BurstCount = 2,
 				BurstDelay = 0.12,
@@ -219,7 +230,9 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Rocket Detonation",
+				AttackParentIndex = 1,
 				BurstCount = 2,
 				BurstDelay = 0.12,
 				CritChance = 0.06,
@@ -245,6 +258,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Akarius",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akarius.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol",
 		Introduced = "25.7",
@@ -270,6 +284,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Rocket Impact",
 				BurstCount = 2,
 				BurstDelay = 0.12,
@@ -287,7 +302,9 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Rocket Detonation",
+				AttackParentIndex = 1,
 				BurstCount = 2,
 				BurstDelay = 0.12,
 				CritChance = 0.18,
@@ -313,6 +330,7 @@ return {
 		Disposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Akarius",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkariusPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
 		Introduced = "35.0.9",
@@ -339,6 +357,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2.4,
@@ -360,6 +379,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Akbolto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akbolto.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
 		Introduced = "6.0",
@@ -384,6 +404,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.36,
 				CritMultiplier = 2.8,
@@ -405,6 +426,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Akbolto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkboltoPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
 		Introduced = "22.7",
@@ -430,6 +452,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 2,
@@ -452,6 +475,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Akbronco",
+		GripType = "GUN_ONE_HAND",
 		Image = "Akbronco.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
 		Introduced = "8.0",
@@ -476,6 +500,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 2,
@@ -498,6 +523,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Akbronco",
+		GripType = "GUN_ONE_HAND",
 		Image = "AkbroncoPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
 		Introduced = "12.4",
@@ -523,6 +549,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 2,
 				BurstDelay = 0,
@@ -545,6 +572,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Akjagara",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akjagara.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
 		Introduced = "15.13",
@@ -569,6 +597,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 2,
 				BurstDelay = 0,
@@ -591,6 +620,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Akjagara",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkjagaraPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
 		Introduced = "24.2.2",
@@ -616,6 +646,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -636,6 +667,7 @@ return {
 		Disposition = 1.52,
 		ExilusPolarity = "Madurai",
 		Family = "Aklato",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Aklato.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
 		Introduced = "Vanilla",
@@ -658,6 +690,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -665,7 +698,7 @@ return {
 				FireRate = 1.58,
 				IsSilent = false,
 				MaxSpread = 20,
-				MinSpread=  0.5,
+				MinSpread = 0.5,
 				Multishot = 1,
 				PunchThrough = 0,
 				Range = 300,
@@ -678,6 +711,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Aklex",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Aklex.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
 		Introduced = "11.1",
@@ -702,6 +736,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -722,6 +757,7 @@ return {
 		Disposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Aklex",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AklexPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
 		Introduced = "19.8.1",
@@ -746,6 +782,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -766,6 +803,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Akmagnus",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akmagnus.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
 		Introduced = "11.9",
@@ -782,12 +820,14 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	["Akmagnus Prime"] = {
+		Accuracy = 11.1,
 		AmmoMax = 210,
 		AmmoPickup = 40,
 		AmmoType = "Secondary",
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.8,
@@ -808,6 +848,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Akmagnus",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkmagnusPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
 		Introduced = "36.0.7",
@@ -833,6 +874,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Fully Spooled",
 				CritChance = 0.24,
 				CritMultiplier = 3,
@@ -853,6 +895,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Aksomati",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Aksomati.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
 		Introduced = "16.3",
@@ -878,6 +921,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Fully Spooled",
 				CritChance = 0.24,
 				CritMultiplier = 3,
@@ -898,6 +942,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Naramon",
 		Family = "Aksomati",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AksomatiPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati",
 		Introduced = "27.0.4",
@@ -924,6 +969,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 1.8,
@@ -944,6 +990,7 @@ return {
 		Disposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Akstiletto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akstiletto.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
 		Introduced = "12.0",
@@ -968,6 +1015,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -988,6 +1036,7 @@ return {
 		Disposition = 0.85,
 		ExilusPolarity = "Madurai",
 		Family = "Akstiletto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkstilettoPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
 		Introduced = "18.12",
@@ -1013,6 +1062,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -1033,6 +1083,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Akvasto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akvasto.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
 		Introduced = "9.7",
@@ -1057,6 +1108,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -1077,6 +1129,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Akvasto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "AkvastoPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
 		Introduced = "24.0.6",
@@ -1102,6 +1155,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -1122,6 +1176,7 @@ return {
 		Disposition = 1.52,
 		ExilusPolarity = "Madurai",
 		Family = "Akzani",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Akzani.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
 		Introduced = "14.0",
@@ -1146,6 +1201,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Single Rocket Impact",
 				ChargeTime = 0.5,
 				CritChance = 0.16,
@@ -1162,7 +1218,9 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Single Rocket Explosion",
+				AttackParentIndex = 1,
 				ChargeTime = 0.5,
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -1179,22 +1237,23 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 3,
 				AttackName = "Incarnon Form",
-				IncarnonCharges = 120,
 				CritChance = 0.18,
 				CritMultiplier = 1.8,
 				Damage = { Heat = 30 },
 				FireRate = 6,
+				IncarnonCharges = 120,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 0,
+				ShotSpeed = 80,
 				ShotType = "Projectile",
 				StatusChance = 0.18,
 				Trigger = "Auto" 
-			}
+			} 
 		},
 		Class = "Pistol",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
@@ -1202,7 +1261,9 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "None",
 		Family = "Angstrum",
+		GripType = "GUN_ONE_HAND",
 		Image = "Angstrum.png",
+		IncarnonChargeGain = 40,
 		IncarnonImage = "AngstrumIncarnon.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
 		Introduced = "13.3",
@@ -1228,6 +1289,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 1.6,
@@ -1249,6 +1311,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Arca Scisco",
+		GripType = "GUN_ONE_HAND",
 		Image = "ArcaScisco.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
 		Introduced = "21.7",
@@ -1275,6 +1338,7 @@ return {
 			{
 				Accuracy = 50,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2,
@@ -1288,11 +1352,12 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.08,
-				Trigger = "Auto"
+				Trigger = "Auto" 
 			},
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -1306,7 +1371,7 @@ return {
 				Range = 13,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.24,
-				Trigger = "Burst"
+				Trigger = "Burst" 
 			} 
 		},
 		Class = "Pistol",
@@ -1316,6 +1381,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Naramon",
 		Family = "Athodai",
+		GripType = "GUN_ONE_HAND",
 		Image = "Athodai.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
 		Introduced = "28.2.1",
@@ -1333,6 +1399,75 @@ return {
 		Trigger = "Auto / Mag Burst",
 		_TooltipAttackDisplay = 1 
 	},
+	["Athodai Prime"] = {
+		AmmoMax = 72,
+		AmmoPickup = 40,
+		AmmoType = "Secondary",
+		Attacks = {
+			{
+				Accuracy = 50,
+				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.4,
+				CritMultiplier = 2,
+				Damage = { Heat = 56, Puncture = 24 },
+				FireRate = 5,
+				IsSilent = false,
+				MaxSpread = 3,
+				MinSpread = 1,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 300,
+				ShotType = "Hit-Scan",
+				StatusChance = 0.1,
+				Trigger = "Auto" 
+			},
+			{
+				Accuracy = 100,
+				AmmoCost = 1,
+				AttackIndex = 2,
+				AttackName = "Alt-Fire",
+				CritChance = 0.2,
+				CritMultiplier = 2.5,
+				Damage = { Heat = 100 },
+				FireRate = 12,
+				IsSilent = false,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 2,
+				Range = 16,
+				ShotType = "Hit-Scan",
+				StatusChance = 0.35,
+				Trigger = "Burst" 
+			} 
+		},
+		Class = "Pistol",
+		CompatibilityTags = { "TNJETTURBINEPISTOL" },
+		Conclave = false,
+		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiInnateMod" },
+		Disposition = 0.5,
+		ExilusPolarity = "Naramon",
+		Family = "Athodai",
+		GripType = "GUN_ONE_HAND",
+		Image = "AthodaiPrime.png",
+		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
+		Introduced = "43",
+		Link = "Athodai Prime",
+		Magazine = 24,
+		Mastery = 14,
+		MaxRank = 30,
+		Name = "Athodai Prime",
+		Polarities = { "Madurai", "Madurai", "Madurai" },
+		Reload = 2,
+		SellPrice = 2500,
+		Slot = "Secondary",
+		Tradable = 2,
+		Traits = { "Tenno", "Prime" },
+		Trigger = "Auto / Mag Burst",
+		_TooltipAttackDisplay = 1 
+	},
 	Atomos = {
 		Accuracy = 12.5,
 		AmmoMax = 350,
@@ -1341,6 +1476,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.7,
@@ -1358,12 +1494,13 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
-				IncarnonCharges = 0,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.18,
 				CritMultiplier = 3,
 				Damage = { Impact = 100 },
 				FireRate = 1.5,
+				IncarnonCharges = 21,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
@@ -1375,7 +1512,9 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.18,
 				CritMultiplier = 3,
 				Damage = { Blast = 450 },
@@ -1386,7 +1525,7 @@ return {
 				Range = 7.9,
 				ShotType = "AoE",
 				StatusChance = 0.41,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			} 
 		},
 		Class = "Pistol",
@@ -1395,7 +1534,9 @@ return {
 		Disposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Atomos",
+		GripType = "GUN_ONE_HAND",
 		Image = "Atomos.png",
+		IncarnonChargeGain = 1,
 		IncarnonImage = "AtomosIncarnon.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
 		Introduced = "16.5",
@@ -1420,6 +1561,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -1436,6 +1578,7 @@ return {
 			},
 			{
 				AmmoCost = 75,
+				AttackIndex = 2,
 				AttackName = "Turret Expiry",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -1452,6 +1595,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Azima",
+		GripType = "GUN_ONE_HAND",
 		Image = "Azima.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
 		Introduced = "18.5",
@@ -1475,6 +1619,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 100,
+				AttackIndex = 1,
 				AttackName = "Uncharged Shot",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -1492,6 +1637,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Charged Shot",
 				ChargeTime = 2,
 				CritChance = 0.05,
@@ -1509,6 +1655,7 @@ return {
 			},
 			{
 				AmmoCost = 100,
+				AttackIndex = 3,
 				AttackName = "Alt Fire Shot",
 				BurstCount = 4,
 				BurstDelay = 0.4,
@@ -1526,12 +1673,13 @@ return {
 				ShotSpeed = 80,
 				ShotType = "AoE",
 				StatusChance = 0.1,
-				Trigger = "Burst"
-			},
+				Trigger = "Burst" 
+			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "POWER_WEAPON" },
+		CompatibilityTags = { "POWER_WEAPON", "AOE" },
 		Conclave = false,
+		GripType = "DUAL_GUN_GUN",
 		Image = "BalefireCharger.png",
 		InternalName = "/Lotus/Powersuits/IronFrame/BlastWeapon",
 		Introduced = "24.4",
@@ -1556,6 +1704,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 100,
+				AttackIndex = 1,
 				AttackName = "Uncharged Shot",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -1571,9 +1720,10 @@ return {
 				ShotSpeed = 80,
 				ShotType = "AoE",
 				StatusChance = 0.1,
-				Trigger = "Burst"
+				Trigger = "Burst" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Charged Shot",
 				ChargeTime = 2,
 				CritChance = 0.05,
@@ -1591,6 +1741,7 @@ return {
 			},
 			{
 				AmmoCost = 100,
+				AttackIndex = 3,
 				AttackName = "Alt Fire Shot",
 				BurstCount = 4,
 				BurstDelay = 0.4,
@@ -1608,11 +1759,12 @@ return {
 				ShotSpeed = 80,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			},
+			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "POWER_WEAPON" },
+		CompatibilityTags = { "POWER_WEAPON", "AOE" },
 		Conclave = false,
+		GripType = "DUAL_GUN_GUN",
 		Image = "BalefireChargerPrime.png",
 		InternalName = "/Lotus/Powersuits/IronFrame/BlastWeaponPrime",
 		Introduced = "32.3.6",
@@ -1636,7 +1788,28 @@ return {
 		AmmoType = "Secondary",
 		Attacks = {
 			{
+				Accuracy = 28.6,
 				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Burst Shot",
+				BurstCount = 4,
+				BurstDelay = 0.05,
+				CritChance = 0.025,
+				CritMultiplier = 1.5,
+				Damage = { Impact = 6.25, Puncture = 12.5, Slash = 6.25 },
+				FireRate = 6.67,
+				IsSilent = true,
+				MaxSpread = 5,
+				MinSpread = 2,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = 100,
+				ShotType = "Projectile",
+				StatusChance = 0.025 
+			},
+			{
+				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Charged Shot",
 				ChargeTime = 1,
 				CritChance = 0.15,
@@ -1653,23 +1826,25 @@ return {
 				StatusChance = 0.1 
 			},
 			{
-				Accuracy = 28.6,
 				AmmoCost = 1,
-				AttackName = "Burst Shot",
-				BurstCount = 4,
-				BurstDelay = 0.05,
-				CritChance = 0.025,
-				CritMultiplier = 1.5,
-				Damage = { Impact = 6.25, Puncture = 12.5, Slash = 6.25 },
-				FireRate = 6.67,
+				AttackIndex = 3,
+				AttackName = "Incarnon Form",
+				ChargeTime = 0.4,
+				CritChance = 0.2,
+				CritMultiplier = 2,
+				Damage = { Slash = 640 },
+				FireRate = 3.33,
+				IncarnonCharges = 18,
 				IsSilent = true,
-				MaxSpread = 5,
-				MinSpread = 2,
+				MaxSpread = 0,
+				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 100,
+				Range = 80,
+				ShotSpeed = 80,
 				ShotType = "Projectile",
-				StatusChance = 0.025 
+				StatusChance = 0.2,
+				Trigger = "Charge" 
 			} 
 		},
 		Class = "Crossbow",
@@ -1678,7 +1853,10 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Ballistica",
+		GripType = "GUN_ONE_HAND",
 		Image = "Ballistica.png",
+		IncarnonChargeGain = 1.5,
+		IncarnonImage = "BallisticaIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
 		Introduced = "10.4",
 		Link = "Ballistica",
@@ -1692,7 +1870,7 @@ return {
 		Slot = "Secondary",
 		Traits = { "Tenno" },
 		Trigger = "Burst / Charge",
-		_TooltipAttackDisplay = 1 
+		_TooltipAttackDisplay = 2 
 	},
 	["Ballistica Prime"] = {
 		Accuracy = 4,
@@ -1702,6 +1880,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 4,
+				AttackIndex = 1,
 				AttackName = "Normal Shot",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -1718,6 +1897,7 @@ return {
 			},
 			{
 				AmmoCost = 4,
+				AttackIndex = 2,
 				AttackName = "Charged Shot",
 				ChargeTime = 0.8,
 				CritChance = 0.2,
@@ -1732,6 +1912,27 @@ return {
 				ShotSpeed = 140,
 				ShotType = "Projectile",
 				StatusChance = 0.15 
+			},
+			{
+				AmmoCost = 1,
+				AttackIndex = 3,
+				AttackName = "Incarnon Form",
+				ChargeTime = 0.4,
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Slash = 830 },
+				FireRate = 3.33,
+				IncarnonCharges = 18,
+				IsSilent = true,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 80,
+				ShotSpeed = 80,
+				ShotType = "Projectile",
+				StatusChance = 0.3,
+				Trigger = "Charge" 
 			} 
 		},
 		Class = "Crossbow",
@@ -1740,7 +1941,10 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Ballistica",
+		GripType = "GUN_ONE_HAND",
 		Image = "BallisticaPrime.png",
+		IncarnonChargeGain = 1.5,
+		IncarnonImage = "BallisticaPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
 		Introduced = "21.6",
 		Link = "Ballistica Prime",
@@ -1765,6 +1969,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2.4,
@@ -1786,6 +1991,7 @@ return {
 		Disposition = 1.51,
 		ExilusPolarity = "Naramon",
 		Family = "Bolto",
+		GripType = "GUN_ONE_HAND",
 		Image = "Bolto.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/CrossBow",
 		Introduced = "Vanilla",
@@ -1810,6 +2016,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.17,
 				CritMultiplier = 2,
@@ -1832,6 +2039,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Brakk",
+		GripType = "GUN_ONE_HAND",
 		Image = "Brakk.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
 		Introduced = "10.6",
@@ -1856,6 +2064,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 2,
@@ -1872,14 +2081,15 @@ return {
 				StatusChance = 0.0943 
 			},
 			{
-				IncarnonCharges = 0,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.2,
 				CritMultiplier = 3,
 				Damage = { Impact = 13.2, Puncture = 2.2, Slash = 6.6 },
 				Falloff = { EndRange = 28, Reduction = 0.5455, StartRange = 14 },
 				FireRate = 2.5,
+				IncarnonCharges = 20,
 				IsSilent = false,
 				MaxSpread = 36,
 				MinSpread = 18,
@@ -1896,7 +2106,9 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Bronco",
+		GripType = "GUN_ONE_HAND",
 		Image = "Bronco.png",
+		IncarnonChargeGain = 0.5,
 		IncarnonImage = "BroncoIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
 		Introduced = "Vanilla",
@@ -1920,6 +2132,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 2,
@@ -1936,14 +2149,15 @@ return {
 				StatusChance = 0.1286 
 			},
 			{
-				IncarnonCharges = 0,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.24,
 				CritMultiplier = 3.2,
 				Damage = { Impact = 27.2, Puncture = 3.4, Slash = 3.4 },
 				Falloff = { EndRange = 36, Reduction = 0.5588, StartRange = 18 },
 				FireRate = 3,
+				IncarnonCharges = 20,
 				IsSilent = false,
 				MaxSpread = 36,
 				MinSpread = 18,
@@ -1960,7 +2174,9 @@ return {
 		Disposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Bronco",
+		GripType = "GUN_ONE_HAND",
 		Image = "BroncoPrime.png",
+		IncarnonChargeGain = 0.5,
 		IncarnonImage = "BroncoPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
 		Introduced = "9.0",
@@ -1985,6 +2201,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -2006,6 +2223,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Cantare",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Cantare.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
 		Introduced = "36",
@@ -2030,6 +2248,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Mid-Flight Detonation",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -2047,7 +2266,9 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Embedded Detonation",
+				AttackParentIndex = 1,
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
 				Damage = { Electricity = 160 },
@@ -2070,6 +2291,7 @@ return {
 		Disposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Castanas",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Castanas.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
 		Introduced = "12.2",
@@ -2094,6 +2316,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Primary",
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
@@ -2111,6 +2334,7 @@ return {
 				Trigger = "Held" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Partial Reload Impact",
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
@@ -2126,7 +2350,9 @@ return {
 				StatusChance = 0.43 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Partial Reload Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
 				Damage = { Corrosive = 203 },
@@ -2140,6 +2366,7 @@ return {
 				StatusChance = 0.43 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Reload From Empty Impact",
 				CritChance = 0.31,
 				CritMultiplier = 2.9,
@@ -2156,7 +2383,9 @@ return {
 				StatusChance = 0.59 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Reload From Empty Explosion",
+				AttackParentIndex = 4,
 				CritChance = 0.31,
 				CritMultiplier = 2.9,
 				Damage = { Corrosive = 1997 },
@@ -2179,6 +2408,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Catabolyst",
+		GripType = "GUN_ONE_HAND",
 		Image = "Catabolyst.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
 		Introduced = "29.5",
@@ -2203,6 +2433,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.6,
@@ -2219,12 +2450,13 @@ return {
 			},
 			{
 				AmmoCost = 1,
-				IncarnonCharges = 150,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.5,
 				CritMultiplier = 3,
-				Damage = { Puncture = 40, Impact = 10 },
+				Damage = { Impact = 10, Puncture = 40 },
 				FireRate = 6.67,
+				IncarnonCharges = 150,
 				IsSilent = false,
 				MaxSpread = 5,
 				MinSpread = 1,
@@ -2233,7 +2465,7 @@ return {
 				ShotType = "Projectile",
 				StatusChance = 0.18,
 				Trigger = "Auto" 
-			}
+			} 
 		},
 		Class = "Pistol",
 		CompatibilityTags = { "PROJECTILE" },
@@ -2241,8 +2473,10 @@ return {
 		Disposition = 1.52,
 		ExilusPolarity = "Madurai",
 		Family = "Cestra",
-		IncarnonImage = "CestraIncarnon.png",
+		GripType = "GUN_ONE_HAND",
 		Image = "Cestra.png",
+		IncarnonChargeGain = 10,
+		IncarnonImage = "CestraIncarnon.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
 		Introduced = "11.0",
 		Link = "Cestra",
@@ -2265,6 +2499,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Primary",
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
@@ -2282,6 +2517,7 @@ return {
 				Trigger = "Held" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Partial Reload Impact",
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
@@ -2297,7 +2533,9 @@ return {
 				StatusChance = 0.43 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Partial Reload Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.11,
 				CritMultiplier = 2.9,
 				Damage = { Corrosive = 74 },
@@ -2311,6 +2549,7 @@ return {
 				StatusChance = 0.43 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Reload From Empty Impact",
 				CritChance = 0.31,
 				CritMultiplier = 2.9,
@@ -2327,7 +2566,9 @@ return {
 				StatusChance = 0.59 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Reload From Empty Explosion",
+				AttackParentIndex = 4,
 				CritChance = 0.31,
 				CritMultiplier = 2.9,
 				Damage = { Corrosive = 658 },
@@ -2350,6 +2591,7 @@ return {
 		Disposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Catabolyst",
+		GripType = "GUN_ONE_HAND",
 		Image = "CodaCatabolyst.png",
 		InternalName = "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
 		Introduced = "38.5",
@@ -2375,6 +2617,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Spore Impact",
 				CritChance = 0.1,
 				CritMultiplier = 2.2,
@@ -2387,10 +2630,12 @@ return {
 				PunchThrough = 0,
 				ShotSpeed = 30,
 				ShotType = "Projectile",
-				StatusChance = 0.45
+				StatusChance = 0.45 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Poison Cloud",
+				AttackParentIndex = 1,
 				CritChance = 0.1,
 				CritMultiplier = 2.2,
 				Damage = { Toxin = 35 },
@@ -2411,6 +2656,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Pox",
+		GripType = "DUAL_GUN_GUN",
 		Image = "CodaPox.png",
 		InternalName = "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
 		Introduced = "38.5",
@@ -2436,9 +2682,10 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
-				CritMultiplier = 2.0,
+				CritMultiplier = 2,
 				Damage = { Impact = 18, Puncture = 32, Slash = 26 },
 				FireRate = 2.5,
 				IsSilent = false,
@@ -2451,9 +2698,11 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Corrosive DoT",
+				AttackParentIndex = 1,
 				CritChance = 0.13,
-				CritMultiplier = 2.0,
+				CritMultiplier = 2,
 				Damage = { Corrosive = 59 },
 				EffectDuration = 2,
 				FireRate = 0,
@@ -2470,6 +2719,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Tysis",
+		GripType = "GUN_ONE_HAND",
 		Image = "CodaTysis.png",
 		InternalName = "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
 		Introduced = "38.5",
@@ -2495,6 +2745,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Projectile Impact",
 				CritChance = 0.08,
 				CritMultiplier = 1.4,
@@ -2510,7 +2761,9 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Projectile Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.08,
 				CritMultiplier = 1.4,
 				Damage = { Gas = 41 },
@@ -2526,6 +2779,7 @@ return {
 			{
 				Accuracy = 80,
 				AmmoCost = 1,
+				AttackIndex = 3,
 				AttackName = "Burst Mode",
 				BurstDelay = 0.08,
 				BurstReloadDelay = 0.21,
@@ -2550,6 +2804,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Cyanex",
+		GripType = "GUN_ONE_HAND",
 		Image = "Cyanex.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
 		Introduced = "25.0",
@@ -2575,6 +2830,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -2596,6 +2852,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Cycron",
+		GripType = "GUN_ONE_HAND",
 		Image = "Cycron.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
 		Introduced = "20.3",
@@ -2623,6 +2880,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.6,
@@ -2639,25 +2897,28 @@ return {
 			},
 			{
 				Accuracy = 10,
-				MinSpread = 5,
-				MaxSpread = 15,
 				AmmoCost = 1,
-				IncarnonCharges = 20,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.3,
 				CritMultiplier = 3,
 				Damage = { Impact = 3, Puncture = 48, Slash = 9 },
 				FireRate = 3,
+				IncarnonCharges = 20,
 				IsSilent = false,
+				MaxSpread = 15,
+				MinSpread = 5,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 0,
+				ShotSpeed = 50,
 				ShotType = "Projectile",
 				StatusChance = 0.2,
 				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 3,
 				Damage = { Heat = 160 },
@@ -2668,8 +2929,8 @@ return {
 				PunchThrough = 0,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			},
+				StatusChance = 0.3 
+			} 
 		},
 		Class = "Thrown",
 		CompatibilityTags = { "PROJECTILE", "THROWN" },
@@ -2677,7 +2938,9 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Despair",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Despair.png",
+		IncarnonChargeGain = 5,
 		IncarnonImage = "DespairIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
 		Introduced = "8.0",
@@ -2703,6 +2966,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.04,
 				CritMultiplier = 1.5,
@@ -2720,11 +2984,12 @@ return {
 			} 
 		},
 		Class = "Shotgun Sidearm",
-		CompatibilityTags = { "PROJECTILE", "SECONDARYSHOTGUN", "SINGLESHOT" },
+		CompatibilityTags = { "PROJECTILE", "SECONDARYSHOTGUN", "SINGLESHOT", "SEMI_AUTO" },
 		Conclave = true,
 		Disposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Detron",
+		GripType = "GUN_ONE_HAND",
 		Image = "Detron.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
 		Introduced = "11.5.5",
@@ -2749,6 +3014,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -2769,6 +3035,7 @@ return {
 		Disposition = 1.39,
 		ExilusPolarity = "Naramon",
 		Family = "Afuris",
+		GripType = "DUAL_GUN_GUN",
 		Image = "DexFuris.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
 		Introduced = "12.6",
@@ -2793,6 +3060,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -2811,6 +3079,7 @@ return {
 		Class = "Exalted Weapon",
 		CompatibilityTags = { "POWER_WEAPON", "BATTERY" },
 		Conclave = true,
+		GripType = "DUAL_GUN_GUN",
 		Image = "DexPixia.png",
 		InternalName = "/Lotus/Powersuits/Fairy/FlightPistols",
 		Introduced = "23.0",
@@ -2837,6 +3106,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -2855,6 +3125,7 @@ return {
 		Class = "Exalted Weapon",
 		CompatibilityTags = { "POWER_WEAPON", "BATTERY" },
 		Conclave = true,
+		GripType = "DUAL_GUN_GUN",
 		Image = "DexPixiaPrime.png",
 		InternalName = "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
 		Introduced = "23.0",
@@ -2881,6 +3152,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.6,
@@ -2902,6 +3174,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Dual Cestra",
+		GripType = "DUAL_GUN_GUN",
 		Image = "DualCestra.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
 		Introduced = "12.0",
@@ -2927,6 +3200,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.4,
@@ -2939,13 +3213,14 @@ return {
 				PunchThrough = 0,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.28 
-			}
+			} 
 		},
 		Class = "Dual Pistols",
 		Conclave = false,
 		Disposition = 0.55,
 		ExilusPolarity = "Madurai",
 		Family = "Dual Torxica",
+		GripType = "DUAL_GUN_GUN",
 		Image = "DualCodaTorxica.png",
 		InternalName = "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
 		Introduced = "38.5",
@@ -2971,6 +3246,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -2986,13 +3262,14 @@ return {
 				StatusChance = 0.37 
 			},
 			{
-				IncarnonCharges = 270,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.11,
 				CritMultiplier = 3,
 				Damage = { Impact = 15, Puncture = 37.5, Slash = 22.5 },
 				FireRate = 4.5,
+				IncarnonCharges = 270,
 				IsSilent = false,
 				MaxSpread = 12,
 				MinSpread = 0.5,
@@ -3000,8 +3277,8 @@ return {
 				PunchThrough = 0,
 				Range = 1000,
 				ShotType = "Hit-Scan",
-				Trigger = "Auto",
-				StatusChance = 0.43
+				StatusChance = 0.43,
+				Trigger = "Auto" 
 			} 
 		},
 		Class = "Dual Pistols",
@@ -3010,7 +3287,9 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Dual Toxocyst",
+		GripType = "DUAL_GUN_GUN",
 		Image = "DualToxocyst.png",
+		IncarnonChargeGain = 30,
 		IncarnonImage = "DualToxocystIncarnon.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
 		Introduced = "18.5",
@@ -3035,6 +3314,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
@@ -3047,10 +3327,11 @@ return {
 				PunchThrough = 0,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.17,
-				Trigger = "Semi-Auto",
+				Trigger = "Semi-Auto" 
 			},
 			{
 				AmmoCost = 3,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
@@ -3064,14 +3345,16 @@ return {
 				ShotSpeed = 22,
 				ShotType = "Projectile",
 				StatusChance = 0.33,
-				Trigger = "Charge",
+				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Alt-Fire AoE",
+				AttackParentIndex = 2,
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
 				Damage = { Corrosive = 313 },
-				Falloff = { EndRange = 3, Reduction = 0.8, StartRange = 0},
+				Falloff = { EndRange = 3, Reduction = 0.8, StartRange = 0 },
 				FireRate = 6.5,
 				IsSilent = false,
 				MaxSpread = 15,
@@ -3081,7 +3364,7 @@ return {
 				Range = 3,
 				ShotType = "AoE",
 				StatusChance = 0.33 
-			}
+			} 
 		},
 		Class = "Pistol",
 		CompatibilityTags = { "PROJECTILE", "AOE" },
@@ -3089,6 +3372,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "Naramon",
 		Family = "EFV-8 Mars",
+		GripType = "GUN_ONE_HAND",
 		Image = "EFV-8Mars.png",
 		InternalName = "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
 		Introduced = "38.5",
@@ -3114,6 +3398,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.03,
 				CritMultiplier = 1.5,
@@ -3135,6 +3420,7 @@ return {
 		Disposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Embolist",
+		GripType = "GUN_ONE_HAND",
 		Image = "Embolist.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
 		Introduced = "10.0",
@@ -3160,6 +3446,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Charged Shot",
 				ChargeTime = 0.36,
 				CritChance = 0.48,
@@ -3178,6 +3465,7 @@ return {
 			{
 				Accuracy = 80,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Uncharged Direct Hit",
 				CritChance = 0.02,
 				CritMultiplier = 1.2,
@@ -3195,7 +3483,9 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Uncharged AoE",
+				AttackParentIndex = 2,
 				CritChance = 0.02,
 				CritMultiplier = 1.2,
 				Damage = { Blast = 20 },
@@ -3217,6 +3507,7 @@ return {
 		Disposition = 0.6,
 		ExilusPolarity = "Naramon",
 		Family = "Epitaph",
+		GripType = "GUN_ONE_HAND",
 		Image = "Epitaph.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
 		Introduced = "30",
@@ -3242,6 +3533,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Charged Shot",
 				ChargeTime = 0.36,
 				CritChance = 0.5,
@@ -3260,6 +3552,7 @@ return {
 			{
 				Accuracy = 80,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Uncharged Direct Hit",
 				CritChance = 0.04,
 				CritMultiplier = 1.8,
@@ -3277,7 +3570,9 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Uncharged AoE",
+				AttackParentIndex = 2,
 				CritChance = 0.04,
 				CritMultiplier = 1.8,
 				Damage = { Blast = 30 },
@@ -3299,6 +3594,7 @@ return {
 		Disposition = 0.55,
 		ExilusPolarity = "Naramon",
 		Family = "Epitaph",
+		GripType = "GUN_ONE_HAND",
 		Image = "EpitaphPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
 		Introduced = "36.1",
@@ -3323,6 +3619,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Slug",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -3340,6 +3637,7 @@ return {
 			{
 				Accuracy = 3.2,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Buckshot",
 				CritChance = 0.02,
 				CritMultiplier = 2,
@@ -3362,6 +3660,7 @@ return {
 		Disposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Euphona Prime",
+		GripType = "GUN_ONE_HAND",
 		Image = "EuphonaPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
 		Introduced = "19.11.5",
@@ -3387,6 +3686,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -3404,13 +3704,14 @@ return {
 			{
 				Accuracy = 10,
 				AmmoCost = 1,
-				IncarnonCharges = 280,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.26,
 				CritMultiplier = 3.4,
 				Damage = { Heat = 100 },
 				Falloff = { EndRange = 16, Reduction = 0.48, StartRange = 10 },
 				FireRate = 12,
+				IncarnonCharges = 280,
 				IsSilent = false,
 				MaxSpread = 15,
 				MinSpread = 5,
@@ -3419,15 +3720,17 @@ return {
 				Range = 16,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.24,
-				Trigger = "Held", 
-			}
+				Trigger = "Held" 
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Furis",
+		GripType = "GUN_ONE_HAND",
 		Image = "Furis.png",
+		IncarnonChargeGain = 14,
 		IncarnonImage = "FurisIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
 		Introduced = "Vanilla",
@@ -3452,6 +3755,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Full Auto Mode",
 				CritChance = 0.23,
 				CritMultiplier = 1.7,
@@ -3468,6 +3772,7 @@ return {
 			},
 			{
 				AmmoCost = 3,
+				AttackIndex = 2,
 				AttackName = "Semi-Auto Mode",
 				CritChance = 0.03,
 				CritMultiplier = 1.5,
@@ -3491,6 +3796,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Fusilai",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Fusilai.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
 		Introduced = "22",
@@ -3515,6 +3821,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.8,
@@ -3532,6 +3839,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -3550,20 +3858,22 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
 				Damage = { Cold = 660 },
 				ExplosionDelay = 1.2,
 				Falloff = { EndRange = 5, Reduction = 0.3, StartRange = 0 },
-				ForcedProcs = { "Cold" },
 				FireRate = 1,
+				ForcedProcs = { "Cold" },
 				IsSilent = false,
 				Multishot = 1,
 				Range = 5,
 				ShotType = "AoE",
 				StatusChance = 0.22,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			} 
 		},
 		Class = "Pistol",
@@ -3572,7 +3882,9 @@ return {
 		Disposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Gammacor",
+		GripType = "GUN_ONE_HAND",
 		Image = "Gammacor.png",
+		IncarnonChargeGain = 1,
 		IncarnonImage = "GammacorIncarnon.png",
 		InternalName = "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
 		Introduced = "15.5",
@@ -3595,22 +3907,24 @@ return {
 		AmmoPickup = 0,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
 				Damage = { Heat = 150 },
-				Falloff = { EndRange = 2, Reduction = 0.75, StartRange = 0 },
+				Falloff = { EndRange = 2, Reduction = 1, StartRange = 0 },
 				FireRate = 1.67,
 				IsSilent = false,
 				MaxSpread = 7,
 				MinSpread = 1.5,
 				Multishot = 1,
 				Range = 2,
-				--ShotSpeed = ,
+				ShotSpeed = 100,
 				ShotType = "AoE",
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Alternate Fire",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -3621,14 +3935,14 @@ return {
 				MinSpread = 1.5,
 				Multishot = 1,
 				Range = 4,
-				--ShotSpeed = ,
 				ShotType = "AoE",
 				StatusChance = 0.2 
 			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "POWER_WEAPON" },
+		CompatibilityTags = { "POWER_WEAPON", "NO_AIM", "AOE" },
 		Conclave = false,
+		GripType = "",
 		Image = "Glory.png",
 		InternalName = "/Lotus/Powersuits/Choir/ChoirEruptWeapon",
 		Introduced = "36",
@@ -3651,6 +3965,7 @@ return {
 		AmmoPickup = 10,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3660,12 +3975,15 @@ return {
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
+				ShotSpeed = 40, --Accelerates up to 80 m/s at 0.6 m/s^2
 				ShotType = "Projectile",
 				StatusChance = 0.26,
-				Trigger = "Auto"
+				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Normal Radial Attack",
+				AttackParentIndex = 1,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Electricity = 50 },
@@ -3676,39 +3994,42 @@ return {
 				Range = 1,
 				ShotType = "AoE",
 				StatusChance = 0.26,
-				Trigger = "Auto"
+				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Active Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Electricity = 350 },
-				ForcedProcs = { "Electricity" },
 				FireRate = 1,
+				ForcedProcs = { "Electricity" },
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
 				Range = 6,
-				ShotType = "Projectile",
 				ShotSpeed = 6,
+				ShotType = "Projectile",
 				StatusChance = 0.26,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Active Radial Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Electricity = 250 },
 				Falloff = { EndRange = 6, Reduction = 0.8, StartRange = 0 },
-				ForcedProcs = { "Electricity" },
 				FireRate = 1,
+				ForcedProcs = { "Electricity" },
 				IsSilent = false,
 				Multishot = 1,
 				Range = 6,
 				ShotType = "AoE",
 				StatusChance = 0.26,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			} 
 		},
 		Class = "Tome",
@@ -3717,6 +4038,7 @@ return {
 		Disposition = 0.6,
 		ExilusPolarity = "None",
 		Family = "Grimoire",
+		GripType = "BOOK",
 		Image = "Grimoire.png",
 		InternalName = "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
 		Introduced = "35",
@@ -3739,6 +4061,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.04,
 				CritMultiplier = 1.6,
@@ -3760,6 +4083,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Hikou",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Hikou.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
 		Introduced = "9.0",
@@ -3785,6 +4109,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.8,
@@ -3806,6 +4131,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Hikou",
+		GripType = "DUAL_GUN_GUN",
 		Image = "HikouPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
 		Introduced = "14.8",
@@ -3831,6 +4157,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Poison Quill",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -3848,6 +4175,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Fire Quill",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -3865,6 +4193,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 3,
 				AttackName = "Electric Quill",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -3882,6 +4211,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 4,
 				AttackName = "Ice Quill",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -3904,6 +4234,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Hystrix",
+		GripType = "GUN_ONE_HAND",
 		Image = "Hystrix.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
 		Introduced = "22.18",
@@ -3928,6 +4259,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Poison Quill",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -3945,6 +4277,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Fire Quill",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -3962,6 +4295,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 3,
 				AttackName = "Electric Quill",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -3979,6 +4313,7 @@ return {
 			},
 			{
 				AmmoCost = 1,
+				AttackIndex = 4,
 				AttackName = "Ice Quill",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -4001,6 +4336,7 @@ return {
 		Disposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Hystrix",
+		GripType = "GUN_ONE_HAND",
 		Image = "HystrixPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
 		Introduced = "31.7",
@@ -4026,6 +4362,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.5,
@@ -4052,6 +4389,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Knell",
+		GripType = "GUN_ONE_HAND",
 		Image = "Knell.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
 		Introduced = "21.0",
@@ -4076,6 +4414,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.4,
 				CritMultiplier = 2,
@@ -4102,6 +4441,7 @@ return {
 		Disposition = 0.85,
 		ExilusPolarity = "Madurai",
 		Family = "Knell",
+		GripType = "GUN_ONE_HAND",
 		Image = "KnellPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon",
 		Introduced = "31",
@@ -4127,6 +4467,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Single Pellet",
 				CritChance = 0.11,
 				CritMultiplier = 2,
@@ -4135,7 +4476,7 @@ return {
 				FireRate = 1,
 				IsSilent = false,
 				MaxSpread = 20,
-				MinSpread=  5,
+				MinSpread = 5,
 				Multishot = 1,
 				PunchThrough = 1.5,
 				Range = 300,
@@ -4144,6 +4485,7 @@ return {
 			},
 			{
 				AmmoCost = 1.67,
+				AttackIndex = 2,
 				AttackName = "Fully Spooled",
 				CritChance = 0.11,
 				CritMultiplier = 2,
@@ -4152,7 +4494,7 @@ return {
 				FireRate = 5,
 				IsSilent = false,
 				MaxSpread = 20,
-				MinSpread=  5,
+				MinSpread = 5,
 				Multishot = 5,
 				PunchThrough = 0,
 				Range = 300,
@@ -4166,6 +4508,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Kohmak",
+		GripType = "GUN_ONE_HAND",
 		Image = "Kohmak.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
 		Introduced = "16.0",
@@ -4192,6 +4535,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.8,
@@ -4207,11 +4551,13 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.06,
 				CritMultiplier = 1.8,
 				Damage = { Viral = 42 },
-				ExplosionDelay = 0.6, --"0.6 - 0.8"
+				ExplosionDelay = 0.6,	--"0.6 - 0.8"
 				Falloff = { EndRange = 2.4, Reduction = 0.2, StartRange = 0 },
 				FireRate = 3.33,
 				IsSilent = false,
@@ -4229,6 +4575,7 @@ return {
 		Disposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Kompressa",
+		GripType = "GUN_ONE_HAND",
 		Image = "Kompressa.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
 		Introduced = "30.5",
@@ -4253,6 +4600,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -4268,11 +4616,13 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
 				Damage = { Viral = 46 },
-				ExplosionDelay = 0.6, --"0.6 - 0.8"
+				ExplosionDelay = 0.6,	--"0.6 - 0.8"
 				Falloff = { EndRange = 2.8, Reduction = 0.2, StartRange = 0 },
 				FireRate = 3.33,
 				IsSilent = false,
@@ -4290,6 +4640,7 @@ return {
 		Disposition = 0.6,
 		ExilusPolarity = "Madurai",
 		Family = "Kompressa",
+		GripType = "GUN_ONE_HAND",
 		Image = "KompressaPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa",
 		Introduced = "38.6",
@@ -4315,6 +4666,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 2,
 				BurstDelay = 0.05,
@@ -4337,6 +4689,7 @@ return {
 		Disposition = 1.53,
 		ExilusPolarity = "Madurai",
 		Family = "Kraken",
+		GripType = "GUN_ONE_HAND",
 		Image = "Kraken.png",
 		InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
 		Introduced = "6.3",
@@ -4361,6 +4714,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Rocket Impact",
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
@@ -4377,7 +4731,9 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Rocket Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
 				Damage = { Blast = 300 },
@@ -4391,6 +4747,7 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Cluster Bombs",
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
@@ -4404,7 +4761,9 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Cluster Bomb Explosion",
+				AttackParentIndex = 3,
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
 				Damage = { Blast = 90 },
@@ -4424,6 +4783,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Kulstar",
+		GripType = "GUN_ONE_HAND",
 		Image = "Kulstar.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
 		Introduced = "17.0",
@@ -4449,6 +4809,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.6,
@@ -4466,6 +4827,7 @@ return {
 			{
 				Accuracy = 10,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -4488,7 +4850,9 @@ return {
 		Disposition = 1.51,
 		ExilusPolarity = "Naramon",
 		Family = "Kunai",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Kunai.png",
+		IncarnonChargeGain = 5,
 		IncarnonImage = "KunaiIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
 		Introduced = "8.0",
@@ -4514,6 +4878,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.29,
 				CritMultiplier = 2,
@@ -4534,9 +4899,10 @@ return {
 		CompatibilityTags = { "SECONDARYSHOTGUN" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.9,
+		Disposition = 0.95,
 		ExilusPolarity = "Naramon",
 		Family = "Brakk",
+		GripType = "GUN_ONE_HAND",
 		Image = "KuvaBrakk.png",
 		InternalName = "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk",
 		Introduced = "26",
@@ -4563,6 +4929,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 3,
 				BurstDelay = 0.03,
@@ -4582,6 +4949,7 @@ return {
 			{
 				Accuracy = 8.2,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
 				BurstDelay = 0.05,
 				BurstReloadDelay = 0.24,
@@ -4607,6 +4975,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Kraken",
+		GripType = "GUN_ONE_HAND",
 		Image = "KuvaKraken.png",
 		InternalName = "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken",
 		Introduced = "26",
@@ -4632,6 +5001,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.07,
 				CritMultiplier = 5,
@@ -4654,6 +5024,7 @@ return {
 		Disposition = 0.5,
 		ExilusPolarity = "Madurai",
 		Family = "Nukor",
+		GripType = "GUN_ONE_HAND",
 		Image = "KuvaNukor.png",
 		InternalName = "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor",
 		Introduced = "27.1",
@@ -4680,6 +5051,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Projectile Impact",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -4695,7 +5067,9 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
 				Damage = { Corrosive = 69 },
@@ -4716,6 +5090,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Seer",
+		GripType = "GUN_ONE_HAND",
 		Image = "KuvaSeer.png",
 		InternalName = "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer",
 		Introduced = "26",
@@ -4741,6 +5116,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 1.9,
@@ -4759,9 +5135,10 @@ return {
 		Class = "Dual Pistols",
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.95,
+		Disposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Kuva Twin Stubbas",
+		GripType = "DUAL_GUN_GUN",
 		Image = "KuvaTwinStubbas.png",
 		InternalName = "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba",
 		Introduced = "26",
@@ -4788,6 +5165,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.2,
@@ -4805,12 +5183,13 @@ return {
 			{
 				Accuracy = 4,
 				AmmoCost = 1,
-				IncarnonCharges = 216,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.22,
 				CritMultiplier = 2.2,
 				Damage = { Impact = 100 },
 				FireRate = 6.67,
+				IncarnonCharges = 216,
 				IsSilent = false,
 				MaxSpread = 50,
 				MinSpread = 0,
@@ -4822,7 +5201,9 @@ return {
 				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Auto Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.22,
 				CritMultiplier = 2.2,
 				Damage = { Radiation = 300 },
@@ -4846,7 +5227,9 @@ return {
 		Disposition = 0.5,
 		ExilusPolarity = "Naramon",
 		Family = "Laetum",
+		GripType = "GUN_ONE_HAND",
 		Image = "Laetum.png",
+		IncarnonChargeGain = 18,
 		InternalName = "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
 		Introduced = "31.5",
 		Link = "Laetum",
@@ -4871,6 +5254,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -4888,6 +5272,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.16,
 				CritMultiplier = 2.6,
@@ -4902,14 +5287,16 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.06 
-			}
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Lato",
+		GripType = "GUN_ONE_HAND",
 		Image = "Lato.png",
+		IncarnonChargeGain = 4,
 		IncarnonImage = "LatoIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/Pistol",
 		Introduced = "Vanilla",
@@ -4933,6 +5320,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
@@ -4950,6 +5338,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.36,
 				CritMultiplier = 3.2,
@@ -4964,7 +5353,7 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.15 
-			}
+			} 
 		},
 		Class = "Pistol",
 		CodexSecret = true,
@@ -4972,7 +5361,9 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Lato",
+		GripType = "GUN_ONE_HAND",
 		Image = "LatoPrime.png",
+		IncarnonChargeGain = 4,
 		IncarnonImage = "LatoPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
 		Introduced = "5.0",
@@ -4997,6 +5388,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -5014,6 +5406,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.34,
 				CritMultiplier = 3,
@@ -5028,14 +5421,16 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Lato",
+		GripType = "GUN_ONE_HAND",
 		Image = "LatoVandal.png",
+		IncarnonChargeGain = 4,
 		IncarnonImage = "LatoVandalIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
 		Introduced = "7.0",
@@ -5061,6 +5456,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5078,29 +5474,32 @@ return {
 			{
 				Accuracy = 16,
 				AmmoCost = 1,
-				IncarnonCharges = 20,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.3,
 				CritMultiplier = 3,
 				Damage = { Impact = 300, Radiation = 700 },
 				FireRate = 0.67,
+				IncarnonCharges = 20,
 				IsSilent = false,
 				MaxSpread = 12,
 				MinSpread = 0.5,
 				Multishot = 1,
 				PunchThrough = 1.4,
-				ShotSpeed = 0,
+				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.22,
 				Trigger = "Semi-Auto" 
-			},
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Lex",
+		GripType = "GUN_ONE_HAND",
 		Image = "Lex.png",
+		IncarnonChargeGain = 2,
 		IncarnonImage = "LexIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
 		Introduced = "Vanilla",
@@ -5126,6 +5525,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -5143,14 +5543,15 @@ return {
 			{
 				Accuracy = 16,
 				AmmoCost = 1,
-				IncarnonCharges = 20,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.35,
 				CritMultiplier = 3,
 				Damage = { Impact = 400, Radiation = 800 },
+				Falloff = { EndRange = 18, Reduction = 0.3333, StartRange = 10 },
 				FireRate = 0.67,
 				ForcedProcs = { "Impact" },
-				Falloff = { EndRange = 18, Reduction = 0.3333, StartRange = 10 },
+				IncarnonCharges = 20,
 				IsSilent = false,
 				MaxSpread = 12,
 				MinSpread = 0.5,
@@ -5161,14 +5562,16 @@ return {
 				ShotType = "Projectile",
 				StatusChance = 0.44,
 				Trigger = "Semi-Auto" 
-			},
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Lex",
+		GripType = "GUN_ONE_HAND",
 		Image = "LexPrime.png",
+		IncarnonChargeGain = 2,
 		IncarnonImage = "LexPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
 		Introduced = "13.0",
@@ -5186,135 +5589,6 @@ return {
 		Trigger = "Semi-Auto",
 		_TooltipAttackDisplay = 1 
 	},
-	["Mk1-Furis"] = {
-		Accuracy = 22.2,
-		AmmoMax = 210,
-		AmmoPickup = 40,
-		AmmoType = "Secondary",
-		Attacks = {
-			{
-				AmmoCost = 1,
-				AttackName = "Normal Attack",
-				CritChance = 0.05,
-				CritMultiplier = 2,
-				Damage = { Impact = 1.95, Puncture = 9.1, Slash = 1.95 },
-				FireRate = 8.33,
-				IsSilent = false,
-				MaxSpread = 8,
-				MinSpread = 1,
-				Multishot = 1,
-				PunchThrough = 0,
-				Range = 300,
-				ShotType = "Hit-Scan",
-				StatusChance = 0.01 
-			},
-			{
-				Accuracy = 10,
-				AmmoCost = 1,
-				IncarnonCharges = 280,
-				AttackName = "Incarnon Form",
-				CritChance = 0.2,
-				CritMultiplier = 3,
-				Damage = { Heat = 60 },
-				Falloff = { EndRange = 16, Reduction = 0.2167, StartRange = 10 },
-				FireRate = 12,
-				IsSilent = false,
-				MaxSpread = 15,
-				MinSpread = 5,
-				Multishot = 1,
-				PunchThrough = 0,
-				Range = 16,
-				ShotType = "Hit-Scan",
-				StatusChance = 0.08,
-				Trigger = "Held", 
-			},
-		},
-		Class = "Pistol",
-		Conclave = true,
-		Disposition = 1.4,
-		ExilusPolarity = "Naramon",
-		Family = "Furis",
-		Image = "Furis.png",
-		IncarnonImage = "FurisIncarnon.png",
-		InternalName = "/Lotus/Weapons/MK1Series/MK1Furis",
-		Introduced = "14.0",
-		Link = "Mk1-Furis",
-		Magazine = 35,
-		Mastery = 0,
-		MaxRank = 30,
-		Name = "Mk1-Furis",
-		Polarities = { "Naramon" },
-		Reload = 1.4,
-		SellPrice = 2500,
-		Slot = "Secondary",
-		Traits = { "Tenno" },
-		Trigger = "Auto",
-		_TooltipAttackDisplay = 1 
-	},
-	["Mk1-Kunai"] = {
-		Accuracy = 100,
-		AmmoMax = 210,
-		AmmoPickup = 40,
-		AmmoType = "Secondary",
-		Attacks = {
-			{
-				AmmoCost = 1,
-				AttackName = "Normal Attack",
-				CritChance = 0.05,
-				CritMultiplier = 2,
-				Damage = { Impact = 4, Puncture = 30, Slash = 6 },
-				FireRate = 3.33,
-				IsSilent = true,
-				MaxSpread = 0,
-				MinSpread = 0,
-				Multishot = 1,
-				PunchThrough = 0,
-				ShotSpeed = 70,
-				ShotType = "Projectile",
-				StatusChance = 0.025 
-			},
-			{
-				Accuracy = 10,
-				AmmoCost = 1,
-				AttackName = "Incarnon Form",
-				CritChance = 0.14,
-				CritMultiplier = 2,
-				Damage = { Impact = 4.8, Puncture = 8.4, Slash = 10.8 },
-				FireRate = 3.33,
-				IncarnonCharges = 20,
-				IsSilent = true,
-				MaxSpread = 0,
-				MinSpread = 0,
-				Multishot = 2,
-				PunchThrough = 0,
-				ShotSpeed = 70,
-				ShotType = "Projectile",
-				StatusChance = 0.05 
-			} 
-		},
-		Class = "Thrown",
-		CompatibilityTags = { "PROJECTILE", "THROWN" },
-		Conclave = true,
-		Disposition = 1.51,
-		ExilusPolarity = "Naramon",
-		Family = "Kunai",
-		Image = "Kunai.png",
-		IncarnonImage = "KunaiIncarnon.png",
-		InternalName = "/Lotus/Weapons/MK1Series/MK1Kunai",
-		Introduced = "14.0",
-		Link = "Mk1-Kunai",
-		Magazine = 10,
-		Mastery = 0,
-		MaxRank = 30,
-		Name = "Mk1-Kunai",
-		Polarities = { "Madurai", "Madurai" },
-		Reload = 0.75,
-		SellPrice = 2500,
-		Slot = "Secondary",
-		Traits = { "Tenno" },
-		Trigger = "Auto",
-		_TooltipAttackDisplay = 1 
-	},
 	Magnus = {
 		Accuracy = 16,
 		AmmoMax = 210,
@@ -5323,6 +5597,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -5343,6 +5618,7 @@ return {
 		Disposition = 1.53,
 		ExilusPolarity = "Naramon",
 		Family = "Magnus",
+		GripType = "GUN_ONE_HAND",
 		Image = "Magnus.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
 		Introduced = "11.2",
@@ -5368,6 +5644,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.8,
@@ -5389,6 +5666,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Magnus",
+		GripType = "GUN_ONE_HAND",
 		Image = "MagnusPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
 		Introduced = "30.7",
@@ -5414,6 +5692,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -5432,11 +5711,12 @@ return {
 		},
 		Class = "Shotgun Sidearm",
 		CodexSecret = true,
-		CompatibilityTags = { "PROJECTILE", "SECONDARYSHOTGUN" },
+		CompatibilityTags = { "PROJECTILE", "SECONDARYSHOTGUN", "SEMI_AUTO" },
 		Conclave = true,
 		Disposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Detron",
+		GripType = "GUN_ONE_HAND",
 		Image = "MaraDetron.png",
 		InternalName = "/Lotus/Weapons/VoidTrader/VTDetron",
 		Introduced = "15.6.3",
@@ -5461,6 +5741,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -5481,6 +5762,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Marelok",
+		GripType = "GUN_ONE_HAND",
 		Image = "Marelok.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
 		Introduced = "12.3",
@@ -5498,12 +5780,150 @@ return {
 		Users = { "Shik Tal", "Kuva Shield Lancer" },
 		_TooltipAttackDisplay = 1 
 	},
+	["Mk1-Furis"] = {
+		Accuracy = 22.2,
+		AmmoMax = 210,
+		AmmoPickup = 40,
+		AmmoType = "Secondary",
+		Attacks = {
+			{
+				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.05,
+				CritMultiplier = 2,
+				Damage = { Impact = 1.95, Puncture = 9.1, Slash = 1.95 },
+				FireRate = 8.33,
+				IsSilent = false,
+				MaxSpread = 8,
+				MinSpread = 1,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 300,
+				ShotType = "Hit-Scan",
+				StatusChance = 0.01 
+			},
+			{
+				Accuracy = 10,
+				AmmoCost = 1,
+				AttackIndex = 2,
+				AttackName = "Incarnon Form",
+				CritChance = 0.2,
+				CritMultiplier = 3,
+				Damage = { Heat = 60 },
+				Falloff = { EndRange = 16, Reduction = 0.2167, StartRange = 10 },
+				FireRate = 12,
+				IncarnonCharges = 280,
+				IsSilent = false,
+				MaxSpread = 15,
+				MinSpread = 5,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 16,
+				ShotType = "Hit-Scan",
+				StatusChance = 0.08,
+				Trigger = "Held" 
+			} 
+		},
+		Class = "Pistol",
+		Conclave = true,
+		Disposition = 1.4,
+		ExilusPolarity = "Naramon",
+		Family = "Furis",
+		GripType = "GUN_ONE_HAND",
+		Image = "Furis.png",
+		IncarnonChargeGain = 14,
+		IncarnonImage = "FurisIncarnon.png",
+		InternalName = "/Lotus/Weapons/MK1Series/MK1Furis",
+		Introduced = "14.0",
+		Link = "Mk1-Furis",
+		Magazine = 35,
+		Mastery = 0,
+		MaxRank = 30,
+		Name = "Mk1-Furis",
+		Polarities = { "Naramon" },
+		Reload = 1.4,
+		SellPrice = 2500,
+		Slot = "Secondary",
+		Traits = { "Tenno" },
+		Trigger = "Auto",
+		_TooltipAttackDisplay = 1 
+	},
+	["Mk1-Kunai"] = {
+		Accuracy = 100,
+		AmmoMax = 210,
+		AmmoPickup = 40,
+		AmmoType = "Secondary",
+		Attacks = {
+			{
+				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.05,
+				CritMultiplier = 2,
+				Damage = { Impact = 4, Puncture = 30, Slash = 6 },
+				FireRate = 3.33,
+				IsSilent = true,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = 70,
+				ShotType = "Projectile",
+				StatusChance = 0.025 
+			},
+			{
+				Accuracy = 10,
+				AmmoCost = 1,
+				AttackIndex = 2,
+				AttackName = "Incarnon Form",
+				CritChance = 0.14,
+				CritMultiplier = 2,
+				Damage = { Impact = 4.8, Puncture = 8.4, Slash = 10.8 },
+				FireRate = 3.33,
+				IncarnonCharges = 20,
+				IsSilent = true,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 2,
+				PunchThrough = 0,
+				ShotSpeed = 70,
+				ShotType = "Projectile",
+				StatusChance = 0.05 
+			} 
+		},
+		Class = "Thrown",
+		CompatibilityTags = { "PROJECTILE", "THROWN" },
+		Conclave = true,
+		Disposition = 1.51,
+		ExilusPolarity = "Naramon",
+		Family = "Kunai",
+		GripType = "DUAL_GUN_GUN",
+		Image = "Kunai.png",
+		IncarnonChargeGain = 5,
+		IncarnonImage = "KunaiIncarnon.png",
+		InternalName = "/Lotus/Weapons/MK1Series/MK1Kunai",
+		Introduced = "14.0",
+		Link = "Mk1-Kunai",
+		Magazine = 10,
+		Mastery = 0,
+		MaxRank = 30,
+		Name = "Mk1-Kunai",
+		Polarities = { "Madurai", "Madurai" },
+		Reload = 0.75,
+		SellPrice = 2500,
+		Slot = "Secondary",
+		Traits = { "Tenno" },
+		Trigger = "Auto",
+		_TooltipAttackDisplay = 1 
+	},
 	Noctua = {
 		Accuracy = 100,
 		AmmoMax = 0,
 		AmmoPickup = 10,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -5513,11 +5933,13 @@ return {
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
+				Shotspeed = 80,
 				ShotType = "Projectile",
 				StatusChance = 0.25,
-				Trigger = "Auto"
+				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Active Attack",
 				CritChance = 0.45,
 				CritMultiplier = 3,
@@ -5532,12 +5954,13 @@ return {
 				ShotSpeed = 35,
 				ShotType = "Projectile",
 				StatusChance = 0.45,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "PROJECTILE" },
+		CompatibilityTags = { "POWER_WEAPON", "AOE" },
 		Conclave = false,
+		GripType = "BOOK",
 		Image = "Noctua.png",
 		InternalName = "/Lotus/Powersuits/Pagemaster/ExaltedBook",
 		Introduced = "35.5",
@@ -5562,6 +5985,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.03,
 				CritMultiplier = 4,
@@ -5583,6 +6007,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Nukor",
+		GripType = "GUN_ONE_HAND",
 		Image = "Nukor.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
 		Introduced = "14.5",
@@ -5607,6 +6032,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -5628,6 +6054,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Ocucor",
+		GripType = "GUN_ONE_HAND",
 		Image = "Ocucor.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
 		Introduced = "24",
@@ -5651,6 +6078,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -5667,12 +6095,13 @@ return {
 			},
 			{
 				AmmoCost = 1,
-				AttackName = "Incarnon Mode Held Damage",
-				IncarnonCharges = 350,
+				AttackIndex = 2,
+				AttackName = "Incarnon Form Held Damage",
 				CritChance = 0.14,
 				CritMultiplier = 1.6,
 				Damage = { Radiation = 30 },
 				FireRate = 2,
+				IncarnonCharges = 350,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
@@ -5685,12 +6114,13 @@ return {
 			},
 			{
 				AmmoCost = 50,
-				AttackName = "Incarnon Mode Charge Attack",
+				AttackIndex = 3,
+				AttackName = "Incarnon Form Charge Attack",
 				CritChance = 0.38,
 				CritMultiplier = 3.2,
 				Damage = { Heat = 2200 },
 				FireRate = 0.25,
-				ForcedProcs	= { "Heat" },
+				ForcedProcs = { "Heat" },
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
@@ -5700,7 +6130,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
-				AttackName = "Incarnon Mode Charge Radial Attack",
+				AttackIndex = 4,
+				AttackName = "Incarnon Form Charge Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.38,
 				CritMultiplier = 3.2,
 				Damage = { Heat = 1100 },
@@ -5721,7 +6153,9 @@ return {
 		Disposition = 0.8,
 		ExilusPolarity = "Naramon",
 		Family = "Onos",
+		GripType = "GUN_ONE_HAND",
 		Image = "Onos.png",
+		IncarnonChargeGain = 30,
 		InternalName = "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
 		Introduced = "35.5",
 		Link = "Onos",
@@ -5746,6 +6180,7 @@ return {
 			{
 				Accuracy = 16,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.8,
@@ -5763,6 +6198,7 @@ return {
 			{
 				Accuracy = 8.2,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
 				BurstDelay = 0.1,
 				BurstReloadDelay = 0.24,
@@ -5787,6 +6223,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Pandero",
+		GripType = "GUN_ONE_HAND",
 		Image = "Pandero.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
 		Introduced = "20",
@@ -5810,6 +6247,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.8,
@@ -5827,6 +6265,7 @@ return {
 			{
 				Accuracy = 8.2,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
 				BurstDelay = 0.1,
 				BurstReloadDelay = 0.24,
@@ -5849,6 +6288,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Pandero",
+		GripType = "GUN_ONE_HAND",
 		Image = "PanderoPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
 		Introduced = "29.9",
@@ -5874,6 +6314,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 3,
@@ -5895,6 +6336,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Plinx",
+		GripType = "GUN_ONE_HAND",
 		Image = "Plinx.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon",
 		Introduced = "24.2",
@@ -5921,6 +6363,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Spore Impact",
 				CritChance = 0.01,
 				CritMultiplier = 2,
@@ -5936,7 +6379,9 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Poison Cloud",
+				AttackParentIndex = 1,
 				CritChance = 0.01,
 				CritMultiplier = 2,
 				Damage = { Toxin = 20 },
@@ -5957,6 +6402,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Pox",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Pox.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
 		Introduced = "Update: The Silver Grove",
@@ -5981,6 +6427,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Single Rocket Impact",
 				ChargeTime = 0.2,
 				CritChance = 0.18,
@@ -5997,7 +6444,9 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Single Rocket Explosion",
+				AttackParentIndex = 1,
 				ChargeTime = 0.2,
 				CritChance = 0.18,
 				CritMultiplier = 2.2,
@@ -6014,22 +6463,23 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 3,
 				AttackName = "Incarnon Form",
-				IncarnonCharges = 120,
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
 				Damage = { Heat = 50 },
 				FireRate = 6,
+				IncarnonCharges = 120,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 0,
+				ShotSpeed = 80,
 				ShotType = "Projectile",
 				StatusChance = 0.2,
 				Trigger = "Auto" 
-			}
+			} 
 		},
 		Class = "Pistol",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
@@ -6037,7 +6487,9 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "None",
 		Family = "Angstrum",
+		GripType = "GUN_ONE_HAND",
 		Image = "PrismaAngstrum.png",
+		IncarnonChargeGain = 40,
 		IncarnonImage = "PrismaAngstrumIncarnon.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
 		Introduced = "21.7",
@@ -6063,6 +6515,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 1.9,
@@ -6084,6 +6537,7 @@ return {
 		Disposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Twin Gremlins",
+		GripType = "DUAL_GUN_GUN",
 		Image = "PrismaTwinGremlins.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
 		Introduced = "23.4.2",
@@ -6109,6 +6563,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -6131,6 +6586,7 @@ return {
 		Disposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Pyrana",
+		GripType = "GUN_ONE_HAND",
 		Image = "Pyrana.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
 		Introduced = "13.6",
@@ -6154,6 +6610,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -6176,6 +6633,7 @@ return {
 		Disposition = 0.65,
 		ExilusPolarity = "Naramon",
 		Family = "Pyrana",
+		GripType = "GUN_ONE_HAND",
 		Image = "PyranaPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
 		Introduced = "23.0.3",
@@ -6201,6 +6659,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Auto",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -6218,6 +6677,7 @@ return {
 			{
 				Accuracy = 90.9,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Burst",
 				BurstCount = 4,
 				BurstDelay = 0,
@@ -6243,6 +6703,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Quatz",
+		GripType = "GUN_ONE_HAND",
 		Image = "Quatz.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
 		Introduced = "25.4.0",
@@ -6264,26 +6725,9 @@ return {
 		AmmoType = "Secondary",
 		Attacks = {
 			{
-				AmmoCost = 1,
-				AttackName = "Charged Shot",
-				ChargeTime = 1,
-				CritChance = 0.2,
-				CritMultiplier = 1.5,
-				Damage = { Impact = 15, Puncture = 270, Slash = 15 },
-				FireRate = 3.33,
-				IsSilent = true,
-				MaxSpread = 50,
-				MinSpread = 0,
-				Multishot = 1,
-				PunchThrough = 0,
-				ShotSpeed = 100,
-				ShotType = "Projectile",
-				StatusChance = 0.1,
-				Trigger = "Charge"
-			},
-			{
 				Accuracy = 28.6,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Burst Shot",
 				BurstCount = 4,
 				BurstDelay = 0.05,
@@ -6299,8 +6743,48 @@ return {
 				ShotSpeed = 100,
 				ShotType = "Projectile",
 				StatusChance = 0.05,
-				Trigger = "Burst"
-			}
+				Trigger = "Burst" 
+			},
+			{
+				AmmoCost = 1,
+				AttackIndex = 2,
+				AttackName = "Charged Shot",
+				ChargeTime = 1,
+				CritChance = 0.2,
+				CritMultiplier = 1.5,
+				Damage = { Impact = 15, Puncture = 270, Slash = 15 },
+				FireRate = 3.33,
+				IsSilent = true,
+				MaxSpread = 50,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = 100,
+				ShotType = "Projectile",
+				StatusChance = 0.1,
+				Trigger = "Charge" 
+			},
+			{
+				AmmoCost = 1,
+				AttackIndex = 3,
+				AttackName = "Incarnon Form",
+				ChargeTime = 0.4,
+				CritChance = 0.25,
+				CritMultiplier = 2.2,
+				Damage = { Slash = 734 },
+				FireRate = 3.33,
+				IncarnonCharges = 18,
+				IsSilent = true,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 80,
+				ShotSpeed = 80,
+				ShotType = "Projectile",
+				StatusChance = 0.25,
+				Trigger = "Charge" 
+			} 
 		},
 		Class = "Crossbow",
 		CompatibilityTags = { "PROJECTILE" },
@@ -6308,7 +6792,10 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Ballistica",
+		GripType = "GUN_ONE_HAND",
 		Image = "RaktaBallistica.png",
+		IncarnonChargeGain = 1.5,
+		IncarnonImage = "RaktaBallisticaIncarnon.png",
 		InternalName = "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica",
 		Introduced = "15.5",
 		Link = "Rakta Ballistica",
@@ -6335,6 +6822,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -6351,8 +6839,9 @@ return {
 			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "POWER_WEAPON" },
+		CompatibilityTags = { "POWER_WEAPON", "NO_AIM" },
 		Conclave = true,
+		GripType = "DUAL_GUN_GUN",
 		Image = "Regulators.png",
 		InternalName = "/Lotus/Powersuits/Cowgirl/SlingerPistols",
 		Introduced = "23.0",
@@ -6377,6 +6866,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -6393,8 +6883,9 @@ return {
 			} 
 		},
 		Class = "Exalted Weapon",
-		CompatibilityTags = { "POWER_WEAPON" },
+		CompatibilityTags = { "POWER_WEAPON", "NO_AIM" },
 		Conclave = true,
+		GripType = "DUAL_GUN_GUN",
 		Image = "RegulatorsPrime.png",
 		InternalName = "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols",
 		Introduced = "24.2.2",
@@ -6411,6 +6902,68 @@ return {
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
+	["Riot-848"] = {
+		Accuracy = 23.53,
+		AmmoMax = 0,
+		AmmoPickup = 0,
+		AmmoType = "Secondary",
+		Attacks = {
+			{
+				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.26,
+				CritMultiplier = 2.2,
+				Damage = { Puncture = 12 },
+				FireRate = 8,
+				IsSilent = false,
+				MaxSpread = 7,
+				MinSpread = 1.5,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = 120,
+				ShotType = "Projectile",
+				StatusChance = 0.26 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Radial Attack",
+				AttackParentIndex = 1,
+				CritChance = 0.26,
+				CritMultiplier = 2.2,
+				Damage = { Blast = 48 },
+				Falloff = { EndRange = 1.5, Reduction = 0.5, StartRange = 0 },
+				FireRate = 8,
+				IsSilent = false,
+				Multishot = 1,
+				Range = 1.5,
+				ShotType = "AoE",
+				StatusChance = 0.26 
+			} 
+		},
+		Class = "Pistol",
+		Conclave = false,
+		Disposition = 1,
+		ExilusPolarity = "",
+		Family = "Riot-848",
+		GripType = "GUN_ONE_HAND",
+		Image = "Riot-848.png",
+		InternalName = "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
+		Introduced = "38.5",
+		Link = "Riot-848",
+		Magazine = 16,
+		Mastery = 14,
+		MaxRank = 30,
+		Name = "Riot-848",
+		Polarities = { "Madurai" },
+		Reload = 1.2,
+		SellPrice = 5000,
+		Slot = "Secondary",
+		Tradable = 0,
+		Traits = { "Tenno", "Entrati" },
+		Trigger = "Auto",
+		_TooltipAttackDisplay = 1 
+	},
 	["Sagek Prime"] = {
 		Accuracy = 15.33,
 		AmmoMax = 450,
@@ -6419,8 +6972,9 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				CritChance = 0.30,
+				CritChance = 0.3,
 				CritMultiplier = 2.2,
 				Damage = { Impact = 6.112, Puncture = 8.246, Slash = 11.642 },
 				FireRate = 12.33,
@@ -6435,9 +6989,9 @@ return {
 			} 
 		},
 		Class = "Pistol",
-		CompatibilityTags = {},
+		CompatibilityTags = {  },
 		Conclave = false,
-		Disposition = 0.65,
+		Disposition = 0.8,
 		ExilusPolarity = "Naramon",
 		Image = "SagekPrime.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
@@ -6452,7 +7006,7 @@ return {
 		SellPrice = 5000,
 		Slot = "Secondary",
 		Tradable = 0,
-		Traits = { "Prime"},
+		Traits = { "Prime" },
 		Trigger = "Auto",
 		_TooltipAttackDisplay = 1 
 	},
@@ -6464,6 +7018,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Mid-Flight Detonation",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -6481,7 +7036,9 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Embedded Detonation",
+				AttackParentIndex = 1,
 				CritChance = 0.24,
 				CritMultiplier = 2,
 				Damage = { Electricity = 300 },
@@ -6504,6 +7061,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Castanas",
+		GripType = "DUAL_GUN_GUN",
 		Image = "SanctiCastanas.png",
 		InternalName = "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
 		Introduced = "15.5",
@@ -6523,7 +7081,7 @@ return {
 		Users = { "New Loka Operatives" },
 		_TooltipAttackDisplay = 1 
 	},
-	["Scyotid"] = {
+	Scyotid = {
 		Accuracy = 100,
 		AmmoMax = 320,
 		AmmoPickup = 80,
@@ -6531,10 +7089,11 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Auto",
 				CritChance = 0.24,
 				CritMultiplier = 2.4,
-				Damage = { Toxin = 32, Puncture = 8 },
+				Damage = { Puncture = 8, Toxin = 32 },
 				FireRate = 2.4,
 				IsSilent = true,
 				MaxSpread = 3,
@@ -6544,10 +7103,12 @@ return {
 				ShotSpeed = 60,
 				ShotType = "Projectile",
 				StatusChance = 0.18,
-				Trigger = "Auto",
+				Trigger = "Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Semi",
+				AttackParentIndex = 1,
 				CritChance = 0.08,
 				CritMultiplier = 2.4,
 				Damage = { Toxin = 40 },
@@ -6559,15 +7120,16 @@ return {
 				PunchThrough = 0,
 				ShotType = "AoE",
 				StatusChance = 0.32,
-				Trigger = "Semi",
+				Trigger = "Semi" 
 			} 
 		},
 		Class = "Thrown",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = false,
-		Disposition = 0.6,
+		Disposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Scyotid",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Scyotid.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
 		Introduced = "39",
@@ -6592,6 +7154,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.6,
@@ -6613,6 +7176,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Dual Cestra",
+		GripType = "DUAL_GUN_GUN",
 		Image = "SecuraDualCestra.png",
 		InternalName = "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
 		Introduced = "15.5",
@@ -6641,6 +7205,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -6662,6 +7227,7 @@ return {
 		Disposition = 1.5,
 		ExilusPolarity = "Madurai",
 		Family = "Seer",
+		GripType = "GUN_ONE_HAND",
 		Image = "Seer.png",
 		InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
 		Introduced = "9.0",
@@ -6679,13 +7245,14 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	Sepulcrum = {
+		Accuracy = 22.2,
 		AmmoMax = 180,
 		AmmoPickup = 20,
 		AmmoType = "Secondary",
 		Attacks = {
 			{
-				Accuracy = 22.2,
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Primary-Fire",
 				BurstCount = 2,
 				BurstDelay = 0,
@@ -6703,7 +7270,9 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Radial Attack",
+				AttackParentIndex = 1,
 				BurstCount = 2,
 				BurstDelay = 0,
 				CritChance = 0.3,
@@ -6721,6 +7290,7 @@ return {
 			{
 				Accuracy = 1.8,
 				AmmoCost = 0,
+				AttackIndex = 3,
 				AttackName = "Lock-On Mode",
 				CritChance = 0.38,
 				CritMultiplier = 3,
@@ -6737,7 +7307,9 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Lock-On Radial Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.38,
 				CritMultiplier = 3,
 				Damage = { Heat = 480 },
@@ -6758,6 +7330,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Sepulcrum",
+		GripType = "GUN_ONE_HAND",
 		Image = "Sepulcrum.png",
 		InternalName = "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
 		Introduced = "29",
@@ -6782,6 +7355,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 3,
 				BurstDelay = 0.04,
@@ -6799,8 +7373,8 @@ return {
 				StatusChance = 0.06 
 			},
 			{
-				IncarnonCharges = 120,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				BurstCount = 3,
 				BurstDelay = 0.04,
@@ -6808,6 +7382,7 @@ return {
 				CritMultiplier = 3,
 				Damage = { Impact = 28, Puncture = 6, Slash = 6 },
 				FireRate = 3.5,
+				IncarnonCharges = 120,
 				IsSilent = false,
 				MaxSpread = 10,
 				MinSpread = 0,
@@ -6823,8 +7398,10 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Sicarus",
-		IncarnonImage = "SicarusIncarnon.png",
+		GripType = "GUN_ONE_HAND",
 		Image = "Sicarus.png",
+		IncarnonChargeGain = 10,
+		IncarnonImage = "SicarusIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
 		Introduced = "Vanilla",
 		Link = "Sicarus",
@@ -6848,6 +7425,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				BurstCount = 3,
 				BurstDelay = 0.04,
@@ -6865,8 +7443,8 @@ return {
 				StatusChance = 0.2 
 			},
 			{
-				IncarnonCharges = 120,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				BurstCount = 3,
 				BurstDelay = 0.04,
@@ -6874,6 +7452,7 @@ return {
 				CritMultiplier = 3,
 				Damage = { Impact = 24, Puncture = 18, Slash = 18 },
 				FireRate = 5,
+				IncarnonCharges = 120,
 				IsSilent = false,
 				MaxSpread = 8,
 				MinSpread = 0,
@@ -6889,8 +7468,10 @@ return {
 		Disposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Sicarus",
-		IncarnonImage = "SicarusPrimeIncarnon.png",
+		GripType = "GUN_ONE_HAND",
 		Image = "SicarusPrime.png",
+		IncarnonChargeGain = 10,
+		IncarnonImage = "SicarusPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
 		Introduced = "11.0",
 		Link = "Sicarus Prime",
@@ -6915,6 +7496,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Projectile Impact",
 				CritChance = 0,
 				CritMultiplier = 1,
@@ -6933,7 +7515,9 @@ return {
 				StatusChance = 0 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.1,
 				CritMultiplier = 2,
 				Damage = { Impact = 50 },
@@ -6953,6 +7537,7 @@ return {
 		Disposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Sonicor",
+		GripType = "GUN_ONE_HAND",
 		Image = "Sonicor.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
 		Introduced = "17.5",
@@ -6978,6 +7563,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -6999,6 +7585,7 @@ return {
 		Disposition = 1.49,
 		ExilusPolarity = "Madurai",
 		Family = "Spectra",
+		GripType = "GUN_ONE_HAND",
 		Image = "Spectra.png",
 		InternalName = "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
 		Introduced = "9.0",
@@ -7022,6 +7609,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -7043,6 +7631,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Spectra",
+		GripType = "GUN_ONE_HAND",
 		Image = "SpectraVandal.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
 		Introduced = "25.0",
@@ -7068,6 +7657,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -7089,6 +7679,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Spira",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Spira.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
 		Introduced = "17.4.5",
@@ -7113,6 +7704,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -7134,6 +7726,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Spira",
+		GripType = "DUAL_GUN_GUN",
 		Image = "SpiraPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
 		Introduced = "18.4.12",
@@ -7159,6 +7752,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Uncharged Projectile",
 				CritChance = 0.14,
 				CritMultiplier = 2.2,
@@ -7174,7 +7768,9 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Uncharged Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0,
 				CritMultiplier = 1,
 				Damage = { Radiation = 88 },
@@ -7189,6 +7785,7 @@ return {
 			},
 			{
 				AmmoCost = 5,
+				AttackIndex = 3,
 				AttackName = "Fully Charged Projectile",
 				ChargeTime = 1,
 				CritChance = 0.14,
@@ -7203,7 +7800,9 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Fully Charged Explosion",
+				AttackParentIndex = 3,
 				ChargeTime = 1,
 				CritChance = 0.14,
 				CritMultiplier = 2.2,
@@ -7224,6 +7823,7 @@ return {
 		Disposition = 0.9,
 		ExilusPolarity = "Madurai",
 		Family = "Staticor",
+		GripType = "GUN_ONE_HAND",
 		Image = "Staticor.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
 		Introduced = "18.4.7",
@@ -7248,6 +7848,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 1.9,
@@ -7268,6 +7869,7 @@ return {
 		Disposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Stubba",
+		GripType = "GUN_ONE_HAND",
 		Image = "Stubba.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
 		Introduced = "22",
@@ -7291,6 +7893,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Blob Embed",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -7302,11 +7905,13 @@ return {
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
+				Range = 2,
 				ShotSpeed = 35,
 				ShotType = "AoE",
-				StatusChance = 0 
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Blob Explosion",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -7320,6 +7925,56 @@ return {
 				Range = 0.3,
 				ShotType = "AoE",
 				StatusChance = 0.1 
+			},
+			{
+				AmmoCost = 1,
+				AttackIndex = 3,
+				AttackName = "Incarnon Form Blob Embed",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Corrosive = 50 },
+				Falloff = { EndRange = 2, Reduction = 1, StartRange = 0 },
+				FireRate = 4,
+				IsSilent = false,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 2,
+				ShotSpeed = 35,
+				ShotType = "AoE",
+				StatusChance = 0.2 
+			},
+			{
+				AttackIndex = 4,
+				AttackName = "Incarnon Form Blob Explosion",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Corrosive = 200 },
+				ExplosionDelay = 1.5,
+				Falloff = { EndRange = 0.3, Reduction = 0.3, StartRange = 0 },
+				FireRate = 4,
+				IsSilent = false,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 0.3,
+				ShotType = "AoE",
+				StatusChance = 0.2 
+			},
+			{
+				AttackIndex = 5,
+				AttackName = "Incarnon Form Bounce Explosion",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Corrosive = 200 },
+				Falloff = { EndRange = 1.5, Reduction = 0, StartRange = 0 },
+				FireRate = 4,
+				IsSilent = false,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 1.5,
+				ShotType = "AoE",
+				StatusChance = 0.2 
 			} 
 		},
 		Class = "Pistol",
@@ -7328,7 +7983,9 @@ return {
 		Disposition = 1.48,
 		ExilusPolarity = "Madurai",
 		Family = "Stug",
+		GripType = "GUN_ONE_HAND",
 		Image = "Stug.png",
+		IncarnonImage = "StugIncarnon.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
 		Introduced = "11.5",
 		Link = "Stug",
@@ -7353,6 +8010,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -7370,6 +8028,7 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -7388,20 +8047,22 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Cold = 800 },
 				ExplosionDelay = 1.2,
 				Falloff = { EndRange = 5, Reduction = 0.3, StartRange = 0 },
-				ForcedProcs = { "Cold" },
 				FireRate = 1,
+				ForcedProcs = { "Cold" },
 				IsSilent = false,
 				Multishot = 1,
 				Range = 5,
 				ShotType = "AoE",
 				StatusChance = 0.28,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			} 
 		},
 		Class = "Pistol",
@@ -7410,7 +8071,9 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Gammacor",
+		GripType = "GUN_ONE_HAND",
 		Image = "SynoidGammacor.png",
+		IncarnonChargeGain = 1,
 		IncarnonImage = "SynoidGammacorIncarnon.png",
 		InternalName = "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
 		Introduced = "15.5",
@@ -7437,8 +8100,9 @@ return {
 		AmmoType = "Secondary",
 		Attacks = {
 			{
-				AttackName = "Mid-Flight Detonation",
 				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Mid-Flight Detonation",
 				CritChance = 0.22,
 				CritMultiplier = 2,
 				Damage = { Blast = 120 },
@@ -7455,8 +8119,9 @@ return {
 				StatusChance = 0.26 
 			},
 			{
-				AttackName = "Embedded Detonation",
 				AmmoCost = 1,
+				AttackIndex = 2,
+				AttackName = "Embedded Detonation",
 				CritChance = 0.22,
 				CritMultiplier = 2,
 				Damage = { Blast = 250 },
@@ -7480,6 +8145,7 @@ return {
 		Disposition = 1.44,
 		ExilusPolarity = "Madurai",
 		Family = "Talons",
+		GripType = "DUAL_GUN_GUN",
 		Image = "Talons.png",
 		InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
 		Introduced = "18.0",
@@ -7504,6 +8170,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2,
@@ -7525,6 +8192,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Akbolto",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TelosAkbolto.png",
 		InternalName = "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
 		Introduced = "15.5",
@@ -7552,6 +8220,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 0.5,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.8,
@@ -7574,6 +8243,7 @@ return {
 		Disposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Cycron",
+		GripType = "GUN_ONE_HAND",
 		Image = "TenetCycron.png",
 		InternalName = "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron",
 		Introduced = "30.5",
@@ -7603,6 +8273,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -7617,9 +8288,10 @@ return {
 				ShotSpeed = 150,
 				ShotType = "Projectile",
 				StatusChance = 0.1,
-				Trigger = "Semi-Auto"
+				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Burst Shot",
 				BurstDelay = 0.12,
 				CritChance = 0.18,
@@ -7642,9 +8314,10 @@ return {
 		CompatibilityTags = { "PROJECTILE", "SECONDARYSHOTGUN" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.95,
+		Disposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Detron",
+		GripType = "GUN_ONE_HAND",
 		Image = "TenetDetron.png",
 		InternalName = "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
 		Introduced = "30.5",
@@ -7671,6 +8344,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.36,
 				CritMultiplier = 2.2,
@@ -7689,6 +8363,7 @@ return {
 			{
 				Accuracy = 62.5,
 				AmmoCost = 2,
+				AttackIndex = 2,
 				AttackName = "Lock-on Mode",
 				BurstDelay = 0.06,
 				BurstReloadDelay = 0.1,
@@ -7717,6 +8392,7 @@ return {
 		Disposition = 0.75,
 		ExilusPolarity = "Madurai",
 		Family = "Tenet Diplos",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TenetDiplos.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
 		Introduced = "30.5",
@@ -7743,10 +8419,11 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Semi-Auto",
 				CritChance = 0.44,
 				CritMultiplier = 3,
-				Damage = { Puncture = 40, Heat = 30 },
+				Damage = { Heat = 30, Puncture = 40 },
 				FireRate = 3.33,
 				IsSilent = false,
 				MaxSpread = 3,
@@ -7755,16 +8432,17 @@ return {
 				PunchThrough = 0,
 				Range = 100,
 				ShotType = "Hit-Scan",
-				StatusChance = 0.12, 
+				StatusChance = 0.12 
 			},
 			{
 				Accuracy = 100,
 				AmmoCost = 10,
+				AttackIndex = 2,
 				AttackName = "Alt-Fire",
-				CritChance = 0.40,
+				ChargeTime = 0.8,
+				CritChance = 0.4,
 				CritMultiplier = 3,
 				Damage = { Impact = 100 },
-				ChargeTime = 0.8,
 				FireRate = 1,
 				ForcedProcs = { "Impact" },
 				IsSilent = false,
@@ -7772,37 +8450,39 @@ return {
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 100,
-				ShotType = "Projectile" ,
-				StatusChance = 0.20,
 				Reload = 2.5,
 				ReloadDelay = 2,
 				ReloadRate = 20,
+				ShotSpeed = 100,
+				ShotType = "Projectile",
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Alt-Fire AoE",
-				CritChance = 0.40,
+				AttackParentIndex = 2,
+				CritChance = 0.4,
 				CritMultiplier = 3,
 				Damage = { Radiation = 100 },
 				EmbedDelay = 0.8,
-				Falloff = { EndRange = 6.0 , Reduction = 0.4, StartRange = 0 },
+				Falloff = { EndRange = 6, Reduction = 0.4, StartRange = 0 },
 				FireRate = 1,
 				ForcedProcs = { "Ragdoll" },
 				IsSilent = false,
 				Multishot = 1,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.5,
-			}
+				StatusChance = 0.5 
+			} 
 		},
 		Class = "Pistol",
 		CompatibilityTags = { "PROJECTILE", "AOE", "BATTERY" },
 		Conclave = false,
-		DefaultUpgrades = { 
-			"/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
+		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 0.8,
 		ExilusPolarity = "Madurai",
 		Family = "Plinx",
+		GripType = "GUN_ONE_HAND",
 		Image = "TenetPlinx.png",
 		InternalName = "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
 		Introduced = "32.2",
@@ -7832,6 +8512,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Slug Impact",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -7848,7 +8529,9 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
 				Damage = { Heat = 80 },
@@ -7872,6 +8555,7 @@ return {
 		Disposition = 1.05,
 		ExilusPolarity = "None",
 		Family = "Tenet Spirex",
+		GripType = "GUN_ONE_HAND",
 		Image = "TenetSpirex.png",
 		InternalName = "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
 		Introduced = "30.5",
@@ -7898,6 +8582,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 2,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.7,
@@ -7918,6 +8603,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Twin Grakatas",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TwinGrakatas.png",
 		InternalName = "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
 		Introduced = "17.0",
@@ -7943,6 +8629,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -7964,6 +8651,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Twin Gremlins",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TwinGremlins.png",
 		InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
 		Introduced = "9.5",
@@ -7988,6 +8676,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Single Pellet",
 				CritChance = 0.11,
 				CritMultiplier = 2,
@@ -8005,6 +8694,7 @@ return {
 			},
 			{
 				AmmoCost = 1.67,
+				AttackIndex = 2,
 				AttackName = "Fully Spooled",
 				CritChance = 0.11,
 				CritMultiplier = 2,
@@ -8027,6 +8717,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Twin Kohmak",
+		GripType = "GUN_ONE_HAND",
 		Image = "TwinKohmak.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
 		Introduced = "16.0",
@@ -8052,6 +8743,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -8074,6 +8766,7 @@ return {
 		Disposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Twin Rogga",
+		GripType = "GUN_ONE_HAND",
 		Image = "TwinRogga.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
 		Introduced = "19.0",
@@ -8099,6 +8792,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -8119,6 +8813,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Twin Vipers",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TwinVipers.png",
 		InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
 		Introduced = "7.7.3",
@@ -8143,6 +8838,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2,
@@ -8164,6 +8860,7 @@ return {
 		Disposition = 1.41,
 		ExilusPolarity = "Madurai",
 		Family = "Twin Vipers",
+		GripType = "DUAL_GUN_GUN",
 		Image = "TwinVipersWraith.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
 		Introduced = "11.5",
@@ -8189,6 +8886,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.03,
 				CritMultiplier = 1.5,
@@ -8204,7 +8902,9 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Corrosive DoT",
+				AttackParentIndex = 1,
 				CritChance = 0.03,
 				CritMultiplier = 1.5,
 				Damage = { Corrosive = 27 },
@@ -8223,6 +8923,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Tysis",
+		GripType = "GUN_ONE_HAND",
 		Image = "Tysis.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
 		Introduced = "11.7",
@@ -8246,6 +8947,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.8,
@@ -8261,8 +8963,9 @@ return {
 				StatusChance = 0.08 
 			},
 			{
-				AmmoCost = 1,
 				Accuracy = 4,
+				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				BurstCount = 6,
 				BurstDelay = 0.1,
@@ -8271,6 +8974,7 @@ return {
 				Damage = { Impact = 7.5, Puncture = 7.5, Slash = 15 },
 				Falloff = { EndRange = 32, Reduction = 0.9667, StartRange = 16 },
 				FireRate = 2.5,
+				IncarnonCharges = 24,
 				IsSilent = false,
 				MaxSpread = 35,
 				MinSpread = 15,
@@ -8278,16 +8982,18 @@ return {
 				PunchThrough = 0,
 				Range = 300,
 				ShotType = "Hit-Scan",
-				StatusChance = 0.0267, 
-				Trigger = "Burst"
-			}
+				StatusChance = 0.0267,
+				Trigger = "Burst" 
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Vasto",
+		GripType = "GUN_ONE_HAND",
 		Image = "Vasto.png",
+		IncarnonChargeGain = 3,
 		IncarnonImage = "VastoIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
 		Introduced = "9.3",
@@ -8312,6 +9018,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -8327,8 +9034,9 @@ return {
 				StatusChance = 0.22 
 			},
 			{
-				AmmoCost = 1,
 				Accuracy = 4,
+				AmmoCost = 1,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
 				BurstCount = 6,
 				BurstDelay = 0.1,
@@ -8337,6 +9045,7 @@ return {
 				Damage = { Impact = 10.5, Puncture = 10.5, Slash = 49 },
 				Falloff = { EndRange = 32, Reduction = 0.9857, StartRange = 16 },
 				FireRate = 2.5,
+				IncarnonCharges = 24,
 				IsSilent = false,
 				MaxSpread = 35,
 				MinSpread = 15,
@@ -8344,16 +9053,18 @@ return {
 				PunchThrough = 0,
 				Range = 300,
 				ShotType = "Hit-Scan",
-				StatusChance = 0.0667, 
-				Trigger = "Burst"
-			}
+				StatusChance = 0.0667,
+				Trigger = "Burst" 
+			} 
 		},
 		Class = "Pistol",
 		Conclave = true,
 		Disposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Vasto",
+		GripType = "GUN_ONE_HAND",
 		Image = "VastoPrime.png",
+		IncarnonChargeGain = 3,
 		IncarnonImage = "VastoPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
 		Introduced = "15.7",
@@ -8379,6 +9090,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.5,
@@ -8399,6 +9111,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Marelok",
+		GripType = "GUN_ONE_HAND",
 		Image = "VaykorMarelok.png",
 		InternalName = "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
 		Introduced = "15.5",
@@ -8426,6 +9139,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -8452,6 +9166,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Velox",
+		GripType = "GUN_ONE_HAND",
 		Image = "Velox.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
 		Introduced = "28",
@@ -8477,6 +9192,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -8503,6 +9219,7 @@ return {
 		Disposition = 0.85,
 		ExilusPolarity = "Madurai",
 		Family = "Velox",
+		GripType = "GUN_ONE_HAND",
 		Image = "VeloxPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
 		Introduced = "35.5.9",
@@ -8528,6 +9245,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -8541,13 +9259,14 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.26 
-			},
+			} 
 		},
 		Class = "Pistol",
 		Conclave = false,
 		Disposition = 0.8,
 		ExilusPolarity = "",
 		Family = "Vesper 77",
+		GripType = "GUN_ONE_HAND",
 		Image = "Vesper77.png",
 		InternalName = "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
 		Introduced = "38.0",
@@ -8561,7 +9280,7 @@ return {
 		SellPrice = 5000,
 		Slot = "Secondary",
 		Tradable = 4,
-		Traits = { },
+		Traits = {  },
 		Trigger = "Semi-Auto",
 		Users = { "Arthur", "Velimir" },
 		_TooltipAttackDisplay = 1 
@@ -8574,6 +9293,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -8594,6 +9314,7 @@ return {
 		Disposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Viper",
+		GripType = "GUN_ONE_HAND",
 		Image = "Viper.png",
 		InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
 		Introduced = "7.0",
@@ -8619,6 +9340,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2,
@@ -8640,6 +9362,7 @@ return {
 		Disposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Viper",
+		GripType = "GUN_ONE_HAND",
 		Image = "ViperWraith.png",
 		InternalName = "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
 		Introduced = "22.8.4",
@@ -8665,6 +9388,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Dart Impact",
 				CritChance = 0.02,
 				CritMultiplier = 1.5,
@@ -8681,7 +9405,9 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Gas Cloud",
+				AttackParentIndex = 1,
 				CritChance = 0.02,
 				CritMultiplier = 1.5,
 				Damage = { Gas = 80 },
@@ -8701,6 +9427,7 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Zakti",
+		GripType = "GUN_ONE_HAND",
 		Image = "Zakti.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
 		Introduced = "21.1",
@@ -8725,6 +9452,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.8,
@@ -8742,7 +9470,9 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Gas Cloud",
+				AttackParentIndex = 1,
 				CritChance = 0.08,
 				CritMultiplier = 1.8,
 				Damage = { Gas = 100 },
@@ -8762,6 +9492,7 @@ return {
 		Disposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Zakti",
+		GripType = "GUN_ONE_HAND",
 		Image = "ZaktiPrime.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
 		Introduced = "29.3",
@@ -8787,6 +9518,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 2,
@@ -8804,13 +9536,14 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
-				IncarnonCharges = 12,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
+				ChargeTime = 0.6,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Impact = 160, Puncture = 240 },
 				FireRate = 1,
-				ChargeTime = 0.6,
+				IncarnonCharges = 12,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
@@ -8821,6 +9554,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -8839,7 +9573,9 @@ return {
 		Disposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Zylok",
+		GripType = "GUN_ONE_HAND",
 		Image = "Zylok.png",
+		IncarnonChargeGain = 1,
 		IncarnonImage = "ZylokIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
 		Introduced = "23.6",
@@ -8864,6 +9600,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 2.4,
@@ -8881,13 +9618,14 @@ return {
 			{
 				Accuracy = 100,
 				AmmoCost = 1,
-				IncarnonCharges = 12,
+				AttackIndex = 2,
 				AttackName = "Incarnon Form",
+				ChargeTime = 0.6,
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 200, Puncture = 300 },
 				FireRate = 1,
-				ChargeTime = 0.6,
+				IncarnonCharges = 12,
 				IsSilent = false,
 				MaxSpread = 0,
 				MinSpread = 0,
@@ -8898,6 +9636,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Incarnon Form Radial Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -8916,7 +9655,9 @@ return {
 		Disposition = 0.9,
 		ExilusPolarity = "Madurai",
 		Family = "Zylok",
+		GripType = "GUN_ONE_HAND",
 		Image = "ZylokPrime.png",
+		IncarnonChargeGain = 1,
 		IncarnonImage = "ZylokPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
 		Introduced = "34",
@@ -8942,6 +9683,7 @@ return {
 		Attacks = {
 			{
 				AmmoCost = 1,
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2.3,
@@ -8959,7 +9701,9 @@ return {
 				Trigger = "Semi-Auto" 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Radial Attack",
+				AttackParentIndex = 1,
 				CritChance = 0.05,
 				CritMultiplier = 2.3,
 				Damage = { Toxin = 61 },
@@ -8973,7 +9717,9 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Headshot Explosion",
+				AttackParentIndex = 1,
 				CritChance = 0.05,
 				CritMultiplier = 2.3,
 				Damage = { Toxin = 953 },
@@ -8989,6 +9735,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Homing Spore Contact",
 				CritChance = 0.05,
 				CritMultiplier = 2.3,
@@ -9002,7 +9749,9 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Homing Spore Explosion",
+				AttackParentIndex = 4,
 				CritChance = 0.05,
 				CritMultiplier = 2.3,
 				Damage = { Toxin = 333 },
@@ -9021,6 +9770,7 @@ return {
 		Disposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Zymos",
+		GripType = "GUN_ONE_HAND",
 		Image = "Zymos.png",
 		InternalName = "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
 		Introduced = "29",
@@ -9037,63 +9787,5 @@ return {
 		Trigger = "Semi-Auto",
 		Users = { "Zealot Proselytizer" },
 		_TooltipAttackDisplay = 3 
-	},
-	["Riot-848"] = {
-		Accuracy = 23.53,
-		AmmoMax = 0,
-		AmmoPickup = 0,
-		AmmoType = "Secondary",
-		Attacks = {
-			{
-				AttackName = "Normal Attack",
-				CritChance = 0.26,
-				CritMultiplier = 2.2,
-				Damage = { Puncture = 12 },
-				StatusChance = 0.26,
-				AmmoCost = 1,
-				FireRate = 8,
-				IsSilent = false,
-				MaxSpread = 7,
-				MinSpread = 1.5,
-				Multishot = 1,
-				PunchThrough = 0,
-				ShotSpeed = 120,
-				ShotType = "Projectile",
-			},
-			{
-				AttackName = "Radial Attack",
-				CritChance = 0.26,
-				CritMultiplier = 2.2,
-				Range = 1.5,
-				Falloff = { EndRange = 1.5, Reduction = 0.5, StartRange = 0 },
-				Damage = { Blast = 48 },
-				FireRate = 8,
-				IsSilent = false,
-				Multishot = 1,
-				ShotType = "AoE",
-				StatusChance = 0.26,
-			}
-		},
-		Class = "Pistol",
-		Conclave = false,
-		Disposition = 0.95,
-		ExilusPolarity = "",
-		Family = "Riot-848",
-		Image = "Riot-848.png",
-		InternalName = "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
-		Introduced = "38.5",
-		Link = "Riot-848",
-		Magazine = 16,
-		Mastery = 14,
-		MaxRank = 30,
-		Name = "Riot-848",
-		Polarities = { "Madurai" },
-		Reload = 1.2,
-		SellPrice = 5000,
-		Slot = "Secondary",
-		Tradable = 0,
-		Traits = { "Tenno", "Entrati" },
-		Trigger = "Auto",
-		_TooltipAttackDisplay = 1 
-	}
+	} 
 }

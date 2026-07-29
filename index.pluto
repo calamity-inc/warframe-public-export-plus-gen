@@ -1152,10 +1152,29 @@ do
 
 	local function fill_in_wiki_data(region, mission)
 		if mission.Requirements then
-			if quest_name := select(3, mission.Requirements:find("Must have %[%[(.+)%]%] completed to access")) then
-				quest_name = quest_name:replace(" (Quest)", "")
+			local quest_name, quest_name_2 = select(3, mission.Requirements:find("Must have %[%[(.+)%]%] and %[%[(.+)%]%] completed to access"))
+			if not quest_name then
+				quest_name = select(3, mission.Requirements:find("Must have %[%[(.+)%]%] completed to access"))
+				if quest_name then
+					quest_name = quest_name:replace(" (Quest)", "")
+
+					quest_name = questNameToKey[quest_name] or error("Failed to resolve "..quest_name)
+
+					region.__order:insert("questReqs")
+					region.questReqs = { quest_name }
+
+					region.__order:insert("questReq")
+					region.questReq = quest_name
+				end
+			else
+				quest_name = questNameToKey[quest_name] or error("Failed to resolve "..quest_name)
+				quest_name_2 = questNameToKey[quest_name_2] or error("Failed to resolve "..quest_name_2)
+
+				region.__order:insert("questReqs")
+				region.questReqs = { quest_name, quest_name_2 }
+
 				region.__order:insert("questReq")
-				region.questReq = questNameToKey[quest_name] or error("Failed to resolve "..quest_name)
+				region.questReq = quest_name_2
 			end
 		end
 		do

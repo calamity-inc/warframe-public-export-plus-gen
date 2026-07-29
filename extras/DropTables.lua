@@ -2232,6 +2232,7 @@ local DropData = {
 				{ "Endo", "Resource", 37.94, 15 },
 				{ "Endo", "Resource", 7.37, 50 } 
 			},
+			Link = "Carrier (Enemy)",
 			Name = "Carrier",
 			ResourceChance = 7,
 			Resources = { { "Region Resource", "Resource", 100 } } 
@@ -23408,7 +23409,7 @@ local DropData = {
 					{ "Neo A16 (Radiant)", "Relic", 17.14 },
 					{ "Ammo Chain", "Mod", 17.14 },
 					{ "Atmo Systems", "Resource", 11.43, 5 },
-					{ "Axi A20 (Radiant)", "Relic", 14.29 },
+					{ "Axi S20 (Radiant)", "Relic", 14.29 },
 					{ "Repeller Systems", "Resource", 8.57, 3 },
 					{ "Critical Focus", "Mod", 1.43 },
 					{ "Strain Consume", "Mod", 1.43 } 

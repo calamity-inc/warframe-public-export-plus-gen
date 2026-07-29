@@ -2,6 +2,7 @@ return {
 	["Ack & Brunt"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -11,10 +12,11 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Spectral Axe",
 				CritChance = 0.13,
 				CritMultiplier = 2,
-				Damage = { Impact = 14.9, Puncture = 14.9, Slash = 119.2 },
+				Damage = { Impact = 29.8, Puncture = 14.9, Slash = 104.3 },
 				FireRate = 0.833,
 				IsSilent = true,
 				ShotSpeed = 60,
@@ -22,7 +24,9 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Spectral Axe Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.13,
 				CritMultiplier = 2,
 				Damage = { Heat = 303 },
@@ -35,7 +39,9 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Impact = 298 },
@@ -48,7 +54,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Blast = 447 },
@@ -59,7 +67,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -68,9 +76,11 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Ack & Brunt",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 745,
 		Image = "Ack&Brunt.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "Ack&BruntIncarnon.png",
 		InternalName = "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield",
 		Introduced = "17",
@@ -92,14 +102,16 @@ return {
 	Amanata = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Puncture = 37.8, Slash = 88.2 },
 				CritChance = 0.24,
 				CritMultiplier = 2,
-				StatusChance = 0.24,
-				FireRate = 1
+				Damage = { Puncture = 37.8, Slash = 88.2 },
+				FireRate = 1,
+				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -113,6 +125,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -124,7 +137,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -132,10 +145,12 @@ return {
 		Conclave = false,
 		Disposition = 0.85,
 		Family = "Amanata",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		Image = "Amanata.png",
+		InternalName = "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
 		Introduced = "37",
-	    Link = "Amanata",
+		Link = "Amanata",
 		Mastery = 2,
 		MaxRank = 30,
 		MeleeRange = 3,
@@ -143,16 +158,16 @@ return {
 		Polarities = { "Madurai" },
 		SellPrice = 7500,
 		SlideAttack = 252,
-	 	Slot = "Melee",
+		Slot = "Melee",
 		StancePolarity = "Naramon",
 		SweepRadius = 0.25,
 		Traits = { "Tenno" },
-		WindUp = 0.9,
-		InternalName = "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon"
+		WindUp = 0.9 
 	},
 	Amphis = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.7,
@@ -162,6 +177,7 @@ return {
 				StatusChance = 0.21 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.7,
@@ -175,6 +191,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -186,7 +203,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -195,6 +212,7 @@ return {
 		Conclave = true,
 		Disposition = 1.5,
 		Family = "Amphis",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 650,
 		Image = "Amphis.png",
@@ -219,6 +237,7 @@ return {
 	Anku = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -228,6 +247,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -241,6 +261,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -252,7 +273,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -261,9 +282,11 @@ return {
 		Conclave = true,
 		Disposition = 1.46,
 		Family = "Anku",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1020,
 		Image = "Anku.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "AnkuIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Scythe/ParisScythe/ParisScythe",
 		Introduced = "16.7",
@@ -286,6 +309,7 @@ return {
 	Ankyros = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -295,6 +319,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -308,6 +333,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -319,7 +345,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -328,6 +354,7 @@ return {
 		Conclave = true,
 		Disposition = 1.5,
 		Family = "Ankyros",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 450,
 		Image = "Ankyros.png",
@@ -350,6 +377,7 @@ return {
 	["Ankyros Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -359,6 +387,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -372,6 +401,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -383,7 +413,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -392,6 +422,7 @@ return {
 		Conclave = true,
 		Disposition = 1.45,
 		Family = "Ankyros",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 640,
 		HeavySlamAttack = 384,
@@ -424,6 +455,7 @@ return {
 	["Arca Titron"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -433,6 +465,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -446,6 +479,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -457,7 +491,7 @@ return {
 				Range = 10,
 				ShotType = "AoE",
 				StatusChance = 0.38 
-			}
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -467,6 +501,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeaponInnateMod" },
 		Disposition = 1.3,
 		Family = "Arca Titron",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 2160,
 		Image = "ArcaTitron.png",
@@ -491,6 +526,7 @@ return {
 	["Argo & Vel"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -500,17 +536,21 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Heavy Attack Glaive",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 40, Slash = 160 },
 				FireRate = 0.8,
 				IsSilent = true,
+				ShotSpeed = 75,
 				ShotType = "Projectile",
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Attack Glaive AoE",
+				AttackParentIndex = 2,
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 20, Slash = 80 },
@@ -522,7 +562,9 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Slash = 600 },
@@ -532,10 +574,12 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Slash = 900 },
@@ -545,8 +589,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -555,6 +599,7 @@ return {
 		Conclave = false,
 		Disposition = 1.15,
 		Family = "Argo & Vel",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 900,
 		Image = "Argo&Vel.png",
@@ -578,6 +623,7 @@ return {
 	["Arum Spinosa"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.09,
 				CritMultiplier = 1.9,
@@ -587,6 +633,7 @@ return {
 				StatusChance = 0.37 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "First Heavy Attack - Toxic Spines",
 				ChargeTime = 0.49,
 				CritChance = 0.09,
@@ -603,6 +650,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Second Heavy Attack - Toxic Spines",
 				ChargeTime = 0.49,
 				CritChance = 0.09,
@@ -619,7 +667,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.09,
 				CritMultiplier = 1.9,
 				Damage = { Impact = 594 },
@@ -629,10 +679,12 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.09,
 				CritMultiplier = 1.9,
 				Damage = { Blast = 891 },
@@ -642,8 +694,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.28
-			}
+				StatusChance = 0.28 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -652,6 +704,7 @@ return {
 		Conclave = false,
 		Disposition = 1.25,
 		Family = "Arum Spinosa",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1188,
 		Image = "ArumSpinosa.png",
@@ -662,7 +715,7 @@ return {
 		MaxRank = 30,
 		MeleeRange = 1.7,
 		Name = "Arum Spinosa",
-		Polarities = { "Naramon",  "Madurai" },
+		Polarities = { "Naramon", "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 297,
 		Slot = "Melee",
@@ -676,6 +729,7 @@ return {
 	Atterax = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -685,6 +739,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -695,9 +750,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -708,8 +764,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -718,6 +774,7 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Atterax",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 580.5,
 		Image = "Atterax.png",
@@ -737,18 +794,19 @@ return {
 		WindUp = 0.4,
 		_TooltipAttackDisplay = 1 
 	},
-	["Azothane"] = {
-		_TooltipAttackDisplay = 1,
+	Azothane = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Impact = 51, Puncture = 34, Slash = 85 },
 				CritChance = 0.34,
 				CritMultiplier = 3,
-				StatusChance = 0.22,
-				FireRate = 1.17
+				Damage = { Impact = 51, Puncture = 34, Slash = 85 },
+				FireRate = 1.17,
+				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 3,
@@ -759,9 +817,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 3,
@@ -772,16 +831,17 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Two-Handed Nikana",
 		ComboDur = 5,
 		CompatibilityTags = { "LONG_KATANA_STANCE" },
 		Conclave = false,
-		Disposition = 1.05,
+		Disposition = 1.1,
 		Family = "Azothane",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1020,
 		Image = "Azothane.png",
@@ -799,11 +859,13 @@ return {
 		StancePolarity = "Madurai",
 		SweepRadius = 0.25,
 		Traits = { "Duviri" },
-		WindUp = 0.7
+		WindUp = 0.7,
+		_TooltipAttackDisplay = 1 
 	},
 	Bo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.125,
 				CritMultiplier = 2,
@@ -813,6 +875,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.125,
 				CritMultiplier = 2,
@@ -826,6 +889,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.125,
 				CritMultiplier = 2,
@@ -837,7 +901,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -846,9 +910,11 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Bo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 700,
 		Image = "Bo.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "BoIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
 		Introduced = "Vanilla",
@@ -870,6 +936,7 @@ return {
 	["Bo Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -879,6 +946,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -892,6 +960,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -903,7 +972,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -912,9 +981,11 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Bo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 880,
 		Image = "BoPrime.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "BoPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon",
 		Introduced = "13.7",
@@ -937,6 +1008,7 @@ return {
 	Boltace = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -946,6 +1018,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -959,6 +1032,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -970,7 +1044,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -979,6 +1053,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Boltace",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 704,
 		Image = "Boltace.png",
@@ -1002,6 +1077,7 @@ return {
 	["Broken Scepter"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -1011,6 +1087,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -1024,6 +1101,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -1035,7 +1113,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -1044,6 +1122,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Broken Scepter",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 895,
 		Image = "BrokenScepter.png",
@@ -1067,6 +1146,7 @@ return {
 	["Broken War"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.2,
@@ -1076,6 +1156,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.2,
@@ -1089,6 +1170,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.2,
@@ -1100,7 +1182,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -1109,6 +1191,7 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Broken War",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 935,
 		Image = "BrokenWar.png",
@@ -1133,6 +1216,7 @@ return {
 	Cadus = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1142,6 +1226,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1155,6 +1240,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1166,7 +1252,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -1175,6 +1261,7 @@ return {
 		Conclave = false,
 		Disposition = 1.29,
 		Family = "Cadus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 850,
 		Image = "Cadus.png",
@@ -1198,6 +1285,7 @@ return {
 	Cassowar = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.4,
@@ -1207,6 +1295,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.4,
@@ -1220,6 +1309,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.4,
@@ -1231,7 +1321,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -1240,6 +1330,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Cassowar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1128,
 		Image = "Cassowar.png",
@@ -1263,6 +1354,7 @@ return {
 	Caustacyst = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.09,
 				CritMultiplier = 2,
@@ -1272,6 +1364,7 @@ return {
 				StatusChance = 0.37 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Corrosive Wave",
 				ChargeTime = 0.995,
 				CritChance = 0.09,
@@ -1288,7 +1381,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Corrosive Pool",
+				AttackParentIndex = 2,
 				ChargeTime = 0.995,
 				CritChance = 0,
 				CritMultiplier = 1,
@@ -1301,7 +1396,9 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.09,
 				CritMultiplier = 2,
 				Damage = { Impact = 520 },
@@ -1314,7 +1411,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.09,
 				CritMultiplier = 2,
 				Damage = { Blast = 780 },
@@ -1325,7 +1424,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -1334,6 +1433,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Caustacyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1560,
 		Image = "Caustacyst.png",
@@ -1357,6 +1457,7 @@ return {
 	["Ceramic Dagger"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -1366,6 +1467,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Spectral Dagger",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -1377,7 +1479,9 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Spectral Dagger Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
 				Damage = { Heat = 350 },
@@ -1387,10 +1491,12 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
 				Damage = { Impact = 280 },
@@ -1403,7 +1509,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.1,
 				CritMultiplier = 2,
 				Damage = { Blast = 420 },
@@ -1414,7 +1522,7 @@ return {
 				Range = 6,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -1423,9 +1531,11 @@ return {
 		Conclave = true,
 		Disposition = 1.43,
 		Family = "Ceramic Dagger",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 280,
 		Image = "CeramicDagger.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "CeramicDaggerIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger",
 		Introduced = "5.0",
@@ -1447,6 +1557,7 @@ return {
 	Cerata = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1456,6 +1567,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -1468,6 +1580,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -1477,9 +1590,10 @@ return {
 				IsSilent = true,
 				Range = 4.8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -1490,9 +1604,10 @@ return {
 				IsSilent = true,
 				Range = 4.8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -1508,6 +1623,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -1518,9 +1634,10 @@ return {
 				IsSilent = true,
 				Range = 4.8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -1532,9 +1649,10 @@ return {
 				IsSilent = true,
 				Range = 4.8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1545,9 +1663,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -1558,8 +1677,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -1568,6 +1687,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Cerata",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Cerata.png",
@@ -1591,6 +1711,7 @@ return {
 	["Ceti Lacera"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -1600,6 +1721,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -1610,9 +1732,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.45
+				StatusChance = 0.45 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -1623,8 +1746,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.45
-			}
+				StatusChance = 0.45 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Blade and Whip",
@@ -1633,6 +1756,7 @@ return {
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Lacera",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 864,
 		Image = "CetiLacera.png",
@@ -1657,6 +1781,7 @@ return {
 	["Cobra & Crane"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -1666,6 +1791,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -1679,6 +1805,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -1690,7 +1817,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -1699,6 +1826,7 @@ return {
 		Conclave = false,
 		Disposition = 1.35,
 		Family = "Cobra & Crane",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1480,
 		Image = "Cobra&Crane.png",
@@ -1720,6 +1848,7 @@ return {
 	["Cobra & Crane Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -1729,6 +1858,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -1742,6 +1872,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -1753,7 +1884,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -1762,6 +1893,7 @@ return {
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Cobra & Crane",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1500,
 		Image = "Cobra&CranePrime.png",
@@ -1772,21 +1904,22 @@ return {
 		MaxRank = 30,
 		MeleeRange = 2.6,
 		Name = "Cobra & Crane Prime",
-		SellPrice = 5000,
 		Polarities = { "Madurai", "Madurai" },
+		SellPrice = 5000,
 		SlideAttack = 300,
 		Slot = "Melee",
 		StancePolarity = "Madurai",
 		SweepRadius = 0.25,
 		Tradable = 2,
 		Traits = { "Prime" },
-		Users = { },
+		Users = {  },
 		WindUp = 0.7,
 		_TooltipAttackDisplay = 1 
 	},
 	["Coda Caustacyst"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
@@ -1796,6 +1929,7 @@ return {
 				StatusChance = 0.41 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Corrosive Wave",
 				ChargeTime = 0.995,
 				CritChance = 0.09,
@@ -1812,7 +1946,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Corrosive Pool",
+				AttackParentIndex = 2,
 				ChargeTime = 0.995,
 				CritChance = 0,
 				CritMultiplier = 1,
@@ -1825,7 +1961,9 @@ return {
 				StatusChance = 1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
 				Damage = { Impact = 570 },
@@ -1838,7 +1976,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
 				Damage = { Blast = 855 },
@@ -1849,7 +1989,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -1858,6 +1998,7 @@ return {
 		Conclave = false,
 		Disposition = 0.85,
 		Family = "Caustacyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1560,
 		Image = "CodaCaustacyst.png",
@@ -1882,6 +2023,7 @@ return {
 	["Coda Hirudo"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.34,
 				CritMultiplier = 3.1,
@@ -1891,6 +2033,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 3.1,
@@ -1904,6 +2047,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 3.1,
@@ -1915,7 +2059,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -1927,6 +2071,7 @@ return {
 		},
 		Disposition = 0.75,
 		Family = "Hirudo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 1138,
 		Image = "CodaHirudo.png",
@@ -1951,6 +2096,7 @@ return {
 	["Coda Mire"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2.4,
@@ -1960,6 +2106,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2.4,
@@ -1973,6 +2120,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2.4,
@@ -1983,16 +2131,17 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.31
-			}
+				StatusChance = 0.31 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
 		ComboDur = 5,
 		CompatibilityTags = { "SWORDS_STANCE" },
 		Conclave = false,
-		Disposition = 0.7,
+		Disposition = 0.75,
 		Family = "Mire",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1175,
 		Image = "CodaMire.png",
@@ -2017,6 +2166,7 @@ return {
 	["Coda Motovore"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -2026,6 +2176,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -2039,6 +2190,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -2050,7 +2202,7 @@ return {
 				Range = 10,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -2058,8 +2210,9 @@ return {
 		CompatibilityTags = { "HAMMERS_STANCE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.75,
+		Disposition = 0.8,
 		Family = "Motovore",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1500,
 		Image = "CodaMotovore.png",
@@ -2084,8 +2237,9 @@ return {
 	["Coda Pathocyst"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				CritChance = 0.20,
+				CritChance = 0.2,
 				CritMultiplier = 2.3,
 				Damage = { Impact = 58, Puncture = 55, Slash = 65, Viral = 92 },
 				FireRate = 0.667,
@@ -2093,6 +2247,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -2105,6 +2260,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -2117,6 +2273,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.12,
 				CritMultiplier = 2.4,
@@ -2130,6 +2287,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -2143,6 +2301,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -2156,6 +2315,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -2170,6 +2330,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.3,
@@ -2180,9 +2341,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.3,
@@ -2194,7 +2356,7 @@ return {
 				Range = 6,
 				ShotType = "AoE",
 				StatusChance = 0.3 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -2203,6 +2365,7 @@ return {
 		Conclave = false,
 		Disposition = 0.65,
 		Family = "Pathocyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "CodaPathocyst.png",
@@ -2228,6 +2391,7 @@ return {
 	Corufell = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -2237,20 +2401,23 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Charged Projectile",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
 				Damage = { Heat = 600 },
+				Falloff = { EndRange = 30, Reduction = 0.5, StartRange = 15 },
 				FireRate = 0.833,
 				IsSilent = false,
 				ShotSpeed = 40,
 				ShotType = "Projectile",
-				Falloff = { EndRange = 30, Reduction = 0.5, StartRange = 15 },
 				StatusChance = 0.14,
-				Trigger = "Charge"
+				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
 				Damage = { Blast = 400 },
@@ -2263,7 +2430,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
 				Damage = { Blast = 600 },
@@ -2274,15 +2443,16 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 65,
 		Class = "Heavy Scythe",
 		ComboDur = 5,
 		CompatibilityTags = { "HEAVY SCYTHE_STANCE" },
 		Conclave = false,
-		Disposition = 1,
+		Disposition = 1.05,
 		Family = "Corufell",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1200,
 		Image = "Corufell.png",
@@ -2307,6 +2477,7 @@ return {
 	Cronus = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -2316,6 +2487,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -2329,6 +2501,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -2340,7 +2513,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -2349,6 +2522,7 @@ return {
 		Conclave = true,
 		Disposition = 1.48,
 		Family = "Cronus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 530,
 		Image = "Cronus.png",
@@ -2372,6 +2546,7 @@ return {
 	["Dakra Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.36,
 				CritMultiplier = 2.4,
@@ -2381,6 +2556,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.36,
 				CritMultiplier = 2.4,
@@ -2394,6 +2570,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.36,
 				CritMultiplier = 2.4,
@@ -2405,7 +2582,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -2414,6 +2591,7 @@ return {
 		Conclave = true,
 		Disposition = 1.1,
 		Family = "Dakra Prime",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 850,
 		HeavySlamAttack = 510,
@@ -2446,6 +2624,7 @@ return {
 	["Dark Dagger"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -2455,6 +2634,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -2468,6 +2648,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -2479,7 +2660,7 @@ return {
 				Range = 6,
 				ShotType = "AoE",
 				StatusChance = 0.22 
-			}
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -2488,6 +2669,7 @@ return {
 		Conclave = true,
 		Disposition = 1.1,
 		Family = "Dark Dagger",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 308,
 		HeavySlamAttack = 462,
@@ -2518,6 +2700,7 @@ return {
 	["Dark Split-Sword (Dual Swords)"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.5,
@@ -2527,6 +2710,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.5,
@@ -2540,6 +2724,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.5,
@@ -2550,8 +2735,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -2560,6 +2745,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Dark Split-Sword (Dual Swords)",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 464,
 		Image = "DarkSplitSwordDualSwords.png",
@@ -2584,6 +2770,7 @@ return {
 	["Dark Split-Sword (Heavy Blade)"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -2593,6 +2780,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -2606,6 +2794,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -2616,8 +2805,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -2626,10 +2815,10 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Dark Split-Sword (Heavy Blade)",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1380,
 		HeavySlamAttack = 690,
-		SlamElement = "Blast",
 		HeavySlamRadius = 9,
 		Image = "DarkSplitSwordHeavyBlade.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerSingle",
@@ -2642,6 +2831,7 @@ return {
 		Polarities = { "Madurai" },
 		SellPrice = 5000,
 		SlamAttack = 460,
+		SlamElement = "Blast",
 		SlamForcedProcs = { "Impact" },
 		SlamRadius = 8,
 		SlideAttack = 460,
@@ -2655,6 +2845,7 @@ return {
 	["Dark Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -2664,6 +2855,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -2674,9 +2866,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.4
+				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -2687,8 +2880,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.4
-			}
+				StatusChance = 0.4 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -2697,6 +2890,7 @@ return {
 		Conclave = true,
 		Disposition = 1.48,
 		Family = "Dark Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1300,
 		Image = "DarkSword.png",
@@ -2719,6 +2913,7 @@ return {
 	["Desert Wind"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -2728,6 +2923,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -2741,18 +2937,19 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
 				Damage = { Blast = 750 },
 				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -2766,8 +2963,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Pacifist/PacifistFist",
 		Introduced = "24.2",
 		Link = "Desert Wind",
-		MeleeRange = 1.2,
 		MaxRank = 30,
+		MeleeRange = 1.2,
 		Name = "Desert Wind",
 		Polarities = { "Madurai", "Madurai", "Vazarin" },
 		SlideAttack = 750,
@@ -2783,6 +2980,7 @@ return {
 	["Desert Wind Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -2792,6 +2990,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -2805,18 +3004,19 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
 				Damage = { Blast = 750 },
 				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -2830,8 +3030,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Pacifist/PacifistFistPrime",
 		Introduced = "32.2.5",
 		Link = "Desert Wind",
-		MeleeRange = 1.2,
 		MaxRank = 30,
+		MeleeRange = 1.2,
 		Name = "Desert Wind Prime",
 		Polarities = { "Madurai", "Madurai", "Vazarin" },
 		SlideAttack = 750,
@@ -2847,6 +3047,7 @@ return {
 	Destreza = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2,
@@ -2856,6 +3057,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2,
@@ -2869,6 +3071,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2,
@@ -2880,7 +3083,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Rapier",
@@ -2889,9 +3092,12 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Destreza",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 711,
 		Image = "Destreza.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "DestrezaIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier",
 		Introduced = "18.3",
 		Link = "Destreza",
@@ -2913,6 +3119,7 @@ return {
 	["Destreza Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 3,
@@ -2922,6 +3129,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 3,
@@ -2932,9 +3140,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.18
+				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 3,
@@ -2946,7 +3155,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Rapier",
@@ -2955,9 +3164,12 @@ return {
 		Conclave = true,
 		Disposition = 1.14,
 		Family = "Destreza",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 765,
 		Image = "DestrezaPrime.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "DestrezaPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/PRapier/DestrezaPrime",
 		Introduced = "23.0.3",
 		Link = "Destreza Prime",
@@ -2979,6 +3191,7 @@ return {
 	["Dex Dakra"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -2988,6 +3201,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -2998,9 +3212,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -3012,7 +3227,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3022,6 +3237,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Dex Dakra",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 568,
 		Image = "DexDakra.png",
@@ -3045,6 +3261,7 @@ return {
 	["Dex Nikana"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -3054,6 +3271,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -3064,9 +3282,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
@@ -3078,7 +3297,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -3088,6 +3307,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Nikana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 840,
 		Image = "DexNikana.png",
@@ -3111,6 +3331,7 @@ return {
 	Diwata = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3132,8 +3353,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Fairy/FlightSword",
 		Introduced = "23.0",
 		Link = "Diwata",
-		MeleeRange = 2.5,
 		MaxRank = 30,
+		MeleeRange = 2.5,
 		Name = "Diwata",
 		Polarities = { "Madurai", "Madurai", "Naramon" },
 		SlideAttack = 429,
@@ -3149,6 +3370,7 @@ return {
 	["Diwata Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3170,8 +3392,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Fairy/PrimeFlightSword",
 		Introduced = "27.3.6",
 		Link = "Diwata",
-		MeleeRange = 2.5,
 		MaxRank = 30,
+		MeleeRange = 2.5,
 		Name = "Diwata Prime",
 		Polarities = { "Madurai", "Madurai", "Naramon" },
 		SlideAttack = 429,
@@ -3184,9 +3406,10 @@ return {
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
-	["Dorrclave"] = {
+	Dorrclave = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -3196,6 +3419,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -3206,9 +3430,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.14
+				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -3219,8 +3444,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.14
-			}
+				StatusChance = 0.14 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Blade and Whip",
@@ -3229,6 +3454,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Dorrclave",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 888,
 		Image = "Dorrclave.png",
@@ -3252,6 +3478,7 @@ return {
 	["Dragon Nikana"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -3261,19 +3488,21 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
-				Damage = { Impact =376 },
+				Damage = { Impact = 376 },
 				Falloff = { EndRange = 6, Reduction = 0.5, StartRange = 0 },
 				FireRate = 1,
 				ForcedProcs = { "Impact" },
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -3284,8 +3513,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -3294,6 +3523,7 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Dragon Nikana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 940,
 		Image = "DragonNikana.png",
@@ -3317,6 +3547,7 @@ return {
 	["Dual Cleavers"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3326,6 +3557,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3336,9 +3568,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3349,8 +3582,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3359,6 +3592,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Dual Cleavers",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 628,
 		Image = "DualCleavers.png",
@@ -3383,6 +3617,7 @@ return {
 	["Dual Ether"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3392,6 +3627,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3402,9 +3638,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3415,8 +3652,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3425,6 +3662,7 @@ return {
 		Conclave = true,
 		Disposition = 1.45,
 		Family = "Dual Ether",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 720,
 		Image = "DualEther.png",
@@ -3447,6 +3685,7 @@ return {
 	["Dual Heat Swords"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3456,6 +3695,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3466,9 +3706,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3479,8 +3720,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3489,6 +3730,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Dual Heat Swords",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 588,
 		Image = "DualHeatSwords.png",
@@ -3513,6 +3755,7 @@ return {
 	["Dual Ichor"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3522,6 +3765,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3532,9 +3776,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3545,8 +3790,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3555,9 +3800,11 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Dual Ichor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 488,
 		Image = "DualIchor.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "DualIchorIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon",
 		Introduced = "10.0",
@@ -3579,6 +3826,7 @@ return {
 	["Dual Kamas"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -3588,6 +3836,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -3598,9 +3847,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -3611,8 +3861,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3621,6 +3871,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Dual Kamas",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 384,
 		Image = "DualKamas.png",
@@ -3643,6 +3894,7 @@ return {
 	["Dual Kamas Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3652,6 +3904,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3662,9 +3915,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -3675,8 +3929,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3685,6 +3939,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Dual Kamas",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 640,
 		Image = "DualKamasPrime.png",
@@ -3709,6 +3964,7 @@ return {
 	["Dual Keres"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.6,
@@ -3718,6 +3974,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.6,
@@ -3728,9 +3985,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.6,
@@ -3741,8 +3999,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3752,6 +4010,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwordsSignatureUpgrade" },
 		Disposition = 1.1,
 		Family = "Dual Keres",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 460,
 		Image = "DualKeres.png",
@@ -3773,6 +4032,7 @@ return {
 	["Dual Keres Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -3782,6 +4042,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -3792,9 +4053,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -3805,8 +4067,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3816,6 +4078,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwordsSignatureUpgrade" },
 		Disposition = 0.8,
 		Family = "Dual Keres",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 720,
 		Image = "DualKeresPrime.png",
@@ -3840,6 +4103,7 @@ return {
 	["Dual Raza"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3849,6 +4113,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3859,9 +4124,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -3872,8 +4138,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3882,6 +4148,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Dual Raza",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 440,
 		Image = "DualRaza.png",
@@ -3905,6 +4172,7 @@ return {
 	["Dual Skana"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3914,6 +4182,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3924,9 +4193,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -3937,8 +4207,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -3947,6 +4217,7 @@ return {
 		Conclave = true,
 		Disposition = 1.48,
 		Family = "Dual Skana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 480,
 		Image = "DualSkana.png",
@@ -3970,15 +4241,17 @@ return {
 	["Dual Viciss"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
-				Damage = { Puncture = 51, Slash = 51, Gas = 153 },
+				Damage = { Gas = 153, Puncture = 51, Slash = 51 },
 				FireRate = 1,
 				IsSilent = true,
 				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
@@ -3989,9 +4262,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.29
+				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
@@ -4002,8 +4276,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.29
-			}
+				StatusChance = 0.29 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -4012,8 +4286,9 @@ return {
 		Conclave = false,
 		Disposition = 0.8,
 		Family = "Dual Viciss",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
-		HeavyAttack = 510 * 2,
+		HeavyAttack = 1020,
 		Image = "DualViciss.png",
 		InternalName = "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon",
 		Introduced = "38.5",
@@ -4035,6 +4310,7 @@ return {
 	["Dual Zoren"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -4044,6 +4320,7 @@ return {
 				StatusChance = 0.05 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -4054,9 +4331,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -4067,8 +4345,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -4077,6 +4355,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Dual Zoren",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 280,
 		Image = "DualZoren.png",
@@ -4100,15 +4379,17 @@ return {
 	["Dual Zoren Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3.2,
 				Damage = { Impact = 7, Puncture = 7, Slash = 126 },
 				FireRate = 1.25,
 				IsSilent = true,
-				StatusChance = 0.22
+				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3.2,
@@ -4119,9 +4400,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3.2,
@@ -4132,8 +4414,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -4142,6 +4424,7 @@ return {
 		Conclave = false,
 		Disposition = 0.9,
 		Family = "Dual Zoren",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 560,
 		Image = "DualZorenPrime.png",
@@ -4152,7 +4435,7 @@ return {
 		MaxRank = 30,
 		MeleeRange = 2.3,
 		Name = "Dual Zoren Prime",
-		Polarities = { "Vazarin", "Naramon",  "Naramon" },
+		Polarities = { "Vazarin", "Naramon", "Naramon" },
 		SellPrice = 5000,
 		SlideAttack = 280,
 		Slot = "Melee",
@@ -4163,18 +4446,19 @@ return {
 		WindUp = 0.7,
 		_TooltipAttackDisplay = 1 
 	},
-	["Edun"] = {
-		_TooltipAttackDisplay = 1,
+	Edun = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Impact = 44, Puncture = 66, Slash = 110 },
 				CritChance = 0.34,
 				CritMultiplier = 2.6,
-				StatusChance = 0.2,
-				FireRate = 1
+				Damage = { Impact = 44, Puncture = 66, Slash = 110 },
+				FireRate = 1,
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Polearm Throw",
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
@@ -4182,11 +4466,14 @@ return {
 				FireRate = 1,
 				ForcedProcs = { "Impact" },
 				IsSilent = true,
+				ShotSpeed = 50,
 				ShotType = "Projectile",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Polearm Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
 				Damage = { Blast = 400 },
@@ -4197,10 +4484,12 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.34,
 				CritMultiplier = 2.6,
 				Damage = { Impact = 440 },
@@ -4210,10 +4499,12 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.34,
 				CritMultiplier = 2.6,
 				Damage = { Blast = 660 },
@@ -4223,16 +4514,17 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
 		ComboDur = 5,
 		CompatibilityTags = { "POLEARMS_STANCE" },
 		Conclave = false,
-		Disposition = 1.1,
+		Disposition = 1.15,
 		Family = "Edun",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 880,
 		HeavySlamAttack = 660,
@@ -4242,7 +4534,7 @@ return {
 		Image = "Edun.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon",
 		Introduced = "33",
-	    Link = "Edun",
+		Link = "Edun",
 		Mastery = 0,
 		MaxRank = 30,
 		MeleeRange = 3,
@@ -4254,24 +4546,26 @@ return {
 		SlamForcedProcs = { "Impact" },
 		SlamRadius = 7,
 		SlideAttack = 440,
-	 	Slot = "Melee",
+		Slot = "Melee",
 		StancePolarity = "Zenurik",
 		SweepRadius = 0.25,
 		Traits = { "Duviri" },
-		WindUp = 0.7
+		WindUp = 0.7,
+		_TooltipAttackDisplay = 1 
 	},
 	Ekhein = {
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Impact = 340 },
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
-				StatusChance = 0.15,
-				FireRate = 0.767
+				Damage = { Impact = 340 },
+				FireRate = 0.767,
+				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -4282,9 +4576,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.15
+				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -4295,22 +4590,23 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.15
-			}
+				StatusChance = 0.15 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
-		CompatibilityTags = { "HAMMERS_STANCE" },
 		ComboDur = 5,
+		CompatibilityTags = { "HAMMERS_STANCE" },
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Ekhein",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 2040,
 		Image = "Ekhein.png",
 		InternalName = "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
 		Introduced = "35",
-	    Link = "Ekhein",
+		Link = "Ekhein",
 		Mastery = 10,
 		MaxRank = 30,
 		MeleeRange = 2.8,
@@ -4318,15 +4614,17 @@ return {
 		Polarities = { "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 680,
-	 	Slot = "Melee",
+		Slot = "Melee",
 		StancePolarity = "Madurai",
 		SweepRadius = 0.2,
 		Traits = { "Entrati" },
-		WindUp = 1.2
+		WindUp = 1.2,
+		_TooltipAttackDisplay = 1 
 	},
 	Endura = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -4336,6 +4634,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -4346,9 +4645,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -4359,8 +4659,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Rapier",
@@ -4369,6 +4669,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Endura",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 900,
 		Image = "Endura.png",
@@ -4392,6 +4693,7 @@ return {
 	["Ether Daggers"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -4401,6 +4703,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -4411,9 +4714,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -4424,8 +4728,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -4434,6 +4738,7 @@ return {
 		Conclave = true,
 		Disposition = 1.49,
 		Family = "Ether Daggers",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 448,
 		Image = "EtherDaggers.png",
@@ -4458,6 +4763,7 @@ return {
 	["Ether Reaper"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -4467,6 +4773,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -4477,9 +4784,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -4490,8 +4798,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -4500,6 +4808,7 @@ return {
 		Conclave = true,
 		Disposition = 1.45,
 		Family = "Ether Reaper",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1080,
 		Image = "EtherReaper.png",
@@ -4524,6 +4833,7 @@ return {
 	["Ether Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -4533,6 +4843,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -4543,9 +4854,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -4556,8 +4868,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -4566,6 +4878,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Ether Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 960,
 		Image = "EtherSword.png",
@@ -4587,6 +4900,7 @@ return {
 	["Exalted Blade"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4598,6 +4912,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4608,9 +4923,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4621,8 +4937,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -4631,13 +4947,14 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Exalted Blade" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1250,
 		Image = "ExaltedBladeWeapon.png",
 		InternalName = "/Lotus/Powersuits/Excalibur/DoomSword",
 		Introduced = "23.0",
 		Link = "Exalted Blade (Weapon)",
-		MeleeRange = 2.8,
 		MaxRank = 30,
+		MeleeRange = 2.8,
 		Name = "Exalted Blade",
 		Polarities = { "Madurai", "Madurai", "Naramon" },
 		SlideAttack = 536,
@@ -4653,6 +4970,7 @@ return {
 	["Exalted Prime Blade"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4664,6 +4982,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4674,9 +4993,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4687,8 +5007,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -4696,13 +5016,14 @@ return {
 		CompatibilityTags = { "POWER_WEAPON" },
 		Conclave = true,
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1250,
 		Image = "ExaltedPrimeBlade.png",
 		InternalName = "/Lotus/Powersuits/Excalibur/DoomSwordPrime",
 		Introduced = "23.0",
 		Link = "Exalted Blade (Weapon)",
-		MeleeRange = 2.8,
 		MaxRank = 30,
+		MeleeRange = 2.8,
 		Name = "Exalted Prime Blade",
 		Polarities = { "Madurai", "Madurai", "Naramon" },
 		SlideAttack = 536,
@@ -4718,6 +5039,7 @@ return {
 	["Exalted Umbra Blade"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4729,6 +5051,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4739,9 +5062,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -4752,8 +5076,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -4761,13 +5085,14 @@ return {
 		CompatibilityTags = { "POWER_WEAPON" },
 		Conclave = true,
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1250,
 		Image = "ExaltedUmbraBlade.png",
 		InternalName = "/Lotus/Powersuits/Excalibur/DoomSwordUmbra",
 		Introduced = "23.0",
 		Link = "Exalted Blade (Weapon)",
-		MeleeRange = 2.8,
 		MaxRank = 30,
+		MeleeRange = 2.8,
 		Name = "Exalted Umbra Blade",
 		Polarities = { "Umbra", "Umbra" },
 		SlideAttack = 536,
@@ -4783,6 +5108,7 @@ return {
 	Falcor = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.6,
@@ -4792,6 +5118,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -4805,6 +5132,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -4817,6 +5145,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -4830,6 +5159,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -4845,6 +5175,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -4858,6 +5189,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -4872,6 +5204,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.6,
@@ -4882,9 +5215,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.34
+				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.6,
@@ -4895,8 +5229,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.34
-			}
+				StatusChance = 0.34 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -4905,6 +5239,7 @@ return {
 		Conclave = false,
 		Disposition = 1.3,
 		Family = "Falcor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Falcor.png",
@@ -4927,6 +5262,7 @@ return {
 	Fang = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -4936,6 +5272,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -4946,9 +5283,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -4959,8 +5297,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -4969,6 +5307,7 @@ return {
 		Conclave = true,
 		Disposition = 1.36,
 		Family = "Fang",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 216,
 		Image = "Fang.png",
@@ -4992,6 +5331,7 @@ return {
 	["Fang Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -5001,6 +5341,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -5011,9 +5352,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -5024,8 +5366,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -5034,6 +5376,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Fang",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 356,
 		Image = "FangPrime.png",
@@ -5058,6 +5401,7 @@ return {
 	Fragor = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5067,6 +5411,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5077,9 +5422,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5090,8 +5436,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -5100,6 +5446,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Fragor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1200,
 		Image = "Fragor.png",
@@ -5123,6 +5470,7 @@ return {
 	["Fragor Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.4,
 				CritMultiplier = 2.5,
@@ -5132,6 +5480,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.4,
 				CritMultiplier = 2.5,
@@ -5142,9 +5491,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.4,
 				CritMultiplier = 2.5,
@@ -5155,8 +5505,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -5165,6 +5515,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "Fragor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1620,
 		Image = "FragorPrime.png",
@@ -5189,6 +5540,7 @@ return {
 	Furax = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -5198,6 +5550,7 @@ return {
 				StatusChance = 0.11 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -5208,9 +5561,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.3,
@@ -5221,8 +5575,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -5231,9 +5585,11 @@ return {
 		Conclave = true,
 		Disposition = 1.38,
 		Family = "Furax",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 675,
 		Image = "Furax.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "FuraxIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
 		Introduced = "Vanilla",
@@ -5255,6 +5611,7 @@ return {
 	["Furax Wraith"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.7,
@@ -5264,6 +5621,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.7,
@@ -5274,9 +5632,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.3,
@@ -5287,8 +5646,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -5297,9 +5656,11 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Furax",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 695,
 		Image = "FuraxWraith.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "FuraxWraithIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith",
 		Introduced = "18.10",
@@ -5320,6 +5681,7 @@ return {
 	["Galariak Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -5329,6 +5691,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -5339,9 +5702,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.32
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -5352,16 +5716,17 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.32
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
 		ComboDur = 5,
 		CompatibilityTags = { "SCYTHE_STANCE" },
 		Conclave = false,
-		Disposition = 0.65,
+		Disposition = 0.8,
 		Family = "Galariak Prime",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1404,
 		Image = "GalariakPrime.png",
@@ -5387,6 +5752,7 @@ return {
 	Galatine = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5396,6 +5762,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5406,9 +5773,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5419,8 +5787,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -5429,6 +5797,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "Galatine",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1092,
 		Image = "Galatine.png",
@@ -5452,6 +5821,7 @@ return {
 	["Galatine Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2,
@@ -5461,6 +5831,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2,
@@ -5471,9 +5842,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2,
@@ -5484,8 +5856,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -5494,6 +5866,7 @@ return {
 		Conclave = true,
 		Disposition = 0.9,
 		Family = "Galatine",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1680,
 		Image = "GalatinePrime.png",
@@ -5518,6 +5891,7 @@ return {
 	Galvacord = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -5527,6 +5901,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -5537,9 +5912,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -5550,8 +5926,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -5560,6 +5936,7 @@ return {
 		Conclave = false,
 		Disposition = 1.35,
 		Family = "Galvacord",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 945,
 		Image = "Galvacord.png",
@@ -5581,6 +5958,7 @@ return {
 	["Garuda Prime Talons"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -5590,6 +5968,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -5600,44 +5979,45 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
 				Damage = { Blast = 840 },
 				Falloff = { EndRange = 7, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Claws",
 		ComboDur = 5,
-		Disposition = 0,
 		CompatibilityTags = { "CLAWS_STANCE_STANCE" },
 		Conclave = false,
+		Disposition = 0,
 		FollowThrough = 0.8,
 		HeavyAttack = 1400,
 		Image = "GarudaPrimeTalons.png",
 		InternalName = "/Lotus/Powersuits/Garuda/GarudaPrimeClaws",
 		Introduced = "31.3",
 		Link = "Garuda Prime Talons",
-		MeleeRange = 2.2,
-		MaxRank = 30,
 		Mastery = 1,
+		MaxRank = 30,
+		MeleeRange = 2.2,
 		Name = "Garuda Prime Talons",
 		Polarities = { "Madurai", "Naramon" },
 		SlideAttack = 840,
 		Slot = "Melee",
 		StancePolarity = "Madurai",
 		SweepRadius = 0.25,
-		Traits = { "Prime" },
+		Traits = { "Tenno", "Prime" },
 		Users = { "Garuda Prime" },
 		WindUp = 0.6,
 		_IgnoreInMasteryCount = true,
@@ -5646,6 +6026,7 @@ return {
 	["Garuda Talons"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5655,6 +6036,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -5665,37 +6047,38 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Blast = 744 },
 				Falloff = { EndRange = 7, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Claws",
 		ComboDur = 5,
-		Disposition = 0,
 		CompatibilityTags = { "CLAWS_STANCE_STANCE" },
 		Conclave = false,
+		Disposition = 0,
 		FollowThrough = 0.8,
 		HeavyAttack = 1240,
 		Image = "GarudaTalons.png",
 		InternalName = "/Lotus/Powersuits/Garuda/GarudaClaws",
 		Introduced = "24.0",
 		Link = "Garuda Talons",
-		MeleeRange = 2.2,
-		MaxRank = 30,
 		Mastery = 1,
+		MaxRank = 30,
+		MeleeRange = 2.2,
 		Name = "Garuda Talons",
 		Polarities = { "Madurai", "Naramon" },
 		SlideAttack = 744,
@@ -5711,6 +6094,7 @@ return {
 	["Gazal Machete"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5720,6 +6104,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5730,9 +6115,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -5743,8 +6129,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -5753,6 +6139,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Gazal Machete",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1068,
 		Image = "GazalMachete.png",
@@ -5776,6 +6163,7 @@ return {
 	Ghoulsaw = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.9,
@@ -5785,6 +6173,7 @@ return {
 				StatusChance = 0.27 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.9,
@@ -5795,9 +6184,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.9,
@@ -5808,8 +6198,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 90,
 		Class = "Assault Saw",
@@ -5818,6 +6208,7 @@ return {
 		Conclave = false,
 		Disposition = 1.25,
 		Family = "Ghoulsaw",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 1,
 		HeavyAttack = 1182,
 		Image = "Ghoulsaw.png",
@@ -5842,6 +6233,7 @@ return {
 	Glaive = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 2,
@@ -5851,6 +6243,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.14,
 				CritMultiplier = 2.1,
@@ -5863,6 +6256,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.14,
 				CritMultiplier = 2.1,
@@ -5875,6 +6269,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.14,
 				CritMultiplier = 2.1,
@@ -5888,6 +6283,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -5903,6 +6299,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -5916,6 +6313,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.16,
@@ -5930,6 +6328,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 2,
@@ -5940,9 +6339,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 2,
@@ -5953,8 +6353,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -5963,6 +6363,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Glaive",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Glaive.png",
@@ -5986,6 +6387,7 @@ return {
 	["Glaive Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -5995,6 +6397,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -6008,6 +6411,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -6021,6 +6425,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -6034,6 +6439,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.26,
@@ -6049,6 +6455,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.26,
@@ -6062,6 +6469,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.26,
@@ -6076,6 +6484,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -6086,9 +6495,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -6099,8 +6509,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -6109,6 +6519,7 @@ return {
 		Conclave = true,
 		Disposition = 0.7,
 		Family = "Glaive",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "GlaivePrime.png",
@@ -6133,6 +6544,7 @@ return {
 	Gram = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -6142,6 +6554,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -6152,9 +6565,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -6165,8 +6579,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -6175,6 +6589,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Gram",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 960,
 		Image = "Gram.png",
@@ -6197,6 +6612,7 @@ return {
 	["Gram Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -6206,6 +6622,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -6216,9 +6633,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -6229,8 +6647,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -6239,6 +6657,7 @@ return {
 		Conclave = true,
 		Disposition = 0.75,
 		Family = "Gram",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1800,
 		Image = "GramPrime.png",
@@ -6263,6 +6682,7 @@ return {
 	Guandao = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -6272,6 +6692,7 @@ return {
 				StatusChance = 0.04 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -6282,9 +6703,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -6295,8 +6717,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -6305,6 +6727,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "Guandao",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1212,
 		Image = "Guandao.png",
@@ -6328,6 +6751,7 @@ return {
 	["Guandao Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -6337,6 +6761,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -6347,9 +6772,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -6360,8 +6786,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -6370,6 +6796,7 @@ return {
 		Conclave = false,
 		Disposition = 0.7,
 		Family = "Guandao",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1440,
 		Image = "GuandaoPrime.png",
@@ -6394,6 +6821,7 @@ return {
 	Gunsen = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -6403,6 +6831,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -6413,9 +6842,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -6426,8 +6856,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.28
-			}
+				StatusChance = 0.28 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -6436,6 +6866,7 @@ return {
 		Conclave = false,
 		Disposition = 1.35,
 		Family = "Gunsen",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 640,
 		Image = "Gunsen.png",
@@ -6459,6 +6890,7 @@ return {
 	["Gunsen Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -6468,6 +6900,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -6478,9 +6911,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -6491,8 +6925,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.34
-			}
+				StatusChance = 0.34 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -6501,6 +6935,7 @@ return {
 		Conclave = false,
 		Disposition = 1,
 		Family = "Gunsen",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 900,
 		Image = "GunsenPrime.png",
@@ -6525,6 +6960,7 @@ return {
 	Halikar = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.17,
 				CritMultiplier = 2,
@@ -6534,6 +6970,7 @@ return {
 				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -6547,6 +6984,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -6559,6 +6997,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -6572,6 +7011,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6587,6 +7027,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6600,6 +7041,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6614,6 +7056,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.17,
 				CritMultiplier = 2,
@@ -6624,9 +7067,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.29
+				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.17,
 				CritMultiplier = 2,
@@ -6637,8 +7081,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.29
-			}
+				StatusChance = 0.29 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -6647,6 +7091,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Halikar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Halikar.png",
@@ -6670,6 +7115,7 @@ return {
 	["Halikar Wraith"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
@@ -6679,6 +7125,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -6692,6 +7139,7 @@ return {
 				StatusChance = 0.39 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -6704,6 +7152,7 @@ return {
 				StatusChance = 0.39 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -6717,6 +7166,7 @@ return {
 				StatusChance = 0.39 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6732,6 +7182,7 @@ return {
 				StatusChance = 0.41 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6745,6 +7196,7 @@ return {
 				StatusChance = 0.41 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -6759,6 +7211,7 @@ return {
 				StatusChance = 0.41 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -6769,9 +7222,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.29
+				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -6782,8 +7236,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.29
-			}
+				StatusChance = 0.29 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -6792,6 +7246,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Halikar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "HalikarWraith.png",
@@ -6802,7 +7257,7 @@ return {
 		MaxRank = 30,
 		MeleeRange = 1.15,
 		Name = "Halikar Wraith",
-		Polarities = { "Madurai", "Naramon",  "Madurai" },
+		Polarities = { "Madurai", "Naramon", "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 450,
 		Slot = "Melee",
@@ -6813,99 +7268,10 @@ return {
 		WindUp = 1.2,
 		_TooltipAttackDisplay = 7 
 	},
-	Hate = {
-		Attacks = {
-			{
-				AttackName = "Normal Attack",
-				CritChance = 0.3,
-				CritMultiplier = 2.5,
-				Damage = { Impact = 34.5, Puncture = 34.5, Slash = 161 },
-				FireRate = 0.917,
-				IsSilent = true,
-				StatusChance = 0.2 
-			},
-			{
-				AttackName = "Spectral Blade",
-				CritChance = 0.3,
-				CritMultiplier = 2.5,
-				Damage = { Impact = 19.5, Puncture = 19.5, Slash = 91 },
-				FireRate = 0.917,
-				IsSilent = true,
-				ShotSpeed = 60,
-				ShotType = "Projectile",
-				StatusChance = 0.2
-			},
-			{
-				AttackName = "Spectral Blade Explosion",
-				CritChance = 0.3,
-				CritMultiplier = 2.5,
-				Damage = { Heat = 130 },
-				EmbedDelay = 0.4,
-				Falloff = { EndRange = 3, Reduction = 0.3, StartRange = 0 },
-				FireRate = 0.917,
-				IsSilent = true,
-				Range = 3,
-				ShotType = "AoE",
-				StatusChance = 0.2
-			},
-			{
-				AttackName = "Slam Attack",
-				CritChance = 0.3,
-				CritMultiplier = 2.5,
-				Damage = { Impact = 460 },
-				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
-				FireRate = 0.917,
-				ForcedProcs = { "Impact" },
-				IsSilent = true,
-				Range = 8,
-				ShotType = "AoE",
-				StatusChance = 0.1
-			},
-			{
-				AttackName = "Heavy Slam Attack",
-				CritChance = 0.3,
-				CritMultiplier = 2.5,
-				Damage = { Blast = 690 },
-				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
-				FireRate = 0.917,
-				ForcedProcs = { "Lifted" },
-				IsSilent = true,
-				Range = 9,
-				ShotType = "AoE",
-				StatusChance = 0.1
-			}
-		},
-		BlockAngle = 60,
-		Class = "Scythe",
-		ComboDur = 5,
-		CompatibilityTags = { "SCYTHES_STANCE" },
-		Conclave = true,
-		Disposition = 1.1,
-		Family = "Hate",
-		FollowThrough = 0.6,
-		HeavyAttack = 1380,
-		Image = "Hate.png",
-		IncarnonImage = "HateIncarnon.png",
-		InternalName = "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon",
-		Introduced = "8.0",
-		Link = "Hate",
-		Mastery = 8,
-		MaxRank = 30,
-		MeleeRange = 2.8,
-		Name = "Hate",
-		SellPrice = 5000,
-		SlideAttack = 460,
-		Slot = "Melee",
-		StancePolarity = "Naramon",
-		SweepRadius = 0.25,
-		Traits = { "Stalker" },
-		Users = { "Stalker" },
-		WindUp = 1,
-		_TooltipAttackDisplay = 1 
-	},
 	Harmony = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -6915,6 +7281,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -6925,9 +7292,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -6938,8 +7306,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -6948,6 +7316,7 @@ return {
 		Conclave = false,
 		Disposition = 0.6,
 		Family = "Harmony",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1440,
 		Image = "Harmony.png",
@@ -6968,9 +7337,110 @@ return {
 		WindUp = 1,
 		_TooltipAttackDisplay = 1 
 	},
+	Hate = {
+		Attacks = {
+			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Impact = 34.5, Puncture = 34.5, Slash = 161 },
+				FireRate = 0.917,
+				IsSilent = true,
+				StatusChance = 0.2 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Spectral Blade",
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Impact = 19.5, Puncture = 19.5, Slash = 91 },
+				FireRate = 0.917,
+				IsSilent = true,
+				ShotSpeed = 60,
+				ShotType = "Projectile",
+				StatusChance = 0.2 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Spectral Blade Explosion",
+				AttackParentIndex = 2,
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Heat = 130 },
+				EmbedDelay = 0.4,
+				Falloff = { EndRange = 3, Reduction = 0.3, StartRange = 0 },
+				FireRate = 0.917,
+				IsSilent = true,
+				Range = 3,
+				ShotType = "AoE",
+				StatusChance = 0.2 
+			},
+			{
+				AttackIndex = 4,
+				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Impact = 460 },
+				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
+				FireRate = 0.917,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 8,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 5,
+				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
+				CritChance = 0.3,
+				CritMultiplier = 2.5,
+				Damage = { Blast = 690 },
+				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
+				FireRate = 0.917,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 9,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 60,
+		Class = "Scythe",
+		ComboDur = 5,
+		CompatibilityTags = { "SCYTHES_STANCE" },
+		Conclave = true,
+		Disposition = 1.1,
+		Family = "Hate",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.6,
+		HeavyAttack = 1380,
+		Image = "Hate.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "HateIncarnon.png",
+		InternalName = "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon",
+		Introduced = "8.0",
+		Link = "Hate",
+		Mastery = 8,
+		MaxRank = 30,
+		MeleeRange = 2.8,
+		Name = "Hate",
+		SellPrice = 5000,
+		SlideAttack = 460,
+		Slot = "Melee",
+		StancePolarity = "Naramon",
+		SweepRadius = 0.25,
+		Traits = { "Stalker" },
+		Users = { "Stalker" },
+		WindUp = 1,
+		_TooltipAttackDisplay = 1 
+	},
 	["Heat Dagger"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.6,
@@ -6980,6 +7450,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.6,
@@ -6990,9 +7461,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.6,
@@ -7003,8 +7475,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -7013,6 +7485,7 @@ return {
 		Conclave = true,
 		Disposition = 1.44,
 		Family = "Heat Dagger",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 416,
 		Image = "HeatDagger.png",
@@ -7037,6 +7510,7 @@ return {
 	["Heat Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -7046,6 +7520,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -7056,9 +7531,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -7069,8 +7545,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.2
-			}
+				StatusChance = 0.2 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -7079,6 +7555,7 @@ return {
 		Conclave = true,
 		Disposition = 1.48,
 		Family = "Heat Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 735,
 		Image = "HeatSword.png",
@@ -7103,6 +7580,7 @@ return {
 	Heliocor = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2,
@@ -7112,6 +7590,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2,
@@ -7122,9 +7601,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2,
@@ -7135,8 +7615,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -7145,6 +7625,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Heliocor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1680,
 		Image = "Heliocor.png",
@@ -7167,6 +7648,7 @@ return {
 	Hespar = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7176,6 +7658,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7186,9 +7669,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7199,16 +7683,17 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 65,
 		Class = "Heavy Scythe",
 		ComboDur = 5,
 		CompatibilityTags = { "HEAVY SCYTHE_STANCE" },
 		Conclave = false,
-		Disposition = 1,
+		Disposition = 1.05,
 		Family = "Hespar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 5040,
 		Image = "Hespar.png",
@@ -7234,6 +7719,7 @@ return {
 	Hirudo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -7243,6 +7729,7 @@ return {
 				StatusChance = 0.11 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -7253,9 +7740,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -7266,8 +7754,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -7279,6 +7767,7 @@ return {
 		},
 		Disposition = 1.15,
 		Family = "Hirudo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 845,
 		Image = "Hirudo.png",
@@ -7302,6 +7791,7 @@ return {
 	Innodem = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -7311,6 +7801,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Dagger Projectile",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -7322,10 +7813,12 @@ return {
 				Range = 21,
 				ShotSpeed = 60,
 				ShotType = "Projectile",
-				StatusChance = 0.22
+				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.22,
 				CritMultiplier = 2,
 				Damage = { Impact = 720 },
@@ -7335,10 +7828,12 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.22,
 				CritMultiplier = 2,
 				Damage = { Blast = 1080 },
@@ -7348,8 +7843,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dagger",
@@ -7362,6 +7857,7 @@ return {
 		},
 		Disposition = 0.65,
 		Family = "Innodem",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 720,
 		Image = "Innodem.png",
@@ -7385,6 +7881,7 @@ return {
 	["Iron Staff"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7394,6 +7891,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7404,9 +7902,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7417,8 +7916,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 65,
 		Class = "Exalted Weapon",
@@ -7427,15 +7926,16 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Primal Fury" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1500,
 		Image = "IronStaff.png",
 		InternalName = "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff",
 		Introduced = "23.0",
 		Link = "Iron Staff",
-		MeleeRange = 3.5,
 		MaxRank = 30,
+		MeleeRange = 3.5,
 		Name = "Iron Staff",
-		Polarities = { "Madurai", "Naramon",  "Naramon" },
+		Polarities = { "Madurai", "Naramon", "Naramon" },
 		SlideAttack = 300,
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
@@ -7449,6 +7949,7 @@ return {
 	["Iron Staff Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7458,6 +7959,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7468,9 +7970,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -7481,8 +7984,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 65,
 		Class = "Exalted Weapon",
@@ -7491,15 +7994,16 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Primal Fury" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1500,
 		Image = "IronStaffPrime.png",
 		InternalName = "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff",
 		Introduced = "25.3",
 		Link = "Iron Staff",
-		MeleeRange = 3.5,
 		MaxRank = 30,
+		MeleeRange = 3.5,
 		Name = "Iron Staff Prime",
-		Polarities = { "Madurai", "Naramon",  "Naramon" },
+		Polarities = { "Madurai", "Naramon", "Naramon" },
 		SlideAttack = 300,
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
@@ -7513,6 +8017,7 @@ return {
 	["Jat Kittag"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -7522,6 +8027,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -7532,9 +8038,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 1
+				StatusChance = 1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -7545,8 +8052,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 1
-			}
+				StatusChance = 1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -7555,6 +8062,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Jat Kittag",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1200,
 		Image = "JatKittag.png",
@@ -7579,6 +8087,7 @@ return {
 	["Jat Kusar"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -7588,6 +8097,7 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -7598,9 +8108,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.19
+				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -7611,8 +8122,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.19
-			}
+				StatusChance = 0.19 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Blade and Whip",
@@ -7621,6 +8132,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Jat Kusar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 872,
 		Image = "JatKusar.png",
@@ -7644,6 +8156,7 @@ return {
 	["Jaw Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -7653,6 +8166,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -7663,9 +8177,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -7676,8 +8191,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -7686,6 +8201,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Jaw Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 600,
 		Image = "JawSword.png",
@@ -7709,6 +8225,7 @@ return {
 	Kama = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -7718,6 +8235,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -7728,9 +8246,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -7741,8 +8260,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -7751,6 +8270,7 @@ return {
 		Conclave = true,
 		Disposition = 1.47,
 		Family = "Kama",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 540,
 		Image = "Kama.png",
@@ -7774,6 +8294,7 @@ return {
 	Karyst = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -7783,6 +8304,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -7793,9 +8315,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -7806,8 +8329,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.26
-			}
+				StatusChance = 0.26 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -7816,6 +8339,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Karyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 546,
 		Image = "Karyst.png",
@@ -7840,6 +8364,7 @@ return {
 	["Karyst Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7849,6 +8374,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7859,9 +8385,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -7872,8 +8399,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.26
-			}
+				StatusChance = 0.26 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dagger",
@@ -7882,6 +8409,7 @@ return {
 		Conclave = false,
 		Disposition = 1.15,
 		Family = "Karyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 688,
 		Image = "KarystPrime.png",
@@ -7906,6 +8434,7 @@ return {
 	Keratinos = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -7915,6 +8444,7 @@ return {
 				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -7925,9 +8455,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -7938,8 +8469,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Claws",
@@ -7948,6 +8479,7 @@ return {
 		Conclave = false,
 		Disposition = 1.05,
 		Family = "Keratinos",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 1708,
 		Image = "Keratinos.png",
@@ -7971,6 +8503,7 @@ return {
 	Kesheg = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -7980,6 +8513,7 @@ return {
 				StatusChance = 0.23 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -7993,6 +8527,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.5,
@@ -8004,7 +8539,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -8013,6 +8548,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Kesheg",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1446,
 		Image = "Kesheg.png",
@@ -8037,6 +8573,7 @@ return {
 	Kestrel = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -8046,6 +8583,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.12,
 				CritMultiplier = 2.1,
@@ -8059,6 +8597,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.12,
 				CritMultiplier = 2.1,
@@ -8071,6 +8610,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.12,
 				CritMultiplier = 2.1,
@@ -8084,6 +8624,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.14,
@@ -8099,6 +8640,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.14,
@@ -8112,6 +8654,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.14,
@@ -8126,6 +8669,7 @@ return {
 				StatusChance = 0.14 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -8136,9 +8680,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -8149,8 +8694,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -8159,6 +8704,7 @@ return {
 		Conclave = true,
 		Disposition = 1.45,
 		Family = "Kestrel",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Kestrel.png",
@@ -8182,6 +8728,7 @@ return {
 	["Kestrel Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -8191,6 +8738,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.22,
 				CritMultiplier = 2.1,
@@ -8204,6 +8752,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.22,
 				CritMultiplier = 2.1,
@@ -8216,6 +8765,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.12,
 				CritMultiplier = 2.1,
@@ -8229,6 +8779,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -8244,6 +8795,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -8257,6 +8809,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.24,
@@ -8271,6 +8824,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -8281,9 +8835,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.4
+				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -8294,16 +8849,17 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.4
-			}
+				StatusChance = 0.4 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
 		ComboDur = 5,
 		CompatibilityTags = { "GLAIVES_STANCE" },
 		Conclave = true,
-		Disposition = 0.5,
+		Disposition = 0.75,
 		Family = "Kestrel",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "KestrelPrime.png",
@@ -8320,6 +8876,7 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Naramon",
 		SweepRadius = 0.25,
+		Tradable = 2,
 		Traits = { "Tenno", "Prime" },
 		WindUp = 1.2,
 		_TooltipAttackDisplay = 7 
@@ -8327,6 +8884,7 @@ return {
 	Kogake = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -8336,6 +8894,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -8346,9 +8905,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -8359,8 +8919,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -8369,6 +8929,7 @@ return {
 		Conclave = true,
 		Disposition = 1.46,
 		Family = "Kogake",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 1440,
 		Image = "Kogake.png",
@@ -8391,6 +8952,7 @@ return {
 	["Kogake Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -8400,6 +8962,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -8410,9 +8973,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 1.8,
@@ -8423,8 +8987,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -8433,6 +8997,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Kogake",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 2904,
 		Image = "KogakePrime.png",
@@ -8457,6 +9022,7 @@ return {
 	Korrudo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.5,
@@ -8466,6 +9032,7 @@ return {
 				StatusChance = 0.09 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.5,
@@ -8476,9 +9043,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.5,
@@ -8489,8 +9057,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -8499,6 +9067,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Korrudo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 2065,
 		Image = "Korrudo.png",
@@ -8521,6 +9090,7 @@ return {
 	Korumm = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -8530,6 +9100,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Tactical Combo Slam Attack",
 				CritChance = 0,
 				CritMultiplier = 1,
@@ -8543,6 +9114,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -8556,6 +9128,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -8567,7 +9140,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -8577,6 +9150,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Korumm",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1560,
 		Image = "Korumm.png",
@@ -8601,6 +9175,7 @@ return {
 	Kreska = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -8610,6 +9185,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -8620,9 +9196,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.22
+				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -8633,8 +9210,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -8643,6 +9220,7 @@ return {
 		Conclave = false,
 		Disposition = 1.35,
 		Family = "Kreska",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1140,
 		Image = "Kreska.png",
@@ -8667,6 +9245,7 @@ return {
 	Krohkur = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.29,
 				CritMultiplier = 2.3,
@@ -8676,6 +9255,7 @@ return {
 				StatusChance = 0.19 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.29,
 				CritMultiplier = 2.3,
@@ -8686,9 +9266,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.29,
 				CritMultiplier = 2.3,
@@ -8699,8 +9280,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -8709,6 +9290,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Krohkur",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1085,
 		Image = "Krohkur.png",
@@ -8731,6 +9313,7 @@ return {
 	Kronen = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -8740,6 +9323,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -8753,6 +9337,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -8764,7 +9349,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -8773,6 +9358,7 @@ return {
 		Conclave = true,
 		Disposition = 1.43,
 		Family = "Kronen",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 520,
 		Image = "Kronen.png",
@@ -8795,6 +9381,7 @@ return {
 	["Kronen Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -8804,6 +9391,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -8817,6 +9405,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -8828,15 +9417,16 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
 		ComboDur = 5,
 		CompatibilityTags = { "TONFA_STANCE" },
 		Conclave = true,
-		Disposition = 0.65,
+		Disposition = 0.7,
 		Family = "Kronen",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 848,
 		Image = "KronenPrime.png",
@@ -8861,6 +9451,7 @@ return {
 	["Kuva Ghoulsaw"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.1,
@@ -8870,6 +9461,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.1,
@@ -8880,9 +9472,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2.1,
@@ -8893,19 +9486,20 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 90,
 		Class = "Assault Saw",
 		ComboDur = 5,
 		CompatibilityTags = { "BLADESAW_STANCE" },
 		Conclave = false,
-		Disposition = 0.5,
+		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
+		Disposition = 0.7,
 		Family = "Ghoulsaw",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 1,
 		HeavyAttack = 1266,
-		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Image = "KuvaGhoulsaw.png",
 		InternalName = "/Lotus/Weapons/Grineer/Melee/GrnGhoulSaw/GrnKuvaGhoulSawPlayer",
 		Introduced = "42",
@@ -8929,6 +9523,7 @@ return {
 	["Kuva Shildeg"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.7,
@@ -8938,6 +9533,7 @@ return {
 				StatusChance = 0.27 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.7,
@@ -8948,9 +9544,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.7,
@@ -8961,8 +9558,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -8972,6 +9569,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 0.8,
 		Family = "Kuva Shildeg",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1230,
 		Image = "KuvaShildeg.png",
@@ -8998,6 +9596,7 @@ return {
 	Lacera = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -9007,6 +9606,7 @@ return {
 				StatusChance = 0.45 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -9017,9 +9617,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.45
+				StatusChance = 0.45 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -9030,8 +9631,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.45
-			}
+				StatusChance = 0.45 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Blade and Whip",
@@ -9040,6 +9641,7 @@ return {
 		Conclave = true,
 		Disposition = 1.31,
 		Family = "Lacera",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 864,
 		Image = "Lacera.png",
@@ -9062,10 +9664,9 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	["Landslide Fists"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -9078,10 +9679,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Landslide" },
 		Family = "Landslide Fists",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 450,
 		HeavySlamAttack = 300,
@@ -9090,8 +9698,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Brawler/AtlasPunchWeapon",
 		Introduced = "38.5",
 		Link = "Landslide Fists",
-		MeleeRange = 4,
 		MaxRank = 30,
+		MeleeRange = 4,
 		Name = "Landslide Fists",
 		Polarities = { "Madurai", "Madurai" },
 		SlamAttack = 300,
@@ -9102,13 +9710,14 @@ return {
 		SweepRadius = 0.25,
 		Traits = { "Tenno" },
 		Users = { "Atlas" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	["Landslide Fists Prime"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2,
@@ -9121,10 +9730,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Landslide" },
 		Family = "Landslide Fists",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 450,
 		HeavySlamAttack = 300,
@@ -9133,8 +9749,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime",
 		Introduced = "38.5",
 		Link = "Landslide Fists",
-		MeleeRange = 4,
 		MaxRank = 30,
+		MeleeRange = 4,
 		Name = "Landslide Fists Prime",
 		Polarities = { "Madurai", "Madurai" },
 		SlamAttack = 300,
@@ -9143,13 +9759,16 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
 		SweepRadius = 0.25,
-		Traits = { "Tenno" },
+		Traits = { "Tenno", "Prime" },
 		Users = { "Atlas Prime" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	Lecta = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -9159,6 +9778,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -9169,9 +9789,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -9182,8 +9803,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -9192,6 +9813,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Lecta",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 455,
 		Image = "Lecta.png",
@@ -9215,6 +9837,7 @@ return {
 	Lesion = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -9224,6 +9847,7 @@ return {
 				StatusChance = 0.37 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -9237,6 +9861,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -9248,7 +9873,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -9258,6 +9883,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoProcMeleeMod" },
 		Disposition = 0.85,
 		Family = "Lesion",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1422,
 		HeavySlamAttack = 711,
@@ -9286,140 +9912,10 @@ return {
 		WindUp = 0.9,
 		_TooltipAttackDisplay = 1 
 	},
-	["Mk1-Bo"] = {
-		Attacks = {
-			{
-				AttackName = "Normal Attack",
-				CritChance = 0.1,
-				CritMultiplier = 2,
-				Damage = { Impact = 81, Puncture = 9 },
-				FireRate = 1,
-				IsSilent = true,
-				StatusChance = 0.1 
-			},
-			{
-				AttackName = "Slam Attack",
-				CritChance = 0.1,
-				CritMultiplier = 2,
-				Damage = { Impact = 180 },
-				Falloff = { EndRange = 6, Reduction = 0.5, StartRange = 0 },
-				FireRate = 1,
-				ForcedProcs = { "Impact" },
-				IsSilent = true,
-				Range = 6,
-				ShotType = "AoE",
-				StatusChance = 0.1 
-			},
-			{
-				AttackName = "Heavy Slam Attack",
-				CritChance = 0.1,
-				CritMultiplier = 2,
-				Damage = { Blast = 270 },
-				Falloff = { EndRange = 7, Reduction = 0.3, StartRange = 0 },
-				FireRate = 1,
-				ForcedProcs = { "Lifted" },
-				IsSilent = true,
-				Range = 7,
-				ShotType = "AoE",
-				StatusChance = 0.1 
-			}
-		},
-		BlockAngle = 60,
-		Class = "Staff",
-		ComboDur = 5,
-		CompatibilityTags = { "STAVES_STANCE" },
-		Conclave = true,
-		Disposition = 1.4,
-		Family = "Bo",
-		FollowThrough = 0.5,
-		HeavyAttack = 450,
-		Image = "MK1-Bo.png",
-		IncarnonImage = "BoIncarnon.png",
-		InternalName = "/Lotus/Weapons/MK1Series/MK1Bo",
-		Introduced = "14.0",
-		Link = "Mk1-Bo",
-		Mastery = 0,
-		MaxRank = 30,
-		MeleeRange = 3,
-		Name = "Mk1-Bo",
-		Polarities = { "Vazarin" },
-		SellPrice = 2500,
-		SlideAttack = 90,
-		Slot = "Melee",
-		StancePolarity = "Unairu",
-		SweepRadius = 0.25,
-		Traits = { "Tenno" },
-		WindUp = 0.5,
-		_TooltipAttackDisplay = 1 
-	},
-	["Mk1-Furax"] = {
-		Attacks = {
-			{
-				AttackName = "Normal Attack",
-				CritChance = 0.2,
-				CritMultiplier = 2,
-				Damage = { Impact = 63, Puncture = 13.5, Slash = 13.5 },
-				FireRate = 1,
-				IsSilent = true,
-				StatusChance = 0.1 
-			},
-			{
-				AttackName = "Slam Attack",
-				CritChance = 0.2,
-				CritMultiplier = 2,
-				Damage = { Impact = 180 },
-				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
-				FireRate = 1,
-				ForcedProcs = { "Impact" },
-				IsSilent = true,
-				Range = 8,
-				ShotType = "AoE",
-				StatusChance = 0.1
-			},
-			{
-				AttackName = "Heavy Slam Attack",
-				CritChance = 0.2,
-				CritMultiplier = 2,
-				Damage = { Blast = 270 },
-				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
-				FireRate = 1,
-				ForcedProcs = { "Lifted" },
-				IsSilent = true,
-				Range = 9,
-				ShotType = "AoE",
-				StatusChance = 0.1
-			}
-		},
-		BlockAngle = 50,
-		Class = "Fist",
-		ComboDur = 5,
-		CompatibilityTags = { "FIST_STANCE" },
-		Conclave = true,
-		Disposition = 1.45,
-		Family = "Furax",
-		FollowThrough = 0.9,
-		HeavyAttack = 450,
-		Image = "MK1-Furax.png",
-		IncarnonImage = "FuraxIncarnon.png",
-		InternalName = "/Lotus/Weapons/MK1Series/MK1Furax",
-		Introduced = "14.0",
-		Link = "Mk1-Furax",
-		Mastery = 0,
-		MaxRank = 30,
-		MeleeRange = 1.25,
-		Name = "Mk1-Furax",
-		SellPrice = 2500,
-		SlideAttack = 270,
-		Slot = "Melee",
-		StancePolarity = "Vazarin",
-		SweepRadius = 0.25,
-		Traits = { "Grineer" },
-		WindUp = 0.6,
-		_TooltipAttackDisplay = 1 
-	},
 	Machete = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9429,6 +9925,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9439,9 +9936,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9452,8 +9950,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -9462,6 +9960,7 @@ return {
 		Conclave = true,
 		Disposition = 1.45,
 		Family = "Machete",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 720,
 		Image = "Machete.png",
@@ -9485,6 +9984,7 @@ return {
 	["Machete Wraith"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -9494,6 +9994,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -9504,9 +10005,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -9517,8 +10019,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -9528,6 +10030,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Machete",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1268,
 		Image = "MacheteWraith.png",
@@ -9552,6 +10055,7 @@ return {
 	Magistar = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -9561,6 +10065,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -9571,9 +10076,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -9584,8 +10090,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -9594,9 +10100,11 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Magistar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1260,
 		Image = "Magistar.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "MagistarIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
 		Introduced = "11.5",
@@ -9617,6 +10125,7 @@ return {
 	Masseter = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -9626,6 +10135,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -9636,9 +10146,10 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -9649,8 +10160,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -9660,6 +10171,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/GrendelInnateUpgrade" },
 		Disposition = 1.25,
 		Family = "Masseter",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1446,
 		Image = "Masseter.png",
@@ -9682,15 +10194,17 @@ return {
 	["Masseter Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
 				Damage = { Impact = 145.6, Slash = 114.4 },
 				FireRate = 1.083,
 				IsSilent = true,
-				StatusChance = 0.36	 
+				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -9701,9 +10215,10 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -9714,8 +10229,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -9725,6 +10240,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/GrendelInnateUpgrade" },
 		Disposition = 1,
 		Family = "Masseter",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1560,
 		Image = "MasseterPrime.png",
@@ -9749,6 +10265,7 @@ return {
 	Mios = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2,
@@ -9758,6 +10275,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2,
@@ -9768,9 +10286,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2,
@@ -9781,8 +10300,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Blade and Whip",
@@ -9791,6 +10310,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Mios",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 708,
 		Image = "Mios.png",
@@ -9814,6 +10334,7 @@ return {
 	Mire = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.09,
 				CritMultiplier = 1.5,
@@ -9823,6 +10344,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.09,
 				CritMultiplier = 1.5,
@@ -9836,6 +10358,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.09,
 				CritMultiplier = 1.5,
@@ -9846,8 +10369,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.31
-			}
+				StatusChance = 0.31 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -9856,6 +10379,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Mire",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 790,
 		Image = "Mire.png",
@@ -9875,9 +10399,151 @@ return {
 		WindUp = 0.6,
 		_TooltipAttackDisplay = 1 
 	},
+	["Mk1-Bo"] = {
+		Attacks = {
+			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.1,
+				CritMultiplier = 2,
+				Damage = { Impact = 81, Puncture = 9 },
+				FireRate = 1,
+				IsSilent = true,
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Slam Attack",
+				CritChance = 0.1,
+				CritMultiplier = 2,
+				Damage = { Impact = 180 },
+				Falloff = { EndRange = 6, Reduction = 0.5, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 6,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Heavy Slam Attack",
+				CritChance = 0.1,
+				CritMultiplier = 2,
+				Damage = { Blast = 270 },
+				Falloff = { EndRange = 7, Reduction = 0.3, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 7,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 60,
+		Class = "Staff",
+		ComboDur = 5,
+		CompatibilityTags = { "STAVES_STANCE" },
+		Conclave = true,
+		Disposition = 1.4,
+		Family = "Bo",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.5,
+		HeavyAttack = 450,
+		Image = "MK1-Bo.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "BoIncarnon.png",
+		InternalName = "/Lotus/Weapons/MK1Series/MK1Bo",
+		Introduced = "14.0",
+		Link = "Mk1-Bo",
+		Mastery = 0,
+		MaxRank = 30,
+		MeleeRange = 3,
+		Name = "Mk1-Bo",
+		Polarities = { "Vazarin" },
+		SellPrice = 2500,
+		SlideAttack = 90,
+		Slot = "Melee",
+		StancePolarity = "Unairu",
+		SweepRadius = 0.25,
+		Traits = { "Tenno" },
+		WindUp = 0.5,
+		_TooltipAttackDisplay = 1 
+	},
+	["Mk1-Furax"] = {
+		Attacks = {
+			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.2,
+				CritMultiplier = 2,
+				Damage = { Impact = 63, Puncture = 13.5, Slash = 13.5 },
+				FireRate = 1,
+				IsSilent = true,
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Slam Attack",
+				CritChance = 0.2,
+				CritMultiplier = 2,
+				Damage = { Impact = 180 },
+				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 8,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Heavy Slam Attack",
+				CritChance = 0.2,
+				CritMultiplier = 2,
+				Damage = { Blast = 270 },
+				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 9,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 50,
+		Class = "Fist",
+		ComboDur = 5,
+		CompatibilityTags = { "FIST_STANCE" },
+		Conclave = true,
+		Disposition = 1.45,
+		Family = "Furax",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.9,
+		HeavyAttack = 450,
+		Image = "MK1-Furax.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "FuraxIncarnon.png",
+		InternalName = "/Lotus/Weapons/MK1Series/MK1Furax",
+		Introduced = "14.0",
+		Link = "Mk1-Furax",
+		Mastery = 0,
+		MaxRank = 30,
+		MeleeRange = 1.25,
+		Name = "Mk1-Furax",
+		SellPrice = 2500,
+		SlideAttack = 270,
+		Slot = "Melee",
+		StancePolarity = "Vazarin",
+		SweepRadius = 0.25,
+		Traits = { "Grineer" },
+		WindUp = 0.6,
+		_TooltipAttackDisplay = 1 
+	},
 	["Nami Skyla"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9887,6 +10553,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9897,9 +10564,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.5,
@@ -9910,8 +10578,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -9920,6 +10588,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Nami Skyla",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 500,
 		Image = "NamiSkyla.png",
@@ -9942,6 +10611,7 @@ return {
 	["Nami Skyla Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -9951,6 +10621,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -9961,9 +10632,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.2,
@@ -9974,8 +10646,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -9984,6 +10656,7 @@ return {
 		Conclave = true,
 		Disposition = 1,
 		Family = "Nami Skyla",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 720,
 		Image = "NamiSkylaPrime.png",
@@ -10008,6 +10681,7 @@ return {
 	["Nami Solo"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10017,6 +10691,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10027,9 +10702,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10040,8 +10716,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -10050,9 +10726,11 @@ return {
 		Conclave = true,
 		Disposition = 1.43,
 		Family = "Nami Solo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1032,
 		Image = "NamiSolo.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "NamiSoloIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass",
 		Introduced = "13.5",
@@ -10074,6 +10752,7 @@ return {
 	Nepheri = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -10083,6 +10762,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Fireballs",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -10095,6 +10775,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -10105,9 +10786,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.3,
@@ -10118,8 +10800,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -10129,6 +10811,7 @@ return {
 		Conclave = false,
 		Disposition = 1,
 		Family = "Nepheri",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 522,
 		Image = "Nepheri.png",
@@ -10141,7 +10824,7 @@ return {
 		Name = "Nepheri",
 		Polarities = { "Madurai" },
 		SellPrice = 5000,
-			SlideAttack = 522,
+		SlideAttack = 522,
 		Slot = "Melee",
 		StancePolarity = "Vazarin",
 		SweepRadius = 0.35,
@@ -10153,6 +10836,7 @@ return {
 	Nikana = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -10162,6 +10846,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -10172,9 +10857,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -10186,7 +10872,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -10195,6 +10881,7 @@ return {
 		Conclave = true,
 		Disposition = 0.95,
 		Family = "Nikana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 710,
 		Image = "Nikana.png",
@@ -10218,6 +10905,7 @@ return {
 	["Nikana Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -10227,6 +10915,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -10237,9 +10926,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.4,
@@ -10251,7 +10941,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -10260,6 +10950,7 @@ return {
 		Conclave = true,
 		Disposition = 0.6,
 		Family = "Nikana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 990,
 		Image = "NikanaPrime.png",
@@ -10284,6 +10975,7 @@ return {
 	Ninkondi = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -10293,6 +10985,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -10303,9 +10996,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.35
+				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -10316,8 +11010,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.35
-			}
+				StatusChance = 0.35 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nunchaku",
@@ -10326,6 +11020,7 @@ return {
 		Conclave = true,
 		Disposition = 1.41,
 		Family = "Ninkondi",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 950,
 		Image = "Ninkondi.png",
@@ -10348,6 +11043,7 @@ return {
 	["Ninkondi Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -10357,6 +11053,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -10367,9 +11064,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.36
+				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -10380,8 +11078,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.36
-			}
+				StatusChance = 0.36 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nunchaku",
@@ -10390,6 +11088,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Ninkondi",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 1170,
 		Image = "NinkondiPrime.png",
@@ -10414,6 +11113,7 @@ return {
 	Obex = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -10423,6 +11123,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -10433,9 +11134,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -10446,8 +11148,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -10456,9 +11158,12 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Obex",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 1440,
 		Image = "Obex.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "ObexIncarnon.png",
 		InternalName = "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon",
 		Introduced = "10.7",
 		Link = "Obex",
@@ -10479,6 +11184,7 @@ return {
 	Ohma = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10488,6 +11194,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10498,9 +11205,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -10511,8 +11219,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -10521,6 +11229,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Ohma",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 896,
 		Image = "Ohma.png",
@@ -10545,6 +11254,7 @@ return {
 	Okina = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -10554,18 +11264,21 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Spectral Dagger",
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Impact = 21, Puncture = 49, Slash = 70 },
 				FireRate = 1.08,
 				IsSilent = true,
-				StatusChance = 0.2,
 				ShotSpeed = 18,
-				ShotType = "Projectile"
+				ShotType = "Projectile",
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Spectral Dagger Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Cold = 140 },
@@ -10575,10 +11288,12 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Impact = 280 },
@@ -10588,10 +11303,12 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Blast = 420 },
@@ -10601,8 +11318,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -10611,10 +11328,12 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Okina",
-		IncarnonImage = "OkinaIncarnon.png",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 280,
 		Image = "Okina.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "OkinaIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais",
 		Introduced = "Specters of the Rail 0.0",
 		Link = "Okina",
@@ -10635,6 +11354,7 @@ return {
 	["Okina Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
@@ -10644,18 +11364,21 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Spectral Dagger",
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
 				Damage = { Impact = 27.6, Puncture = 64.4, Slash = 92 },
 				FireRate = 1.17,
 				IsSilent = true,
-				StatusChance = 0.24,
 				ShotSpeed = 18,
-				ShotType = "Projectile"
+				ShotType = "Projectile",
+				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Spectral Dagger Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
 				Damage = { Cold = 184 },
@@ -10665,10 +11388,12 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.24
+				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
 				Damage = { Impact = 368 },
@@ -10678,10 +11403,12 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.6,
 				Damage = { Blast = 552 },
@@ -10691,8 +11418,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Dual Daggers",
@@ -10701,10 +11428,12 @@ return {
 		Conclave = true,
 		Disposition = 0.7,
 		Family = "Okina",
-		IncarnonImage = "OkinaPrimeIncarnon.png",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 368,
 		Image = "OkinaPrime.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "OkinaPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
 		Introduced = "35.5.9",
 		Link = "Okina Prime",
@@ -10726,6 +11455,7 @@ return {
 	Orthos = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -10735,6 +11465,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -10748,6 +11479,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.06,
 				CritMultiplier = 1.5,
@@ -10759,7 +11491,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -10768,6 +11500,7 @@ return {
 		Conclave = true,
 		Disposition = 1,
 		Family = "Orthos",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1110,
 		Image = "Orthos.png",
@@ -10790,6 +11523,7 @@ return {
 	["Orthos Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -10799,6 +11533,7 @@ return {
 				StatusChance = 0.36 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -10812,6 +11547,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -10823,7 +11559,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -10832,6 +11568,7 @@ return {
 		Conclave = true,
 		Disposition = 0.7,
 		Family = "Orthos",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1404,
 		Image = "OrthosPrime.png",
@@ -10855,6 +11592,7 @@ return {
 	Orvius = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -10864,6 +11602,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -10876,6 +11615,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -10888,6 +11628,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -10901,6 +11642,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -10915,6 +11657,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -10928,6 +11671,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -10942,6 +11686,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Hover Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.2,
@@ -10952,6 +11697,7 @@ return {
 				StatusChance = 0.6 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -10962,9 +11708,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 10,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -10975,8 +11722,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -10985,6 +11732,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Orvius",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Orvius.png",
@@ -10995,7 +11743,7 @@ return {
 		MaxRank = 30,
 		MeleeRange = 1.3,
 		Name = "Orvius",
-		Polarities = { "Naramon",  "Madurai" },
+		Polarities = { "Naramon", "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 390,
 		Slot = "Melee",
@@ -11009,6 +11757,7 @@ return {
 	["Pangolin Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -11018,6 +11767,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -11028,9 +11778,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -11041,8 +11792,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sword",
@@ -11051,6 +11802,7 @@ return {
 		Conclave = false,
 		Disposition = 1.05,
 		Family = "Pangolin Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1240,
 		Image = "PangolinPrime.png",
@@ -11075,6 +11827,7 @@ return {
 	["Pangolin Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -11084,6 +11837,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -11094,9 +11848,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -11107,8 +11862,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -11117,6 +11872,7 @@ return {
 		Conclave = true,
 		Disposition = 1.47,
 		Family = "Pangolin Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 750,
 		Image = "PangolinSword.png",
@@ -11140,6 +11896,7 @@ return {
 	Paracesis = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.6,
@@ -11149,6 +11906,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.6,
@@ -11159,9 +11917,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.12
+				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.31,
 				CritMultiplier = 2.6,
@@ -11172,8 +11931,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -11181,8 +11940,9 @@ return {
 		ComboDur = 5,
 		CompatibilityTags = { "HEAVY_BLADE_STANCE" },
 		Conclave = true,
-		Disposition = 0.6,
+		Disposition = 0.65,
 		Family = "Paracesis",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1332,
 		Image = "Paracesis.png",
@@ -11205,6 +11965,7 @@ return {
 	Pathocyst = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2.1,
@@ -11214,6 +11975,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
@@ -11226,6 +11988,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
@@ -11238,6 +12001,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.17,
 				CritMultiplier = 2.3,
@@ -11251,6 +12015,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -11264,6 +12029,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -11277,6 +12043,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.21,
@@ -11291,6 +12058,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2.1,
@@ -11301,9 +12069,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2.1,
@@ -11315,7 +12084,7 @@ return {
 				Range = 6,
 				ShotType = "AoE",
 				StatusChance = 0.3 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -11324,6 +12093,7 @@ return {
 		Conclave = false,
 		Disposition = 1.3,
 		Family = "Pathocyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		Image = "Pathocyst.png",
@@ -11349,6 +12119,7 @@ return {
 	Pennant = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -11358,6 +12129,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -11368,9 +12140,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
@@ -11381,8 +12154,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Two-Handed Nikana",
@@ -11394,6 +12167,7 @@ return {
 		},
 		Disposition = 0.95,
 		Family = "Pennant",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1200,
 		Image = "Pennant.png",
@@ -11418,6 +12192,7 @@ return {
 	["Plasma Sword"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -11427,6 +12202,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -11437,9 +12213,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -11450,8 +12227,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -11460,6 +12237,7 @@ return {
 		Conclave = true,
 		Disposition = 1.48,
 		Family = "Plasma Sword",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1000,
 		Image = "PlasmaSword.png",
@@ -11482,6 +12260,7 @@ return {
 	Praedos = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -11491,6 +12270,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -11504,6 +12284,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -11515,7 +12296,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -11528,6 +12309,7 @@ return {
 		},
 		Disposition = 0.6,
 		Family = "Praedos",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 800,
 		Image = "Praedos.png",
@@ -11549,9 +12331,83 @@ return {
 		WindUp = 0.7,
 		_TooltipAttackDisplay = 1 
 	},
+	Pride = {
+		Attacks = {
+			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Puncture = 125, Slash = 125 },
+				FireRate = 1.2,
+				IsSilent = true,
+				StatusChance = 0.35 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Slam Attack",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Impact = 500 },
+				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 8,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Heavy Slam Attack",
+				CritChance = 0.15,
+				CritMultiplier = 2,
+				Damage = { Blast = 750 },
+				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 9,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 65,
+		Class = "Heavy Scythe",
+		ComboDur = 5,
+		CompatibilityTags = { "HEAVY SCYTHE_STANCE" },
+		Conclave = false,
+		DefaultUpgrades = {
+			"/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusInnateBuff" 
+		},
+		Disposition = 0.5,
+		Family = "Pride",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.4,
+		HeavyAttack = 4500,
+		Image = "Pride.png",
+		InternalName = "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon",
+		Introduced = "43",
+		Link = "Pride",
+		Mastery = 14,
+		MaxRank = 30,
+		MeleeRange = 2.8,
+		Name = "Pride",
+		Polarities = { "Madurai" },
+		SellPrice = 5000,
+		SlideAttack = 500,
+		Slot = "Melee",
+		StancePolarity = "Madurai",
+		SweepRadius = 0.25,
+		Tradable = 0,
+		Traits = { "Tenno" },
+		WindUp = 1,
+		_TooltipAttackDisplay = 1 
+	},
 	["Prisma Dual Cleavers"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -11561,6 +12417,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -11571,9 +12428,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 3,
@@ -11584,8 +12442,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -11594,6 +12452,7 @@ return {
 		Conclave = true,
 		Disposition = 1.1,
 		Family = "Dual Cleavers",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 532,
 		Image = "PrismaDualCleavers.png",
@@ -11618,6 +12477,7 @@ return {
 	["Prisma Machete"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.9,
@@ -11627,6 +12487,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.9,
@@ -11637,9 +12498,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.9,
@@ -11650,8 +12512,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -11660,6 +12522,7 @@ return {
 		Conclave = false,
 		Disposition = 1.45,
 		Family = "Machete",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 756,
 		Image = "PrismaMachete.png",
@@ -11682,16 +12545,17 @@ return {
 	["Prisma Obex"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
 				Damage = { Impact = 105, Puncture = 22.5, Slash = 22.5 },
 				FireRate = 1.33,
 				IsSilent = true,
-				Range = 6,
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -11702,9 +12566,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -11715,8 +12580,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sparring",
@@ -11725,9 +12590,12 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Obex",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 1800,
 		Image = "PrismaObex.png",
+		IncarnonDuration = 180,
+		IncarnonImage = "ObexIncarnon.png",
 		InternalName = "/Lotus/Weapons/Corpus/Melee/KickAndPunch/PrismaObex",
 		Introduced = "20.4.2",
 		Link = "Prisma Obex",
@@ -11748,6 +12616,7 @@ return {
 	["Prisma Ohma"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -11757,6 +12626,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -11767,9 +12637,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -11780,16 +12651,17 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
 		ComboDur = 5,
 		CompatibilityTags = { "TONFA_STANCE" },
 		Conclave = false,
-		Disposition = 0.9,
+		Disposition = 0.95,
 		Family = "Ohma",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1000,
 		Image = "PrismaOhma.png",
@@ -11814,6 +12686,7 @@ return {
 	["Prisma Skana"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -11823,6 +12696,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -11833,9 +12707,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -11846,8 +12721,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -11856,9 +12731,11 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Skana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 850,
 		Image = "PrismaSkana.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "PrismaSkanaIncarnon.png",
 		InternalName = "/Lotus/Weapons/VoidTrader/PrismaSkana",
 		Introduced = "16.6.2",
@@ -11880,6 +12757,7 @@ return {
 	Prova = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -11889,6 +12767,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -11899,9 +12778,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.16
+				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -11912,8 +12792,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.16
-			}
+				StatusChance = 0.16 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -11922,6 +12802,7 @@ return {
 		Conclave = true,
 		Disposition = 1.4,
 		Family = "Prova",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 768,
 		Image = "Prova.png",
@@ -11945,6 +12826,7 @@ return {
 	["Prova Vandal"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -11954,6 +12836,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -11964,21 +12847,22 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
 				Damage = { Blast = 594 },
 				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -11987,6 +12871,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Prova",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1188,
 		Image = "ProvaVandal.png",
@@ -12010,6 +12895,7 @@ return {
 	Pulmonars = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
@@ -12019,6 +12905,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
@@ -12029,9 +12916,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.5
+				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.3,
@@ -12042,8 +12930,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.5
-			}
+				StatusChance = 0.5 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nunchaku",
@@ -12052,6 +12940,7 @@ return {
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Pulmonars",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 1450,
 		Image = "Pulmonars.png",
@@ -12075,6 +12964,7 @@ return {
 	Pupacyst = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -12084,6 +12974,7 @@ return {
 				StatusChance = 0.27 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -12097,6 +12988,7 @@ return {
 				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -12107,8 +12999,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.37
-			}
+				StatusChance = 0.37 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -12117,6 +13009,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Pupacyst",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1704,
 		Image = "Pupacyst.png",
@@ -12140,6 +13033,7 @@ return {
 	Quassus = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -12149,6 +13043,7 @@ return {
 				StatusChance = 0.12 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "First Heavy Attack - Ethereal Daggers",
 				ChargeTime = 0.49,
 				CritChance = 0.3,
@@ -12166,6 +13061,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Second Heavy Attack - Ethereal Daggers",
 				ChargeTime = 0.49,
 				CritChance = 0.3,
@@ -12183,7 +13079,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.3,
 				CritMultiplier = 2,
 				Damage = { Impact = 460 },
@@ -12193,10 +13091,12 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.3,
 				CritMultiplier = 2,
 				Damage = { Blast = 690 },
@@ -12206,8 +13106,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.28
-			}
+				StatusChance = 0.28 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -12219,6 +13119,7 @@ return {
 		},
 		Disposition = 1.15,
 		Family = "Quassus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 920,
 		Image = "Quassus.png",
@@ -12242,6 +13143,7 @@ return {
 	["Quassus Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -12251,6 +13153,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "First Heavy Attack - Ethereal Daggers",
 				ChargeTime = 0.49,
 				CritChance = 0.35,
@@ -12268,6 +13171,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Second Heavy Attack - Ethereal Daggers",
 				ChargeTime = 0.49,
 				CritChance = 0.35,
@@ -12285,7 +13189,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
 				Damage = { Impact = 520 },
@@ -12295,10 +13201,12 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
 				Damage = { Blast = 780 },
@@ -12308,8 +13216,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.34
-			}
+				StatusChance = 0.34 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -12319,8 +13227,9 @@ return {
 		DefaultUpgrades = {
 			"/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanInnateMod" 
 		},
-		Disposition = 0.85,
+		Disposition = 0.9,
 		Family = "Quassus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1040,
 		Image = "QuassusPrime.png",
@@ -12345,6 +13254,7 @@ return {
 	["Rakta Dark Dagger"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -12354,6 +13264,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -12367,6 +13278,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.12,
 				CritMultiplier = 1.8,
@@ -12377,8 +13289,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -12388,6 +13300,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDaggerInnateUpgrade" },
 		Disposition = 1,
 		Family = "Dark Dagger",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 492,
 		Image = "RaktaDarkDagger.png",
@@ -12412,6 +13325,7 @@ return {
 	["Reaper Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -12421,6 +13335,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -12431,9 +13346,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.35,
 				CritMultiplier = 2.5,
@@ -12444,8 +13360,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
@@ -12454,6 +13370,7 @@ return {
 		Conclave = true,
 		Disposition = 0.8,
 		Family = "Reaper Prime",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1200,
 		Image = "ReaperPrime.png",
@@ -12477,6 +13394,7 @@ return {
 	Redeemer = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -12488,6 +13406,7 @@ return {
 			},
 			{
 				Accuracy = 6.7,
+				AttackIndex = 2,
 				AttackName = "Ranged Attack",
 				ChargeTime = 0.39,
 				CritChance = 0.1,
@@ -12507,6 +13426,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -12517,9 +13437,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 1.8,
@@ -12530,8 +13451,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Gunblade",
@@ -12540,6 +13461,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "Redeemer",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 900,
 		Image = "Redeemer.png",
@@ -12563,6 +13485,7 @@ return {
 	["Redeemer Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -12574,6 +13497,7 @@ return {
 			},
 			{
 				Accuracy = 6.7,
+				AttackIndex = 2,
 				AttackName = "Ranged Attack",
 				ChargeTime = 0.39,
 				CritChance = 0.24,
@@ -12593,6 +13517,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -12603,9 +13528,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.28
+				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.2,
@@ -12616,8 +13542,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Gunblade",
@@ -12626,6 +13552,7 @@ return {
 		Conclave = false,
 		Disposition = 0.65,
 		Family = "Redeemer",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 3200,
 		Image = "RedeemerPrime.png",
@@ -12650,6 +13577,7 @@ return {
 	Ripkas = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -12659,6 +13587,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -12669,9 +13598,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -12682,8 +13612,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Claws",
@@ -12692,6 +13622,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Ripkas",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 865,
 		Image = "Ripkas.png",
@@ -12716,6 +13647,7 @@ return {
 	Rumblejack = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.8,
@@ -12725,6 +13657,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -12735,9 +13668,10 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.4
+				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 1.8,
@@ -12748,8 +13682,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.4
-			}
+				StatusChance = 0.4 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -12758,6 +13692,7 @@ return {
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Rumblejack",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 600,
 		Image = "Rumblejack.png",
@@ -12781,6 +13716,7 @@ return {
 	Ruvox = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -12791,6 +13727,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -12801,9 +13738,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.2,
@@ -12814,18 +13752,19 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
-		ComboDur = 5,
 		CodexSecret = false,
+		ComboDur = 5,
 		CompatibilityTags = { "FIST_STANCE" },
 		Conclave = false,
 		Disposition = 0.9,
 		ExilusPolarity = "Madurai",
 		Family = "Ruvox",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 850,
 		Image = "Ruvox.png",
@@ -12842,22 +13781,23 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Vazarin",
 		SweepRadius = 0.25,
-		Traits = { "Incarnon" },
+		Traits = { "Incarnon", "Entrati" },
 		WindUp = 0.6,
 		_TooltipAttackDisplay = 1 
 	},
-	["Sampotes"] = {
-		_TooltipAttackDisplay = 1,
+	Sampotes = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Impact = 173.6, Puncture = 37.2, Slash = 37.2 },
 				CritChance = 0.3,
 				CritMultiplier = 3,
-				StatusChance = 0.28,
-				FireRate = 0.833
+				Damage = { Impact = 173.6, Puncture = 37.2, Slash = 37.2 },
+				FireRate = 0.833,
+				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -12868,9 +13808,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -12881,8 +13822,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -12891,12 +13832,13 @@ return {
 		Conclave = false,
 		Disposition = 1,
 		Family = "Sampotes",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1488,
 		Image = "Sampotes.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon",
 		Introduced = "33",
-	    Link = "Sampotes",
+		Link = "Sampotes",
 		Mastery = 0,
 		MaxRank = 30,
 		MeleeRange = 2.5,
@@ -12904,15 +13846,17 @@ return {
 		Polarities = { "Madurai", "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 496,
-	 	Slot = "Melee",
+		Slot = "Melee",
 		StancePolarity = "Madurai",
 		SweepRadius = 0.25,
 		Traits = { "Duviri" },
-		WindUp = 1.4
+		WindUp = 1.4,
+		_TooltipAttackDisplay = 1 
 	},
 	["Sancti Magistar"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -12922,6 +13866,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -12932,9 +13877,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -12945,8 +13891,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -12956,9 +13902,11 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistarLifeStrikeAOEMod" },
 		Disposition = 1.25,
 		Family = "Magistar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1440,
 		Image = "SanctiMagistar.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "MagistarIncarnon.png",
 		InternalName = "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar",
 		Introduced = "Update: The Silver Grove 2.0",
@@ -12978,9 +13926,10 @@ return {
 		WindUp = 1.2,
 		_TooltipAttackDisplay = 1 
 	},
-	["Sarofang"] = {
+	Sarofang = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -12990,6 +13939,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13000,9 +13950,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13013,8 +13964,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -13023,6 +13974,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Sarofang",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1200,
 		Image = "Sarofang.png",
@@ -13042,11 +13994,12 @@ return {
 		Tradable = 2,
 		Traits = { "Tenno" },
 		WindUp = 1.1,
-		_TooltipAttackDisplay = 1
+		_TooltipAttackDisplay = 1 
 	},
 	["Sarofang Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -13056,6 +14009,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -13066,9 +14020,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 3,
@@ -13079,16 +14034,17 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
 		ComboDur = 5,
 		CompatibilityTags = { "HEAVY_BLADE_STANCE" },
 		Conclave = false,
-		Disposition = 0.5,
+		Disposition = 0.65,
 		Family = "Sarofang",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1320,
 		Image = "SarofangPrime.png",
@@ -13108,11 +14064,12 @@ return {
 		Tradable = 2,
 		Traits = { "Tenno" },
 		WindUp = 1.1,
-		_TooltipAttackDisplay = 1
+		_TooltipAttackDisplay = 1 
 	},
 	Sarpa = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -13123,6 +14080,7 @@ return {
 			},
 			{
 				Accuracy = 100,
+				AttackIndex = 2,
 				AttackName = "Ranged Attack",
 				BurstCount = 5,
 				BurstDelay = 0.05,
@@ -13141,6 +14099,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -13151,9 +14110,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.14,
 				CritMultiplier = 2,
@@ -13164,8 +14124,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Gunblade",
@@ -13174,6 +14134,7 @@ return {
 		Conclave = false,
 		Disposition = 1.2,
 		Family = "Sarpa",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 2100,
 		Image = "Sarpa.png",
@@ -13197,6 +14158,7 @@ return {
 	Scindo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13206,6 +14168,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13216,9 +14179,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13229,8 +14193,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -13239,6 +14203,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Scindo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1200,
 		Image = "Scindo.png",
@@ -13261,6 +14226,7 @@ return {
 	["Scindo Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -13270,6 +14236,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -13280,9 +14247,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.4,
@@ -13293,8 +14261,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -13303,6 +14271,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Scindo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1500,
 		Image = "ScindoPrime.png",
@@ -13327,6 +14296,7 @@ return {
 	Scoliac = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -13336,6 +14306,7 @@ return {
 				StatusChance = 0.29 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -13346,9 +14317,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 1.5,
@@ -13359,8 +14331,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -13369,6 +14341,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Scoliac",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 675,
 		Image = "Scoliac.png",
@@ -13392,6 +14365,7 @@ return {
 	["Secura Lecta"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13401,6 +14375,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13411,9 +14386,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 1.5,
@@ -13424,8 +14400,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -13434,6 +14410,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Lecta",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 792,
 		Image = "SecuraLecta.png",
@@ -13458,6 +14435,7 @@ return {
 	Serro = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -13467,6 +14445,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -13480,6 +14459,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.08,
 				CritMultiplier = 1.5,
@@ -13491,7 +14471,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -13500,6 +14480,7 @@ return {
 		Conclave = true,
 		Disposition = 1.38,
 		Family = "Serro",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1404,
 		Image = "Serro.png",
@@ -13523,6 +14504,7 @@ return {
 	["Shadow Claws"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13532,6 +14514,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13542,9 +14525,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13555,8 +14539,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -13565,13 +14549,14 @@ return {
 		Conclave = false,
 		DefaultUpgrades = { "Ravenous Wraith" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 2000,
 		Image = "ShadowClaws.png",
 		InternalName = "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon",
 		Introduced = "30",
 		Link = "Shadow Claws",
-		MeleeRange = 1.5,
 		MaxRank = 30,
+		MeleeRange = 1.5,
 		Name = "Shadow Claws",
 		SlideAttack = 500,
 		Slot = "Melee",
@@ -13586,6 +14571,7 @@ return {
 	["Shadow Claws Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13595,6 +14581,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13605,9 +14592,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.6,
@@ -13618,8 +14606,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -13628,13 +14616,14 @@ return {
 		Conclave = false,
 		DefaultUpgrades = { "Ravenous Wraith" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1000,
 		Image = "ShadowClawsPrime.png",
 		InternalName = "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon",
 		Introduced = "30",
 		Link = "Shadow Claws",
-		MeleeRange = 1.5,
 		MaxRank = 30,
+		MeleeRange = 1.5,
 		Name = "Shadow Claws Prime",
 		Polarities = { "Madurai", "Madurai", "Madurai" },
 		SlideAttack = 500,
@@ -13648,10 +14637,9 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	["Shadow Clones"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.2,
@@ -13668,6 +14656,7 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Blade Storm" },
 		Family = "Shadow Clones",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 3375,
 		HeavySlamAttack = 2250,
@@ -13676,8 +14665,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Ninja/NinjaStormWeapon",
 		Introduced = "38.5",
 		Link = "Shadow Clones",
-		MeleeRange = 50,
 		MaxRank = 30,
+		MeleeRange = 50,
 		Name = "Shadow Clones",
 		Polarities = { "Madurai", "Madurai" },
 		SlamAttack = 2250,
@@ -13688,13 +14677,14 @@ return {
 		SweepRadius = 0.25,
 		Traits = { "Tenno" },
 		Users = { "Ash" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	["Shadow Clones Prime"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.2,
@@ -13711,6 +14701,7 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Blade Storm" },
 		Family = "Shadow Clones",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 3375,
 		HeavySlamAttack = 2250,
@@ -13719,8 +14710,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime",
 		Introduced = "38.5",
 		Link = "Shadow Clones",
-		MeleeRange = 50,
 		MaxRank = 30,
+		MeleeRange = 50,
 		Name = "Shadow Clones Prime",
 		Polarities = { "Madurai", "Madurai" },
 		SlamAttack = 2250,
@@ -13729,13 +14720,16 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
 		SweepRadius = 0.25,
-		Traits = { "Tenno" },
+		Traits = { "Tenno", "Prime" },
 		Users = { "Ash Prime" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	Shaku = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -13745,6 +14739,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -13755,9 +14750,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.35
+				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 2,
@@ -13768,8 +14764,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.35
-			}
+				StatusChance = 0.35 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nunchaku",
@@ -13778,6 +14774,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Shaku",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 900,
 		Image = "Shaku.png",
@@ -13799,10 +14796,9 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	["Shattered Lash"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Damage",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13813,6 +14809,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Arcing Damage",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13825,10 +14822,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Shattered Lash" },
 		Family = "Shattered Lash",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 2250,
 		HeavySlamAttack = 1500,
@@ -13837,8 +14841,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Glass/GaraShankWeapon",
 		Introduced = "38.5",
 		Link = "Shattered Lash (Weapon)",
-		MeleeRange = 12,
 		MaxRank = 30,
+		MeleeRange = 12,
 		Name = "Shattered Lash",
 		Polarities = { "Naramon", "Madurai" },
 		SlamAttack = 1500,
@@ -13849,13 +14853,14 @@ return {
 		SweepRadius = 0.25,
 		Traits = { "Tenno" },
 		Users = { "Gara" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	["Shattered Lash Prime"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Damage",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13866,6 +14871,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Arcing Damage",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -13878,10 +14884,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Shattered Lash" },
 		Family = "Shattered Lash",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 2250,
 		HeavySlamAttack = 1500,
@@ -13890,8 +14903,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Glass/GaraShankWeaponPrime",
 		Introduced = "38.5",
 		Link = "Shattered Lash (Weapon)",
-		MeleeRange = 12,
 		MaxRank = 30,
+		MeleeRange = 12,
 		Name = "Shattered Lash Prime",
 		Polarities = { "Naramon", "Madurai" },
 		SlamAttack = 1500,
@@ -13900,13 +14913,16 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
 		SweepRadius = 0.25,
-		Traits = { "Tenno" },
+		Traits = { "Tenno", "Prime" },
 		Users = { "Gara Prime" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	Sheev = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -13916,6 +14932,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -13926,9 +14943,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.25
+				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.13,
 				CritMultiplier = 2.1,
@@ -13939,8 +14957,8 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.25
-			}
+				StatusChance = 0.25 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Dagger",
@@ -13950,6 +14968,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Sheev",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 540,
 		Image = "Sheev.png",
@@ -13975,6 +14994,7 @@ return {
 	Sibear = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -13984,6 +15004,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -13994,9 +15015,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -14007,8 +15029,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -14017,9 +15039,11 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Sibear",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1620,
 		Image = "Sibear.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "SibearIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer",
 		Introduced = "18.8",
@@ -14042,6 +15066,7 @@ return {
 	["Sigma & Octantis"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -14051,6 +15076,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Shield Throw",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -14064,6 +15090,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Shield Throw Explosion",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -14073,9 +15100,10 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.16
+				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -14086,9 +15114,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -14100,7 +15129,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -14109,6 +15138,7 @@ return {
 		Conclave = true,
 		Disposition = 1.1,
 		Family = "Sigma & Octantis",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 870,
 		Image = "Sigma&Octantis.png",
@@ -14130,6 +15160,7 @@ return {
 	["Silva & Aegis"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14139,6 +15170,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14149,9 +15181,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14163,7 +15196,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -14172,6 +15205,7 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Silva & Aegis",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 490,
 		Image = "Silva&Aegis.png",
@@ -14194,6 +15228,7 @@ return {
 	["Silva & Aegis Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -14203,6 +15238,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -14213,9 +15249,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.35
+				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -14227,7 +15264,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -14236,6 +15273,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "Silva & Aegis",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1590,
 		Image = "Silva&AegisPrime.png",
@@ -14261,6 +15299,7 @@ return {
 	Skana = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14270,6 +15309,7 @@ return {
 				StatusChance = 0.16 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14280,9 +15320,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 1.5,
@@ -14293,8 +15334,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Sword",
@@ -14303,9 +15344,11 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Skana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 600,
 		Image = "Skana.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "SkanaIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword",
 		Introduced = "Vanilla",
@@ -14326,6 +15369,7 @@ return {
 	["Skana Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -14335,6 +15379,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -14345,9 +15390,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -14358,8 +15404,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Sword",
@@ -14369,9 +15415,11 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Skana",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1050,
 		Image = "SkanaPrime.png",
+		IncarnonDuration = 180,
 		IncarnonImage = "SkanaPrimeIncarnon.png",
 		InternalName = "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime",
 		Introduced = "5.0",
@@ -14393,6 +15441,7 @@ return {
 	Skiajati = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -14402,6 +15451,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -14412,9 +15462,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -14426,7 +15477,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -14437,6 +15488,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraAbilityCastUpgrade" },
 		Disposition = 0.9,
 		Family = "Skiajati",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 875,
 		Image = "Skiajati.png",
@@ -14459,6 +15511,7 @@ return {
 	Slaytra = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14468,6 +15521,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14478,9 +15532,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14491,8 +15546,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Machete",
@@ -14502,6 +15557,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaInnateUpgrade" },
 		Disposition = 1.05,
 		Family = "Slaytra",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1998,
 		Image = "Slaytra.png",
@@ -14525,44 +15581,52 @@ return {
 	Spinnerex = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2.4,
 				Damage = { Toxin = 168 },
 				FireRate = 1.36,
 				IsSilent = true,
-				StatusChance = 0.40 
+				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2.4,
 				Damage = { Toxin = 168 },
+				Falloff = { EndRange = 5, Reduction = 0.5, StartRange = 0 },
 				FireRate = 1.36,
 				ForcedProcs = { "Impact" },
 				IsSilent = true,
+				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2.4,
 				Damage = { Toxin = 504 },
+				Falloff = { EndRange = 6, Reduction = 0.3, StartRange = 0 },
 				FireRate = 1.36,
 				ForcedProcs = { "Lifted" },
 				IsSilent = true,
+				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Whip",
 		ComboDur = 5,
 		CompatibilityTags = { "WHIPS_STANCE" },
 		Conclave = true,
-		Disposition = 0.6,
+		Disposition = 0.75,
 		Family = "Spinnerex",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 756,
 		Image = "Spinnerex.png",
@@ -14585,6 +15649,7 @@ return {
 	Stropha = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -14595,6 +15660,7 @@ return {
 			},
 			{
 				Accuracy = 100,
+				AttackIndex = 2,
 				AttackName = "Ranged Attack",
 				ChargeTime = 0.39,
 				CritChance = 0.3,
@@ -14610,7 +15676,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 440 },
@@ -14620,10 +15688,12 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
 				Damage = { Blast = 660 },
@@ -14633,8 +15703,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Gunblade",
@@ -14643,6 +15713,7 @@ return {
 		Conclave = false,
 		Disposition = 0.65,
 		Family = "Stropha",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 2800,
 		Image = "Stropha.png",
@@ -14667,14 +15738,16 @@ return {
 	["Sun & Moon"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 38, Puncture = 45.6, Slash = 106.4 },
 				FireRate = 1,
-				StatusChance = 0.22
+				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -14685,9 +15758,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -14698,8 +15772,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Nikanas",
@@ -14708,6 +15782,7 @@ return {
 		Conclave = false,
 		Disposition = 0.8,
 		Family = "Sun & Moon",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1140,
 		Image = "Sun&Moon.png",
@@ -14727,19 +15802,21 @@ return {
 		Traits = { "Dax" },
 		Users = { "Teshin" },
 		WindUp = 1,
-		_TooltipAttackDisplay = 1
+		_TooltipAttackDisplay = 1 
 	},
-	["Syam"] = {
+	Syam = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Impact = 54, Puncture = 108, Slash = 108 },
 				CritChance = 0.22,
 				CritMultiplier = 2,
+				Damage = { Impact = 54, Puncture = 108, Slash = 108 },
 				FireRate = 1,
-				StatusChance = 0.34
+				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "First Shockwave",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -14748,9 +15825,10 @@ return {
 				ForcedProcs = { "Impact" },
 				IsSilent = true,
 				ShotType = "Projectile",
-				StatusChance = 0.34
+				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Second Shockwave",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -14758,10 +15836,12 @@ return {
 				FireRate = 1,
 				IsSilent = true,
 				ShotType = "Projectile",
-				StatusChance = 0.34
+				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.22,
 				CritMultiplier = 2,
 				Damage = { Impact = 540 },
@@ -14771,10 +15851,12 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 3,
 				CritChance = 0.2,
 				CritMultiplier = 2,
 				Damage = { Blast = 810 },
@@ -14785,7 +15867,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Nikana",
@@ -14794,6 +15876,7 @@ return {
 		Conclave = false,
 		Disposition = 0.75,
 		Family = "Syam",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1350,
 		Image = "Syam.png",
@@ -14812,11 +15895,12 @@ return {
 		SweepRadius = 0.25,
 		Traits = { "Duviri" },
 		WindUp = 0.5,
-		_TooltipAttackDisplay = 1
+		_TooltipAttackDisplay = 1 
 	},
 	Sydon = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -14826,6 +15910,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -14839,6 +15924,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -14850,7 +15936,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -14859,6 +15945,7 @@ return {
 		Conclave = true,
 		Disposition = 1.35,
 		Family = "Sydon",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1350,
 		Image = "Sydon.png",
@@ -14882,6 +15969,7 @@ return {
 	["Synoid Heliocor"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -14891,6 +15979,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -14901,9 +15990,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -14914,8 +16004,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -14925,6 +16015,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CreateSpectreOnKill" },
 		Disposition = 1.35,
 		Family = "Heliocor",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1680,
 		Image = "SynoidHeliocor.png",
@@ -14943,8 +16034,8 @@ return {
 		Tradable = 1,
 		Traits = { "Syndicate", "Cephalon Suda" },
 		UniqueTrait = {
-			Name = "Suda Specter",
-			Description = "Fatal strikes with this weapon perform a Codex Scan. Enemies killed by Heavy Attacks are recomposed as spectral allies for 30 seconds if their Codex entry is completed"
+			Description = "Fatal strikes with this weapon perform a Codex Scan. Enemies killed by Heavy Attacks are recomposed as spectral allies for 30 seconds if their Codex entry is completed",
+			Name = "Suda Specter" 
 		},
 		WindUp = 1.2,
 		_TooltipAttackDisplay = 1 
@@ -14952,6 +16043,7 @@ return {
 	["Tak & Lug"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14961,6 +16053,7 @@ return {
 				StatusChance = 0.31 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14971,9 +16064,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 1.9,
@@ -14985,7 +16079,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 70,
 		Class = "Sword and Shield",
@@ -14993,8 +16087,9 @@ return {
 		ComboDur = 5,
 		CompatibilityTags = { "SWORDS_AND_SHIELD_STANCE" },
 		Conclave = false,
-		Disposition = 0.5,
+		Disposition = 0.95,
 		Family = "Tak & Lug",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 2364,
 		Image = "Tak&Lug.png",
@@ -15018,6 +16113,7 @@ return {
 	Tatsu = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.16,
 				CritMultiplier = 2,
@@ -15027,6 +16123,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Soul Swarm Projectile",
 				CritChance = 0.11,
 				CritMultiplier = 1.9,
@@ -15034,11 +16131,14 @@ return {
 				FireRate = 1,
 				ForcedProcs = { "Stun" },
 				IsSilent = true,
+				ShotSpeed = 20,
 				ShotType = "Projectile",
 				StatusChance = 0.23 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Impact = 428 },
@@ -15048,10 +16148,12 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.16,
 				CritMultiplier = 2,
 				Damage = { Blast = 642 },
@@ -15061,8 +16163,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Two-Handed Nikana",
@@ -15074,6 +16176,7 @@ return {
 		},
 		Disposition = 1.05,
 		Family = "Tatsu",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1284,
 		Image = "Tatsu.png",
@@ -15097,6 +16200,7 @@ return {
 	["Tatsu Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
@@ -15106,6 +16210,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Soul Swarm Projectile",
 				CritChance = 0.11,
 				CritMultiplier = 1.9,
@@ -15113,11 +16218,14 @@ return {
 				FireRate = 1.17,
 				ForcedProcs = { "Stun" },
 				IsSilent = true,
+				ShotSpeed = 20,
 				ShotType = "Projectile",
 				StatusChance = 0.23 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
 				Damage = { Impact = 460 },
@@ -15127,10 +16235,12 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.22,
 				CritMultiplier = 2.4,
 				Damage = { Blast = 690 },
@@ -15140,8 +16250,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Two-Handed Nikana",
@@ -15153,6 +16263,7 @@ return {
 		},
 		Disposition = 0.9,
 		Family = "Tatsu",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1380,
 		Image = "TatsuPrime.png",
@@ -15177,6 +16288,7 @@ return {
 	Tekko = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -15186,6 +16298,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -15196,9 +16309,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2,
@@ -15209,8 +16323,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -15222,6 +16336,7 @@ return {
 		},
 		Disposition = 1.4,
 		Family = "Tekko",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 800,
 		Image = "Tekko.png",
@@ -15245,6 +16360,7 @@ return {
 	["Tekko Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -15254,6 +16370,7 @@ return {
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -15264,9 +16381,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.4,
@@ -15277,8 +16395,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Fist",
@@ -15288,6 +16406,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/PrimeTekko/TekkoPrimeInnateUpgrade" },
 		Disposition = 1.3,
 		Family = "Tekko",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.9,
 		HeavyAttack = 900,
 		Image = "TekkoPrime.png",
@@ -15312,6 +16431,7 @@ return {
 	["Telos Boltace"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15321,6 +16441,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Stormpath Slide Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15331,6 +16452,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15344,6 +16466,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15355,7 +16478,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -15365,6 +16488,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Melee/AHBoltaceMobilizeMod" },
 		Disposition = 1.1,
 		Family = "Boltace",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 840,
 		Image = "TelosBoltace.png",
@@ -15389,6 +16513,7 @@ return {
 	["Tenet Agendus"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2,
@@ -15398,6 +16523,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Energy Disk",
 				ChargeTime = 0.995,
 				CritChance = 0.24,
@@ -15413,7 +16539,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.24,
 				CritMultiplier = 2,
 				Damage = { Electricity = 520 },
@@ -15423,10 +16551,12 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.24,
 				CritMultiplier = 2,
 				Damage = { Electricity = 780 },
@@ -15436,8 +16566,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 90,
 		Class = "Sword and Shield",
@@ -15447,6 +16577,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 0.9,
 		Family = "Tenet Agendus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1040,
 		Image = "TenetAgendus.png",
@@ -15471,6 +16602,7 @@ return {
 	["Tenet Exec"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.4,
@@ -15480,6 +16612,7 @@ return {
 				StatusChance = 0.22 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.4,
@@ -15490,9 +16623,10 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.38,
 				CritMultiplier = 2.4,
@@ -15503,8 +16637,8 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0
-			}
+				StatusChance = 0 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -15514,6 +16648,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 0.8,
 		Family = "Tenet Exec",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1140,
 		Image = "TenetExec.png",
@@ -15538,6 +16673,7 @@ return {
 	["Tenet Grigori"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 1.6,
@@ -15547,6 +16683,7 @@ return {
 				StatusChance = 0.38 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Energy Disk",
 				ChargeTime = 1,
 				CritChance = 0.24,
@@ -15561,7 +16698,9 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.24,
 				CritMultiplier = 1.6,
 				Damage = { Impact = 456 },
@@ -15574,7 +16713,9 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.24,
 				CritMultiplier = 1.6,
 				Damage = { Blast = 684 },
@@ -15585,7 +16726,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 90,
 		Class = "Scythe",
@@ -15595,6 +16736,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 0.95,
 		Family = "Tenet Grigori",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1368,
 		Image = "TenetGrigori.png",
@@ -15619,6 +16761,7 @@ return {
 	["Tenet Livia"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -15628,6 +16771,7 @@ return {
 				StatusChance = 0.28 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -15638,9 +16782,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.28,
 				CritMultiplier = 2.2,
@@ -15651,8 +16796,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Two-Handed Nikana",
@@ -15665,6 +16810,7 @@ return {
 		},
 		Disposition = 0.95,
 		Family = "Tenet Livia",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 1188,
 		Image = "TenetLivia.png",
@@ -15689,6 +16835,7 @@ return {
 	Thalys = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -15698,6 +16845,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -15711,6 +16859,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.2,
@@ -15722,18 +16871,17 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 65,
 		Class = "Heavy Scythe",
 		ComboDur = 5,
 		CompatibilityTags = { "HEAVY SCYTHE_STANCE" },
 		Conclave = false,
-		DefaultUpgrades = {
-			
-		},
+		DefaultUpgrades = {  },
 		Disposition = 0.6,
 		Family = "Thalys",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 800,
 		Image = "Thalys.png",
@@ -15758,6 +16906,7 @@ return {
 	Tipedo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15767,6 +16916,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15780,6 +16930,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2,
@@ -15791,7 +16942,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -15800,6 +16951,7 @@ return {
 		Conclave = true,
 		Disposition = 1.31,
 		Family = "Tipedo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 620,
 		Image = "Tipedo.png",
@@ -15824,6 +16976,7 @@ return {
 	["Tipedo Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.4,
@@ -15833,6 +16986,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.4,
@@ -15846,6 +17000,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.24,
 				CritMultiplier = 2.4,
@@ -15857,7 +17012,7 @@ return {
 				Range = 7,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Staff",
@@ -15866,6 +17021,7 @@ return {
 		Conclave = true,
 		Disposition = 1.25,
 		Family = "Tipedo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 850,
 		Image = "TipedoPrime.png",
@@ -15890,6 +17046,7 @@ return {
 	Tonbo = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -15899,6 +17056,7 @@ return {
 				StatusChance = 0.25 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -15912,6 +17070,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -15923,7 +17082,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -15932,6 +17091,7 @@ return {
 		Conclave = true,
 		Disposition = 1.38,
 		Family = "Tonbo",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1104,
 		Image = "Tonbo.png",
@@ -15955,6 +17115,7 @@ return {
 	Tonkkatt = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
@@ -15964,6 +17125,7 @@ return {
 				StatusChance = 0.21 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
@@ -15977,6 +17139,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.1,
@@ -15988,7 +17151,7 @@ return {
 				Range = 9,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Tonfa",
@@ -15996,8 +17159,9 @@ return {
 		ComboDur = 5,
 		CompatibilityTags = { "TONFA_STANCE" },
 		Conclave = false,
-		Disposition = 0.5,
+		Disposition = 0.85,
 		Family = "Tonkkatt",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 660,
 		Image = "Tonkkatt.png",
@@ -16021,6 +17185,7 @@ return {
 	["Twin Basolk"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -16030,6 +17195,7 @@ return {
 				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -16040,9 +17206,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.4
+				StatusChance = 0.4 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.05,
 				CritMultiplier = 2,
@@ -16053,8 +17220,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.4
-			}
+				StatusChance = 0.4 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -16063,6 +17230,7 @@ return {
 		Conclave = true,
 		Disposition = 1.3,
 		Family = "Twin Basolk",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 840,
 		Image = "TwinBasolk.png",
@@ -16087,6 +17255,7 @@ return {
 	["Twin Krohkur"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16096,6 +17265,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16106,9 +17276,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16119,8 +17290,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Dual Swords",
@@ -16129,6 +17300,7 @@ return {
 		Conclave = true,
 		Disposition = 1.2,
 		Family = "Twin Krohkur",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 1000,
 		Image = "TwinKrohkur.png",
@@ -16152,6 +17324,7 @@ return {
 	["Valkyr Prime Talons"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16161,6 +17334,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16171,9 +17345,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16184,8 +17359,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -16194,15 +17369,16 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Hysteria" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1250,
 		Image = "ValkyrTalons.png",
 		InternalName = "/Lotus/Powersuits/Berserker/BerserkerMeleePrime",
 		Introduced = "23.0",
 		Link = "Valkyr Talons",
-		MeleeRange = 2.15,
 		MaxRank = 30,
+		MeleeRange = 2.15,
 		Name = "Valkyr Prime Talons",
-		Polarities = { "Madurai", "Naramon",  "Naramon" },
+		Polarities = { "Madurai", "Naramon", "Naramon" },
 		SlideAttack = 750,
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
@@ -16216,6 +17392,7 @@ return {
 	["Valkyr Talons"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16225,6 +17402,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16235,9 +17413,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.5,
 				CritMultiplier = 2,
@@ -16248,8 +17427,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Exalted Weapon",
@@ -16258,15 +17437,16 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "Hysteria" },
 		FollowThrough = 1,
+		GripType = "MELEE_ONE_HAND",
 		HeavyAttack = 1250,
 		Image = "ValkyrTalons.png",
 		InternalName = "/Lotus/Powersuits/Berserker/BerserkerMelee",
 		Introduced = "23.0",
 		Link = "Valkyr Talons",
-		MeleeRange = 2.15,
 		MaxRank = 30,
+		MeleeRange = 2.15,
 		Name = "Valkyr Talons",
-		Polarities = { "Madurai", "Naramon",  "Naramon" },
+		Polarities = { "Madurai", "Naramon", "Naramon" },
 		SlideAttack = 750,
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
@@ -16280,6 +17460,7 @@ return {
 	Vastilok = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16291,6 +17472,7 @@ return {
 			},
 			{
 				Accuracy = 6.7,
+				AttackIndex = 2,
 				AttackName = "Ranged Attack",
 				ChargeTime = 0.39,
 				CritChance = 0.19,
@@ -16309,6 +17491,7 @@ return {
 				Trigger = "Charge" 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16319,9 +17502,10 @@ return {
 				IsSilent = true,
 				Range = 5,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.19,
 				CritMultiplier = 1.7,
@@ -16332,8 +17516,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Gunblade",
@@ -16342,6 +17526,7 @@ return {
 		Conclave = false,
 		Disposition = 0.9,
 		Family = "Vastilok",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 2484,
 		Image = "Vastilok.png",
@@ -16365,6 +17550,7 @@ return {
 	["Vaykor Sydon"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.5,
@@ -16374,6 +17560,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.5,
@@ -16387,6 +17574,7 @@ return {
 				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.21,
 				CritMultiplier = 2.5,
@@ -16398,7 +17586,7 @@ return {
 				Range = 8,
 				ShotType = "AoE",
 				StatusChance = 0.1 
-			}
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Polearm",
@@ -16408,6 +17596,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Syndicates/SteelMeridian/Melee/SMSydonSpecialUpgrade" },
 		Disposition = 1.3,
 		Family = "Sydon",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1278,
 		Image = "VaykorSydon.png",
@@ -16432,6 +17621,7 @@ return {
 	Venato = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
@@ -16441,6 +17631,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
@@ -16451,9 +17642,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.27,
 				CritMultiplier = 2.1,
@@ -16464,8 +17656,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 90,
 		Class = "Scythe",
@@ -16475,6 +17667,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheInnateUpgrade" },
 		Disposition = 1.3,
 		Family = "Venato",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1320,
 		Image = "Venato.png",
@@ -16498,6 +17691,7 @@ return {
 	["Venato Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.34,
 				CritMultiplier = 2.3,
@@ -16507,6 +17701,7 @@ return {
 				StatusChance = 0.32 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 2.3,
@@ -16517,9 +17712,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.34,
 				CritMultiplier = 2.3,
@@ -16530,17 +17726,21 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Scythe",
 		ComboDur = 5,
 		CompatibilityTags = { "SCYTHES_STANCE" },
 		Conclave = false,
-		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoProcOnProcUpgrade", "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheInnateUpgrade" },
-		Disposition = 0.5,
+		DefaultUpgrades = {
+			"/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoProcOnProcUpgrade",
+			"/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheInnateUpgrade" 
+		},
+		Disposition = 0.6,
 		Family = "Venato",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1470,
 		Image = "VenatoPrime.png",
@@ -16565,6 +17765,7 @@ return {
 	Venka = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -16574,6 +17775,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -16584,9 +17786,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.15,
 				CritMultiplier = 2,
@@ -16597,8 +17800,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Claws",
@@ -16607,6 +17810,7 @@ return {
 		Conclave = true,
 		Disposition = 1.1,
 		Family = "Venka",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 700,
 		Image = "Venka.png",
@@ -16630,6 +17834,7 @@ return {
 	["Venka Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -16639,6 +17844,7 @@ return {
 				StatusChance = 0.24 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -16649,9 +17855,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.32,
 				CritMultiplier = 2.6,
@@ -16662,8 +17869,8 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Claws",
@@ -16672,6 +17879,7 @@ return {
 		Conclave = true,
 		Disposition = 0.85,
 		Family = "Venka",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.8,
 		HeavyAttack = 940,
 		Image = "VenkaPrime.png",
@@ -16682,7 +17890,7 @@ return {
 		MaxRank = 30,
 		MeleeRange = 1.8,
 		Name = "Venka Prime",
-		Polarities = { "Naramon",  "Madurai" },
+		Polarities = { "Naramon", "Madurai" },
 		SellPrice = 5000,
 		SlideAttack = 564,
 		Slot = "Melee",
@@ -16696,6 +17904,7 @@ return {
 	Verdilac = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -16705,6 +17914,7 @@ return {
 				StatusChance = 0.21 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Energy Wave",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -16715,6 +17925,7 @@ return {
 				StatusChance = 0.21 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Energy Wave Explosion",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -16725,6 +17936,7 @@ return {
 				StatusChance = 0 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -16735,9 +17947,10 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.3,
 				CritMultiplier = 2.5,
@@ -16748,8 +17961,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 45,
 		Class = "Whip",
@@ -16759,6 +17972,7 @@ return {
 		Conclave = false,
 		Disposition = 1.1,
 		Family = "Verdilac",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 959,
 		Image = "Verdilac.png",
@@ -16783,6 +17997,7 @@ return {
 	Vericres = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -16792,6 +18007,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -16802,9 +18018,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.22,
 				CritMultiplier = 2,
@@ -16815,8 +18032,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.28
-			}
+				StatusChance = 0.28 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Warfan",
@@ -16825,6 +18042,7 @@ return {
 		Conclave = false,
 		Disposition = 1.15,
 		Family = "Vericres",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 720,
 		Image = "Vericres.png",
@@ -16847,19 +18065,19 @@ return {
 		_TooltipAttackDisplay = 1 
 	},
 	["Vinquibus (Melee)"] = {
-		_TooltipAttackDisplay = 2,
-		_IgnoreInMasteryCount = true,	-- Already counted in Vinquibus (Primary)
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
-				Damage = { Puncture = 182, Slash = 78 },
-				CritChance = 0.40,
+				CritChance = 0.4,
 				CritMultiplier = 3.2,
-				StatusChance = 0.2,
-				FireRate = 1
+				Damage = { Puncture = 182, Slash = 78 },
+				FireRate = 1,
+				StatusChance = 0.2 
 			},
 			{
-				AttackName = "Polearm Throw",
+				AttackIndex = 2,
+				AttackName = "Gunshot",
 				CritChance = 0.4,
 				CritMultiplier = 3.2,
 				Damage = { Puncture = 182, Slash = 78 },
@@ -16867,10 +18085,12 @@ return {
 				ForcedProcs = { "Impact" },
 				IsSilent = true,
 				ShotType = "Projectile",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
-				AttackName = "Polearm Explosion",
+				AttackIndex = 3,
+				AttackName = "Gunshot Explosion",
+				AttackParentIndex = 2,
 				CritChance = 0.4,
 				CritMultiplier = 3.2,
 				Damage = { Blast = 400 },
@@ -16881,10 +18101,12 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.2
+				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.4,
 				CritMultiplier = 3.2,
 				Damage = { Impact = 440 },
@@ -16894,10 +18116,12 @@ return {
 				IsSilent = true,
 				Range = 7,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Heavy Slam Attack",
+				AttackParentIndex = 2,
 				CritChance = 0.34,
 				CritMultiplier = 2.6,
 				Damage = { Blast = 660 },
@@ -16907,8 +18131,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 0,
 		Class = "Bayonet",
@@ -16916,9 +18140,10 @@ return {
 		ComboDur = 5,
 		CompatibilityTags = { "BAYONET_STANCE" },
 		Conclave = false,
-		Disposition = 0.6,
+		Disposition = 0.7,
 		Family = "Vinquibus",
-		FollowThrough = 0,
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.4,
 		HeavyAttack = 2600,
 		HeavySlamAttack = 660,
 		HeavySlamElement = "Blast",
@@ -16927,7 +18152,7 @@ return {
 		Image = "Vinquibus.png",
 		InternalName = "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
 		Introduced = "41",
-	    Link = "Vinquibus",
+		Link = "Vinquibus",
 		Mastery = 14,
 		MaxRank = 30,
 		MeleeRange = 3,
@@ -16939,15 +18164,18 @@ return {
 		SlamForcedProcs = { "Impact" },
 		SlamRadius = 7,
 		SlideAttack = 520,
-	 	Slot = "Melee",
+		Slot = "Melee",
 		StancePolarity = "Aura",
 		SweepRadius = 0.25,
 		Traits = { "" },
-		WindUp = 1
+		WindUp = 1,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	Vitrica = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.3,
@@ -16957,6 +18185,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Glass Explosion",
 				CritChance = 0.23,
 				CritMultiplier = 2.3,
@@ -16969,6 +18198,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.3,
@@ -16979,29 +18209,31 @@ return {
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.5
+				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.23,
 				CritMultiplier = 2.3,
 				Damage = { Impact = 999 },
 				Falloff = { EndRange = 4, Reduction = 0.3, StartRange = 0 },
 				FireRate = 0.833,
-				ForcedProcs = { },
+				ForcedProcs = {  },
 				IsSilent = true,
 				Range = 4,
 				ShotType = "AoE",
-				StatusChance = 0.5
-			}
+				StatusChance = 0.5 
+			} 
 		},
 		BlockAngle = 60,
 		Class = "Heavy Blade",
 		ComboDur = 10,
 		CompatibilityTags = { "HEAVY_BLADE_STANCE" },
 		Conclave = false,
-		Disposition = 1.05,
+		Disposition = 1.1,
 		Family = "Vitrica",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1998,
 		Image = "Vitrica.png",
@@ -17025,6 +18257,7 @@ return {
 	Volnus = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.18,
 				CritMultiplier = 1.6,
@@ -17034,6 +18267,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 1.6,
@@ -17044,9 +18278,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.18,
 				CritMultiplier = 1.6,
@@ -17057,8 +18292,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -17068,6 +18303,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammerInnateUpgrade" },
 		Disposition = 1.4,
 		Family = "Volnus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1320,
 		Image = "Volnus.png",
@@ -17091,6 +18327,7 @@ return {
 	["Volnus Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.8,
@@ -17100,6 +18337,7 @@ return {
 				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.8,
@@ -17110,9 +18348,10 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.3
+				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 1.8,
@@ -17123,8 +18362,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.3
-			}
+				StatusChance = 0.3 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -17134,6 +18373,7 @@ return {
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammerInnateUpgrade" },
 		Disposition = 1.3,
 		Family = "Volnus",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1500,
 		Image = "VolnusPrime.png",
@@ -17158,16 +18398,18 @@ return {
 	War = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
 				Damage = { Impact = 120, Puncture = 60, Slash = 70 },
 				FireRate = 0.917,
-				IsSilent = true,
 				ForcedProcs = { "Impact" },
+				IsSilent = true,
 				StatusChance = 0.26 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -17178,9 +18420,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.26,
 				CritMultiplier = 2.6,
@@ -17191,8 +18434,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -17201,6 +18444,7 @@ return {
 		Conclave = true,
 		Disposition = 1.05,
 		Family = "War",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1500,
 		Image = "War.png",
@@ -17222,11 +18466,80 @@ return {
 		WindUp = 1.1,
 		_TooltipAttackDisplay = 1 
 	},
-	Whipclaw = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
+	["War Prime"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.26,
+				CritMultiplier = 3.2,
+				Damage = { Impact = 194.4, Puncture = 32.4, Slash = 43.2 },
+				FireRate = 0.917,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				StatusChance = 0.32 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Slam Attack",
+				CritChance = 0.26,
+				CritMultiplier = 3.2,
+				Damage = { Impact = 500 },
+				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
+				FireRate = 0.917,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 8,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Heavy Slam Attack",
+				CritChance = 0.26,
+				CritMultiplier = 3.2,
+				Damage = { Blast = 810 },
+				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
+				FireRate = 0.917,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 9,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 55,
+		Class = "Heavy Blade",
+		CodexSecret = true,
+		ComboDur = 5,
+		CompatibilityTags = { "HEAVY_BLADE_STANCE" },
+		Conclave = false,
+		Disposition = 0.5,
+		Family = "War",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.6,
+		HeavyAttack = 1620,
+		Image = "WarPrime.png",
+		InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/PrimeWar/PrimeWarWeapon",
+		Introduced = "43.0",
+		Link = "War Prime",
+		Mastery = 15,
+		MaxRank = 30,
+		MeleeRange = 3.2,
+		Name = "War Prime",
+		Polarities = { "Naramon" },
+		SlamAttack = 540,
+		Slot = "Melee",
+		StancePolarity = "Vazarin",
+		SweepRadius = 0.2,
+		Traits = { "Sentient", "Prime" },
+		WindUp = 1.1,
+		_TooltipAttackDisplay = 1 
+	},
+	Whipclaw = {
+		Attacks = {
+			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -17240,10 +18553,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Whipclaw" },
 		Family = "Whipclaw",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 450,
 		HeavySlamAttack = 300,
@@ -17252,8 +18572,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon",
 		Introduced = "38.5",
 		Link = "Whipclaw (Weapon)",
-		MeleeRange = 10,
 		MaxRank = 30,
+		MeleeRange = 10,
 		Name = "Whipclaw",
 		Polarities = { "Madurai", "Vazarin" },
 		SlamAttack = 300,
@@ -17264,13 +18584,14 @@ return {
 		SweepRadius = 0.25,
 		Traits = { "Tenno" },
 		Users = { "Khora" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	["Whipclaw Prime"] = {
-		_IgnoreInMasteryCount = true,
-		_TooltipAttackDisplay = 1,
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.25,
 				CritMultiplier = 2,
@@ -17284,10 +18605,17 @@ return {
 		BlockAngle = 90,
 		Class = "Exalted Weapon",
 		ComboDur = 5,
-		CompatibilityTags = { "POWER_WEAPON", "POWER_WEAPON_LITE", "NO_FINISHER", "NO_SLIDE", "NO_ATTACK_SPEED" },
+		CompatibilityTags = {
+			"POWER_WEAPON",
+			"POWER_WEAPON_LITE",
+			"NO_FINISHER",
+			"NO_SLIDE",
+			"NO_ATTACK_SPEED" 
+		},
 		Conclave = true,
 		DefaultUpgrades = { "Whipclaw" },
 		Family = "Whipclaw",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.5,
 		HeavyAttack = 450,
 		HeavySlamAttack = 300,
@@ -17296,8 +18624,8 @@ return {
 		InternalName = "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime",
 		Introduced = "38.5",
 		Link = "Whipclaw (Weapon)",
-		MeleeRange = 10,
 		MaxRank = 30,
+		MeleeRange = 10,
 		Name = "Whipclaw Prime",
 		Polarities = { "Madurai", "Vazarin" },
 		SlamAttack = 300,
@@ -17306,13 +18634,16 @@ return {
 		Slot = "Melee",
 		StancePolarity = "Zenurik",
 		SweepRadius = 0.25,
-		Traits = { "Tenno" },
+		Traits = { "Tenno", "Prime" },
 		Users = { "Khora Prime" },
-		WindUp = 0.4 
+		WindUp = 0.4,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
 	},
 	["Wolf Sledge"] = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.17,
 				CritMultiplier = 1.9,
@@ -17322,6 +18653,7 @@ return {
 				StatusChance = 0.33 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				ChargeTime = 0.75,
 				CritChance = 0.19,
@@ -17335,6 +18667,7 @@ return {
 				StatusChance = 0.35 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -17347,6 +18680,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.19,
 				CritMultiplier = 2.1,
@@ -17360,6 +18694,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Slam Attack",
 				CritChance = 0.17,
 				CritMultiplier = 1.9,
@@ -17370,9 +18705,10 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.17,
 				CritMultiplier = 1.9,
@@ -17383,8 +18719,8 @@ return {
 				IsSilent = true,
 				Range = 10,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 50,
 		Class = "Hammer",
@@ -17393,6 +18729,7 @@ return {
 		Conclave = false,
 		Disposition = 1.25,
 		Family = "Wolf Sledge",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.4,
 		HeavyAttack = 1036,
 		Image = "WolfSledge.png",
@@ -17413,9 +18750,81 @@ return {
 		WindUp = 1.2,
 		_TooltipAttackDisplay = 1 
 	},
+	Wrath = {
+		Attacks = {
+			{
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.3,
+				CritMultiplier = 2,
+				Damage = { Puncture = 44, Slash = 176 },
+				FireRate = 1.2,
+				IsSilent = true,
+				StatusChance = 0.15 
+			},
+			{
+				AttackIndex = 2,
+				AttackName = "Slam Attack",
+				CritChance = 0.3,
+				CritMultiplier = 2,
+				Damage = { Impact = 440 },
+				Falloff = { EndRange = 8, Reduction = 0.5, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Impact" },
+				IsSilent = true,
+				Range = 8,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			},
+			{
+				AttackIndex = 3,
+				AttackName = "Heavy Slam Attack",
+				CritChance = 0.3,
+				CritMultiplier = 2,
+				Damage = { Blast = 660 },
+				Falloff = { EndRange = 9, Reduction = 0.3, StartRange = 0 },
+				FireRate = 1,
+				ForcedProcs = { "Lifted" },
+				IsSilent = true,
+				Range = 9,
+				ShotType = "AoE",
+				StatusChance = 0.1 
+			} 
+		},
+		BlockAngle = 65,
+		Class = "Heavy Scythe",
+		ComboDur = 5,
+		CompatibilityTags = { "HEAVY SCYTHE_STANCE" },
+		Conclave = false,
+		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionInnateBuff" },
+		Disposition = 0.5,
+		Family = "Wrath",
+		GripType = "MELEE_ONE_HAND",
+		FollowThrough = 0.4,
+		HeavyAttack = 3960,
+		Image = "Wrath.png",
+		InternalName = "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
+		Introduced = "43",
+		Link = "Wrath",
+		Mastery = 14,
+		MaxRank = 30,
+		MeleeRange = 2.8,
+		Name = "Wrath",
+		Polarities = { "Madurai" },
+		SellPrice = 5000,
+		SlideAttack = 500,
+		Slot = "Melee",
+		StancePolarity = "Madurai",
+		SweepRadius = 0.25,
+		Tradable = 0,
+		Traits = { "Tenno" },
+		WindUp = 1,
+		_TooltipAttackDisplay = 1 
+	},
 	Xoris = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17425,6 +18834,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Throw",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17438,6 +18848,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Throw Bounce Explosion",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17450,6 +18861,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Throw Recall Explosion",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17463,6 +18875,7 @@ return {
 				StatusChance = 0.18 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Charged Throw",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -17477,6 +18890,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Charged Throw Bounce Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -17490,6 +18904,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Charged Throw Recall Explosion",
 				ChargeTime = 1.192,
 				CritChance = 0.22,
@@ -17504,6 +18919,7 @@ return {
 				StatusChance = 0.2 
 			},
 			{
+				AttackIndex = 8,
 				AttackName = "Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17514,9 +18930,10 @@ return {
 				IsSilent = true,
 				Range = 6,
 				ShotType = "AoE",
-				StatusChance = 0.34
+				StatusChance = 0.34 
 			},
 			{
+				AttackIndex = 9,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.2,
 				CritMultiplier = 2.4,
@@ -17527,8 +18944,8 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.34
-			}
+				StatusChance = 0.34 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Glaive",
@@ -17537,6 +18954,7 @@ return {
 		Conclave = false,
 		Disposition = 0.65,
 		Family = "Xoris",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.7,
 		HeavyAttack = 0,
 		HeavySlamAttack = 360,
@@ -17568,6 +18986,7 @@ return {
 	Zenistar = {
 		Attacks = {
 			{
+				AttackIndex = 1,
 				AttackName = "Normal Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -17577,6 +18996,7 @@ return {
 				StatusChance = 0.3 
 			},
 			{
+				AttackIndex = 2,
 				AttackName = "Attacks While Disc Deployed",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -17586,6 +19006,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 3,
 				AttackName = "Disc Impact",
 				ChargeTime = 1.09,
 				CritChance = 0.1,
@@ -17597,6 +19018,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 4,
 				AttackName = "Disc Explosion",
 				ChargeTime = 1.09,
 				CritChance = 0.1,
@@ -17610,6 +19032,7 @@ return {
 				StatusChance = 0.15 
 			},
 			{
+				AttackIndex = 5,
 				AttackName = "Disc Aura",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -17622,6 +19045,7 @@ return {
 				StatusChance = 0.5 
 			},
 			{
+				AttackIndex = 6,
 				AttackName = "Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -17632,9 +19056,10 @@ return {
 				IsSilent = true,
 				Range = 8,
 				ShotType = "AoE",
-				StatusChance = 0.1
+				StatusChance = 0.1 
 			},
 			{
+				AttackIndex = 7,
 				AttackName = "Heavy Slam Attack",
 				CritChance = 0.1,
 				CritMultiplier = 2,
@@ -17645,8 +19070,8 @@ return {
 				IsSilent = true,
 				Range = 9,
 				ShotType = "AoE",
-				StatusChance = 0.1
-			}
+				StatusChance = 0.1 
+			} 
 		},
 		BlockAngle = 55,
 		Class = "Heavy Blade",
@@ -17655,6 +19080,7 @@ return {
 		Conclave = true,
 		Disposition = 1.15,
 		Family = "Zenistar",
+		GripType = "MELEE_ONE_HAND",
 		FollowThrough = 0.6,
 		HeavyAttack = 1788,
 		Image = "Zenistar.png",
@@ -17673,5 +19099,5 @@ return {
 		Traits = { "Tenno" },
 		WindUp = 1.1,
 		_TooltipAttackDisplay = 1 
-	},
+	} 
 }
