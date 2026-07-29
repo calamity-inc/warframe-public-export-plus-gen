@@ -1122,6 +1122,9 @@ do
 			item.__order:insert("levelOverride")
 			item.levelOverride = data.levelOverride
 
+			item.__order:insert("enemySpec")
+			item.enemySpec = data.enemySpec
+
 			item.__order:insert("extraEnemySpec")
 			item.extraEnemySpec = data.extraEnemySpec
 
