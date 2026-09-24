@@ -434,7 +434,7 @@
     },
     "EarthToVenusJunction": {
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
-        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltAgent",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/VoltJunctionBossAgent",
         "missionReward": {
             "credits": 15000,
             "items": [
@@ -893,7 +893,7 @@
     },
     "JupiterToSaturnJunction": {
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
-        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/EmberJunctionBossAgent",
         "missionReward": {
             "credits": 40000,
             "items": [
@@ -1631,6 +1631,24 @@
         "levelOverride": "/Lotus/Levels/Proc/JadeShadows/JSStalkerCaveHubElevator",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/AscensionSpec"
     },
+    "CrewBattleNode560": {
+        "levelOverride": "/Lotus/Levels/JadeShadowsPart2Mission/Proc/JS2MAshSpace",
+        "enemySpec": "/Lotus/Types/JadeShadowsPart2Mission/EnemySpecs/JadeShadowPart2EnemySpecsAshMission",
+        "missionReward": {
+            "credits": 130000
+        },
+        "tileset": "/Lotus/Types/Game/RegionTilesets/GrineerRailjackSaturnTileset"
+    },
+    "CrewBattleNode561": {
+        "levelOverride": "/Lotus/Levels/JadeShadowsPart2Mission/Proc/JS2MGarSpace",
+        "enemySpec": "/Lotus/Types/JadeShadowsPart2Mission/EnemySpecs/JadeShadowPart2EnemySpecsGarudaMission",
+        "missionReward": {
+            "credits": 130000
+        }
+    },
+    "JadeShadows2HUB": {
+        "levelOverride": "/Lotus/Levels/JadeShadowsPart2Mission/JS2MHub/JS2MHub.level"
+    },
     "SolNode49": {
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
@@ -2013,7 +2031,7 @@
     },
     "PlutoToErisJunction": {
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
-        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantGunslingerAgentRelayBoss",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/MesaJunctionBossAgent",
         "missionReward": {
             "credits": 100000,
             "items": [

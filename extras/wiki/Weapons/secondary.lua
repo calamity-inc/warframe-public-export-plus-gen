@@ -3382,7 +3382,7 @@ return {
 		MaxRank = 30,
 		Name = "EFV-8 Mars",
 		Polarities = { "Madurai", "Vazarin" },
-		Reload = 1.2,
+		Reload = 1.7,
 		SellPrice = 2500,
 		Slot = "Secondary",
 		Traits = { "Scaldra" },

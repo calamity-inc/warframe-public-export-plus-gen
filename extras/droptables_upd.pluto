@@ -1,6 +1,6 @@
 local { json, xml } = require "*"
 dofile("../../pluto-query/query.pluto")
-local html = io.contents("droptables.html") |> xml.decode|"html"|
+local html = (io.contents("droptables.html"):gsub("</?tbody>", "")) |> xml.decode|"html"|
 
 local dict = io.contents("../../warframe-public-export-plus/dict.en.json") |> json.decode
 local ExportRegions = io.contents("../../warframe-public-export-plus/ExportRegions.json") |> json.decode

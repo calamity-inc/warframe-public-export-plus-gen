@@ -19132,6 +19132,67 @@ local Versions = {
 		ArchiveDate = "",
 		Timestamp = 1783955040,
 	},
+	{
+		Name = "Update 43.5",
+		Link = "Update 43#Update 43.5",
+		Aliases = { "43.5", "Amir's Shockwave" },
+		ShortName = "U43.5",
+		Date = "2026-08-12",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1519695-update-435-amirs-shockwave/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1786546800,
+		Subtitle = "Amir's Shockwave"
+	},
+	{
+		Name = "Hotfix 43.5.1",
+		Link = "Update 43#Hotfix 43.5.1",
+		Aliases = { "43.5.1" },
+		ShortName = "H43.5.1",
+		Date = "2026-08-12",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1519795-amir%E2%80%99s-shockwave-hotfix-4351/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1786563279
+	},
+	{
+		Name = "Hotfix 43.5.2",
+		Link = "Update 43#Hotfix 43.5.2",
+		Aliases = { "43.5.2" },
+		ShortName = "H43.5.2",
+		Date = "2026-08-13",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1520019-amir%E2%80%99s-shockwave-hotfix-4352/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1786649680
+	},
+	{
+		Name = "Hotfix 43.5.3",
+		Link = "Update 43#Hotfix 43.5.3",
+		Aliases = { "43.5.3" },
+		ShortName = "H43.5.3",
+		Date = "2026-08-18",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1520640-amir%E2%80%99s-shockwave-hotfix-4353/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1787094285
+	},
+	{
+		Name = "Hotfix 43.5.4",
+		Link = "Update 43#Hotfix 43.5.4",
+		Aliases = { "43.5.4" },
+		ShortName = "H43.5.4",
+		Date = "2026-08-19",
+		Parent = "43.0",
+		ForumLink = "https://forums.warframe.com/topic/1520771-amir%E2%80%99s-shockwave-hotfix-4354/",
+		ArchiveLink = "",
+		ArchiveDate = "",
+		Timestamp = 1787177125	
+	},
 }
 
 -- Building additional indexes from data

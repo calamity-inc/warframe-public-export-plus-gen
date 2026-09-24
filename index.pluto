@@ -134,27 +134,6 @@ local dicts = {
 	zh = { __order = tag_order },
 }
 
-local function store_tag(lang, item, field, tag)
-	if tag == nil or tag == "" then
-		print(field.." is nil or empty in "..dumpvar(item))
-	end
-	--[[if tag == "/Lotus/Language/Relics/VoidProjectionName" then
-		return -- Avoid Public Export corrupting our dicts
-	end]]
-	local duplicate = dicts[lang][tag] ~= nil
-	if item[field] ~= tag then
-		dicts[lang][tag] = item[field]
-	else
-		duplicate = true
-	end
-	if lang == "en" then
-		if not duplicate then
-			tag_order:insert(tag)
-		end
-		item[field] = tag
-	end
-end
-
 --[[local function set_tag(lang, tag, value)
 	if lang == "en" and not dicts[lang][tag] then
 		tag_order:insert(tag)
@@ -204,6 +183,32 @@ local function import_from_languages_bin(tag)
 		for EXTRA_LANGS as lang do
 			dicts[lang][tag] = languages_bin_dicts[lang]?[tag] ?? english
 		end
+	end
+end
+
+local function store_tag(lang, item, field, tag)
+	if tag == nil or tag == "" then
+		print(field.." is nil or empty in "..dumpvar(item))
+	end
+	if tag == "/Lotus/Language/Relics/VoidProjectionName" then
+	-- Avoid Public Export corrupting our dicts		
+	import_from_languages_bin(tag)
+		if lang == "en" then
+			item[field] = tag
+		end
+		return
+	end
+	local duplicate = dicts[lang][tag] ~= nil
+	if item[field] ~= tag then
+		dicts[lang][tag] = item[field]
+	else
+		duplicate = true
+	end
+	if lang == "en" then
+		if not duplicate then
+			tag_order:insert(tag)
+		end
+		item[field] = tag
 	end
 end
 
@@ -261,15 +266,26 @@ local function unsub_tag(tag, fin_str)
 	}
 end
 
+local function write_if_changed(path, contents)
+	if io.exists(path) then
+		local old = io.contents(path)
+		-- git (core.autocrlf) may have checked the file out with CRLF line endings
+		if old == contents or (path:endswith(".json") and old:replace("\r\n", "\n") == contents) then
+			return
+		end
+	end
+	io.contents(path, contents)
+end
+
 local function write_data_file(file, data)
-	io.contents(OUTPUT_BASE .. file,
+	write_if_changed(OUTPUT_BASE .. file,
 		json.encode(data, true)
 			--:replace("    ", "\t")
 	)
 
 	$if MSGPACK then
 		io.mkdir(OUTPUT_BASE .. "msgpack")
-		io.contents(OUTPUT_BASE .. "msgpack/"..file:replace(".json", ".msgpack"), json.encode(data, "msgpack"))
+		write_if_changed(OUTPUT_BASE .. "msgpack/"..file:replace(".json", ".msgpack"), json.encode(data, "msgpack"))
 	$end
 end
 
@@ -286,14 +302,14 @@ end
 
 local function write_mapped_data_file(file, data)
 	data = map_data(data)
-	io.contents(OUTPUT_BASE .. file,
+	write_if_changed(OUTPUT_BASE .. file,
 		json.encode(data, true)
 			--:replace("    ", "\t")
 	)
 
 	$if MSGPACK then
 		io.mkdir(OUTPUT_BASE .. "msgpack")
-		io.contents(OUTPUT_BASE .. "msgpack/"..file:replace(".json", ".msgpack"), json.encode(data, "msgpack"))
+		write_if_changed(OUTPUT_BASE .. "msgpack/"..file:replace(".json", ".msgpack"), json.encode(data, "msgpack"))
 	$end
 end
 
@@ -2633,7 +2649,7 @@ for LANGS as lang do
 
 		write_mapped_data_file("ExportWarframes.json", ExportWarframes.ExportWarframes)
 		write_mapped_data_file("ExportAbilities.json", ExportWarframes.ExportAbilities)
-		io.contents("scaled_values_ground_truth.json", json.encode(scaled_values_ground_truth, true))
+		write_if_changed("scaled_values_ground_truth.json", json.encode(scaled_values_ground_truth, true))
 	end
 end
 
@@ -2903,6 +2919,7 @@ for LANGS as lang do
 						local version = (wikiVersionData.Versions[wiki_data.Introduced] or wikiVersionData.Aliases[wiki_data.Introduced])
 						weapon.__order:insert("introducedAt")
 						weapon.introducedAt = version.Timestamp
+						break
 					end
 				end
 
@@ -3699,7 +3716,7 @@ local function computerify_drop(type, probability)
 	}
 end
 dofile("../pluto-query/query.pluto")
-local html = io.contents("extras/droptables.html") |> xml.decode|"html"|
+local html = (io.contents("extras/droptables.html"):gsub("</?tbody>", "")) |> xml.decode|"html"|
 do
 	local function prepare_deck(deck_name)
 		if deck_name:sub(1, 15) ~= "/Supplementals/" then
