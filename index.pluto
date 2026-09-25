@@ -3414,6 +3414,18 @@ do
 			end
 		end
 	end
+	for obj_from_path("/Lotus/Types/Items/SilentChallengeRewardManifest").data.Rewards as entry do
+		local path = entry.challenge
+		if not paths:contains(path) then
+			paths:insert(path)
+		end
+		assert(not challenge_to_countedRewards[path])
+		challenge_to_countedRewards[path] = entry.items:mapped(|x| -> {
+			__order = { "StoreItem", "ItemCount" },
+			StoreItem = to_storeitem(obj_resolve_path("/Lotus/Types/Items/SilentChallengeRewardManifest", x)),
+			ItemCount = 1,
+		})
+	end
 	for paths as challenge do
 		local scope = obj_find_property(challenge, "scope") or "/Lotus/Language/Challenges/"
 		local name = obj_find_property(challenge, "name") or challenge:split("/"):back()
