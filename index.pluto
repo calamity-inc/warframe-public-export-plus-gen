@@ -2117,6 +2117,19 @@ do
 						entry.canBeBuff = (UpgradeEntries[i].CanBeBuff == 1)
 						entry.__order:insert(5, "canBeCurse")
 						entry.canBeCurse = (UpgradeEntries[i].CanBeCurse == 1)
+						local orderIndex = 6
+						if UpgradeEntries[i].IsAdvancedTrait ~= nil then
+							entry.__order:insert(orderIndex, "isAdvancedTrait") ++orderIndex
+							entry.isAdvancedTrait = (UpgradeEntries[i].IsAdvancedTrait == 1)
+						end
+						if entry.canBeBuff and #UpgradeEntries[i].BuffRestrictions ~= 0 then
+							entry.__order:insert(orderIndex, "buffRestrictions") ++orderIndex
+							entry.buffRestrictions = UpgradeEntries[i].BuffRestrictions
+						end
+						if entry.canBeCurse and #UpgradeEntries[i].CurseRestrictions ~= 0 then
+							entry.__order:insert(orderIndex, "curseRestrictions") ++orderIndex
+							entry.curseRestrictions = UpgradeEntries[i].CurseRestrictions
+						end
 						for j, sub in entry.upgradeValues do
 							if sub.locTag then
 								assert(UpgradeEntries[i].Upgrades[j].Schema.LocTag, upgrade.uniqueName)
