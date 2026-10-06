@@ -2139,6 +2139,23 @@ do
 							end
 						end
 					end
+					if MergeOptions := obj_find_property(upgrade.uniqueName, "MergeOptions") then
+						local mergeOptions = {}
+						for MergeOptions as option do
+							if option.ResultTag ~= "" then
+								mergeOptions:insert({
+									__order = { "resultTag", "primaryIngredient", "secondaryIngredient" },
+									resultTag = option.ResultTag,
+									primaryIngredient = option.PrimaryIngredient,
+									secondaryIngredient = option.SecondaryIngredient
+								})
+							end
+						end
+						if #mergeOptions ~= 0 then
+							upgrade.__order:insert(upgrade.__order:findindex(|x| -> x == "upgradeEntries") + 1, "mergeOptions")
+							upgrade.mergeOptions = mergeOptions
+						end
+					end
 				elseif not upgrade.isStarter and not upgrade.isFrivolous then
 					local name_lower = dicts.en[upgrade.name]:lower()
 					name_to_storeitem_map[name_lower] = to_storeitem(upgrade.uniqueName)
